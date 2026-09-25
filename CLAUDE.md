@@ -87,7 +87,8 @@ The site itself has no build step, framework or dependencies; `data.js` is a pla
 - [ ] Pages that block automated checks; confirm in a browser: the Michigan Ford School PPIA stipend ($1,500 vs Harvard's $2,000), whether Columbia's Leadership Alliance site names political science, and the SNF Agora predoc details.
 - Links and dates were last re-checked against official pages on Sept 24, 2026.
 - [ ] Sample cover letters: not built yet.
-- [ ] Deploy on the CUNY Academic Commons (steps in `commons/README.md`), then ask the department to link it from the Political Science menu and Student Resources list.
+- [x] Deployed Sept 25, 2026. The Commons site is qcpolscipathways.commons.gc.cuny.edu (Twenty Twenty theme, 10 pages, private: "visible only to users I add"), and the interactive site is maljahmi.github.io/qc-polisci-pathways (GitHub Pages from `main`). The Commons download buttons link to the GitHub copies in `downloads/`.
+- [ ] Make the Commons site public (Settings → Reading → visibility) once Mohamed has reviewed it, then ask the department to link it from the Political Science menu and Student Resources list.
 
 ## Ideas for improvements
 
