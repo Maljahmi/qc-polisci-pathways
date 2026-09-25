@@ -1,0 +1,60 @@
+/* Queens College Political Science Pathways: Commons styles for the Twenty Twenty theme. Paste into Appearance > Simple CSS. Brand rules are in ../CLAUDE.md. */
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Libre+Baskerville:wght@400;700&display=swap");
+:root{--qc-red:#E71939;--qc-gray:#D5D6D2;--ink:#1a1a1a;--muted:#595959;--sans:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;--serif:"Libre Baskerville",Baskerville,Georgia,serif}
+/* Page */
+html body{background:#fff;color:var(--ink);font-family:var(--sans)}
+body .entry-content{font-family:var(--sans);font-size:1.8rem;line-height:1.6;color:var(--ink)}
+body .entry-content>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide){max-width:68rem;width:calc(100% - 4rem)}
+body .entry-content a{color:var(--qc-red);text-decoration-thickness:1px;text-underline-offset:.15em}
+body .entry-content a:hover{color:#000}
+body .entry-content li{margin:.4rem 0}
+body .entry-content em{font-style:normal;color:var(--muted)}
+/* Header: QC red with white text */
+body #site-header{background:var(--qc-red)}
+body #site-header .site-title a,body #site-header .site-description,body #site-header .toggle,body #site-header .primary-menu>li>a,body #site-header .primary-menu>li>.icon{color:#fff}
+body #site-header .site-title{font-family:var(--serif);font-weight:700;font-size:2.2rem;letter-spacing:0}
+body #site-header .site-description{font-family:var(--sans);font-size:1.5rem;color:#fff}
+body #site-header svg,body #site-header svg path{fill:#fff}
+body #site-header .primary-menu>li>a{font-family:var(--sans);font-weight:600}
+body #site-header .toggle-wrapper::before{background:rgba(255,255,255,.4)}
+/* Page title */
+body.singular .entry-header{background:#fff;padding:4.8rem 0 2.8rem;border-bottom:1px solid var(--qc-gray)}
+body.singular .entry-header .entry-header-inner{max-width:68rem;width:calc(100% - 4rem);text-align:left}
+body .entry-title{font-family:var(--serif);font-weight:700;font-size:3.2rem;line-height:1.2;letter-spacing:-.01em;color:#000}
+body.singular .post-inner{padding-top:3.2rem}
+/* Headings */
+body .entry-content h2{font-family:var(--serif);font-weight:700;font-size:2.8rem;line-height:1.25;letter-spacing:-.01em;color:#000;margin:5.6rem auto 1.6rem}
+body .entry-content h2::before{content:"";display:block;width:4.8rem;height:4px;background:var(--qc-red);margin-bottom:1.6rem}
+body .entry-content h3{font-family:var(--sans);font-weight:700;font-size:2.1rem;line-height:1.3;letter-spacing:0;color:var(--qc-red);margin:4.8rem auto 1.2rem}
+body .entry-content h4{font-family:var(--sans);font-weight:600;font-size:1.9rem;line-height:1.35;letter-spacing:0;color:#000;margin:0 auto .6rem;padding-top:2.4rem;border-top:1px solid var(--qc-gray)}
+body .entry-content h3+h4{border-top:0;padding-top:.4rem}
+body .entry-content h4 a{color:#000;text-decoration-color:var(--qc-red)}
+body .entry-content h4 a:hover{color:var(--qc-red)}
+/* Program details: the line under each program name */
+body .entry-content h4+p{font-size:1.5rem;line-height:1.55;color:var(--muted);margin-bottom:1.2rem}
+body .entry-content h4+p strong{color:#000;font-weight:600}
+/* Links to the other pages in this path, at the top of each page */
+body:not(.home) .entry-content>p:first-child{font-size:1.5rem;font-weight:600;padding-bottom:1.2rem;border-bottom:1px solid var(--qc-gray);margin-bottom:0}
+body:not(.home) .entry-content>p:first-child a{text-decoration:none}
+body:not(.home) .entry-content>p:first-child strong{color:var(--qc-red)}
+/* Buttons */
+html body .entry-content .wp-block-button__link{background:var(--qc-red);color:#fff;font-family:var(--sans);font-size:1.6rem;font-weight:600;letter-spacing:0;text-transform:none;border-radius:0;padding:1.2rem 2rem;text-decoration:none}
+html body .entry-content .wp-block-button__link:hover{background:#000;color:#fff}
+body .entry-content .wp-block-buttons{gap:1rem;margin-top:2rem;margin-bottom:2.4rem}
+/* Dividers */
+body .entry-content hr.wp-block-separator{background:var(--qc-gray);border:0;height:1px;color:var(--qc-gray);margin:5.6rem auto}
+body .entry-content hr.wp-block-separator::before,body .entry-content hr.wp-block-separator::after{display:none}
+body .entry-content hr.wp-block-separator:last-of-type~p{font-size:1.4rem;color:var(--muted)}
+/* Tables: no mid-word breaks; wide timelines scroll sideways on phones */
+body .entry-content .wp-block-table{overflow-x:auto;margin-top:2.4rem;margin-bottom:3.2rem}
+body .entry-content table{font-family:var(--sans);font-size:1.5rem;line-height:1.45;border:0;border-collapse:collapse;width:100%;margin:0}
+body .entry-content th,body .entry-content td{border:0;border-bottom:1px solid var(--qc-gray);padding:1rem 1.4rem 1rem 0;text-align:left;vertical-align:top;word-break:normal;overflow-wrap:normal;hyphens:manual}
+body .entry-content thead th{border-bottom:2px solid #000;font-size:1.2rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em}
+body .entry-content thead th em{text-transform:none;letter-spacing:0;font-weight:500}
+body .entry-content td:first-child{white-space:nowrap;font-weight:600;font-variant-numeric:tabular-nums}
+body .entry-content>figure.wp-block-table:has(th:nth-child(5)):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide){max-width:112rem}
+body .entry-content figure.wp-block-table:has(th:nth-child(5)) table{min-width:84rem}
+/* Footer: QC black */
+body #site-footer,body .footer-nav-widgets-wrapper{background:#000;color:#fff;border-color:#222}
+body #site-footer a,body #site-footer p{color:#fff}
+@media (min-width:700px){body .entry-title{font-size:4.4rem}body .entry-content h2{font-size:3.4rem}body.singular .entry-header{padding:6.4rem 0 3.6rem}}
