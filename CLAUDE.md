@@ -14,7 +14,7 @@ A switch in the top bar toggles between them. Author: Mohamed Aljahmi (student).
 - `app.js`: the deadline board, degree tabs, opportunities lists and filters, countdown chips, link handling, résumé tabs and timeline labels. Deadlines that aren't single programs (LSAT registration, PhD deadline ranges) are in its `EXTRA` list.
 - `styles.css`: theme tokens at the top, then components, then responsive rules.
 - `downloads/`: the sample résumé, CV and law résumé as editable `.docx` files with `.pdf` copies. The samples section links to them.
-- `commons/`: the same content as WordPress block code for a CUNY Academic Commons site, plus `README.md` with posting steps.
+- `commons/`: the same content as WordPress block code for a CUNY Academic Commons site, `site.css` (the Commons site's styles, pasted into Appearance → Simple CSS), and `README.md` with posting steps.
 - `tools/`: `build_commons.py` rebuilds `commons/` from `index.html`, `data.js` and `app.js`. `build_docx.py` rebuilds the `.docx` files from the `.sheet` samples; export the PDFs from Word afterward. Both use the Python standard library only.
 
 The site itself has no build step, framework or dependencies; `data.js` is a plain script, so the page still works when opened from disk. The only external resource is Google Fonts. After content changes, re-run `python tools/build_commons.py` so the Commons version stays in sync.
