@@ -11,6 +11,7 @@ The Commons is CUNY's WordPress platform. It blocks custom scripts, so this vers
 | `grad-phd.html`, `grad-mpp.html`, `grad-mpa.html`, `grad-ma.html`, `law-jd.html` | One page per degree: what it is, a timeline for each year of college, and its opportunities list |
 | `grad-guides.html`, `law-guides.html` | Advice: professors, methods, applying, fee waivers, the LSAT, gap years and résumés |
 | `preview.html` | Every page in one plain file, for checking before you paste |
+| `site.css` | Site-wide styles for the Twenty Twenty theme: QC red header, Baskerville and Geist, clean program lists and tables |
 
 The Commons blocks scripts, so the opportunities lists can't be filtered there. Each degree page lists its programs grouped by type (summer research, summer internships, fellowships and so on) and sorted by next deadline.
 
@@ -39,7 +40,7 @@ The download buttons for the sample résumés and CV link to the copies in `../d
    2. Click each file and use **Copy URL to clipboard**.
    3. The download buttons are on **grad-guides** (résumé and CV) and **law-guides** (law résumé). Click each button, click the link icon, and replace the link with the file's URL.
 7. **Add the menu.** Go to Appearance → Menus, or the Site Editor → Navigation. Add **Home**, **Grad school** and **Law school**, and put each path's degree and Guides pages under it as a dropdown. Every page also has a line of links to its path's other pages at the top.
-8. **Use QC colors.** If your theme lets you pick colors (Customize → Colors, or Site Editor → Styles → Colors), set the link, button and accent color to Queens College Red `#E71939`. Button text on red must be white. Don't add the QC logo: it's trademarked and needs approval from the Office of Communications.
+8. **Add the styles.** With the Twenty Twenty theme, go to Appearance → Simple CSS, paste all of `site.css`, and click Save CSS. It sets the QC colors and fonts and keeps the timeline tables readable. With another theme, set the link, button and accent color to Queens College Red `#E71939` instead. Button text on red must be white. Don't add the QC logo: it's trademarked and needs approval from the Office of Communications.
 9. **Add co-admins.** Go to Users and invite a faculty member or the department office as Administrators, so the site keeps going after you graduate.
 10. **Check the interactive version.** Each degree page has a "Filter and sort these programs" button that opens the full site on GitHub Pages (https://maljahmi.github.io/qc-polisci-pathways/), where students can filter by type, year and pay. Update both together: rebuild these files whenever you change the main site.
 11. **Ask the department to link it.** For example, a "Grad & Law School" item in the Political Science menu, and a line under Student Resources.
