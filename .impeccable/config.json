@@ -8,6 +8,52 @@
         "value": "geist",
         "createdAt": "2026-09-25T16:57:19.971Z",
         "reason": "Brand decision recorded in the outer .impeccable/config.json and CLAUDE.md: user kept Geist for body text when choosing Baskerville headings; the Commons stylesheet matches the main site"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "index.html",
+          "styles.css"
+        ],
+        "createdAt": "2026-09-25T18:04:57.088Z",
+        "reason": "Agent: the only 4px top border is the footer's full-width QC red rule, not a card stripe (carried over from the outer project config)"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-25T18:04:57.379Z",
+        "reason": "Agent: .hero and .credit get their inset from the inner .wrap (padding 64px/24px and 14px/24px); the detector reads the outer element (carried over)"
+      },
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-25T18:04:57.695Z",
+        "reason": "Agent: every element tracked over .05em is an uppercase label (facts dt, date sub-labels, brand, filter labels); CLAUDE.md pins caps labels tracked .12em (carried over)"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-25T18:04:57.973Z",
+        "reason": "Agent: detector skipped h2; measured in browser: body 16px, program h3 17.6px, section h2 ~34px, h1 ~53px (carried over)"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "styles.css"
+        ],
+        "createdAt": "2026-09-25T18:04:58.300Z",
+        "reason": "Agent: no element has both a 3px top border and a border radius; the 3px borders are square rules (carried over)"
       }
     ]
   }

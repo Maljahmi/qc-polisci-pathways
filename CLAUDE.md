@@ -10,8 +10,9 @@ A switch in the top bar toggles between them. Author: Mohamed Aljahmi (student).
 ## Files
 
 - `index.html`: the page. Each path's intro, degree tabs, degree descriptions, timelines and guides live inside the two `<main>` elements.
-- `data.js`: the opportunities database (`window.PROGRAMS`), one entry per program. Edit programs here, not in `index.html`.
-- `app.js`: the deadline board, degree tabs, opportunities lists and filters, countdown chips, link handling, résumé tabs and timeline labels. Deadlines that aren't single programs (LSAT registration, PhD deadline ranges) are in its `EXTRA` list.
+- `data.js`: the opportunities database (`window.PROGRAMS`), one entry per program, plus `window.EXTRA_DEADLINES` for board deadlines that aren't single programs (LSAT registration, PhD deadline ranges). Edit programs here, not in `index.html`.
+- `app.js`: the deadline board, degree tabs, opportunities lists and filters, countdown chips, link handling, résumé tabs and timeline labels.
+- `handout.html` and `handout.js`: a printable one-page summary of each path (`handout.html?path=grad` or `?path=law`). Its year-by-year text is a short version of the site's timelines, so update both together; its deadlines come from `data.js`. It must still fit one letter page.
 - `styles.css`: theme tokens at the top, then components, then responsive rules.
 - `downloads/`: the sample résumé, CV and law résumé as editable `.docx` files with `.pdf` copies. The samples section links to them.
 - `commons/`: an optional WordPress version for the CUNY Academic Commons (block code, `site.css` for Appearance → Simple CSS, and `README.md` with posting steps). Not the main site; Mohamed chose GitHub Pages instead.
@@ -44,19 +45,19 @@ The site itself has no build step, framework or dependencies; `data.js` is a pla
 
 - **Brand:** the site follows the Queens College brand: the Brand Graphics Guidelines and Website Branding Guidelines at qc.cuny.edu/communications/queens-college-branding. Do not use the QC logo or the Q-and-swoosh mark. They are trademarked, need approval from the Office of Communications, and this guide is unofficial.
 - **Fonts:**
-  - Libre Baskerville (the free web version of ITC New Baskerville, QC's primary typeface) for h1, h2, the advice-block heading (`.talk h3`), the featured bento cell, section numbers and large stats.
-  - Geist for body text, program names and group subheads (h3 or h4). It takes the role Gill Sans Bold has in QC's print identity.
-  - Geist Mono for dates and numbers only.
-  - Small labels are Geist 600 in capitals, tracked .12em, no smaller than 0.72rem (11.5px). Group subheads (`.kick`) are bold sentence case in red, not all caps; QC's web guidelines say to use bold instead of all caps.
-  - No Inter, Roboto, Arial or Helvetica.
+  - Libre Baskerville (the free web version of ITC New Baskerville, QC's primary typeface) for h1, h2, the advice-block heading (`.talk h3`), the names in Pair your major, the author's note and the About preface.
+  - Cabin for everything else. It stands in for Gill Sans, QC's secondary typeface (Mohamed chose it in Sept 2026 to make the site feel less like a tech template). Dates and numbers use its tabular figures (`--figures`); there is no monospace font.
+  - Small labels are Cabin 600 in capitals, tracked .12em, no smaller than 0.72rem (11.5px). Group subheads (`.kick`) are bold sentence case in red, not all caps; QC's web guidelines say to use bold instead of all caps.
+  - No Geist, Inter, Roboto, Arial or Helvetica.
 - **Color:** flat, high-contrast color only; no gradients or mesh backgrounds. The brand values are tokens at the top of `styles.css`.
-  - QC Red `#E71939` (Pantone 711): the grad path's header, links, section numbers, accent bars and subheads.
-  - QC Black `#000000`: the law path's header ("black-letter law"), the footer, and large blocks (the professor-advice block, the résumé stage, the featured bento cell).
+  - QC Red `#E71939` (Pantone 711): the grad path's header, links and subheads.
+  - QC Black `#000000`: the law path's header ("black-letter law"), the footer, and large blocks (the professor-advice block and the résumé stage).
   - Burgundy `#3D070F` (from qc.cuny.edu): the grad deadline board.
-  - Gold `#FDC82F` (QC web accent): deadlines 21 days out or closer, the highlighter and text selection.
+  - Gold `#FDC82F` (QC web accent): deadlines 21 days out or closer and text selection.
   - Light gray `#D5D6D2`: hairlines.
   - Text on QC red must be pure white, because white on `#E71939` is only 4.57:1. Never set red text on a colored background (a QC rule).
-- **Layout:** asymmetric (ledger rows, uneven bento, split columns). No evenly spaced grids of identical cards, and no centered hero with an image on the left.
+- **Layout:** asymmetric (ledger rows, split columns, plain grouped lists). No tile ("bento") grids or evenly spaced grids of identical cards, and no centered hero with an image on the left.
+- **Academic, not template-like (Mohamed, Sept 2026):** no highlighter marks, no big section numbers (the menu still numbers sections), no decorative stripes or dots, and plain descriptive headlines instead of slogans ("Choosing a graduate degree," not "Want to pursue grad school? Great.").
 - **Motion:** one moment only, on page load. The board rows slide in and the day counts roll up. Respect `prefers-reduced-motion`.
 - **Background:** always the white QC theme, even when the device is in dark mode (Mohamed's call: white matches QC colors). There is no dark theme. Define colors as tokens at the top of `styles.css`, never as one-off literals.
 - **Mobile:** the page must work at 390px wide with no horizontal scroll. Check this after layout changes.
@@ -70,7 +71,7 @@ The site itself has no build step, framework or dependencies; `data.js` is a pla
 - **Remove, don't warn:** take out programs that are discontinued, paused, grad-student-only, or not open to Queens College students.
 - **Style:** American spelling. Short, plain sentences. No filler.
 - **Name:** always "Queens College Political Science", never "QC poli sci".
-- **The author's own words:** the "Notes from RBSI" section and any author note must be written by Mohamed himself. Do not generate them.
+- **The author's own words:** the "Notes from RBSI" section, the note in each path's intro (`.note-from`) and the About preface are Mohamed's words (lightly copyedited, approved Sept 2026). Do not generate or rewrite them; change them only with him.
 - **Sample documents:** they are for fictional students (Alex Rivera, Jordan Lee). Keep placeholders like `[Name]` for real people and places.
 
 ## Open items

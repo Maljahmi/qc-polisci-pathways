@@ -22,7 +22,9 @@ It is plain HTML, CSS and JavaScript, so there is nothing to install.
 - **Programs:** `data.js`. Each program is one entry with its type, class years, degrees, dates and link; `CLAUDE.md` explains the fields.
 - **Degree descriptions, timelines and guides:** `index.html`.
 - **Colors, fonts, layout:** `styles.css`. The theme tokens are at the top.
-- **Deadline board, tabs and filters:** `app.js`. The board reads `data.js`; deadlines that aren't programs (LSAT registration) are in its `EXTRA` list.
+- **Deadline board, tabs and filters:** `app.js`. The board reads `data.js`; deadlines that aren't programs (LSAT registration) are in `window.EXTRA_DEADLINES` at the end of `data.js`.
+- **Printable handouts:** `handout.html?path=grad` and `handout.html?path=law`, built by `handout.js`. Keep each to one letter page.
+- **About this guide and the author's note:** `index.html`, above the footer and in each path's intro. These are Mohamed's own words.
 
 `CLAUDE.md` holds the project rules, design decisions and open to-dos. Claude Code reads it automatically when you open this folder.
 

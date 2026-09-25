@@ -5,19 +5,8 @@
   var BY_ID = {};
   PROGRAMS.forEach(function(p){ BY_ID[p.id] = p; });
 
-  // deadlines on the board that are not single programs
-  var LSAT = "https://www.lsac.org/lsat/lsat-dates-deadlines-score-release-dates";
-  var EXTRA = [
-    {d:"2026-10-01", n:"Register for the November LSAT", t:"law", u:LSAT},
-    {d:"2026-11-25", n:"Columbia political science PhD", t:"grad", g:"phd", u:"https://www.gsas.columbia.edu/content/political-science-phd"},
-    {d:"2026-12-01", n:"Most PhD deadlines (Dec 1–17)", t:"grad", g:"phd", u:"https://gsas.harvard.edu/program/government"},
-    {d:"2026-12-01", n:"Register for the January LSAT", t:"law", u:LSAT},
-    {d:"2026-12-29", n:"Register for the February LSAT", t:"law", u:LSAT},
-    {d:"2027-02-01", n:"Manhattan DA summer internship", t:"law", u:"https://manhattanda.org/careers/internship-opportunities/college-internship/"},
-    {d:"2027-02-15", n:"SDNY U.S. Attorney summer internship", t:"law", u:"https://www.justice.gov/usao-sdny/undergraduate-internships"},
-    {d:"2027-02-25", n:"Register for the April LSAT", t:"law", u:LSAT},
-    {d:"2027-04-29", n:"Register for the June LSAT", t:"law", u:LSAT}
-  ];
+  // deadlines on the board that are not single programs live in data.js
+  var EXTRA = window.EXTRA_DEADLINES || [];
   var TYPES = [
     ["summer-research", "Summer research or institute"], ["summer-internship", "Summer internship"],
     ["fall-internship", "Fall internship"], ["spring-internship", "Spring internship"],
@@ -107,8 +96,8 @@
   }
 
   var HEAD = {
-    grad: {e:"PhD · MPA · MPP · MA", h:"Your route from Queens College Political Science to a funded PhD or policy master's."},
-    law:  {e:"JD · Pre-law", h:"Your route from Queens College Political Science to law school, mostly for free."}
+    grad: {e:"PhD · MPA · MPP · MA", h:"A guide to graduate school for Queens College Political Science majors"},
+    law:  {e:"JD · Pre-law", h:"A guide to law school for Queens College Political Science majors"}
   };
 
   // schedule: label cells with their year so the phone layout reads year by year
