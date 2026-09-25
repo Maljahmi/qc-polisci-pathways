@@ -158,6 +158,12 @@ def plain(node):
     return re.sub(r'\s+', ' ', node.text()).strip()
 
 
+def lead_in(title):
+    """A bold lead-in. Adds a period unless the title already ends in punctuation."""
+    end = re.sub(r'<[^>]+>', '', title).rstrip()[-1:]
+    return f'<strong>{title}</strong>' if end in '.?!:' else f'<strong>{title}.</strong>'
+
+
 # ---------------- blocks ----------------
 def b_heading(content, level=2, anchor=None):
     attrs = '' if level == 2 else ' ' + json.dumps({'level': level})
@@ -197,13 +203,18 @@ def b_separator():
 
 
 # ---------------- page content ----------------
+def fact_label(text):
+    """A fact label with a colon, unless it already ends in punctuation."""
+    return text if text.endswith(('?', ':')) else text + ':'
+
+
 def facts_items(dl, page):
     items, dt = [], None
     for c in dl.els():
         if c.tag == 'dt':
             dt = plain(c)
         elif c.tag == 'dd' and dt:
-            items.append(f'<strong>{html.escape(dt)}:</strong> {inline(c, page)}')
+            items.append(f'<strong>{html.escape(fact_label(dt))}</strong> {inline(c, page)}')
     return items
 
 
@@ -289,7 +300,8 @@ def program_blocks(p, page):
     out = [b_heading(rich(p['name'], page), 4, p['id'])]
     lines = []
     if p['whenB']:
-        label = 'Deadline' if p['status'] in ('confirmed', 'estimate', 'last') else 'When'
+        dated = p['status'] in ('confirmed', 'estimate', 'last') and not p.get('event')
+        label = 'Deadline' if dated else 'When'
         lines.append(f'<strong>{label}:</strong> {html.escape(when_text(p["whenB"], p["whenS"]))}')
     if p.get('opens'):
         lines.append(f'<strong>Opens:</strong> {html.escape(p["opens"])}')
@@ -300,7 +312,7 @@ def program_blocks(p, page):
     if p['warn']:
         out.append(b_para('<strong>Note:</strong> ' + rich(p['warn'], page)))
     if p['facts']:
-        out.append(b_list([f'<strong>{html.escape(a)}:</strong> {rich(b, page)}' for a, b in p['facts']]))
+        out.append(b_list([f'<strong>{html.escape(fact_label(a))}</strong> {rich(b, page)}' for a, b in p['facts']]))
     return out
 
 
@@ -360,7 +372,7 @@ def section_blocks(sec, page, downloads):
                     title = inline(b, page) if b else ''
                     rest = Node('div')
                     rest.children = [x for x in d.children if x is not b]
-                    items.append(f'<strong>{title}.</strong> {inline(rest, page)}' if title else inline(d, page))
+                    items.append(f'{lead_in(title)} {inline(rest, page)}' if title else inline(d, page))
                 out.append(b_list(items))
             elif n.tag == 'ul' and 'rules' in c:
                 out.append(b_list([inline(li, page) for li in n.els()]))
@@ -371,12 +383,12 @@ def section_blocks(sec, page, downloads):
                     b = d.find(lambda x: x.tag == 'b')
                     rest = Node('div')
                     rest.children = [x for x in d.children if x is not b]
-                    items.append(f'<strong>{inline(b, page)}.</strong> {inline(rest, page)}' if b else inline(d, page))
+                    items.append(f'{lead_in(inline(b, page))} {inline(rest, page)}' if b else inline(d, page))
                 out.append(b_list(items, ordered=True))
             elif 'pull' in c:
                 b = n.find(lambda x: x.tag == 'b')
                 p = n.find(lambda x: x.tag == 'p')
-                out.append(b_para(f'<strong>{inline(b, page)}</strong> {inline(p, page)}'))
+                out.append(b_para(f'{lead_in(inline(b, page))} {inline(p, page)}'))
             elif 'stats' in c:
                 vs = [x for x in n.els() if 'v' in x.cls]
                 ps = [x for x in n.els() if x.tag == 'p']
@@ -419,7 +431,7 @@ def section_blocks(sec, page, downloads):
             elif 'soon' in c:
                 b = n.find(lambda x: x.tag == 'b')
                 p = n.find(lambda x: x.tag == 'p')
-                out.append(b_para(f'<strong>{inline(b, page)}.</strong> {inline(p, page)}'))
+                out.append(b_para(f'{lead_in(inline(b, page))} {inline(p, page)}'))
             elif 'desk' in c:
                 out.append(b_heading('Download the samples', 3))
                 out.append(b_para('Open the Word file to edit it, or the PDF to print. Replace everything with your own details.'))
