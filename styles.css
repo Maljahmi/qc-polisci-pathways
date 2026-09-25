@@ -12,7 +12,7 @@ html{-webkit-text-size-adjust:100%}
   --qc-gray:#D5D6D2;      /* qc.cuny.edu light gray */
 }
 
-/* theme tokens: light (default) */
+/* theme tokens: always the white QC theme, even when the device is in dark mode */
 :root{
   --paper:#FFFFFF; --paper-2:#F2F2EF; --ink:#000000; --ink-2:#575757; --hair:var(--qc-gray); --scroll:#A6A6A6;
   --accent:var(--qc-red); --accent-hover:#B20E28;
@@ -33,24 +33,7 @@ html{-webkit-text-size-adjust:100%}
   --body:"Geist", "Segoe UI", system-ui, -apple-system, sans-serif;
   --mono:"Geist Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --paper:#111111; --paper-2:#1D1D1D; --ink:#F3F3F1; --ink-2:#A8A8A4; --hair:#2E2E2E; --scroll:#474747;
-    --accent:#FF5C70; --accent-hover:#FF8C9A; --hl-soft:#3B3008; --hl-mark:#6E560F;
-    --block:#1D1D1D; --on-block-2:#B0B0B0;
-    --grad-flat:#C8102E; --grad-deep:#2A0409; --grad-deep-2:#DDB0B7;
-    --law-deep:#1F1F1F;
-    color-scheme:dark;
-  }
-}
-:root[data-theme="dark"]{
-  --paper:#111111; --paper-2:#1D1D1D; --ink:#F3F3F1; --ink-2:#A8A8A4; --hair:#2E2E2E; --scroll:#474747;
-  --accent:#FF5C70; --accent-hover:#FF8C9A; --hl-soft:#3B3008; --hl-mark:#6E560F;
-  --block:#1D1D1D; --on-block-2:#B0B0B0;
-  --grad-flat:#C8102E; --grad-deep:#2A0409; --grad-deep-2:#DDB0B7;
-  --law-deep:#1F1F1F;
-  color-scheme:dark;
-}
+:root{color-scheme:light}
 body{ --flat:var(--grad-flat); --on-flat-2:var(--grad-on-2); --flat-rule:var(--grad-rule); --flat-deep:var(--grad-deep); --on-deep-2:var(--grad-deep-2); }
 body[data-track="law"]{ --flat:var(--law-flat); --on-flat-2:var(--law-on-2); --flat-rule:var(--law-rule); --flat-deep:var(--law-deep); --on-deep-2:var(--law-deep-2); }
 
