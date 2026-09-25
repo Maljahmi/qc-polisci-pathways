@@ -3648,3 +3648,18 @@ window.ALIASES = {
  "lp-coro-fellows-program-public": "gp-coro-fellows-program-public",
  "lp-nyc-urban-fellows": "gp-nyc-urban-fellows"
 };
+
+// Deadlines for the board and handouts that are not single programs (LSAT registration, PhD deadline ranges).
+// t is the path ("grad" or "law"); g limits a grad deadline to one degree tab.
+var LSAT_URL = "https://www.lsac.org/lsat/lsat-dates-deadlines-score-release-dates";
+window.EXTRA_DEADLINES = [
+    {d:"2026-10-01", n:"Register for the November LSAT", t:"law", u:LSAT_URL},
+    {d:"2026-11-25", n:"Columbia political science PhD", t:"grad", g:"phd", u:"https://www.gsas.columbia.edu/content/political-science-phd"},
+    {d:"2026-12-01", n:"Most PhD deadlines (Dec 1–17)", t:"grad", g:"phd", u:"https://gsas.harvard.edu/program/government"},
+    {d:"2026-12-01", n:"Register for the January LSAT", t:"law", u:LSAT_URL},
+    {d:"2026-12-29", n:"Register for the February LSAT", t:"law", u:LSAT_URL},
+    {d:"2027-02-01", n:"Manhattan DA summer internship", t:"law", u:"https://manhattanda.org/careers/internship-opportunities/college-internship/"},
+    {d:"2027-02-15", n:"SDNY U.S. Attorney summer internship", t:"law", u:"https://www.justice.gov/usao-sdny/undergraduate-internships"},
+    {d:"2027-02-25", n:"Register for the April LSAT", t:"law", u:LSAT_URL},
+    {d:"2027-04-29", n:"Register for the June LSAT", t:"law", u:LSAT_URL}
+];

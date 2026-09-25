@@ -402,18 +402,12 @@ def section_blocks(sec, page, downloads):
                     rows = [r[:-1] for r in rows]
                     head = head[:-1] if head else head
                 out.append(b_table(head, rows))
-            elif 'bento' in c:
+            elif 'pairs' in c:
                 for cell in n.els():
                     h = cell.find(lambda x: x.tag in ('h3', 'h4'))
-                    out.append(b_heading(inline(h, page), 3))
-                    meta = cell.find(has('meta'))
-                    if meta:
-                        out.append(b_para(f'<em>{inline(meta, page)}</em>'))
+                    out.append(b_heading(inline(h, page), 4 if level[0] == 4 else 3))
                     for p in cell.find_all(lambda x: x.tag == 'p'):
-                        out.append(b_para(inline(p, page)))
-                    dl = cell.find(has('facts'))
-                    if dl:
-                        out.append(b_list(facts_items(dl, page)))
+                        out.append(b_para(f'<em>{inline(p, page)}</em>' if 'meta' in p.cls else inline(p, page)))
             elif 'talk' in c:
                 h3 = n.find(lambda x: x.tag == 'h3')
                 out.append(b_heading(inline(h3, page), 3))
@@ -459,9 +453,10 @@ def section_blocks(sec, page, downloads):
 
 
 def board_rows(track):
-    src = open(os.path.join(ROOT, 'app.js'), encoding='utf-8').read()
+    src = open(os.path.join(ROOT, 'data.js'), encoding='utf-8').read()
+    src = src[src.index('window.EXTRA_DEADLINES'):]
     extra = re.findall(r'\{d:"([^"]+)", n:"([^"]+)", t:"([^"]+)",(?: g:"[^"]+",)? u:([^}]+)\}', src)
-    lsat = re.search(r'var LSAT = "([^"]+)"', src).group(1)
+    lsat = re.search(r'var LSAT_URL = "([^"]+)"', open(os.path.join(ROOT, 'data.js'), encoding='utf-8').read()).group(1)
     degs = ['jd'] if track == 'law' else ['phd', 'mpp', 'mpa', 'ma']
     rows = []
     for p in PROGRAMS:
@@ -472,7 +467,7 @@ def board_rows(track):
     for d, n, t, u in extra:
         if t == track:
             u = u.strip()
-            rows.append((d, n, lsat if u == 'LSAT' else u.strip('"'), False))
+            rows.append((d, n, lsat if u == 'LSAT_URL' else u.strip('"'), False))
     out = []
     for d, n, u, est in sorted(rows):
         dt = datetime.date(*map(int, d.split('-')))

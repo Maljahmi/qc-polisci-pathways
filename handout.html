@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One-page handout · Queens College Political Science Pathways</title>
+<meta name="description" content="A printable one-page summary of the grad school or law school path for Queens College Political Science majors.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville:wght@400..700&display=swap">
+<style>
+  :root{
+    --qc-red:#E71939; --ink:#000; --ink-2:#555; --hair:#D5D6D2; --paper:#fff; color-scheme:light;
+    --display:"Libre Baskerville", Baskerville, Georgia, serif;
+    --body:"Cabin", "Gill Sans", "Gill Sans MT", "Segoe UI", system-ui, sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#EDEDEA;color:var(--ink);font-family:var(--body);font-size:10pt;line-height:1.45}
+  a{color:var(--qc-red)}
+  .tools{max-width:8.5in;margin:18px auto 0;padding:0 16px;display:flex;gap:16px;align-items:center;font-size:11pt}
+  .tools button{font:600 11pt var(--body);background:var(--qc-red);color:#fff;border:0;padding:8px 16px;cursor:pointer}
+  .tools .switch{margin-left:auto}
+  .page{max-width:8.5in;margin:14px auto 40px;background:var(--paper);padding:.5in;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+  header{border-bottom:3px solid var(--qc-red);padding-bottom:10px}
+  .site{font-weight:600;text-transform:uppercase;letter-spacing:.12em;font-size:7.5pt;color:var(--ink-2)}
+  h1{font-family:var(--display);font-weight:700;font-size:20pt;line-height:1.15;margin:4px 0 4px}
+  .sub{color:var(--ink-2);font-size:9pt;margin:0}
+  h2{font-family:var(--display);font-weight:700;font-size:11.5pt;margin:14px 0 6px;padding-bottom:3px;border-bottom:1px solid var(--hair)}
+  .intro{margin:10px 0 0}
+  dl.degrees{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin:0}
+  dl.degrees dt{font-weight:700}
+  dl.degrees dd{margin:0}
+  .years{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 14px}
+  .years h3{font-family:var(--body);font-weight:700;font-size:9.5pt;color:var(--qc-red);margin:0 0 4px}
+  ul{margin:0;padding-left:14px}
+  li{margin:0 0 3px}
+  .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 22px}
+  ol.deadlines{list-style:none;margin:0;padding:0}
+  ol.deadlines li{display:grid;grid-template-columns:58px 1fr;gap:8px;padding:2px 0;border-bottom:1px solid var(--hair);margin:0}
+  ol.deadlines .d{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+  footer{margin-top:14px;padding-top:8px;border-top:1px solid var(--hair);font-size:8pt;color:var(--ink-2)}
+  @media (max-width:640px){
+    .page{padding:20px 16px}
+    .years,.two{grid-template-columns:1fr}
+    .years > div{margin-bottom:10px}
+  }
+  @page{size:letter;margin:.5in}
+  @media print{
+    body{background:#fff}
+    .tools{display:none}
+    .page{margin:0;padding:0;max-width:none;box-shadow:none}
+    a{color:inherit;text-decoration:none}
+  }
+</style>
+</head>
+<body>
+<div class="tools">
+  <a href="./#about">Back to the guide</a>
+  <button type="button" onclick="window.print()">Print</button>
+  <span class="switch" id="switch"></span>
+</div>
+<article class="page" id="page" aria-live="polite"></article>
+<script src="data.js"></script>
+<script src="handout.js"></script>
+</body>
+</html>
