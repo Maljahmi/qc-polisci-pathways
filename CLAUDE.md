@@ -14,7 +14,7 @@ A switch in the top bar toggles between them. Author: Mohamed Aljahmi (student).
 - `app.js`: the deadline board, degree tabs, opportunities lists and filters, countdown chips, link handling, résumé tabs and timeline labels. Deadlines that aren't single programs (LSAT registration, PhD deadline ranges) are in its `EXTRA` list.
 - `styles.css`: theme tokens at the top, then components, then responsive rules.
 - `downloads/`: the sample résumé, CV and law résumé as editable `.docx` files with `.pdf` copies. The samples section links to them.
-- `commons/`: the same content as WordPress block code for a CUNY Academic Commons site, `site.css` (the Commons site's styles, pasted into Appearance → Simple CSS), and `README.md` with posting steps.
+- `commons/`: an optional WordPress version for the CUNY Academic Commons (block code, `site.css` for Appearance → Simple CSS, and `README.md` with posting steps). Not the main site; Mohamed chose GitHub Pages instead.
 - `tools/`: `build_commons.py` rebuilds `commons/` from `index.html`, `data.js` and `app.js`. `build_docx.py` rebuilds the `.docx` files from the `.sheet` samples; export the PDFs from Word afterward. Both use the Python standard library only.
 
 The site itself has no build step, framework or dependencies; `data.js` is a plain script, so the page still works when opened from disk. The only external resource is Google Fonts. After content changes, re-run `python tools/build_commons.py` so the Commons version stays in sync.
@@ -58,7 +58,7 @@ The site itself has no build step, framework or dependencies; `data.js` is a pla
   - Text on QC red must be pure white, because white on `#E71939` is only 4.57:1. Never set red text on a colored background (a QC rule).
 - **Layout:** asymmetric (ledger rows, uneven bento, split columns). No evenly spaced grids of identical cards, and no centered hero with an image on the left.
 - **Motion:** one moment only, on page load. The board rows slide in and the day counts roll up. Respect `prefers-reduced-motion`.
-- **Themes:** light and dark both work through the tokens at the top of `styles.css`. Define colors as tokens, never as one-off literals.
+- **Background:** always the white QC theme, even when the device is in dark mode (Mohamed's call: white matches QC colors). There is no dark theme. Define colors as tokens at the top of `styles.css`, never as one-off literals.
 - **Mobile:** the page must work at 390px wide with no horizontal scroll. Check this after layout changes.
 
 ## Content rules
@@ -87,8 +87,9 @@ The site itself has no build step, framework or dependencies; `data.js` is a pla
 - [ ] Pages that block automated checks; confirm in a browser: the Michigan Ford School PPIA stipend ($1,500 vs Harvard's $2,000), whether Columbia's Leadership Alliance site names political science, and the SNF Agora predoc details.
 - Links and dates were last re-checked against official pages on Sept 24, 2026.
 - [ ] Sample cover letters: not built yet.
-- [x] Deployed Sept 25, 2026. The Commons site is qcpolscipathways.commons.gc.cuny.edu (Twenty Twenty theme, 10 pages, private: "visible only to users I add"), and the interactive site is maljahmi.github.io/qc-polisci-pathways (GitHub Pages from `main`). The Commons download buttons link to the GitHub copies in `downloads/`.
-- [ ] Make the Commons site public (Settings → Reading → visibility) once Mohamed has reviewed it, then ask the department to link it from the Political Science menu and Student Resources list.
+- [x] Live Sept 25, 2026 at https://maljahmi.github.io/qc-polisci-pathways/ (GitHub Pages from `main`; pushing to `main` publishes). This is the main site.
+- A trial Commons copy exists at qcpolscipathways.commons.gc.cuny.edu, private and unused. Mohamed can delete it from the Commons dashboard (Tools → Delete Site).
+- [ ] Ask the department to link the GitHub Pages site from the Political Science menu and Student Resources list.
 
 ## Ideas for improvements
 

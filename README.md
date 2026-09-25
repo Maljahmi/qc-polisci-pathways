@@ -2,6 +2,8 @@
 
 A student-made guide to grad school and law school paths for Queens College political science majors. It covers research programs, paid internships, fellowships, deadlines with live countdowns, and sample résumés.
 
+**Live site:** https://maljahmi.github.io/qc-polisci-pathways/
+
 ## Run it
 
 It is plain HTML, CSS and JavaScript, so there is nothing to install.
@@ -24,11 +26,15 @@ It is plain HTML, CSS and JavaScript, so there is nothing to install.
 
 `CLAUDE.md` holds the project rules, design decisions and open to-dos. Claude Code reads it automatically when you open this folder.
 
-## Put it online (GitHub Pages)
+## Publish changes
 
-1. Create a new GitHub repository and upload these files. `index.html` must be at the top level.
-2. In the repo, go to **Settings → Pages**. Set the source to your main branch and the `/ (root)` folder.
-3. The site appears at `https://<your-username>.github.io/<repo-name>/` within a minute or two.
+The site is hosted on GitHub Pages from the `main` branch. To update it, commit your changes and push:
+
+```bash
+git push
+```
+
+The live site updates within a minute or two. The `commons/` folder holds an optional WordPress version for the CUNY Academic Commons; it is not the main site.
 
 ## Keep it accurate
 

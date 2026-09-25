@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "geist",
+        "createdAt": "2026-09-25T16:57:19.971Z",
+        "reason": "Brand decision recorded in the outer .impeccable/config.json and CLAUDE.md: user kept Geist for body text when choosing Baskerville headings; the Commons stylesheet matches the main site"
+      }
+    ]
+  }
+}
