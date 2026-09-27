@@ -11,9 +11,10 @@
     grad: {
       title: "Graduate school at a glance",
       intro: "For Queens College Political Science majors thinking about a PhD or a policy master's. Most of the programs in the full guide are free, and many pay you.",
-      firstHead: "Degrees",
+      firstHead: "Degrees and paths",
       first: [
         ["PhD", "Research and teaching. Funded with tuition and a stipend; 5–6 years."],
+        ["Predoc", "A paid research job for 1–2 years before a PhD, open to any major. Apply in the fall of senior year."],
         ["MPP", "Design and evaluate policy. About 2 years. Baruch's Marxe School starts one in fall 2027."],
         ["MPA", "Run public and nonprofit organizations. 1–2 years; CUNY programs cost far less than private ones."],
         ["MA", "Graduate study and methods without a PhD. 1–2 years."]

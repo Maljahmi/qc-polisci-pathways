@@ -127,7 +127,8 @@ window.PROGRAMS = [
   ],
   "degrees": [
    "phd",
-   "ma"
+   "ma",
+   "predoc"
   ],
   "paid": null,
   "allOpen": false,
@@ -203,7 +204,8 @@ window.PROGRAMS = [
   ],
   "degrees": [
    "phd",
-   "ma"
+   "ma",
+   "predoc"
   ],
   "paid": null,
   "allOpen": false,
@@ -1032,7 +1034,8 @@ window.PROGRAMS = [
   ],
   "degrees": [
    "phd",
-   "ma"
+   "ma",
+   "predoc"
   ],
   "paid": true,
   "allOpen": true,
@@ -1071,7 +1074,8 @@ window.PROGRAMS = [
   ],
   "degrees": [
    "phd",
-   "ma"
+   "ma",
+   "predoc"
   ],
   "paid": true,
   "allOpen": false,
@@ -1111,7 +1115,8 @@ window.PROGRAMS = [
   ],
   "degrees": [
    "phd",
-   "ma"
+   "ma",
+   "predoc"
   ],
   "paid": true,
   "allOpen": true,
@@ -1190,7 +1195,8 @@ window.PROGRAMS = [
   ],
   "degrees": [
    "ma",
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": false,
   "allOpen": false,
@@ -1217,7 +1223,8 @@ window.PROGRAMS = [
    "jr"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": true,
@@ -1255,7 +1262,8 @@ window.PROGRAMS = [
    "jr"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": true,
@@ -1293,7 +1301,8 @@ window.PROGRAMS = [
    "jr"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": false,
@@ -1331,7 +1340,8 @@ window.PROGRAMS = [
    "jr"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": false,
@@ -2415,10 +2425,12 @@ window.PROGRAMS = [
    "after"
   ],
   "years": [
+   "sr",
    "grad"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": false,
@@ -2452,10 +2464,12 @@ window.PROGRAMS = [
    "after"
   ],
   "years": [
+   "sr",
    "grad"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": false,
@@ -2466,13 +2480,17 @@ window.PROGRAMS = [
   "dueMD": "",
   "opens": "Rolling",
   "opensMD": "",
-  "meta": "American politics and policy",
+  "meta": "American politics and policy · 1 year, renewable · July start",
   "body": "",
   "warn": "",
   "facts": [
    [
-    "Pay",
-    "Salary and benefits; 1 year, renewable"
+    "Who",
+    "Any major: Yale \"very strongly encourage[s]\" applicants who didn't major in political science; Stata, R or Python"
+   ],
+   [
+    "Apply",
+    "Cover letter with 2–3 references, résumé, a writing sample of any length (a thesis or term paper works), a coding sample where applicable"
    ],
    [
     "Timing",
@@ -2488,10 +2506,12 @@ window.PROGRAMS = [
    "after"
   ],
   "years": [
+   "sr",
    "grad"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": false,
@@ -2524,27 +2544,37 @@ window.PROGRAMS = [
    "after"
   ],
   "years": [
+   "sr",
    "grad"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Apr–May",
-  "whenS": "faculty review",
+  "whenB": "May 1",
+  "whenS": "last cycle · by project",
   "due": "",
-  "status": "none",
-  "dueMD": "",
+  "status": "last",
+  "dueMD": "05-01",
   "opens": "",
   "opensMD": "",
-  "meta": "Social science labs across Stanford",
+  "meta": "Stanford · 1 year, September start · political science, economics, psychology, sociology, communication",
   "body": "",
   "warn": "",
   "facts": [
    [
     "Pay",
-    "Staff salary and benefits"
+    "$32.45 an hour"
+   ],
+   [
+    "Who",
+    "Any major; projects ask for R, Stata or Python, and some for GitHub"
+   ],
+   [
+    "Apply",
+    "A cover letter for each project, CV with 2 recommenders, transcript; writing sample optional"
    ]
   ]
  },
@@ -2556,27 +2586,37 @@ window.PROGRAMS = [
    "after"
   ],
   "years": [
+   "sr",
    "grad"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Autumn",
-  "whenS": "postings",
+  "whenB": "Early Jan",
+  "whenS": "typical deadline · decisions by end of Feb",
   "due": "",
   "status": "none",
-  "dueMD": "",
-  "opens": "Autumn",
+  "dueMD": "01-10",
+  "opens": "",
   "opensMD": "",
-  "meta": "Global development · 2 years · July 1, 2027 start",
+  "meta": "Stanford · global development · 2 years",
   "body": "",
   "warn": "",
   "facts": [
    [
     "Pay",
-    "Tuition, health insurance, stipend"
+    "$62,990 stipend"
+   ],
+   [
+    "Who",
+    "All disciplines welcome; strong quantitative preparation; you learn Stata or R"
+   ],
+   [
+    "Apply",
+    "Short answers, CV, transcript, optional writing sample; a data exercise if shortlisted"
    ]
   ]
  },
@@ -2588,10 +2628,12 @@ window.PROGRAMS = [
    "after"
   ],
   "years": [
+   "sr",
    "grad"
   ],
   "degrees": [
-   "phd"
+   "phd",
+   "predoc"
   ],
   "paid": true,
   "allOpen": false,
@@ -2602,10 +2644,18 @@ window.PROGRAMS = [
   "dueMD": "",
   "opens": "From Sept",
   "opensMD": "09-01",
-  "meta": "Economics and quantitative social science",
+  "meta": "Economics and quantitative social science · 1–2 years, July start",
   "body": "",
   "warn": "",
   "facts": [
+   [
+    "Who",
+    "Strong quantitative and programming skills; advanced coursework in economics, math, statistics or computer science"
+   ],
+   [
+    "Apply",
+    "CV, cover letter, a writing sample of any length or topic, transcript, 2 references"
+   ],
    [
     "Pay",
     "Competitive salary"
@@ -3626,6 +3676,291 @@ window.PROGRAMS = [
   "body": "Many big firms hire graduates for 1–2 year paralegal stints. Search Handshake and firm or office career pages.",
   "warn": "",
   "facts": []
+ },
+ {
+  "id": "gp-opportunity-insights-predoc",
+  "name": "<a href=\"https://opportunityinsights.org/wp-content/uploads/2026/09/OI_Predoc_Fall-2026_Flyer.pdf\">Opportunity Insights Predoc (Harvard)</a>",
+  "url": "https://opportunityinsights.org/wp-content/uploads/2026/09/OI_Predoc_Fall-2026_Flyer.pdf",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 1",
+  "whenS": "2026 · July 2027 start",
+  "due": "2026-10-01",
+  "status": "confirmed",
+  "dueMD": "10-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Harvard · economics of opportunity · typically 2 years",
+  "body": "",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Any major (\"need not be Economics majors\"); strong quantitative skills; Stata, SAS, R or Python experience strongly preferred"
+   ],
+   [
+    "Apply",
+    "Resume, transcript, a writing sample of any length, 3 references' names; decisions by end of November"
+   ]
+  ],
+  "short": "Opportunity Insights predoc"
+ },
+ {
+  "id": "gp-policy-impacts-predoc",
+  "name": "<a href=\"https://policyimpacts.org/wp-content/uploads/2026/07/Predoc-Job-Description-Policy-Impacts-Fall-2026.pdf\">Policy Impacts Predoc (MIT)</a>",
+  "url": "https://policyimpacts.org/wp-content/uploads/2026/07/Predoc-Job-Description-Policy-Impacts-Fall-2026.pdf",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 4",
+  "whenS": "2026 · priority; final Nov 1",
+  "due": "2026-10-04",
+  "status": "confirmed",
+  "dueMD": "10-04",
+  "opens": "",
+  "opensMD": "",
+  "meta": "MIT · economics and public policy · 1 year, renewable; 2 preferred",
+  "body": "",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "$69,294"
+   ],
+   [
+    "Who",
+    "Economics, computer science, math, statistics or a related degree; Stata, R or Python; no visa sponsorship"
+   ],
+   [
+    "Apply",
+    "Cover letter, resume with GPA, transcript, writing sample, 2 references; a timed data task in mid-October"
+   ]
+  ],
+  "short": "Policy Impacts predoc (MIT)"
+ },
+ {
+  "id": "gp-stanford-siepr-predoc",
+  "name": "<a href=\"https://siepr.stanford.edu/programs/siepr-predoctoral-research-fellows-program/apply-siepr-predoctoral-research-fellows\">Stanford SIEPR Predoctoral Research Fellows</a>",
+  "url": "https://siepr.stanford.edu/programs/siepr-predoctoral-research-fellows-program/apply-siepr-predoctoral-research-fellows",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 8",
+  "whenS": "2026 · July 2027 start",
+  "due": "2026-10-08",
+  "status": "confirmed",
+  "dueMD": "10-08",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Stanford · economic policy · up to 2 years",
+  "body": "",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "$64,260 a year on the last posting"
+   ],
+   [
+    "Who",
+    "Non-economics majors with strong statistics; Stata, R or Python; high grades in quantitative courses"
+   ],
+   [
+    "Apply",
+    "CV, cover letter, transcript; optional writing sample of about 5 pages"
+   ]
+  ],
+  "short": "Stanford SIEPR predoc"
+ },
+ {
+  "id": "gp-stanford-gsb-research-fellows",
+  "name": "<a href=\"https://www.gsb.stanford.edu/programs/research-fellows\">Stanford GSB Research Fellows</a>",
+  "url": "https://www.gsb.stanford.edu/programs/research-fellows",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 16",
+  "whenS": "2026 · full consideration; rolling to Mar 1",
+  "due": "2026-10-16",
+  "status": "confirmed",
+  "dueMD": "10-16",
+  "opens": "Sept 3",
+  "opensMD": "09-03",
+  "meta": "Stanford Graduate School of Business · 2 years · includes a Political Economics track",
+  "body": "",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "$59,500 a year"
+   ],
+   [
+    "Who",
+    "A bachelor's degree; strong programming in R, Matlab or Stata"
+   ],
+   [
+    "Apply",
+    "Short answers, CV, two letters of recommendation, transcript; finalists take a coding assessment"
+   ]
+  ],
+  "short": "Stanford GSB Research Fellows"
+ },
+ {
+  "id": "gp-hks-shift-project-predoc",
+  "name": "<a href=\"https://shift.hks.harvard.edu/pre-doctoral-fellowships-open/\">Harvard Kennedy School Shift Project Predoc</a>",
+  "url": "https://shift.hks.harvard.edu/pre-doctoral-fellowships-open/",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 15",
+  "whenS": "last cycle",
+  "due": "",
+  "status": "last",
+  "dueMD": "01-15",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Harvard Kennedy School · sociology and public policy · 1 year, likely 2",
+  "body": "",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Sociology, public policy, economics or a related degree; research assistant experience; Stata and R"
+   ],
+   [
+    "Apply",
+    "CV, cover letter, transcript, a writing sample of no more than 5 pages, a Stata code sample, 3 references"
+   ]
+  ],
+  "short": "Shift Project predoc"
+ },
+ {
+  "id": "gp-mit-blueprint-labs-predoc",
+  "name": "<a href=\"https://blueprintlabs.mit.edu/careers/predoctoral-researcher/\">MIT Blueprint Labs Predoctoral Researcher</a>",
+  "url": "https://blueprintlabs.mit.edu/careers/predoctoral-researcher/",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Aug 2",
+  "whenS": "priority date, 2026 · offers in October",
+  "due": "",
+  "status": "last",
+  "dueMD": "08-02",
+  "opens": "",
+  "opensMD": "",
+  "meta": "MIT · education, labor and health policy research · 1 year, renewable",
+  "body": "",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "$69,294"
+   ],
+   [
+    "Apply",
+    "Cover letter, resume, transcript with GPA, a writing sample and a code sample (\"no more than 50% AI-assisted\"); a video interview"
+   ]
+  ],
+  "short": "MIT Blueprint Labs predoc"
+ },
+ {
+  "id": "gp-ny-fed-research-analyst",
+  "name": "<a href=\"https://www.newyorkfed.org/research/careers/research_analysts/index.html\">Federal Reserve Bank of New York Research Analyst</a>",
+  "url": "https://www.newyorkfed.org/research/careers/research_analysts/index.html",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Sept 14",
+  "whenS": "2026 · closed; opens late August",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-14",
+  "opens": "Late Aug",
+  "opensMD": "08-24",
+  "meta": "New York Fed · economics · generally 2 years",
+  "body": "",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A strong background in economics, math and statistics; R, Stata or another statistical package; \"a strong background in programming is not required\""
+   ],
+   [
+    "Apply",
+    "Resume and transcript; cover letter optional; letters of recommendation are not considered"
+   ]
+  ],
+  "short": "NY Fed research analyst"
  }
 ];
 

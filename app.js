@@ -44,7 +44,7 @@
 
   // ---------- departures board ----------
   var board = document.getElementById("board");
-  var GRAD_DEGREES = ["phd", "mpp", "mpa", "ma"];
+  var GRAD_DEGREES = ["phd", "predoc", "mpp", "mpa", "ma"];
   function boardList(track, degree){
     var degs = degree ? [degree] : (track === "law" ? ["jd"] : GRAD_DEGREES);
     var list = [];
