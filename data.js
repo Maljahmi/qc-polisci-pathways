@@ -2458,7 +2458,7 @@ window.PROGRAMS = [
  },
  {
   "id": "gp-yale-isps-csap-predoctoral",
-  "name": "<a href=\"https://isps.yale.edu/predoctoral-fellows-program\">Yale ISPS / CSAP Predoctoral Fellows</a>",
+  "name": "<a href=\"https://isps.yale.edu/predoctoral-fellows-program\">Yale ISPS Predoctoral Fellows (political science)</a>",
   "url": "https://isps.yale.edu/predoctoral-fellows-program",
   "types": [
    "after"
@@ -2474,29 +2474,34 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Rolling",
-  "whenS": "",
+  "whenS": "2027–28 positions TBA",
   "due": "",
   "status": "none",
   "dueMD": "",
   "opens": "Rolling",
   "opensMD": "",
-  "meta": "American politics and policy · 1 year, renewable · July start",
-  "body": "",
+  "meta": "Yale · American politics, with CSAP and the Tobin Center · 1 year, renewable · July start",
+  "body": "Full-time research with political science faculty, plus one course a semester and a weekly professional development seminar. Alumni have gone on to PhD programs at Stanford, UC Berkeley and Princeton (<a href=\"https://isps.yale.edu/news/2026-06-23-inside-yales-isps-predoctoral-program-research-mentorship-and-graduate-school\">ISPS</a>).",
   "warn": "",
   "facts": [
    [
     "Who",
-    "Any major: Yale \"very strongly encourage[s]\" applicants who didn't major in political science; Stata, R or Python"
+    "Any major: Yale \"very strongly encourage[s]\" applicants who didn't major in political science, especially with a data science or statistics background"
    ],
    [
     "Apply",
-    "Cover letter with 2–3 references, résumé, a writing sample of any length (a thesis or term paper works), a coding sample where applicable"
+    "Cover letter (programming languages, research experience, references), résumé, a writing sample of any length, a coding sample (optional for CSAP positions)"
+   ],
+   [
+    "Pay",
+    "Competitive, with health insurance"
    ],
    [
     "Timing",
     "2026–27 filled; check back for 2027–28"
    ]
-  ]
+  ],
+  "short": "Yale ISPS politics predoc"
  },
  {
   "id": "gp-johns-hopkins-snf-agora",
@@ -3961,6 +3966,49 @@ window.PROGRAMS = [
    ]
   ],
   "short": "NY Fed research analyst"
+ },
+ {
+  "id": "gp-yale-tobin-economics-predoc",
+  "name": "<a href=\"https://tobin.yale.edu/programs/pre-doctoral-fellows-program/apply\">Yale Tobin Center / Economics Pre-Doctoral Fellows</a>",
+  "url": "https://tobin.yale.edu/programs/pre-doctoral-fellows-program/apply",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Rolling",
+  "whenS": "opens Oct 5, 2026",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Oct 5, 2026",
+  "opensMD": "10-05",
+  "meta": "Yale · policy-relevant economics · 1 year, renewable once · July start",
+  "body": "Full-time research with economics faculty, plus one course a semester and a weekly professional development seminar. Applications are reviewed on a rolling basis until positions fill, so apply soon after it opens.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A bachelor's or master's degree and considering a PhD in economics or a related field; Yale sponsors visas for international candidates"
+   ],
+   [
+    "Apply",
+    "One PDF with a cover letter naming faculty projects, CV, unofficial transcript, a writing sample of any length and a coding sample; a data or technical exercise if short-listed"
+   ],
+   [
+    "Pay",
+    "Competitive, with health insurance"
+   ]
+  ],
+  "short": "Yale Tobin economics predoc"
  }
 ];
 
