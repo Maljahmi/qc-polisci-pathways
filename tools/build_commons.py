@@ -25,10 +25,10 @@ TODAY = datetime.date.today()
 VOID = {'br', 'img', 'meta', 'link', 'hr', 'input', 'source'}
 
 # tab id -> WordPress page slug
-SLUGS = {'g-phd': 'grad-phd', 'g-mpp': 'grad-mpp', 'g-mpa': 'grad-mpa', 'g-ma': 'grad-ma', 'g-guides': 'grad-guides',
+SLUGS = {'g-phd': 'grad-phd', 'g-predoc': 'grad-predoc', 'g-mpp': 'grad-mpp', 'g-mpa': 'grad-mpa', 'g-ma': 'grad-ma', 'g-guides': 'grad-guides',
          'l-jd': 'law-jd', 'l-guides': 'law-guides'}
 OVERVIEW = {'grad': 'grad-school', 'law': 'law-school'}
-DEGREE_PAGE = {'phd': 'grad-phd', 'mpp': 'grad-mpp', 'mpa': 'grad-mpa', 'ma': 'grad-ma', 'jd': 'law-jd'}
+DEGREE_PAGE = {'phd': 'grad-phd', 'predoc': 'grad-predoc', 'mpp': 'grad-mpp', 'mpa': 'grad-mpa', 'ma': 'grad-ma', 'jd': 'law-jd'}
 TYPES = [
     ('summer-research', 'Summer research or institutes'), ('summer-internship', 'Summer internships'),
     ('fall-internship', 'Fall internships'), ('spring-internship', 'Spring internships'),

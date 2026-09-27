@@ -22,14 +22,14 @@ The site itself has no build step, framework or dependencies; `data.js` is a pla
 
 ## How the content is built
 
-- **Tabs.** Each `<main>` starts with an `.intro` (heading, lead, and `.degrees` cards that link to the tabs), then tab panels: `<div class="panel" id="g-phd" data-label="PhD" data-degree="phd">`. Grad has PhD, MPP, MPA, MA and Guides (`g-phd`, `g-mpp`, `g-mpa`, `g-ma`, `g-guides`); law has JD and Guides (`l-jd`, `l-guides`). One tab shows at a time. The left menu lists the tabs and the open tab's sections; on phones the tabs are chips along the top.
+- **Tabs.** Each `<main>` starts with an `.intro` (heading, lead, and `.degrees` cards that link to the tabs), then tab panels: `<div class="panel" id="g-phd" data-label="PhD" data-degree="phd">`. Grad has PhD, Predoc, MPP, MPA, MA and Guides (`g-phd`, `g-predoc`, `g-mpp`, `g-mpa`, `g-ma`, `g-guides`); law has JD and Guides (`l-jd`, `l-guides`). One tab shows at a time. The left menu lists the tabs and the open tab's sections; on phones the tabs are chips along the top.
 - **A degree tab** has three sections: what the degree is (`…-about`, with a `.facts.deg` list), its timeline (`.sched`, one column per class year), and its opportunities list (`<section class="db" data-degree="phd">` with an empty `.db-app`, which `app.js` fills). The board at the top shows the open degree's deadlines. The PhD tab also has "Find your subfield" (`g-phd-fields`): the five core subfields with a math level in the `.when` column (`data-label="Math"`), evidence that applicants don't need to arrive methods-heavy, and fields some departments add beyond the core five. Every claim there links to an official department page; re-check them each cycle.
 - **Sections.** `<section id="g-…">` or `<section id="l-…">` inside a tab. The header is `.sh`, which holds `.no` (the section number) and an `h2`. Numbers restart at 01 in each tab; renumber when you add or remove a section. The menu is built from these automatically.
 - **Links.** Any `href="#id"` works across paths and tabs, including program ids (`gp-…`, `lp-…`): the script switches to the right path and tab, clears that list's filters, scrolls to the program and highlights it. Add `data-type="summer-internship"` (or any type) to a link to a list, such as `#g-phd-db`, to open it filtered. Old law-path ids that duplicate a grad program are mapped in `window.ALIASES` in `data.js`.
 - **Programs (`data.js`).** Each entry has:
   - `id`, `name` (HTML with the official link), `url`, and `short` (optional, the name on the deadline board)
   - `types`: any of `summer-research`, `summer-internship`, `fall-internship`, `spring-internship`, `fellowship`, `campus`, `visit`, `pipeline`, `course`, `after`
-  - `years`: any of `fr`, `so`, `jr`, `sr`, `grad` (after college); `degrees`: any of `phd`, `mpp`, `mpa`, `ma`, `jd`
+  - `years`: any of `fr`, `so`, `jr`, `sr`, `grad` (after college); `degrees`: any of `phd`, `predoc`, `mpp`, `mpa`, `ma`, `jd`
   - `paid` (`true`, `false`, or `null` if it doesn't apply) and `allOpen` (`true` only if the official page says DACA, undocumented or international students can apply)
   - Dates: `whenB` and `whenS` are the big and small date text. `due` is this cycle's deadline (ISO); it adds a countdown chip and puts the program on the board. `status` is `confirmed`, `estimate`, `last` (only last cycle's date is posted) or `none` (rolling or TBA). `dueMD` is the typical deadline as `MM-DD`, used for sorting. `opens` and `opensMD` are the opening date text and `MM-DD`. Set `event: true` for a date that is an event, not a deadline, to keep it off the board.
   - Text: `meta` (where, length), `body`, `warn`, and `facts` as `[label, html]` pairs such as `["Pay", "$20 an hour"]`.
@@ -86,7 +86,9 @@ The site itself has no build step, framework or dependencies; `data.js` is a pla
   - SYEP (~Mar 12)
 - [ ] Watch for 2027 postings: Bloomberg Philanthropies, Brennan Center winter/spring, Vera, Microsoft DS3, the Ford Foundation (December), Roosevelt Emerging Fellowship (opened Oct 1 last cycle), Pew (January), Harvard PS-Prep (last deadline Oct 9), and next summer's PhD fly-ins (Emory, Brown, UChicago, Indiana, Yale), which close July–August.
 - [ ] Pages that block automated checks; confirm in a browser: the Michigan Ford School PPIA stipend ($1,500 vs Harvard's $2,000), whether Columbia's Leadership Alliance site names political science, and the SNF Agora predoc details.
-- Links and dates were last re-checked against official pages on Sept 24, 2026.
+- Links and dates were last re-checked against official pages on Sept 24, 2026. The Predoc tab's counts ("12 of 12 name Stata or R") come from 12 official postings read Sept 26, 2026; redo that survey each fall.
+- [ ] Some QC catalog pages list PSYCH 1071 and 1073 instead of PSYCH 107 (for example DATA 334's prerequisites). Confirm the current number with the Psychology department and update the site if PSYCH 107 was split.
+- [ ] Predoc postings to re-check each August: Opportunity Insights, Policy Impacts (MIT), SIEPR, Stanford GSB, MIT Blueprint Labs, the NY Fed, HKS Shift Project, and the SNF Agora and Princeton pages that blocked automated checks.
 - [ ] Sample cover letters: not built yet.
 - [x] Live Sept 25, 2026 at https://maljahmi.github.io/qc-polisci-pathways/ (GitHub Pages from `main`; pushing to `main` publishes). This is the main site.
 - A trial Commons copy exists at qcpolscipathways.commons.gc.cuny.edu, private and unused. Mohamed can delete it from the Commons dashboard (Tools → Delete Site).
