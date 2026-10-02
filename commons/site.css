@@ -17,6 +17,11 @@ body .entry-content em{font-style:normal;color:var(--ink-2)}
 html body .entry-content .wp-block-group.wp-block-group[class*="pp-"]{margin-top:0;margin-bottom:0}
 /* On classic themes WordPress wraps each Group's blocks in an inner container; let the blocks sit in the group's own grid */
 body .entry-content .wp-block-group[class*="pp-"]>.wp-block-group__inner-container{display:contents}
+/* The theme also caps every block inside a group at 58rem and centers it; undo that inside the layout groups,
+   then set the reading width for text. The doubled classes outrank the theme's selectors. */
+html body .entry-content .wp-block-group[class*="pp-"]>.wp-block-group__inner-container.wp-block-group__inner-container>*{max-width:none;width:auto;margin-left:0;margin-right:0}
+html body .entry-content .wp-block-group.wp-block-group:is(.pp-main,.pp-foot,.pp-split-main)>.wp-block-group__inner-container.wp-block-group__inner-container>:is(p,ul,ol,h2,h3){max-width:78rem}
+html body .entry-content .wp-block-group[class*="pp-"]>.wp-block-group__inner-container.wp-block-group__inner-container>.wp-block-group.wp-block-group.pp-note{max-width:70ch}
 
 /* Header: QC red with white text */
 body #site-header{background:var(--qc-red)}
