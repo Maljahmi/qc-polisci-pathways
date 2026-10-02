@@ -12,6 +12,9 @@ body .entry-content a{color:var(--qc-red);text-decoration-thickness:1px;text-und
 body .entry-content a:hover{color:var(--qc-red-dark)}
 body .entry-content li{margin:.4rem 0}
 body .entry-content em{font-style:normal;color:var(--ink-2)}
+/* Twenty Twenty puts 4rem above and below every Group block; the layout groups below set their own spacing.
+   The doubled class outranks the theme's selector. */
+html body .entry-content .wp-block-group.wp-block-group[class*="pp-"]{margin-top:0;margin-bottom:0}
 
 /* Header: QC red with white text */
 body #site-header{background:var(--qc-red)}
@@ -84,7 +87,7 @@ body .entry-content .pp-prog-body ul{margin:0;padding-left:1.8rem;font-size:1.5r
 body .entry-content .pp-prog-body li{margin:.3rem 0}
 body .entry-content .pp-prog-body>:last-child{margin-bottom:0}
 @media (min-width:700px){body .entry-content .pp-prog{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,8fr);gap:0 4rem}}
-@media (max-width:699px){body .entry-content .pp-prog-body{margin-top:1.2rem}}
+@media (max-width:699px){html body .entry-content .wp-block-group.wp-block-group.pp-prog-body{margin-top:1.2rem}}
 
 /* Home and overview pages: content on the left, deadlines on the right */
 body .entry-content .pp-split{margin-top:0}
@@ -93,7 +96,7 @@ body .entry-content .pp-split-main>h2:first-child,body .entry-content .pp-split-
 body .entry-content .pp-split-side h2{font-size:2.4rem}
 body .entry-content .pp-split-side .wp-block-table{margin-top:1.2rem;margin-bottom:1.2rem}
 @media (min-width:1000px){body .entry-content .pp-split{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:8rem;align-items:start}}
-@media (max-width:999px){body .entry-content .pp-split-side{margin-top:5.6rem}}
+@media (max-width:999px){html body .entry-content .wp-block-group.wp-block-group.pp-split-side{margin-top:5.6rem}}
 body .entry-content .pp-lead{font-size:2rem;line-height:1.55;margin:0 0 2.4rem;max-width:68rem}
 body .entry-content .pp-small{font-size:1.4rem;line-height:1.5;color:var(--ink-2)}
 body .entry-content .pp-degrees{list-style:none;margin:2.4rem 0 3.2rem;padding:0;border-bottom:1px solid var(--qc-gray)}
@@ -104,7 +107,8 @@ body .entry-content .pp-paths li{grid-template-columns:22rem minmax(0,1fr);paddi
 body .entry-content .pp-paths a{font-size:2.4rem;line-height:1.25}
 @media (max-width:599px){body .entry-content .pp-degrees li,body .entry-content .pp-paths li{grid-template-columns:minmax(0,1fr)}}
 /* The author's note */
-body .entry-content .pp-note{margin:3.2rem 0;padding:1.8rem 0 2rem;border-top:1px solid var(--qc-gray);border-bottom:1px solid var(--qc-gray);font-family:var(--serif);font-size:1.6rem;line-height:1.75;max-width:70ch}
+html body .entry-content .wp-block-group.wp-block-group.pp-note{margin:3.2rem 0}
+body .entry-content .pp-note{padding:1.8rem 0 2rem;border-top:1px solid var(--qc-gray);border-bottom:1px solid var(--qc-gray);font-family:var(--serif);font-size:1.6rem;line-height:1.75;max-width:70ch}
 body .entry-content .pp-note>*{margin:0 0 .8rem}
 body .entry-content .pp-note .pp-sig{font-family:var(--sans);font-size:1.4rem;color:var(--ink-2);margin:0}
 
@@ -131,7 +135,8 @@ body .entry-content td:first-child{white-space:nowrap;font-weight:600;font-varia
 body .entry-content figure.wp-block-table:has(th:nth-child(5)) table{min-width:72rem}
 
 /* Page footer note, then the site footer in QC black */
-body .entry-content .pp-foot{margin-top:6.4rem;padding-top:2.4rem;border-top:1px solid var(--qc-gray)}
+html body .entry-content .wp-block-group.wp-block-group.pp-foot{margin-top:6.4rem}
+body .entry-content .pp-foot{padding-top:2.4rem;border-top:1px solid var(--qc-gray)}
 body .entry-content .pp-foot>*{margin-left:0;margin-right:0}
 body .entry-content .pp-foot p{font-size:1.4rem;line-height:1.5;color:var(--ink-2);max-width:78rem;margin-bottom:.8rem}
 body #site-footer,body .footer-nav-widgets-wrapper{background:#000;color:#fff;border-color:#222}
