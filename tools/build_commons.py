@@ -592,7 +592,7 @@ def home_page():
     ]
     if SITE:
         left.append(b_para(f'Prefer filters and live countdowns? Use the <a href="{SITE}">interactive version</a>.', 'pp-small'))
-    both = sorted(board_data('grad') + board_data('law'))[:12]
+    both = sorted(set(board_data('grad') + board_data('law')))[:12]  # some programs are on both boards
     right = [b_heading('Next deadlines', 2, 'deadlines'), b_para(as_of(), 'pp-small'), deadline_table(both),
              b_para('More on the <a href="grad-school/#deadlines">graduate school</a> and <a href="law-school/#deadlines">law school</a> pages.', 'pp-small')]
     return [b_group([b_group(left, 'pp-split-main'), b_group(right, 'pp-split-side')], 'pp-split'), b_group(FOOTER, 'pp-foot')]

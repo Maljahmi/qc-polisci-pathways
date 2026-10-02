@@ -136,5 +136,11 @@ body .entry-content .pp-foot>*{margin-left:0;margin-right:0}
 body .entry-content .pp-foot p{font-size:1.4rem;line-height:1.5;color:var(--ink-2);max-width:78rem;margin-bottom:.8rem}
 body #site-footer,body .footer-nav-widgets-wrapper{background:#000;color:#fff;border-color:#222}
 body #site-footer a,body #site-footer p{color:#fff}
+/* hide WordPress's sample widgets (Hello world!, Archives, Meta); keep the Commons license notice */
+body .footer-widgets-outer-wrapper .widget:not(.widget_cac_creative_commons){display:none}
+body .footer-widgets-outer-wrapper{padding:2.4rem 0;border:0}
+body .footer-widgets-wrapper,body .footer-widgets{display:block;width:100%;margin:0}
+body .footer-nav-widgets-wrapper .widget_cac_creative_commons{margin:0;font-size:1.3rem;line-height:1.5;color:#BDBDBD}
+body .footer-nav-widgets-wrapper .widget_cac_creative_commons a{color:#fff}
 
 @media (min-width:700px){body .entry-title{font-size:4rem}body .entry-content h2{font-size:3.2rem}body.singular .entry-header{padding-top:6.4rem}}
