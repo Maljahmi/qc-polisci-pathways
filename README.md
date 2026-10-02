@@ -1,6 +1,6 @@
 # Queens College Political Science Pathways
 
-A student-made guide to grad school and law school paths for Queens College political science majors. It covers research programs, paid internships, fellowships, deadlines with live countdowns, and sample résumés.
+A student-made guide to graduate school and law school paths for Queens College political science majors. It covers research programs, paid internships, fellowships, deadlines with live countdowns, and sample résumés.
 
 **Live site:** https://maljahmi.github.io/qc-polisci-pathways/
 

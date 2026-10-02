@@ -23,7 +23,7 @@ The download buttons for the sample résumés and CV link to the copies in `../d
 2. **Create a site.** Go to [Create a Site](https://commons.gc.cuny.edu/sites/create/). Pick a short address and a simple theme. This guide lives at `qcpolscipathways.commons.gc.cuny.edu`.
 3. **Make 10 pages.** Go to Pages → Add New. Each file's name is the page's slug, and the slugs must match exactly so the links between pages work:
    - **Home** (any slug)
-   - **Grad school** `grad-school`, then **PhD** `grad-phd`, **MPP** `grad-mpp`, **MPA** `grad-mpa`, **MA** `grad-ma`, **Guides** `grad-guides`
+   - **Graduate school** `grad-school`, then **PhD** `grad-phd`, **MPP** `grad-mpp`, **MPA** `grad-mpa`, **MA** `grad-ma`, **Guides** `grad-guides`
    - **Law school** `law-school`, then **JD** `law-jd`, **Guides** `law-guides`
 
    The slug is under Page settings → URL (or Permalink). Keep the pages top-level; don't set a parent page, or the addresses change.
@@ -39,7 +39,7 @@ The download buttons for the sample résumés and CV link to the copies in `../d
    1. Go to Media → Add New and upload the six files from `downloads/`.
    2. Click each file and use **Copy URL to clipboard**.
    3. The download buttons are on **grad-guides** (résumé and CV) and **law-guides** (law résumé). Click each button, click the link icon, and replace the link with the file's URL.
-7. **Add the menu.** Go to Appearance → Menus, or the Site Editor → Navigation. Add **Home**, **Grad school** and **Law school**, and put each path's degree and Guides pages under it as a dropdown. Every page also has a line of links to its path's other pages at the top.
+7. **Add the menu.** Go to Appearance → Menus, or the Site Editor → Navigation. Add **Home**, **Graduate school** and **Law school**, and put each path's degree and Guides pages under it as a dropdown. Every page also has a line of links to its path's other pages at the top.
 8. **Add the styles.** With the Twenty Twenty theme, go to Appearance → Simple CSS, paste all of `site.css`, and click Save CSS. It sets the QC colors and fonts and keeps the timeline tables readable. With another theme, set the link, button and accent color to Queens College Red `#E71939` instead. Button text on red must be white. Don't add the QC logo: it's trademarked and needs approval from the Office of Communications.
 9. **Add co-admins.** Go to Users and invite a faculty member or the department office as Administrators, so the site keeps going after you graduate.
 10. **Check the interactive version.** Each degree page has a "Filter and sort these programs" button that opens the full site on GitHub Pages (https://maljahmi.github.io/qc-polisci-pathways/), where students can filter by type, year and pay. Update both together: rebuild these files whenever you change the main site.

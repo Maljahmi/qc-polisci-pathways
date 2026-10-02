@@ -124,6 +124,8 @@ def resolve(target, page):
 
 
 def link_href(href, page):
+    if href == '#about':  # the About section exists only on the interactive site
+        return SITE + '#about' if SITE else '#'
     return resolve(href[1:], page) if href.startswith('#') else href
 
 
@@ -171,15 +173,24 @@ def b_heading(content, level=2, anchor=None):
     return f'<!-- wp:heading{attrs} -->\n<h{level} class="wp-block-heading"{idattr}>{content}</h{level}>\n<!-- /wp:heading -->'
 
 
-def b_para(content):
+def b_para(content, cls=None):
+    if cls:
+        return f'<!-- wp:paragraph {{"className":"{cls}"}} -->\n<p class="{cls}">{content}</p>\n<!-- /wp:paragraph -->'
     return f'<!-- wp:paragraph -->\n<p>{content}</p>\n<!-- /wp:paragraph -->'
 
 
-def b_list(items, ordered=False):
-    attrs = ' {"ordered":true}' if ordered else ''
+def b_list(items, ordered=False, cls=None):
+    attrs = {k: v for k, v in (('ordered', ordered or None), ('className', cls)) if v}
+    attrs = ' ' + json.dumps(attrs, separators=(',', ':')) if attrs else ''
     tag = 'ol' if ordered else 'ul'
     lis = ''.join(f'<!-- wp:list-item -->\n<li>{i}</li>\n<!-- /wp:list-item -->' for i in items)
-    return f'<!-- wp:list{attrs} -->\n<{tag} class="wp-block-list">{lis}</{tag}>\n<!-- /wp:list -->'
+    return f'<!-- wp:list{attrs} -->\n<{tag} class="wp-block-list{" " + cls if cls else ""}">{lis}</{tag}>\n<!-- /wp:list -->'
+
+
+def b_group(blocks, cls):
+    """A Group block. The layout comes from site.css, keyed on the class names (pp-...)."""
+    inner = '\n'.join(blocks)
+    return f'<!-- wp:group {{"className":"{cls}"}} -->\n<div class="wp-block-group {cls}">{inner}</div>\n<!-- /wp:group -->'
 
 
 def b_table(head, rows):
@@ -228,30 +239,32 @@ def when_text(b, s):
     return ' · '.join(parts)
 
 
+def prog_row(head, body):
+    """A ledger row: name, date and who it's for on the left; description and facts on the right."""
+    parts = [b_group(head, 'pp-prog-head')] + ([b_group(body, 'pp-prog-body')] if body else [])
+    return b_group(parts, 'pp-prog')
+
+
 def static_row(row, level, page, label):
     """A program row still written in index.html (PhDs beyond political science, methods resources)."""
-    out = []
     what = row.find(has('what'))
     h = what.find(lambda n: n.tag in ('h3', 'h4'))
-    out.append(b_heading(inline(h, page), level, row.attrs.get('id')))
-    lines = []
+    head, body = [b_heading(inline(h, page), level, row.attrs.get('id'))], []
     w = row.find(has('when'))
     if w:
         b = w.find(lambda n: n.tag == 'b')
         s = w.find(lambda n: n.tag == 'span')
         label = w.attrs.get('data-label', 'When')
-        lines.append(f'<strong>{html.escape(label)}:</strong> ' + html.escape(when_text(plain(b) if b else '', plain(s) if s else '')))
+        head.append(b_para(f'<strong>{html.escape(label)}:</strong> ' + html.escape(when_text(plain(b) if b else '', plain(s) if s else '')), 'pp-when'))
     meta = what.find(has('meta'))
     if meta:
-        lines.append(f'<em>{inline(meta, page)}</em>')
-    if lines:
-        out.append(b_para('<br>'.join(lines)))
+        head.append(b_para(inline(meta, page), 'pp-meta'))
     for p in what.find_all(lambda n: n.tag == 'p' and 'body' in n.cls):
-        out.append(b_para(inline(p, page)))
+        body.append(b_para(inline(p, page)))
     dl = row.find(has('facts'))
     if dl:
-        out.append(b_list(facts_items(dl, page)))
-    return out
+        body.append(b_list(facts_items(dl, page)))
+    return [prog_row(head, body)]
 
 
 def sched_table(s, page):
@@ -297,40 +310,45 @@ def years_label(ys):
 
 
 def program_blocks(p, page):
-    out = [b_heading(rich(p['name'], page), 4, p['id'])]
-    lines = []
+    head, body, when = [b_heading(rich(p['name'], page), 4, p['id'])], [], []
     if p['whenB']:
         dated = p['status'] in ('confirmed', 'estimate', 'last') and not p.get('event')
         label = 'Deadline' if dated else 'When'
-        lines.append(f'<strong>{label}:</strong> {html.escape(when_text(p["whenB"], p["whenS"]))}')
+        when.append(f'<strong>{label}:</strong> {html.escape(when_text(p["whenB"], p["whenS"]))}')
     if p.get('opens'):
-        lines.append(f'<strong>Opens:</strong> {html.escape(p["opens"])}')
-    lines.append(f'<em>{years_label(p["years"])}' + (f' · {rich(p["meta"], page)}' if p['meta'] else '') + '</em>')
-    out.append(b_para('<br>'.join(lines)))
+        when.append(f'<strong>Opens:</strong> {html.escape(p["opens"])}')
+    if when:
+        head.append(b_para('<br>'.join(when), 'pp-when'))
+    head.append(b_para(years_label(p['years']) + (f' · {rich(p["meta"], page)}' if p['meta'] else ''), 'pp-meta'))
     if p['body']:
-        out.append(b_para(rich(p['body'], page)))
+        body.append(b_para(rich(p['body'], page)))
     if p['warn']:
-        out.append(b_para('<strong>Note:</strong> ' + rich(p['warn'], page)))
+        body.append(b_para('<strong>Note:</strong> ' + rich(p['warn'], page)))
     if p['facts']:
-        out.append(b_list([f'<strong>{html.escape(fact_label(a))}</strong> {rich(b, page)}' for a, b in p['facts']]))
-    return out
+        body.append(b_list([f'<strong>{html.escape(fact_label(a))}</strong> {rich(b, page)}' for a, b in p['facts']]))
+    return [prog_row(head, body)]
 
 
-def db_blocks(degree, page):
-    """The opportunities list, grouped by each program's first type and sorted by next deadline."""
+def db_blocks(degree, page, sid):
+    """The opportunities list, grouped by each program's first type and sorted by next deadline.
+    Also returns (anchor, label, count) for each group, for the page's side menu."""
     progs = [p for p in PROGRAMS if degree in p['degrees']]
     out = [b_para("Sorted by next deadline. Dates are this cycle's where posted; otherwise they are last cycle's, which are usually close. Confirm on the official page.")]
+    subs = []
     for key, label in TYPES:
         group = sorted((p for p in progs if p['types'][0] == key), key=lambda p: (due_key(p), re.sub('<[^>]+>', '', p['name'])))
         if not group:
             continue
-        out.append(b_heading(label, 3))
+        anchor = f'{sid}-{key}'
+        out.append(b_heading(label, 3, anchor))
+        subs.append((anchor, label, len(group)))
         for p in group:
             out.extend(program_blocks(p, page))
-    return out
+    return out, subs
 
 
 def section_blocks(sec, page, downloads):
+    """A section's blocks, plus the sub-links it adds to the side menu."""
     sid = sec.attrs['id']
     out = []
     h2 = sec.find(lambda n: n.tag == 'h2')
@@ -340,9 +358,9 @@ def section_blocks(sec, page, downloads):
         if lead:
             out.append(b_para(inline(lead, page)))
         if SITE:
-            out.append(b_buttons([('Filter and sort these programs', SITE + '#' + sid)]))
-        out.extend(db_blocks(sec.attrs['data-degree'], page))
-        return out
+            out.append(b_para(f'<a href="{SITE}#{sid}">Filter and sort these programs on the interactive site</a>', 'pp-small'))
+        blocks, subs = db_blocks(sec.attrs['data-degree'], page, sid)
+        return out + blocks, subs
     level = [3]  # program heading level; becomes 4 after a group subhead
 
     def walk(nodes):
@@ -429,7 +447,7 @@ def section_blocks(sec, page, downloads):
             elif 'desk' in c:
                 out.append(b_heading('Download the samples', 3))
                 out.append(b_para('Open the Word file to edit it, or the PDF to print. Replace everything with your own details.'))
-                out.append(b_buttons(downloads))
+                out.append(download_list(downloads))
                 for x in [x for x in n.els() if 'stage' not in x.cls]:
                     for aside in x.find_all(has('aside')):
                         h = aside.find(lambda y: y.tag in ('h3', 'h4'))
@@ -449,15 +467,16 @@ def section_blocks(sec, page, downloads):
                 walk(n.children)
 
     walk(sec.children)
-    return out
+    return out, []
 
 
-def board_rows(track):
+def board_data(track):
+    """Future deadlines for a path's board: (date, estimate?, name, url), soonest first."""
     src = open(os.path.join(ROOT, 'data.js'), encoding='utf-8').read()
     src = src[src.index('window.EXTRA_DEADLINES'):]
     extra = re.findall(r'\{d:"([^"]+)", n:"([^"]+)", t:"([^"]+)",(?: g:"[^"]+",)? u:([^}]+)\}', src)
     lsat = re.search(r'var LSAT_URL = "([^"]+)"', open(os.path.join(ROOT, 'data.js'), encoding='utf-8').read()).group(1)
-    degs = ['jd'] if track == 'law' else ['phd', 'mpp', 'mpa', 'ma']
+    degs = ['jd'] if track == 'law' else ['phd', 'predoc', 'mpp', 'mpa', 'ma']
     rows = []
     for p in PROGRAMS:
         if not p['due'] or p.get('event') or p['status'] not in ('confirmed', 'estimate') or not set(degs) & set(p['degrees']):
@@ -471,10 +490,14 @@ def board_rows(track):
     out = []
     for d, n, u, est in sorted(rows):
         dt = datetime.date(*map(int, d.split('-')))
-        if dt < TODAY:
-            continue
-        out.append([('~' if est else '') + f'{dt.strftime("%b")} {dt.day}, {dt.year}', f'<a href="{html.escape(u)}">{html.escape(n)}</a>'])
+        if dt >= TODAY:
+            out.append((dt, est, n, u))
     return out
+
+
+def deadline_table(data):
+    rows = [[('~' if est else '') + f'{dt.strftime("%b")} {dt.day}', f'<a href="{html.escape(u)}">{html.escape(n)}</a>'] for dt, est, n, u in data]
+    return b_table(['Date', 'Deadline'], rows)
 
 
 FOOTER = [
@@ -483,45 +506,96 @@ FOOTER = [
 ]
 
 
+def download_list(downloads):
+    """Download links grouped by document: "Résumé: Word · PDF"."""
+    docs = {}
+    for label, href in downloads:
+        name, kind = re.match(r'(.+) \((.+)\)$', label).groups()
+        docs.setdefault(name, []).append(f'<a href="{html.escape(href)}">{kind}</a>')
+    return b_list([f'<strong>{name}:</strong> ' + ' · '.join(links) for name, links in docs.items()], cls='pp-downloads')
+
+
 def tab_nav(track, panels, current):
-    parts = [f'<a href="../{OVERVIEW[track]}/">Overview</a>' if current is not None else '<strong>Overview</strong>']
+    """The path's pages as a tab bar; the current page is bold, not a link."""
+    items = [f'<a href="../{OVERVIEW[track]}/">Overview</a>' if current is not None else '<strong>Overview</strong>']
     for p in panels:
         label = html.escape(p.attrs['data-label'])
-        parts.append(f'<strong>{label}</strong>' if p is current else f'<a href="../{SLUGS[p.attrs["id"]]}/">{label}</a>')
-    return b_para(' · '.join(parts))
+        items.append(f'<strong>{label}</strong>' if p is current else f'<a href="../{SLUGS[p.attrs["id"]]}/">{label}</a>')
+    return b_list(items, cls='pp-tabs')
+
+
+def side_nav(toc, panel_id):
+    """The "On this page" menu: each section, and each group of programs with its count."""
+    items = []
+    for anchor, title, subs in toc:
+        sub = b_list([f'<a href="#{a}">{html.escape(label)} ({n})</a>' for a, label, n in subs]) if subs else ''
+        items.append(f'<a href="#{anchor}">{html.escape(title)}</a>{sub}')
+    blocks = [b_para('On this page', 'pp-side-label'), b_list(items, cls='pp-toc')]
+    if SITE:
+        blocks.append(b_para(f'<a href="{SITE}#{panel_id}">Open the interactive version</a> for filters and live countdowns.', 'pp-small'))
+    return b_group(blocks, 'pp-side')
+
+
+def as_of():
+    return f'As of {TODAY.strftime("%B")} {TODAY.day}, {TODAY.year}. "~" marks an estimate. Confirm each date on the program\'s page.'
 
 
 def overview_page(track, main, panels):
+    """A path's overview: its degrees and the author's note on the left, upcoming deadlines on the right."""
     slug = OVERVIEW[track]
     intro = main.find(has('intro'))
-    out = [tab_nav(track, panels, None)]
-    out.append(b_heading(inline(intro.find(lambda n: n.tag == 'h2'), slug), 2))
-    out.append(b_para(inline(intro.find(lambda n: n.tag == 'p'), slug)))
+    left = [b_heading(inline(intro.find(lambda n: n.tag == 'h2'), slug), 2),
+            b_para(inline(intro.find(lambda n: n.tag == 'p'), slug), 'pp-lead')]
     cards = intro.find(has('degrees'))
-    out.append(b_list([f'<a href="../{SLUGS[a.attrs["href"][1:]]}/"><strong>{plain(a.find(lambda n: n.tag == "b"))}</strong></a>: {html.escape(plain(a.find(lambda n: n.tag == "span")))}' for a in cards.els()]))
-    out.append(b_heading('Upcoming deadlines', 2, 'deadlines'))
-    out.append(b_para(f'As of {TODAY.strftime("%B")} {TODAY.day}, {TODAY.year}. "~" marks an estimate. Confirm each date on the program\'s page before you apply.'))
-    out.append(b_table(['Date', 'Deadline'], board_rows(track)))
-    if SITE:
-        out.append(b_para('The interactive version has live countdowns and lets you filter every program by type, year and pay.'))
-        out.append(b_buttons([('Open the interactive version', SITE + '#' + track)]))
+    left.append(b_list([f'<a href="../{SLUGS[a.attrs["href"][1:]]}/"><strong>{plain(a.find(lambda n: n.tag == "b"))}</strong></a> {html.escape(plain(a.find(lambda n: n.tag == "span")))}' for a in cards.els()], cls='pp-degrees'))
+    note = intro.find(has('note-from'))
+    if note:
+        left.append(b_group([b_para(inline(p, slug), 'pp-sig' if 'sig' in p.cls else None) for p in note.els() if p.tag == 'p'], 'pp-note'))
     other = 'law' if track == 'grad' else 'grad'
-    out.append(b_buttons([(f'Switch to the {"law" if other == "law" else "grad"} school path', f'../{OVERVIEW[other]}/')]))
-    out.append(b_separator())
-    out.extend(FOOTER)
-    return out
+    links = [f'<a href="../{OVERVIEW[other]}/">Switch to the {"law" if other == "law" else "graduate"} school path</a>']
+    if SITE:
+        links.insert(0, f'<a href="{SITE}#{track}">Open the interactive version</a> for filters and live countdowns')
+    left.append(b_para(' · '.join(links), 'pp-small'))
+    right = [b_heading('Upcoming deadlines', 2, 'deadlines'), b_para(as_of(), 'pp-small'), deadline_table(board_data(track))]
+    return [tab_nav(track, panels, None),
+            b_group([b_group(left, 'pp-split-main'), b_group(right, 'pp-split-side')], 'pp-split'),
+            b_group(FOOTER, 'pp-foot')]
 
 
 def tab_page(track, panels, panel, downloads):
+    """A degree or guides page: tab bar, then the side menu beside the sections."""
     slug = SLUGS[panel.attrs['id']]
-    out = [tab_nav(track, panels, panel)]
+    main, toc = [], []
     for i, s in enumerate(x for x in panel.els() if x.tag == 'section'):
         if i:
-            out.append(b_separator())
-        out.extend(section_blocks(s, slug, downloads))
-    out.append(b_separator())
-    out.extend(FOOTER)
-    return out
+            main.append(b_separator())
+        blocks, subs = section_blocks(s, slug, downloads)
+        main.extend(blocks)
+        toc.append((s.attrs['id'], plain(s.find(lambda n: n.tag == 'h2')), subs))
+    return [tab_nav(track, panels, panel),
+            b_group([side_nav(toc, panel.attrs['id']), b_group(main, 'pp-main')], 'pp-layout'),
+            b_group(FOOTER, 'pp-foot')]
+
+
+def home_page():
+    """Choose a path on the left; the next deadlines from both paths on the right."""
+    left = [
+        b_para('A student-made guide for Queens College Political Science majors headed to graduate school or law school: paid research programs, internships, fellowships, deadlines and sample résumés, with every program linked to its official page.', 'pp-lead'),
+        b_heading('Choose a path', 2, 'paths'),
+        b_list(['<a href="grad-school/"><strong>Graduate school</strong></a> PhD, predoc, MPP, MPA and MA: funded PhDs, paid research jobs and policy master\'s degrees, with a timeline for each year of college.',
+                '<a href="law-school/"><strong>Law school</strong></a> The JD: the LSAT and fee waivers, pre-law programs, legal internships and gap years.'], cls='pp-degrees pp-paths'),
+        b_heading('How it works', 2),
+        b_para('Pick your path, then a degree. Each degree page explains the degree, gives a timeline for each year of college, and lists the programs that prepare you for it, sorted by next deadline. The Guides pages cover professors, methods, applying and résumés.'),
+        b_list(['<strong>Good programs pay you.</strong> Almost everything here is free and comes with a stipend, housing, or both.',
+                '<strong>Deadlines move every year.</strong> Confirm on the official page before you plan around a date.',
+                '<strong>Ask for help.</strong> Professors, QC Pre-Law Advising and the Office of Honors and Scholarships are here to help you apply.']),
+    ]
+    if SITE:
+        left.append(b_para(f'Prefer filters and live countdowns? Use the <a href="{SITE}">interactive version</a>.', 'pp-small'))
+    both = sorted(board_data('grad') + board_data('law'))[:12]
+    right = [b_heading('Next deadlines', 2, 'deadlines'), b_para(as_of(), 'pp-small'), deadline_table(both),
+             b_para('More on the <a href="grad-school/#deadlines">graduate school</a> and <a href="law-school/#deadlines">law school</a> pages.', 'pp-small')]
+    return [b_group([b_group(left, 'pp-split-main'), b_group(right, 'pp-split-side')], 'pp-split'), b_group(FOOTER, 'pp-foot')]
 
 
 def main():
@@ -556,26 +630,15 @@ def main():
                  ('Academic CV (Word)', up + 'Sample_CV_Alex_Rivera.docx'), ('Academic CV (PDF)', up + 'Sample_CV_Alex_Rivera.pdf')],
         'law': [('Law résumé (Word)', up + 'Sample_Law_Resume_Jordan_Lee.docx'), ('Law résumé (PDF)', up + 'Sample_Law_Resume_Jordan_Lee.pdf')],
     }
-    pages = {'home': [
-        b_para('A student-made guide for Queens College political science majors headed to graduate school or law school. It covers paid research programs, internships, fellowships, deadlines and sample résumés, with every program linked to its official page.'),
-        b_buttons([('Grad school (PhD, MPP, MPA, MA)', 'grad-school/'), ('Law school (JD)', 'law-school/')]
-                  + ([('Interactive version with filters', SITE)] if SITE else [])),
-        b_heading('How it works', 2),
-        b_para('Pick your path, then a degree. Each degree page explains the degree, gives a timeline for each year of college, and lists the programs that prepare you for it, sorted by next deadline. The Guides pages cover professors, methods, applying and résumés.'),
-        b_heading('Three ground rules', 2),
-        b_list(['<strong>Good programs pay you.</strong> Almost everything here is free and comes with a stipend, housing, or both.',
-                '<strong>Deadlines move every year.</strong> Confirm on the official page before you plan around a date.',
-                '<strong>Ask for help.</strong> Professors, QC Pre-Law Advising and the Office of Honors and Scholarships are here to help you apply.']),
-        b_separator(),
-    ] + FOOTER}
+    pages = {'home': home_page()}
     titles = {'home': 'Home'}
     for t in ('grad', 'law'):
         pages[OVERVIEW[t]] = overview_page(t, mains[t], panels[t])
-        titles[OVERVIEW[t]] = 'Grad school' if t == 'grad' else 'Law school'
+        titles[OVERVIEW[t]] = 'Graduate school' if t == 'grad' else 'Law school'
         for p in panels[t]:
             slug = SLUGS[p.attrs['id']]
             pages[slug] = tab_page(t, panels[t], p, downloads[t])
-            titles[slug] = ('Grad school: ' if t == 'grad' else 'Law school: ') + p.attrs['data-label']
+            titles[slug] = ('Graduate school: ' if t == 'grad' else 'Law school: ') + p.attrs['data-label']
 
     for old in os.listdir(OUT):
         if old.endswith('.html'):
