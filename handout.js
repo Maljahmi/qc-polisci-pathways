@@ -95,5 +95,5 @@
   document.getElementById("page").innerHTML = html;
   document.title = t.title + " · Queens College Political Science Pathways";
   var other = path === "grad" ? "law" : "grad";
-  document.getElementById("switch").innerHTML = '<a href="handout.html?path=' + other + '">' + (other === "law" ? "Law school handout" : "Grad school handout") + '</a>';
+  document.getElementById("switch").innerHTML = '<a href="handout.html?path=' + other + '">' + (other === "law" ? "Law school handout" : "Graduate school handout") + '</a>';
 })();

@@ -1047,7 +1047,7 @@ window.PROGRAMS = [
   "opens": "",
   "opensMD": "",
   "meta": "Microsoft Research NYC, SoHo · 4 weeks, late May to June",
-  "body": "A hands-on introduction to data science with real research projects, aimed at students thinking about grad school. No specific courses required; programming or statistics helps (<a href=\"https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/faq/\">FAQ</a>).",
+  "body": "A hands-on introduction to data science with real research projects, aimed at students thinking about graduate school. No specific courses required; programming or statistics helps (<a href=\"https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/faq/\">FAQ</a>).",
   "warn": "",
   "facts": [
    [
@@ -2269,7 +2269,7 @@ window.PROGRAMS = [
   "facts": [
    [
     "Who",
-    "Starting grad school in 2027; US citizens, permanent residents or DACA recipients, and undocumented scholars"
+    "Starting graduate school in 2027; US citizens, permanent residents or DACA recipients, and undocumented scholars"
    ],
    [
     "You get",

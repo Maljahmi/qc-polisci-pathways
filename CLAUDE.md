@@ -2,7 +2,7 @@
 
 A static, single-page website for Queens College (CUNY) political science majors. It has two paths:
 
-- **Grad school** (PhD, MPA, MPP, MA): `<main id="grad">`
+- **Graduate school** (PhD, Predoc, MPP, MPA, MA): `<main id="grad">`
 - **Law school**: `<main id="law">`
 
 A switch in the top bar toggles between them. Author: Mohamed Aljahmi (student). The site is student-made, not an official Queens College publication, and the footer says so. Keep that disclaimer.
@@ -71,6 +71,7 @@ The site itself has no build step, framework or dependencies; `data.js` is a pla
 - **Remove, don't warn:** take out programs that are discontinued, paused, grad-student-only, or not open to Queens College students.
 - **Style:** American spelling. Short, plain sentences. No filler.
 - **Name:** always "Queens College Political Science", never "QC poli sci".
+- **Graduate school:** write "graduate school", never "grad school" (Mohamed, Oct 2026). Ids, classes and Commons page slugs such as `grad-school` stay as they are, so links keep working.
 - **The author's own words:** the "Notes from RBSI" section, the note in each path's intro (`.note-from`) and the About preface are Mohamed's words (lightly copyedited, approved Sept 2026). Do not generate or rewrite them; change them only with him.
 - **Sample documents:** they are for fictional students (Alex Rivera, Jordan Lee). Keep placeholders like `[Name]` for real people and places.
 
