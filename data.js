@@ -4009,6 +4009,1038 @@ window.PROGRAMS = [
    ]
   ],
   "short": "Yale Tobin economics predoc"
+ },
+ {
+  "id": "gp-qc-general-scholarship-application",
+  "name": "<a href=\"https://www.qc.cuny.edu/academics/ohs/internal-scholarships/\">QC Scholarships, General Application</a>",
+  "url": "https://www.qc.cuny.edu/academics/ohs/internal-scholarships/",
+  "types": [
+   "campus",
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "predoc",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Oct 25",
+  "whenS": "2026 · spring cycle mid-Jan to mid-Mar",
+  "due": "2026-10-25",
+  "status": "confirmed",
+  "dueMD": "10-25",
+  "opens": "",
+  "opensMD": "",
+  "meta": "QC Foundation scholarships · one application, every semester",
+  "body": "One general application on QC's <a href=\"https://qc-cuny.academicworks.com/\">AcademicWorks portal</a> puts you in the running for most of the college's donor scholarships, based on merit, need, major or class year. Fall applications pay for the spring term, and spring applications pay for the fall. A few awards add a short supplemental question at the end.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Matriculated QC students with a QC email, including second-degree students. The office says most awards are open to students without documentation"
+   ],
+   [
+    "For political science",
+    "<a href=\"https://qc-cuny.academicworks.com/opportunities/7654\">Minister Jason Peck</a> ($500; preference for political science majors and minors), <a href=\"https://qc-cuny.academicworks.com/opportunities/7632\">Sig and Mary Hecht</a> (financial need and a 3.0+ GPA in a social science), <a href=\"https://qc-cuny.academicworks.com/opportunities/7597\">Swimmer</a> (preference for students interested in law) and <a href=\"https://qc-cuny.academicworks.com/opportunities/7565\">Brownstein/McDermott</a> ($5,000; political theory counts; 30+ credits and a 3.5+ GPA)"
+   ],
+   [
+    "Tip",
+    "Apply every semester. The office suggests listing a reference (email them first) and any community service"
+   ]
+  ],
+  "short": "QC scholarships (General Application)"
+ },
+ {
+  "id": "gp-ottensoser-award",
+  "name": "<a href=\"https://qc-cuny.academicworks.com/opportunities/7607\">Ottensoser Award for Higher Education</a>",
+  "url": "https://qc-cuny.academicworks.com/opportunities/7607",
+  "types": [
+   "campus",
+   "fellowship"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 25",
+  "whenS": "2026 · in the General Application",
+  "due": "2026-10-25",
+  "status": "confirmed",
+  "dueMD": "10-25",
+  "opens": "",
+  "opensMD": "",
+  "meta": "QC scholarship · graduate school application costs",
+  "body": "Helps pay to apply to graduate school: application fees, entrance exams and prep courses. It is part of QC's General Application, with one supplemental question about why you want to go to graduate school.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Upper juniors and seniors with a 3.5+ GPA and financial need"
+   ],
+   [
+    "Award",
+    "Amounts vary"
+   ]
+  ],
+  "short": "Ottensoser Award (application costs)"
+ },
+ {
+  "id": "gp-political-science-department-awards",
+  "name": "<a href=\"https://qc-cuny.academicworks.com/opportunities?scopes%5B%5D=25\">Political Science department awards</a>",
+  "url": "https://qc-cuny.academicworks.com/opportunities?scopes%5B%5D=25",
+  "types": [
+   "campus",
+   "fellowship"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "No application",
+  "whenS": "the department chooses",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Political Science department · QC",
+  "body": "The department gives named awards to its own students, including the <a href=\"https://qc-cuny.academicworks.com/opportunities/6020\">Joel S. Morrison Scholarship</a> ($500 to a senior graduating with honors, with preference for students headed to law school), the <a href=\"https://qc-cuny.academicworks.com/opportunities/911\">Andrew Hacker Scholarship</a> (academic excellence and financial need; preference for first-generation students), the <a href=\"https://qc-cuny.academicworks.com/opportunities/503\">E. Hevesi Memorial Award</a> ($250 for academic excellence and commitment to the political process), the <a href=\"https://qc-cuny.academicworks.com/opportunities/512\">George Priestley Memorial Scholarship</a> (Latin America and the Caribbean) and the <a href=\"https://qc-cuny.academicworks.com/opportunities/752\">Hratch Zadoian Human Rights Essay Prize</a>.",
+  "warn": "",
+  "facts": [
+   [
+    "How",
+    "Most have no application: do strong work and get to know your professors. Questions: the department, 718-997-5470"
+   ]
+  ]
+ },
+ {
+  "id": "gp-qc-internship-stipend",
+  "name": "<a href=\"https://www.qc.cuny.edu/academics/cei/how-to-get-access-to-internship-stipend-application/\">QC Internship Stipend Fund</a>",
+  "url": "https://www.qc.cuny.edu/academics/cei/how-to-get-access-to-internship-stipend-application/",
+  "types": [
+   "campus"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "2026–27 applications open since September",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Center for Career Engagement and Internships · Frese Hall 213",
+  "body": "A one-time $2,700 award for an unpaid internship or unpaid research: 150 hours over 5 to 10 weeks, in spring, summer or fall. It is meant for fields that don't usually pay interns, like public service, nonprofits, education and the arts.",
+  "warn": "",
+  "facts": [
+   [
+    "How",
+    "A Microsoft Form with a QC faculty or staff recommender, a personal statement and a résumé. Questions: stipend@qc.cuny.edu"
+   ],
+   [
+    "Award",
+    "$2,700, once"
+   ]
+  ],
+  "short": "QC Internship Stipend"
+ },
+ {
+  "id": "gp-nyc-public-service-corps",
+  "name": "<a href=\"https://www.qc.cuny.edu/faid/federal-work-study/\">NYC Public Service Corps (Federal Work-Study)</a>",
+  "url": "https://www.qc.cuny.edu/faid/federal-work-study/",
+  "types": [
+   "campus",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Fall–spring",
+  "whenS": "placements end Mar 5, 2027",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Paid internship through your work-study award · QC Financial Aid",
+  "body": "A paid internship that uses your Federal Work-Study grant. Work-study students can also find on-campus and off-campus jobs on HireQC (Handshake).",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students with a Federal Work-Study award: file the FAFSA (QC code 002690) and accept the award in CUNYfirst. Open to US citizens, permanent residents and other eligible noncitizens"
+   ],
+   [
+    "Pay",
+    "$18 an hour on campus and $19 off campus for undergraduates"
+   ],
+   [
+    "How",
+    "Complete the Work Study Internship Application with your résumé. Funds are limited; questions to qcworkstudy@qc.cuny.edu"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cuny-rogowsky-internship",
+  "name": "<a href=\"https://www.cuny.edu/about/administration/offices/ocip/students/rogowsky-internship-program/\">CUNY Edward T. Rogowsky Internship Program in Government and Public Affairs</a>",
+  "url": "https://www.cuny.edu/about/administration/offices/ocip/students/rogowsky-internship-program/",
+  "types": [
+   "campus",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd",
+   "phd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Each semester",
+  "whenS": "through a campus faculty coordinator",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "CUNY · government internships for credit",
+  "body": "Serve in the office of a city, state or federal legislator or a government agency while taking a seminar with faculty. You can also find your own placement with your campus coordinator. The program recruits for the Albany session programs too.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "On most campuses, juniors, seniors and highly qualified sophomores, any major. Some campuses require an intro political science or public administration course"
+   ],
+   [
+    "Credit",
+    "3 to 12 credits a semester, depending on the campus and program"
+   ],
+   [
+    "Pay",
+    "Some placements, like the Caucus CUNY Scholars Program, come with a scholarship, and the Albany legislative internships pay stipends"
+   ],
+   [
+    "Start",
+    "Ask the Political Science department who coordinates it at Queens College"
+   ]
+  ]
+ },
+ {
+  "id": "gp-belle-zeller-scholarship",
+  "name": "<a href=\"https://bellezeller.org/undergraduate-application/\">Belle Zeller Scholarship</a>",
+  "url": "https://bellezeller.org/undergraduate-application/",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Winter",
+  "whenS": "2027 date not posted yet",
+  "due": "",
+  "status": "none",
+  "dueMD": "02-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "CUNY-wide merit scholarship · PSC-CUNY",
+  "body": "Named for Belle Zeller, a Brooklyn College political science professor. It is based on merit, not need.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time CUNY undergraduates with 30+ CUNY credits, a 3.75+ GPA and significant volunteer service"
+   ],
+   [
+    "Award",
+    "$5,000 for one year, paid in two installments"
+   ],
+   [
+    "Apply",
+    "Two letters and a personal statement. Ask recommenders at least six weeks before the deadline"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cuny-pilsbury-scholarship",
+  "name": "<a href=\"https://www.cuny.edu/about/administration/offices/student-affairs/programs-services/scholarships/\">Pilsbury Scholarship (CUNY)</a>",
+  "url": "https://www.cuny.edu/about/administration/offices/student-affairs/programs-services/scholarships/",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 1",
+  "whenS": "spring, if funding is available",
+  "due": "",
+  "status": "none",
+  "dueMD": "02-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "CUNY · first-generation students",
+  "body": "For first-generation CUNY students with financial need and a strong commitment to finishing their degree.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "First-generation college students; international students are not eligible"
+   ],
+   [
+    "Award",
+    "Up to $10,000 a semester, for up to four semesters"
+   ],
+   [
+    "Dates",
+    "Final deadlines: July 30 for fall and February 1 for spring, if funding is available"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cuny-lebron-scholarship",
+  "name": "<a href=\"https://www.cuny.edu/about/administration/offices/student-affairs/programs-services/scholarships/\">Emmanuel Lebron Memorial Scholarship (CUNY)</a>",
+  "url": "https://www.cuny.edu/about/administration/offices/student-affairs/programs-services/scholarships/",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Sept 14",
+  "whenS": "last cycle · watch for 2027–28",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-14",
+  "opens": "",
+  "opensMD": "",
+  "meta": "CUNY · public or military service",
+  "body": "For CUNY students who want to carry on Emmanuel Lebron's example through public service or military service.",
+  "warn": "",
+  "facts": [
+   [
+    "Award",
+    "$1,000 toward the cost of attendance"
+   ],
+   [
+    "Apply",
+    "A short essay on your commitment to service. Questions: SAScholarships@cuny.edu"
+   ]
+  ]
+ },
+ {
+  "id": "gp-gilman-scholarship",
+  "name": "<a href=\"https://www.gilmanscholarship.org/applicants/eligibility/\">Benjamin A. Gilman International Scholarship</a>",
+  "url": "https://www.gilmanscholarship.org/applicants/eligibility/",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 25",
+  "whenS": "2027 · opens mid-Jan",
+  "due": "2027-02-25",
+  "status": "confirmed",
+  "dueMD": "02-25",
+  "opens": "Mid-Jan 2027",
+  "opensMD": "01-15",
+  "meta": "Study or intern abroad · Pell Grant recipients",
+  "body": "Pays for credit-bearing study or internships abroad. Plan your program with QC's <a href=\"https://www.qc.cuny.edu/academics/sa/scholarships-for-study-abroad/\">study abroad office</a> first.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens or nationals receiving a Federal Pell Grant"
+   ],
+   [
+    "Award",
+    "Up to $5,000, plus up to $3,000 more for a critical-need language"
+   ]
+  ],
+  "short": "Gilman Scholarship"
+ },
+ {
+  "id": "gp-critical-language-scholarship",
+  "name": "<a href=\"https://clscholarship.org/applicants/eligibility\">Critical Language Scholarship (CLS)</a>",
+  "url": "https://clscholarship.org/applicants/eligibility",
+  "types": [
+   "fellowship",
+   "summer-research"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 17",
+  "whenS": "2026 · for summer 2027",
+  "due": "2026-11-17",
+  "status": "confirmed",
+  "dueMD": "11-17",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Fully funded summer language institute · 8 weeks",
+  "body": "Study a critical-need language for a summer, overseas or online. The <a href=\"https://ais.americancouncils.org/cls\">application</a> is open now.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens or nationals, 18 by May 15, 2027, who have finished at least one year of college. Graduating seniors can apply"
+   ],
+   [
+    "Covers",
+    "Travel, room, board and books, with academic credit"
+   ]
+  ],
+  "short": "Critical Language Scholarship"
+ },
+ {
+  "id": "gp-boren-scholarship",
+  "name": "<a href=\"https://www.borenawards.org/eligible-programs\">Boren Scholarship</a>",
+  "url": "https://www.borenawards.org/eligible-programs",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 27",
+  "whenS": "2027",
+  "due": "2027-01-27",
+  "status": "confirmed",
+  "dueMD": "01-27",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Language study abroad · national security",
+  "body": "Funds long-term language study abroad in exchange for a year of federal service afterward. Non-STEM students need a program of at least 12 weeks, and you can't graduate before it ends.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens only, enrolled in a bachelor's program"
+   ],
+   [
+    "Award",
+    "$12,500 for 12–24 weeks; $25,000 for 25–52 weeks"
+   ],
+   [
+    "Owe",
+    "One year of federal service"
+   ]
+  ],
+  "short": "Boren Scholarship"
+ },
+ {
+  "id": "gp-rangel-summer-enrichment",
+  "name": "<a href=\"https://rangelprogram.org/summer-enrichment-program/\">Charles B. Rangel International Affairs Summer Enrichment Program</a>",
+  "url": "https://rangelprogram.org/summer-enrichment-program/",
+  "types": [
+   "summer-research",
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "phd",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Opens Nov",
+  "whenS": "2027 deadline not posted yet",
+  "due": "",
+  "status": "none",
+  "dueMD": "02-01",
+  "opens": "Nov 2026",
+  "opensMD": "11-01",
+  "meta": "Six weeks at Howard University · Washington, DC",
+  "body": "A summer program on international affairs: classes at Howard and programs with foreign affairs professionals around Washington.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time undergraduates with at least sophomore status at the deadline, a 3.2+ GPA and US citizenship"
+   ],
+   [
+    "Covers",
+    "Tuition, travel, housing and two meals a day, plus a $3,300 stipend"
+   ]
+  ]
+ },
+ {
+  "id": "gp-jk-watson-fellowship",
+  "name": "<a href=\"https://watson.foundation/fellowships/jk\">Jeannette K. Watson Fellowship</a>",
+  "url": "https://watson.foundation/fellowships/jk",
+  "types": [
+   "fellowship",
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 11",
+  "whenS": "last cycle · QC's deadline is earlier",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-11",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Three summers of paid internships · NYC partner colleges",
+  "body": "Queens College is one of 12 partner colleges and can nominate up to four students. Fellows spend three summers in internships in New York and abroad.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Second-semester freshmen and sophomores in the liberal arts; US citizens or green card holders, 21 or younger"
+   ],
+   [
+    "Award",
+    "Up to $7,500, $9,000 and $10,000 over the three years, plus a $2,000 Discovery Fund"
+   ],
+   [
+    "Start",
+    "Ask the Office of Honors and Scholarships about QC's internal deadline"
+   ]
+  ],
+  "short": "JK Watson Fellowship"
+ },
+ {
+  "id": "gp-beinecke-scholarship",
+  "name": "<a href=\"https://beineckescholarship.org/beinecke-scholarship/\">Beinecke Scholarship</a>",
+  "url": "https://beineckescholarship.org/beinecke-scholarship/",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "jr"
+  ],
+  "degrees": [
+   "phd",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Winter",
+  "whenS": "QC picks its nominee before Mar 26, 2027",
+  "due": "",
+  "status": "none",
+  "dueMD": "03-26",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Graduate school funding · juniors",
+  "body": "For juniors headed to a research master's or PhD in the arts, humanities or social sciences. Students can't apply directly: Queens College nominates one student, so talk to the Office of Honors and Scholarships early.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Juniors who are US citizens or nationals with a history of qualifying for need-based aid"
+   ],
+   [
+    "Award",
+    "Up to $15,000 a year in graduate school, plus $5,000 in start-up funds"
+   ]
+  ]
+ },
+ {
+  "id": "gp-fulbright-us-student",
+  "name": "<a href=\"https://us.fulbrightonline.org/about/eligibility\">Fulbright U.S. Student Program</a>",
+  "url": "https://us.fulbrightonline.org/about/eligibility",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 6",
+  "whenS": "last cycle · 2028–29 launches spring 2027",
+  "due": "",
+  "status": "last",
+  "dueMD": "10-06",
+  "opens": "",
+  "opensMD": "",
+  "meta": "A year abroad after college · study, research or teach English",
+  "body": "Seniors apply in the fall for a grant that starts after graduation. Current students apply through Queens College, so start with the Office of Honors and Scholarships in the spring of junior year.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens or nationals with a bachelor's degree by the start of the grant"
+   ],
+   [
+    "Award",
+    "A stipend based on the host country's cost of living; round-trip travel in many countries"
+   ]
+  ],
+  "short": "Fulbright"
+ },
+ {
+  "id": "gp-fulbright-uk-summer-institutes",
+  "name": "<a href=\"https://fulbright.org.uk/our-programmes/undergraduate-and-pre-university-programmes/uk-summer-institutes/\">Fulbright UK Summer Institutes</a>",
+  "url": "https://fulbright.org.uk/our-programmes/undergraduate-and-pre-university-programmes/uk-summer-institutes/",
+  "types": [
+   "summer-research",
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 2",
+  "whenS": "last cycle · 2027 dates not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-02",
+  "opens": "",
+  "opensMD": "",
+  "meta": "3–4 weeks at a UK university",
+  "body": "A short, fully funded summer program for students who have barely traveled. One recent institute studied British institutions and power.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens with a passport, a 3.6+ GPA, two years of college left, and little or no study or travel outside North America"
+   ],
+   [
+    "Covers",
+    "Round-trip airfare, tuition, housing and some meals"
+   ]
+  ]
+ },
+ {
+  "id": "gp-huntington-public-service-award",
+  "name": "<a href=\"https://www.samuelhuntingtonaward.org/apply\">Samuel Huntington Public Service Award</a>",
+  "url": "https://www.samuelhuntingtonaward.org/apply",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 9",
+  "whenS": "2027",
+  "due": "2027-02-09",
+  "status": "confirmed",
+  "dueMD": "02-09",
+  "opens": "",
+  "opensMD": "",
+  "meta": "A year of public service after graduation",
+  "body": "Propose your own one-year public service project anywhere in the world.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Graduating seniors at accredited US colleges"
+   ],
+   [
+    "Award",
+    "$30,000: $15,000 at the start and $15,000 after a six-month report"
+   ]
+  ],
+  "short": "Huntington Public Service Award"
+ },
+ {
+  "id": "gp-james-madison-fellowship",
+  "name": "<a href=\"https://www.jamesmadison.gov/fellowship-information/fellowship-eligibility\">James Madison Memorial Fellowship</a>",
+  "url": "https://www.jamesmadison.gov/fellowship-information/fellowship-eligibility",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Mar 1",
+  "whenS": "2027",
+  "due": "2027-03-01",
+  "status": "confirmed",
+  "dueMD": "03-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Master's funding · future government and history teachers",
+  "body": "For students who plan to teach American government, history or social studies in grades 7–12. Fellows compete within their home state.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens who are seniors or graduates without teaching experience"
+   ],
+   [
+    "Award",
+    "Up to $24,000 for a master's degree"
+   ],
+   [
+    "Owe",
+    "One year of teaching for each year of funding"
+   ]
+  ],
+  "short": "James Madison Fellowship"
+ },
+ {
+  "id": "gp-schwarzman-scholars",
+  "name": "<a href=\"https://www.schwarzmanscholars.org/admissions/\">Schwarzman Scholars</a>",
+  "url": "https://www.schwarzmanscholars.org/admissions/",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Apr–Sept",
+  "whenS": "2027 · for 2028–29",
+  "due": "",
+  "status": "none",
+  "dueMD": "09-15",
+  "opens": "Apr 2027",
+  "opensMD": "04-01",
+  "meta": "One-year master's in global affairs · Tsinghua University, Beijing",
+  "body": "A fully funded master's program. Current juniors apply between April and September 2027.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students finishing a bachelor's by August 1 of the year they enroll, ages 18 to 28; there are US and global applications"
+   ]
+  ]
+ },
+ {
+  "id": "gp-thedream-us-scholarship",
+  "name": "<a href=\"https://www.thedream.us/scholarships/national-scholarship/\">TheDream.US National Scholarship</a>",
+  "url": "https://www.thedream.us/scholarships/national-scholarship/",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Opens Nov 1",
+  "whenS": "2027–28 round",
+  "due": "",
+  "status": "none",
+  "dueMD": "02-28",
+  "opens": "Nov 1, 2026",
+  "opensMD": "11-01",
+  "meta": "Undocumented students · Queens College is a partner college",
+  "body": "College money for undocumented students, with or without DACA or TPS. It is built to carry students through a degree, so ask TheDream.US whether you qualify as a current student.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undocumented immigrants who came to the US before age 16 and before November 1, 2020; a 2.5+ college GPA. Not for students eligible for a Pell Grant"
+   ],
+   [
+    "Award",
+    "Up to $33,000 for a bachelor's degree, plus a stipend of up to $6,000"
+   ]
+  ]
+ },
+ {
+  "id": "gp-apia-scholars",
+  "name": "<a href=\"https://apiascholars.org/scholarships/\">APIA Scholars</a>",
+  "url": "https://apiascholars.org/scholarships/",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 15",
+  "whenS": "2027 · opens Nov 15",
+  "due": "2027-01-15",
+  "status": "confirmed",
+  "dueMD": "01-15",
+  "opens": "Nov 15, 2026",
+  "opensMD": "11-15",
+  "meta": "Asian American and Pacific Islander students · high financial need",
+  "body": "Scholarships for students with high financial need. The program welcomes students from all backgrounds.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens, nationals or permanent residents enrolled as undergraduates"
+   ],
+   [
+    "Award",
+    "$2,500 one-year awards to $20,000 multi-year awards"
+   ]
+  ],
+  "short": "APIA Scholars"
+ },
+ {
+  "id": "gp-hispanic-scholarship-fund",
+  "name": "<a href=\"https://www.hsf.net/scholarship\">Hispanic Scholarship Fund (HSF)</a>",
+  "url": "https://www.hsf.net/scholarship",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Feb 15",
+  "whenS": "last cycle · 2027 dates not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-15",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Students of Hispanic heritage",
+  "body": "Need-based scholarships for full-time students at four-year colleges.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens, permanent residents or DACA recipients of Hispanic heritage with a 2.5+ GPA who file the FAFSA"
+   ],
+   [
+    "Award",
+    "$500 to $5,000, based on need"
+   ]
+  ]
+ },
+ {
+  "id": "gp-fund-education-abroad",
+  "name": "<a href=\"https://fundforeducationabroad.org/apply/\">Fund for Education Abroad (FEA)</a>",
+  "url": "https://fundforeducationabroad.org/apply/",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Opens Dec",
+  "whenS": "for summer and fall 2027 programs",
+  "due": "",
+  "status": "none",
+  "dueMD": "01-15",
+  "opens": "Dec 2026",
+  "opensMD": "12-01",
+  "meta": "Study abroad · first-generation students",
+  "body": "Study abroad scholarships for students with financial need who have never studied abroad. Most recipients are first-generation college students.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens, permanent residents or DACA recipients; a program of at least 14 days; financial need shown on the FAFSA"
+   ]
+  ]
  }
 ];
 
