@@ -464,7 +464,7 @@ def about_page():
     j = SRC.index('</section>', i)
     inner = SRC[SRC.index('<div class="about-grid">', i):j]
     inner = inner[:inner.rindex('</div>')]  # drop the .wrap close
-    inner = relink(inner)
+    inner = relink(inner).replace('href="../downloads/', 'href="' + UP + 'downloads/')
     note = re.search(r'<aside class="note-from"[^>]*>(.*?)</aside>', SRC, re.S).group(1)
     note = re.sub(r'<p class="sig">.*?</p>', '', note, flags=re.S).strip()
     main = hero('About this guide', 'A student-made guide for Queens College political science majors, checked against official pages and updated every week.',
