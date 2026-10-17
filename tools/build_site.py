@@ -103,8 +103,12 @@ def relink(s):
         if not hm:
             return t
         dm = re.search(r'data-type="([^"]+)"', t)
-        t = re.sub(r'\s(data-type|data-go)="[^"]*"', '', t)
-        return t.replace(hm.group(0), 'href="%s"' % H.escape(link_for(hm.group(1), dm.group(1) if dm else ''), quote=True))
+        qm = re.search(r'data-q="([^"]+)"', t)
+        t = re.sub(r'\s(data-type|data-go|data-q)="[^"]*"', '', t)
+        url = link_for(hm.group(1), dm.group(1) if dm else '')
+        if qm and url.startswith('programs.html'):
+            url += ('&' if '?' in url else '?') + 'q=' + qm.group(1)
+        return t.replace(hm.group(0), 'href="%s"' % H.escape(url, quote=True))
     return re.sub(r'<a\b[^>]*>', tag, s)
 
 

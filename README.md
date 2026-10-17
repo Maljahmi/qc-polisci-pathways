@@ -39,4 +39,4 @@ The live site updates within a minute or two. The `commons/` folder holds an opt
 
 ## Keep it accurate
 
-Program details were checked against official pages in September 2026. Dates change every year, so re-check each deadline before a new cycle. Label unconfirmed dates "last cycle" or "est.".
+Program details are checked against official pages every week (the site shows the date). Dates change every year, so re-check each deadline before a new cycle. Label unconfirmed dates "last cycle" or "est.".

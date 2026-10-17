@@ -1899,7 +1899,7 @@ window.PROGRAMS = [
    "mpp"
   ],
   "paid": true,
-  "allOpen": false,
+  "allOpen": true,
   "whenB": "Feb 24",
   "whenS": "last cycle",
   "due": "",
@@ -1940,7 +1940,7 @@ window.PROGRAMS = [
    "phd"
   ],
   "paid": true,
-  "allOpen": false,
+  "allOpen": true,
   "whenB": "Mar 15",
   "whenS": "last cycle",
   "due": "",
@@ -1958,7 +1958,7 @@ window.PROGRAMS = [
    ],
    [
     "You get",
-    "A fully funded policy course"
+    "A fully funded policy course in Washington, with dorm housing, most meals, travel and an incidentals stipend"
    ]
   ]
  },
@@ -9229,6 +9229,674 @@ window.PROGRAMS = [
    [
     "Electives",
     "Two of JOURN 202, 265, 300 (Internship in Journalism), 304 and 310, or approved courses in other departments"
+   ]
+  ]
+ },
+ {
+  "id": "gp-hudson-political-studies",
+  "name": "<a href=\"https://hudsonpoliticalstudies.org/fellowship\">Hudson Institute Political Studies Summer Fellowship</a>",
+  "url": "https://hudsonpoliticalstudies.org/fellowship",
+  "short": "Hudson Political Studies",
+  "types": [
+   "summer-research",
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Mar 16",
+  "whenS": "2027 · early decision Jan 9 (binding)",
+  "due": "2027-03-16",
+  "status": "confirmed",
+  "dueMD": "03-16",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 6 weeks in summer, in one of two sessions",
+  "body": "Six weeks of full-time morning seminars on politics in Washington. Fellows are placed in one of two sessions, listed for 2027 as May 24–July 5 and June 28–Aug 7. You can't take classes, intern or work during the six weeks.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates in any year and graduates up to one year out; international students are welcome"
+   ],
+   [
+    "Pay",
+    "$3,000 stipend (meant to cover travel and food), free shared apartment housing, which is required, and books"
+   ],
+   [
+    "Apply",
+    "Résumé, a statement of up to 1,000 words, a writing sample of up to 15 pages, one letter and a headshot. The program's home page lists Jan 8 and Mar 19 instead, so aim for the earlier dates"
+   ]
+  ]
+ },
+{
+  "id": "gp-hertog-security-studies",
+  "name": "<a href=\"https://hertogfoundation.org/programs/security-studies\">Hertog Security Studies Program</a>",
+  "url": "https://hertogfoundation.org/programs/security-studies",
+  "short": "Hertog Security Studies",
+  "types": [
+   "summer-research"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Early 2027",
+  "whenS": "2027 dates not posted yet · early decision comes first",
+  "due": "",
+  "status": "none",
+  "dueMD": "02-24",
+  "opens": "Soon",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 5 weeks in summer · up to 16 fellows",
+  "body": "Full-time seminars on grand strategy and U.S. national security in Europe, East Asia and the Middle East, taught by former policymakers.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Advanced undergraduates, recent graduates and young professionals under 35; you don't need to be a US citizen"
+   ],
+   [
+    "Pay",
+    "$3,000 stipend, plus housing, books and course materials"
+   ]
+  ]
+ },
+{
+  "id": "gp-hertog-war-studies",
+  "name": "<a href=\"https://hertogfoundation.org/programs/war-studies\">Hertog War Studies Program</a>",
+  "url": "https://hertogfoundation.org/programs/war-studies",
+  "short": "Hertog War Studies",
+  "types": [
+   "summer-research"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Early 2027",
+  "whenS": "2027 dates not posted yet",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Soon",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 2 weeks in summer, with a staff ride to Gettysburg",
+  "body": "An intensive course on the theory, practice and control of war, taught with the senior staff of the Institute for the Study of War.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Graduating seniors, rising seniors and exceptional rising juniors in any major, usually with a 3.7 GPA or higher; you don't need to be a US citizen"
+   ],
+   [
+    "Pay",
+    "$1,500 stipend, plus housing, meals and help with travel to and around Washington"
+   ]
+  ]
+ },
+{
+  "id": "gp-hertog-constitutional-studies",
+  "name": "<a href=\"https://hertogfoundation.org/programs/constitutional-studies-program\">Hertog Constitutional Studies Program</a>",
+  "url": "https://hertogfoundation.org/programs/constitutional-studies-program",
+  "short": "Hertog Constitutional Studies",
+  "types": [
+   "summer-research"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Early 2027",
+  "whenS": "2027 dates not posted yet · early decision comes first",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Soon",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 2 weeks in June",
+  "body": "A two-week seminar on debates within constitutional conservatism, from the Federalist to Lochner, the Warren Court and today's justices, led by Adam J. White of the American Enterprise Institute.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Advanced undergraduates, recent graduates, law students and young professionals; you don't need to be a US citizen"
+   ],
+   [
+    "Pay",
+    "$1,000 stipend if you attend in full, plus hotel housing and course materials"
+   ]
+  ]
+ },
+{
+  "id": "gp-hoover-summer-policy-boot-camp",
+  "name": "<a href=\"https://www.hoover.org/hoover-institution-summer-policy-boot-camp\">Hoover Institution Summer Policy Boot Camp</a>",
+  "url": "https://www.hoover.org/hoover-institution-summer-policy-boot-camp",
+  "short": "Hoover Policy Boot Camp",
+  "types": [
+   "course"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "ma",
+   "phd"
+  ],
+  "paid": null,
+  "allOpen": true,
+  "whenB": "Mar 9",
+  "whenS": "2027 · free to register by Jan 20",
+  "due": "2027-03-09",
+  "status": "confirmed",
+  "dueMD": "03-09",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Stanford, Calif. · 4 days, Aug 9–13, 2027",
+  "body": "Four days on U.S. economic, political and social policy, taught by fellows of the Hoover Institution at Stanford. Decisions come April 7.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students with at least two years of college done by summer 2027, recent graduates and graduate students; some international applicants are admitted"
+   ],
+   [
+    "Cost",
+    "The program, food and lodging are covered; you pay travel. Registration is free through Jan 20, and the later fee isn't posted"
+   ]
+  ]
+ },
+{
+  "id": "gp-claremont-publius-fellowship",
+  "name": "<a href=\"https://www.claremont.org/publius-fellowship/\">Claremont Institute Publius Fellowship</a>",
+  "url": "https://www.claremont.org/publius-fellowship/",
+  "short": "Publius Fellowship",
+  "types": [
+   "summer-research",
+   "fellowship"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "jd",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Feb 20",
+  "whenS": "last cycle · 2027 date not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-20",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Orange County, Calif. · about 2½ weeks in summer",
+  "body": "A summer fellowship in political philosophy and American statesmanship at the Claremont Institute.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College seniors, recent graduates and graduate students; international students are welcome"
+   ],
+   [
+    "Pay",
+    "$1,500 honorarium and a $1,000 travel stipend, plus lodging and most meals"
+   ]
+  ]
+ },
+{
+  "id": "gp-hks-public-policy-leadership-conference",
+  "name": "<a href=\"https://www.hks.harvard.edu/educational-programs/undergraduate-opportunities/public-policy-leadership-conference\">Harvard Kennedy School Public Policy Leadership Conference</a>",
+  "url": "https://www.hks.harvard.edu/educational-programs/undergraduate-opportunities/public-policy-leadership-conference",
+  "short": "HKS Policy Leadership Conference",
+  "types": [
+   "visit"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "July 10",
+  "whenS": "last cycle · apply in summer for the fall conference",
+  "due": "",
+  "status": "last",
+  "dueMD": "07-10",
+  "opens": "Mid-May",
+  "opensMD": "05-15",
+  "meta": "Harvard Kennedy School, Cambridge · 4-day weekend in the fall",
+  "body": "An expenses-paid weekend at the Harvard Kennedy School for undergraduates thinking about a public policy master's, with sessions on applying and paying for it.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Pell Grant–eligible students at a US college with two semesters done and a 3.0 GPA, not graduating that year; US citizens, permanent residents or US nationals"
+   ],
+   [
+    "Covered",
+    "Flights, travel in Boston, a hotel and meals"
+   ]
+  ]
+ },
+{
+  "id": "gp-hacu-national-internship-program",
+  "name": "<a href=\"https://hacu.net/hnip/overview/\">HACU National Internship Program</a>",
+  "url": "https://hacu.net/hnip/overview/",
+  "short": "HACU federal internships",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 20",
+  "whenS": "2026 · spring 2027 priority date; summer by Mar 6",
+  "due": "2026-11-20",
+  "status": "confirmed",
+  "dueMD": "03-06",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Federal agencies in D.C. and nationwide · 10 weeks in summer, 15 in spring or fall",
+  "body": "Paid internships at federal agencies, open to students of any background and major. Applications stay open until positions fill, so aim for the priority dates.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students with one year of college done, or graduates within two semesters; you must be authorized to work in the US"
+   ],
+   [
+    "Pay",
+    "$18.50 an hour for undergraduates (2026)"
+   ],
+   [
+    "Housing",
+    "If you move to Washington, the program arranges furnished shared housing with no deposit; the rent comes out of your paychecks. It pays your first trip there"
+   ]
+  ]
+ },
+{
+  "id": "gp-institute-responsible-citizenship",
+  "name": "<a href=\"https://www.theinstitute.net/apply\">Institute for Responsible Citizenship (Washington Program)</a>",
+  "url": "https://www.theinstitute.net/apply",
+  "short": "Institute for Responsible Citizenship",
+  "types": [
+   "summer-internship",
+   "fellowship"
+  ],
+  "years": [
+   "so"
+  ],
+  "degrees": [
+   "jd",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 15",
+  "whenS": "2027 · rolling until then",
+  "due": "2027-01-15",
+  "status": "confirmed",
+  "dueMD": "01-15",
+  "opens": "Sept 1",
+  "opensMD": "09-01",
+  "meta": "Washington, D.C. · 8 weeks, two summers in a row (2027: June 5–July 31)",
+  "body": "Twelve scholars a year spend two summers in Washington with high-level internships, seminars and meetings with leaders.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Male college sophomores committed to historically disadvantaged communities, with a full year done on campus; no minimum GPA; you must commit to both summers"
+   ],
+   [
+    "Pay",
+    "A paid internship, or a $5,000 stipend if the placement is unpaid, plus program housing"
+   ]
+  ]
+ },
+{
+  "id": "gp-udall-native-american-congressional-internship",
+  "name": "<a href=\"https://www.udall.gov/OurPrograms/Internship/AboutInternship\">Udall Foundation Native American Congressional Internship</a>",
+  "url": "https://www.udall.gov/OurPrograms/Internship/AboutInternship",
+  "short": "Udall Native American internship",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 15",
+  "whenS": "2027 · 11:59 p.m. Pacific",
+  "due": "2027-01-15",
+  "status": "confirmed",
+  "dueMD": "01-15",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C. · June 2–Aug 7, 2027 · up to 12 interns",
+  "body": "Places Native American students in congressional and federal agency offices to learn how the federal government works with Tribes.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Enrolled members of a federally recognized Tribe who are US citizens, nationals or permanent residents; current students or recent graduates"
+   ],
+   [
+    "Pay",
+    "An award that covers travel to and from Washington, housing and a daily allowance (total not posted)"
+   ]
+  ]
+ },
+{
+  "id": "gp-aapd-summer-internship",
+  "name": "<a href=\"https://www.aapd.com/summer-internship-program\">AAPD Summer Internship Program</a>",
+  "url": "https://www.aapd.com/summer-internship-program",
+  "short": "AAPD summer internship",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Early fall",
+  "whenS": "closed for 2027 · 2028 opens fall 2027",
+  "due": "",
+  "status": "none",
+  "dueMD": "10-01",
+  "opens": "Fall 2027",
+  "opensMD": "",
+  "meta": "Washington, D.C., or remote · 10 weeks in summer",
+  "body": "Paid summer placements in Congress, federal agencies, nonprofits and companies for students with disabilities, from the American Association of People with Disabilities.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students and recent graduates of US schools who identify as having a disability (no documentation needed); international students with work authorization"
+   ],
+   [
+    "Pay",
+    "At least $20 an hour, plus travel to Washington. In-person interns live free in accessible George Washington University dorms; remote interns may get up to $2,000 a month for housing"
+   ]
+  ]
+ },
+{
+  "id": "gp-national-journalism-center",
+  "name": "<a href=\"https://yaf.org/national-journalism-center/\">National Journalism Center</a>",
+  "url": "https://yaf.org/national-journalism-center/",
+  "short": "National Journalism Center",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "journalism"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 1",
+  "whenS": "2026 · spring 2027; summer due Mar 1",
+  "due": "2026-11-01",
+  "status": "confirmed",
+  "dueMD": "03-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C., newsrooms · 12 weeks",
+  "body": "Paid placements at outlets such as National Review, The Federalist, the Daily Caller and Washington Post Opinion, with Friday training. Run by Young America's Foundation, a conservative youth organization.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "$1,500 a month, tax free"
+   ],
+   [
+    "Housing",
+    "Some interns get a fully paid housing scholarship (up to $10,000 in total pay and housing); who qualifies isn't posted"
+   ]
+  ]
+ },
+{
+  "id": "lp-usc-gould-ascend",
+  "name": "<a href=\"https://gould.usc.edu/academics/degrees/jd/ascend-pre-law-summer-institute/\">USC Gould ASCEND Pre-Law Summer Institute</a>",
+  "url": "https://gould.usc.edu/academics/degrees/jd/ascend-pre-law-summer-institute/",
+  "short": "USC ASCEND pre-law",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Mar 31",
+  "whenS": "2027 · opens Feb 1",
+  "due": "2027-03-31",
+  "status": "confirmed",
+  "dueMD": "03-31",
+  "opens": "Feb 1",
+  "opensMD": "02-01",
+  "meta": "USC, Los Angeles · 3 weeks, July 11–31, 2027",
+  "body": "A free three-week residential preview of law school, with LSAT prep, court and law firm visits, and mentors.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students 18 or older at a US college, working on a first degree, with a 3.3 GPA; you must be a rising sophomore, junior or senior"
+   ],
+   [
+    "Covered",
+    "Instruction, housing and meals, up to $450 for a round-trip flight, and $500 toward LSAT costs when you finish"
+   ]
+  ]
+ },
+{
+  "id": "lp-fsu-summer-for-undergraduates",
+  "name": "<a href=\"https://law.fsu.edu/academics/summer-for-undergraduates\">FSU Law Donald J. Weidner Summer for Undergraduates Program</a>",
+  "url": "https://law.fsu.edu/academics/summer-for-undergraduates",
+  "short": "FSU Law summer program",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Mar 1",
+  "whenS": "2027 · no application fee",
+  "due": "2027-03-01",
+  "status": "confirmed",
+  "dueMD": "03-01",
+  "opens": "Nov 1",
+  "opensMD": "11-01",
+  "meta": "Florida State University, Tallahassee · June 2–29, 2027",
+  "body": "Mock first-year law classes, legal writing workshops, admissions coaching and court visits. It has run since 1992.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students at two- or four-year colleges in any major who won't have a bachelor's degree before the program starts"
+   ],
+   [
+    "Covered",
+    "Free campus apartment housing and a meal card; you pay travel"
+   ]
+  ]
+ },
+{
+  "id": "gp-americorps-nccc",
+  "name": "<a href=\"https://www.americorps.gov/serve/americorps/americorps-nccc\">AmeriCorps NCCC</a>",
+  "url": "https://www.americorps.gov/serve/americorps/americorps-nccc",
+  "short": "AmeriCorps NCCC",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Mar–June",
+  "whenS": "Traditional Corps, serving from fall 2027 · FEMA Corps closes Oct 19",
+  "due": "",
+  "status": "none",
+  "dueMD": "06-30",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Team service across the US · about 10 months · ages 18–24",
+  "body": "Team-based service in disaster response, the environment and communities, living and traveling with your team.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Ages 18–24; US citizens or permanent residents (FEMA Corps and Forest Corps need citizenship)"
+   ],
+   [
+    "Pay",
+    "A modest living allowance (amount not posted) and a Segal Education Award of over $7,300, plus housing, meals, health coverage and travel"
+   ]
+  ]
+ },
+{
+  "id": "gp-jesuit-volunteer-corps",
+  "name": "<a href=\"https://www.jesuitvolunteers.org/apply/\">Jesuit Volunteer Corps</a>",
+  "url": "https://www.jesuitvolunteers.org/apply/",
+  "short": "Jesuit Volunteer Corps",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Dec 1",
+  "whenS": "2026 · priority date; final June 8, 2027",
+  "due": "2026-12-01",
+  "status": "confirmed",
+  "dueMD": "12-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "19 US cities · one year, Aug 2027–July 2028",
+  "body": "A year of full-time service at one of more than 100 partner nonprofits, living in community with other volunteers.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Ages 21–25 by August 2027, with a degree or work experience; eligible to work in the US for the full year; unmarried, with no dependents"
+   ],
+   [
+    "Pay",
+    "A modest monthly stipend (amount not posted), housing and food, health insurance if you don't have it, and a stipend when you finish"
    ]
   ]
  }

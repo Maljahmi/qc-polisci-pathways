@@ -47,6 +47,7 @@
     document.querySelectorAll("[data-updated]").forEach(function(el){
       el.textContent = "Last updated " + MONTH[u.getMonth()] + " " + u.getDate() + ", " + u.getFullYear() + ". Deadlines and new programs are checked every week.";
     });
+    document.querySelectorAll("[data-checked]").forEach(function(el){ el.textContent = MONTH[u.getMonth()] + " " + u.getFullYear(); });
   }
 
   // countdown chips on the few rows still written in the page, and on the LSAT table

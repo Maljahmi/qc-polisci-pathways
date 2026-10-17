@@ -531,9 +531,12 @@ def deadline_table(data):
     return b_table(['Date', 'Deadline'], rows)
 
 
+_U = re.search(r'window\.UPDATED = "(\d{4})-(\d{2})-\d{2}"', open(os.path.join(ROOT, 'data.js'), encoding='utf-8').read())
+CHECKED = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
+           'November', 'December'][int(_U.group(2)) - 1] + ' ' + _U.group(1)
 FOOTER = [
     b_para('Made by Mohamed Aljahmi for Queens College political science majors. Student-made guide, not an official Queens College or CUNY publication.'),
-    b_para('Every program name links to the official page it was checked against in September 2026. "Last cycle" means only last year\'s date was posted; "~" and "est." mark dates estimated from the usual pattern. Always confirm before you apply.'),
+    b_para('Every program name links to the official page it was checked against in ' + CHECKED + '. "Last cycle" means only last year\'s date was posted; "~" and "est." mark dates estimated from the usual pattern. Always confirm before you apply.'),
 ]
 
 

@@ -9,6 +9,7 @@
     document.querySelectorAll("[data-updated]").forEach(function(el){
       el.textContent = "Last updated " + MONTH[u.getMonth()] + " " + u.getDate() + ", " + u.getFullYear() + ". Deadlines and new programs are checked every week.";
     });
+    document.querySelectorAll("[data-checked]").forEach(function(el){ el.textContent = MONTH[u.getMonth()] + " " + u.getFullYear(); });
   }
 
   var io = "IntersectionObserver" in window ? new IntersectionObserver(function(entries){
