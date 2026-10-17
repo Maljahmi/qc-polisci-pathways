@@ -29,12 +29,33 @@ SLUGS = {'g-phd': 'grad-phd', 'g-predoc': 'grad-predoc', 'g-mpp': 'grad-mpp', 'g
          'l-jd': 'law-jd', 'l-guides': 'law-guides'}
 OVERVIEW = {'grad': 'grad-school', 'law': 'law-school'}
 DEGREE_PAGE = {'phd': 'grad-phd', 'predoc': 'grad-predoc', 'mpp': 'grad-mpp', 'mpa': 'grad-mpa', 'ma': 'grad-ma', 'jd': 'law-jd'}
+# The Commons keeps one page per degree, assembled from the interactive site's sections
+# ("db:phd" is that degree's opportunities list).
+PAGES = {
+    'grad': [('g-phd', 'PhD', ['g-phd-about', 'g-phd-fields', 'g-timeline', 'db:phd']),
+             ('g-predoc', 'Predoc', ['g-predoc-about', 'g-predoc-reqs', 'g-predoc-timeline', 'g-predoc-writing', 'db:predoc']),
+             ('g-mpp', 'MPP', ['g-mpp-about', 'g-mpp-timeline', 'db:mpp']),
+             ('g-mpa', 'MPA', ['g-mpa-about', 'g-mpa-timeline', 'db:mpa']),
+             ('g-ma', 'MA', ['g-ma-about', 'g-ma-timeline', 'db:ma']),
+             ('g-guides', 'Guides', ['g-start', 'g-social', 'g-pair', 'g-methods', 'g-rbsi', 'g-help', 'g-apply',
+                                     'g-letters', 'g-visit', 'g-samples', 'g-jobs', 'g-funding', 'g-fields', 'g-search', 'g-ai', 'g-network'])],
+    'law': [('l-jd', 'JD', ['l-path', 'l-timeline', 'db:jd']),
+            ('l-guides', 'Guides', ['l-start', 'l-fields', 'l-qc', 'l-research', 'l-lsat', 'l-gap', 'l-sample'])],
+}
+# the anchor each degree's list gets (these are also the old interactive-site ids, which still work there)
+DB_ID = {'phd': 'g-phd-db', 'predoc': 'g-predoc-db', 'mpp': 'g-mpp-db', 'mpa': 'g-mpa-db', 'ma': 'g-ma-db', 'jd': 'l-jd-db'}
+DB_LEAD = {}     # degree -> the list's intro, from the interactive site's hints
+# ids that name a whole view or tab on the interactive site: link to the matching Commons page
+PAGE_IDS = {'home': '', 'grad': 'grad-school', 'law': 'law-school', 'g-degrees': 'grad-school', 'g-years': 'grad-phd',
+            'g-opps': 'grad-phd', 'g-opps-db': 'grad-phd', 'l-years': 'law-jd', 'l-opps': 'law-jd', 'l-opps-db': 'law-jd',
+            'g-ready': 'grad-guides', 'g-applying': 'grad-guides', 'g-money': 'grad-guides',
+            'l-ready': 'law-guides', 'l-applying': 'law-guides'}
 TYPES = [
     ('summer-research', 'Summer research or institutes'), ('summer-internship', 'Summer internships'),
     ('fall-internship', 'Fall internships'), ('spring-internship', 'Spring internships'),
     ('fellowship', 'Fellowships and scholarships'), ('campus', 'At QC and CUNY'),
     ('visit', 'PhD visit and prep programs'), ('pipeline', 'Pre-law programs'),
-    ('course', 'Courses and training'), ('after', 'After college'),
+    ('course', 'Courses and training'), ('after', 'After college'), ('journalism', 'Journalism'),
 ]
 YEAR_WORD = {'fr': 'freshmen', 'so': 'sophomores', 'jr': 'juniors', 'sr': 'seniors'}
 ID_PAGE = {}     # element id -> slug of the page it ends up on
@@ -117,6 +138,9 @@ def resolve(target, page):
     if pid in BY_ID:
         tp = program_page(BY_ID[pid], page)
         return f'#{pid}' if tp == page else f'../{tp}/#{pid}'
+    if target in PAGE_IDS:
+        tp = PAGE_IDS[target]
+        return '#' if tp == page else f'../{tp}/' if tp else '../'
     tp = ID_PAGE.get(target, page)
     if tp == page:
         return f'#{target}'
@@ -126,6 +150,8 @@ def resolve(target, page):
 def link_href(href, page):
     if href == '#about':  # the About section exists only on the interactive site
         return SITE + '#about' if SITE else '#'
+    if href in ('#opportunities', '#all-db'):  # so does the All opportunities page
+        return SITE + '#opportunities' if SITE else '../grad-school/'
     return resolve(href[1:], page) if href.startswith('#') else href
 
 
@@ -144,7 +170,10 @@ def inline(node, page):
         t = c.tag
         inner = inline(c, page)
         if t == 'a':
-            out.append(f'<a href="{html.escape(link_href(c.attrs.get("href", ""), page))}">{inner}</a>')
+            href = link_href(c.attrs.get("href", ""), page)
+            if c.attrs.get('data-type') == 'journalism':  # journalism programs are listed on the MPP page, not the PhD one
+                href = '#' if page == 'grad-mpp' else '../grad-mpp/'
+            out.append(f'<a href="{html.escape(href)}">{inner}</a>')
         elif t in ('b', 'strong', 'mark'):
             out.append(f'<strong>{inner}</strong>' if inner.strip() else inner)
         elif t in ('em', 'i'):
@@ -267,21 +296,19 @@ def static_row(row, level, page, label):
     return [prog_row(head, body)]
 
 
-def sched_table(s, page):
-    heads = s.find_all(has('yh'))
-    labels = []
-    for yh in heads:
-        small = yh.find(lambda n: n.tag == 'small')
-        name = html.escape(''.join(c for c in yh.children if isinstance(c, str)).strip())
-        labels.append(name + (f' <em>({html.escape(plain(small).lower())})</em>' if small else ''))
-    cells = [c for c in s.els() if 'data-s' in c.attrs]
-    n = len(heads)
+def plan_table(ol, page):
+    """A year-by-year plan as a table: one row per year, one column per season."""
     rows = []
-    for i, season in enumerate(['Fall', 'Spring', 'Summer']):
-        row_cells = cells[i * n:(i + 1) * n]
-        if row_cells:
-            rows.append([f'<strong>{season}</strong>'] + [inline(c, page) for c in row_cells])
-    return b_table([''] + labels, rows)
+    for yr in [x for x in ol.els() if x.tag == 'li']:
+        head = yr.find(has('plan-head'))
+        first = f'<strong>{html.escape(plain(head.find(lambda n: n.tag == "h3")))}</strong>'
+        for extra in (head.find(lambda n: n.tag == 'p'), head.find(has('plan-tag'))):
+            if extra:
+                first += f'<br><em>{html.escape(plain(extra))}</em>'
+        cells = ['<br>'.join(inline(li, page) for li in t.find(lambda n: n.tag == 'ul').els())
+                 for t in yr.els() if 'term' in t.cls]
+        rows.append([first] + cells)
+    return b_table(['', 'Fall', 'Spring', 'Summer'], rows)
 
 
 def next_of(md):
@@ -433,13 +460,17 @@ def section_blocks(sec, page, downloads):
                 for p in [x for x in first.els() if x.tag == 'p']:
                     out.append(b_para(inline(p, page)))
                 ul = first.find(lambda x: x.tag == 'ul')
-                out.append(b_list([inline(li, page) for li in ul.els()]))
+                if ul:
+                    out.append(b_list([inline(li, page) for li in ul.els()]))
                 mail = n.find(has('mail'))
-                out.append(b_heading('Sample email', 4))
+                mh = mail.find(has('mail-h'))  # "Prompts to try" in Using AI the right way
+                out.append(b_heading(plain(mh) if mh else 'Sample email', 4))
                 for p in [x for x in mail.els() if x.tag == 'p']:
                     out.append(b_para(inline(p, page)))
-            elif 'sched' in c:
-                out.append(sched_table(n, page))
+            elif 'plan' in c:
+                out.append(plan_table(n, page))
+            elif 'note-from' in c:
+                out.append(b_group([b_para(inline(p, page), 'pp-sig' if 'sig' in p.cls else None) for p in n.els() if p.tag == 'p'], 'pp-note'))
             elif 'soon' in c:
                 b = n.find(lambda x: x.tag == 'b')
                 p = n.find(lambda x: x.tag == 'p')
@@ -515,12 +546,11 @@ def download_list(downloads):
     return b_list([f'<strong>{name}:</strong> ' + ' · '.join(links) for name, links in docs.items()], cls='pp-downloads')
 
 
-def tab_nav(track, panels, current):
+def tab_nav(track, current):
     """The path's pages as a tab bar; the current page is bold, not a link."""
     items = [f'<a href="../{OVERVIEW[track]}/">Overview</a>' if current is not None else '<strong>Overview</strong>']
-    for p in panels:
-        label = html.escape(p.attrs['data-label'])
-        items.append(f'<strong>{label}</strong>' if p is current else f'<a href="../{SLUGS[p.attrs["id"]]}/">{label}</a>')
+    for pid, label, _ in PAGES[track]:
+        items.append(f'<strong>{html.escape(label)}</strong>' if pid == current else f'<a href="../{SLUGS[pid]}/">{html.escape(label)}</a>')
     return b_list(items, cls='pp-tabs')
 
 
@@ -540,15 +570,23 @@ def as_of():
     return f'As of {TODAY.strftime("%B")} {TODAY.day}, {TODAY.year}. "~" marks an estimate. Confirm each date on the program\'s page.'
 
 
-def overview_page(track, main, panels):
+def overview_page(track, byid, note):
     """A path's overview: its degrees and the author's note on the left, upcoming deadlines on the right."""
     slug = OVERVIEW[track]
-    intro = main.find(has('intro'))
-    left = [b_heading(inline(intro.find(lambda n: n.tag == 'h2'), slug), 2),
-            b_para(inline(intro.find(lambda n: n.tag == 'p'), slug), 'pp-lead')]
-    cards = intro.find(has('degrees'))
-    left.append(b_list([f'<a href="../{SLUGS[a.attrs["href"][1:]]}/"><strong>{plain(a.find(lambda n: n.tag == "b"))}</strong></a> {html.escape(plain(a.find(lambda n: n.tag == "span")))}' for a in cards.els()], cls='pp-degrees'))
-    note = intro.find(has('note-from'))
+    if track == 'grad':
+        panel = byid['g-degrees']
+        title = inline(panel.find(lambda n: n.tag == 'h2'), slug)
+        lead = inline(panel.find(lambda n: n.tag == 'p' and 'lead' in n.cls), slug)
+        cards = [(SLUGS[d.attrs['id']], plain(d.find(has('fold-name'))), plain(d.find(has('fold-sum'))))
+                 for d in panel.find_all(lambda n: n.tag == 'details')]
+        cards.append(('grad-guides', 'Guides', 'Professors, methods, applying, scholarships and job search tools'))
+    else:
+        title = 'Preparing for law school'
+        lead = inline(byid['law'].find(has('path-head')).find(lambda n: n.tag == 'p'), slug)
+        cards = [('law-jd', 'JD', 'What admissions weighs, a timeline for each year, and pre-law programs, internships and scholarships'),
+                 ('law-guides', 'Guides', 'QC resources, the LSAT and fees, gap years and your résumé')]
+    left = [b_heading(title, 2), b_para(lead, 'pp-lead'),
+            b_list([f'<a href="../{s}/"><strong>{html.escape(n)}</strong></a> {html.escape(t)}' for s, n, t in cards], cls='pp-degrees')]
     if note:
         left.append(b_group([b_para(inline(p, slug), 'pp-sig' if 'sig' in p.cls else None) for p in note.els() if p.tag == 'p'], 'pp-note'))
     other = 'law' if track == 'grad' else 'grad'
@@ -557,23 +595,41 @@ def overview_page(track, main, panels):
         links.insert(0, f'<a href="{SITE}#{track}">Open the interactive version</a> for filters and live countdowns')
     left.append(b_para(' · '.join(links), 'pp-small'))
     right = [b_heading('Upcoming deadlines', 2, 'deadlines'), b_para(as_of(), 'pp-small'), deadline_table(board_data(track))]
-    return [tab_nav(track, panels, None),
+    return [tab_nav(track, None),
             b_group([b_group(left, 'pp-split-main'), b_group(right, 'pp-split-side')], 'pp-split'),
             b_group(FOOTER, 'pp-foot')]
 
 
-def tab_page(track, panels, panel, downloads):
+def db_section(deg, page):
+    """A degree's opportunities list, with the anchor the interactive site's old list had."""
+    sid = DB_ID[deg]
+    out = [b_heading('Opportunities', 2, sid)]
+    if DB_LEAD.get(deg):
+        out.append(b_para(DB_LEAD[deg]))
+    if SITE:
+        out.append(b_para(f'<a href="{SITE}#{sid}">Filter and sort these programs on the interactive site</a>', 'pp-small'))
+    blocks, subs = db_blocks(deg, page, sid)
+    return out + blocks, subs
+
+
+def tab_page(track, tab, byid, downloads):
     """A degree or guides page: tab bar, then the side menu beside the sections."""
-    slug = SLUGS[panel.attrs['id']]
+    pid, _, parts = tab
+    slug = SLUGS[pid]
     main, toc = [], []
-    for i, s in enumerate(x for x in panel.els() if x.tag == 'section'):
+    for i, part in enumerate(parts):
         if i:
             main.append(b_separator())
-        blocks, subs = section_blocks(s, slug, downloads)
+        if part.startswith('db:'):
+            blocks, subs = db_section(part[3:], slug)
+            sid, title = DB_ID[part[3:]], 'Opportunities'
+        else:
+            blocks, subs = section_blocks(byid[part], slug, downloads)
+            sid, title = part, plain(byid[part].find(lambda n: n.tag == 'h2'))
         main.extend(blocks)
-        toc.append((s.attrs['id'], plain(s.find(lambda n: n.tag == 'h2')), subs))
-    return [tab_nav(track, panels, panel),
-            b_group([side_nav(toc, panel.attrs['id']), b_group(main, 'pp-main')], 'pp-layout'),
+        toc.append((sid, title, subs))
+    return [tab_nav(track, pid),
+            b_group([side_nav(toc, pid), b_group(main, 'pp-main')], 'pp-layout'),
             b_group(FOOTER, 'pp-foot')]
 
 
@@ -603,7 +659,7 @@ def main():
     import sys
     if '--site' in sys.argv:
         SITE = sys.argv[sys.argv.index('--site') + 1].rstrip('/') + '/'
-    src = open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read()
+    src = open(os.path.join(ROOT, 'classic', 'index.html'), encoding='utf-8').read()
     data = open(os.path.join(ROOT, 'data.js'), encoding='utf-8').read()
     a = data.index('window.PROGRAMS = ') + len('window.PROGRAMS = ')
     PROGRAMS.extend(json.loads(data[a:data.index('];', a) + 1]))
@@ -612,14 +668,22 @@ def main():
     BY_ID.update({p['id']: p for p in PROGRAMS})
 
     dom = parse(src)
-    mains = {t: dom.find(lambda n, t=t: n.tag == 'main' and n.attrs.get('id') == t) for t in ('grad', 'law')}
-    panels = {t: [p for p in m.els() if 'panel' in p.cls] for t, m in mains.items()}
-    for t, ps in panels.items():
-        for p in ps:
-            slug = SLUGS[p.attrs['id']]
-            ID_PAGE[p.attrs['id']] = slug
-            for el in p.find_all(lambda n: 'id' in n.attrs):
-                ID_PAGE[el.attrs['id']] = slug
+    byid = {n.attrs['id']: n for n in dom.find_all(lambda n: 'id' in n.attrs)}
+    for t, tabs in PAGES.items():
+        for pid, _, parts in tabs:
+            slug = SLUGS[pid]
+            ID_PAGE[pid] = slug
+            for part in parts:
+                if part.startswith('db:'):
+                    ID_PAGE[DB_ID[part[3:]]] = slug
+                    continue
+                ID_PAGE[part] = slug
+                for el in byid[part].find_all(lambda n: 'id' in n.attrs):
+                    ID_PAGE[el.attrs['id']] = slug
+    for hint in dom.find_all(lambda n: 'db-hint' in n.cls):
+        DB_LEAD[hint.attrs['data-degree']] = inline(hint, DEGREE_PAGE[hint.attrs['data-degree']])
+    DB_LEAD['jd'] = inline(byid['l-opps-db'].find(lambda n: n.tag == 'p' and 'lead' in n.cls), 'law-jd')
+    note = byid['home'].find(has('note-from'))
     os.makedirs(OUT, exist_ok=True)
 
     # with --site, link the copies in the interactive site's downloads/ folder;
@@ -633,12 +697,12 @@ def main():
     pages = {'home': home_page()}
     titles = {'home': 'Home'}
     for t in ('grad', 'law'):
-        pages[OVERVIEW[t]] = overview_page(t, mains[t], panels[t])
+        pages[OVERVIEW[t]] = overview_page(t, byid, note)
         titles[OVERVIEW[t]] = 'Graduate school' if t == 'grad' else 'Law school'
-        for p in panels[t]:
-            slug = SLUGS[p.attrs['id']]
-            pages[slug] = tab_page(t, panels[t], p, downloads[t])
-            titles[slug] = ('Graduate school: ' if t == 'grad' else 'Law school: ') + p.attrs['data-label']
+        for tab in PAGES[t]:
+            slug = SLUGS[tab[0]]
+            pages[slug] = tab_page(t, tab, byid, downloads[t])
+            titles[slug] = ('Graduate school: ' if t == 'grad' else 'Law school: ') + tab[1]
 
     for old in os.listdir(OUT):
         if old.endswith('.html'):

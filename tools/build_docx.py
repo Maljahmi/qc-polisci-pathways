@@ -1,4 +1,4 @@
-"""Build editable .docx résumé/CV templates from the .sheet samples in index.html.
+"""Build editable .docx résumé/CV templates from the .sheet samples in classic/index.html.
 
 Standard library only: the .docx package is written as raw WordprocessingML.
 """
@@ -9,7 +9,7 @@ import zipfile
 from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.path.join(ROOT, 'index.html')
+SRC = os.path.join(ROOT, 'classic', 'index.html')
 OUT = os.path.join(ROOT, 'downloads')
 
 FONT = 'Georgia'

@@ -1,5 +1,8 @@
 // Opportunities database. One entry per program; every degree tab, the deadline board and the
 // Commons export read from it. See CLAUDE.md for the fields.
+// the date programs and deadlines were last checked; the home page and All opportunities show it
+window.UPDATED = "2026-10-16";
+
 window.PROGRAMS = [
  {
   "id": "gp-accelerated-ba-ma-data",
@@ -4740,8 +4743,8 @@ window.PROGRAMS = [
   "due": "",
   "status": "last",
   "dueMD": "02-02",
-  "opens": "",
-  "opensMD": "",
+  "opens": "Nov (last cycle)",
+  "opensMD": "11-11",
   "meta": "3–4 weeks at a UK university",
   "body": "A short, fully funded summer program for students who have barely traveled. One recent institute studied British institutions and power.",
   "warn": "",
@@ -5039,6 +5042,4193 @@ window.PROGRAMS = [
    [
     "Who",
     "US citizens, permanent residents or DACA recipients; a program of at least 14 days; financial need shown on the FAFSA"
+   ]
+  ]
+ },
+ {
+  "id": "gp-hope-reichbach-fellowship",
+  "name": "<a href=\"https://www.hopeforbrooklyn.com/2027-applications-are-now-open/\">Hope Reichbach Fund Summer Fellowship</a>",
+  "url": "https://www.hopeforbrooklyn.com/2027-applications-are-now-open/",
+  "short": "Hope Reichbach Fellowship",
+  "types": [
+   "summer-internship",
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 24",
+  "whenS": "last cycle · 2027 application open now",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-24",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Brooklyn nonprofits · 10 weeks full time, June 7–Aug 13, 2027",
+  "body": "A paid summer at a Brooklyn nonprofit working on local issues. The fund picks your placement; 2026 hosts included Brooklyn Defender Services and VOCAL-NY. Five students are chosen each year.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "NYC residents who are freshmen, sophomores or juniors and can work 40 hours a week all summer"
+   ],
+   [
+    "Pay",
+    "$6,800 stipend before taxes, plus a transit benefit"
+   ]
+  ]
+ },
+{
+  "id": "gp-nypirg-future-leaders",
+  "name": "<a href=\"https://www.nypirgstudents.org/internship/\">NYPIRG Donald K. Ross Future Leaders Program</a>",
+  "url": "https://www.nypirgstudents.org/internship/",
+  "short": "NYPIRG Albany semester",
+  "types": [
+   "spring-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 30",
+  "whenS": "2026 · spring 2027 session",
+  "due": "2026-10-30",
+  "status": "confirmed",
+  "dueMD": "10-30",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Albany · full time, spring semester from Jan 6, 2027",
+  "body": "Spend a spring semester in Albany researching, tracking and lobbying on state legislation, with a policy mentor.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "A stipend (amount not posted)"
+   ],
+   [
+    "Credit",
+    "Arrange course credit through your college, such as QC's political science internship courses"
+   ]
+  ]
+ },
+{
+  "id": "gp-aclu-undergraduate-internships",
+  "name": "<a href=\"https://job-boards.greenhouse.io/acluinternships\">ACLU national office undergraduate internships</a>",
+  "url": "https://job-boards.greenhouse.io/acluinternships",
+  "short": "ACLU summer internships",
+  "types": [
+   "summer-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "jr"
+  ],
+  "degrees": [
+   "jd",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 2",
+  "whenS": "2026 · summer priority date, then rolling",
+  "due": "2026-11-02",
+  "status": "confirmed",
+  "dueMD": "11-02",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "NYC headquarters, hybrid · summer: 10 weeks, 35 hours a week",
+  "body": "Policy and advocacy internships at the ACLU's national office, on teams such as National Security and the Supreme Court docket. The roles change each cycle.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates; summer roles ask for three years of college done, so apply junior year"
+   ],
+   [
+    "Pay",
+    "Summer: $20 an hour. Spring: course credit only"
+   ]
+  ]
+ },
+{
+  "id": "gp-partnership-public-service-internship",
+  "name": "<a href=\"https://ourpublicservice.org/about/work-with-us/partnership-internship-program\">Partnership for Public Service internships</a>",
+  "url": "https://ourpublicservice.org/about/work-with-us/partnership-internship-program",
+  "short": "Partnership for Public Service (spring)",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 19",
+  "whenS": "2026 · spring priority date",
+  "due": "2026-10-19",
+  "status": "confirmed",
+  "dueMD": "10-19",
+  "opens": "Open now (spring); Feb 1 (summer); May 17 (fall)",
+  "opensMD": "",
+  "meta": "Washington, D.C., hybrid · spring, summer or fall",
+  "body": "Paid internships at a nonpartisan nonprofit that works to make the federal government run better.",
+  "warn": "You must live in the Washington, D.C., area during the internship.",
+  "facts": [
+   [
+    "Pay",
+    "$2,000 a month, full time"
+   ],
+   [
+    "Next dates",
+    "Summer 2027: priority date Mar 7. Fall 2027: June 14"
+   ]
+  ]
+ },
+{
+  "id": "gp-city-year-new-york",
+  "name": "<a href=\"https://www.cityyear.org/apply-now/\">City Year New York</a>",
+  "url": "https://www.cityyear.org/apply-now/",
+  "short": "City Year New York",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 30",
+  "whenS": "2026 · next of several deadlines",
+  "due": "2026-10-30",
+  "status": "confirmed",
+  "dueMD": "10-30",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "NYC public schools · about 11 months, AmeriCorps",
+  "body": "A paid AmeriCorps year tutoring and mentoring students in NYC elementary and middle schools. Full-year spots for 2027–28 start in summer 2027.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Ages 18–25; US citizens or permanent residents. DACA recipients are not eligible right now"
+   ],
+   [
+    "Pay",
+    "$1,178 every two weeks in New York (2025–26), plus a $7,395 education award"
+   ]
+  ]
+ },
+{
+  "id": "gp-teach-for-america",
+  "name": "<a href=\"https://www.teachforamerica.org/apply/deadlines\">Teach For America</a>",
+  "url": "https://www.teachforamerica.org/apply/deadlines",
+  "short": "Teach For America",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Oct 26",
+  "whenS": "2026 · then Feb 1 and Mar 8",
+  "due": "2026-10-26",
+  "status": "confirmed",
+  "dueMD": "10-26",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Schools across the US, including NYC · 2 years, training from May–June 2027",
+  "body": "Two years as a full-time, salaried teacher in a high-need school, starting after you graduate.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A bachelor's degree by summer training and a 2.5+ GPA; US citizens, permanent residents, and DACA recipients with work authorization"
+   ],
+   [
+    "Pay",
+    "A full teacher's salary from the school district"
+   ]
+  ]
+ },
+{
+  "id": "gp-nyc-civic-corps",
+  "name": "<a href=\"https://www.nycservice.org/nyc_civic_corps\">NYC Civic Corps</a>",
+  "url": "https://www.nycservice.org/nyc_civic_corps",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "~Jul 31",
+  "whenS": "est. · 2026–27 is closed",
+  "due": "",
+  "status": "estimate",
+  "dueMD": "07-31",
+  "opens": "",
+  "opensMD": "",
+  "meta": "NYC agencies and nonprofits · 10 months, Sept–June, 35 hours a week",
+  "body": "A paid AmeriCorps service year at a city agency or nonprofit, such as NYC Parks or the Queens Public Library.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "18 or older; US citizens, nationals or permanent residents"
+   ],
+   [
+    "Pay",
+    "$24,500 stipend before taxes, plus a $5,176 education award"
+   ]
+  ]
+ },
+{
+  "id": "gp-emerson-hunger-fellowship",
+  "name": "<a href=\"https://hungercenter.org/what-we-do/emerson-fellowship/fellows/\">Bill Emerson National Hunger Fellowship</a>",
+  "url": "https://hungercenter.org/what-we-do/emerson-fellowship/fellows/",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 30",
+  "whenS": "last cycle · 2027–28 opens this fall",
+  "due": "",
+  "status": "last",
+  "dueMD": "01-30",
+  "opens": "Dec 4 (last cycle)",
+  "opensMD": "12-04",
+  "meta": "A community site in the US, then Washington, D.C. · 11 months",
+  "body": "A paid year of anti-hunger work: about six months with a community organization, then a national policy placement in D.C.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A bachelor's degree or equivalent experience; US citizens or permanent residents"
+   ],
+   [
+    "Pay",
+    "At least $50,000 for the year. Fellows are contractors and buy their own health insurance"
+   ]
+  ]
+ },
+{
+  "id": "gp-princeton-in-asia",
+  "name": "<a href=\"https://princetoninasia.org/fellowship-faq\">Princeton in Asia</a>",
+  "url": "https://princetoninasia.org/fellowship-faq",
+  "types": [
+   "after",
+   "fellowship"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Nov 1",
+  "whenS": "2026 · 2027–28 fellowships",
+  "due": "2026-11-01",
+  "status": "confirmed",
+  "dueMD": "11-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Asia · 1–2 years",
+  "body": "Paid fellowships with host organizations across Asia, open to graduates of any college, not just Princeton.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Seniors and graduates of any college. Non-US citizens must have attended a US-accredited school"
+   ],
+   [
+    "Pay",
+    "A local living stipend from the host. You pay airfare; travel grants are available"
+   ]
+  ]
+ },
+{
+  "id": "gp-princeton-in-africa",
+  "name": "<a href=\"https://www.princetoninafrica.org/applicants/how-to-apply/\">Princeton in Africa</a>",
+  "url": "https://www.princetoninafrica.org/applicants/how-to-apply/",
+  "types": [
+   "after",
+   "fellowship"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 26",
+  "whenS": "2026 · 2027–28 fellowships",
+  "due": "2026-10-26",
+  "status": "confirmed",
+  "dueMD": "10-26",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Africa · 1 year",
+  "body": "Yearlong fellowships with organizations across Africa, open to seniors and recent graduates of any four-year US college.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Seniors graduating by June 2027, or young professionals 35 or under, with a valid passport"
+   ],
+   [
+    "Pay",
+    "Housing, a living stipend and insurance"
+   ]
+  ]
+ },
+{
+  "id": "gp-atlantic-editorial-fellowship",
+  "name": "<a href=\"https://atlanticmedia.wd1.myworkdayjobs.com/Careers/job/Washington-DC---The-Wharf/Editorial-Fellow_R744\">The Atlantic Editorial Fellowship</a>",
+  "url": "https://atlanticmedia.wd1.myworkdayjobs.com/Careers/job/Washington-DC---The-Wharf/Editorial-Fellow_R744",
+  "short": "The Atlantic fellowship",
+  "types": [
+   "fellowship",
+   "after",
+   "journalism"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 5",
+  "whenS": "2026 · July 2027 start",
+  "due": "2026-11-05",
+  "status": "confirmed",
+  "dueMD": "11-05",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C., in person · 1 year, July 2027–June 2028",
+  "body": "A yearlong newsroom job for recent graduates and early-career journalists. Six fellows each join a section such as Politics or National Security and fact-check, research, produce and pitch, with mentoring from senior editors.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Recent college graduates and early-career journalists"
+   ],
+   [
+    "Pay",
+    "$60,000 a year, full time, with benefits"
+   ],
+   [
+    "Note",
+    "Late applications are not accepted"
+   ]
+  ]
+ },
+{
+  "id": "gp-nyt-fellowship",
+  "name": "<a href=\"https://www.nytco.com/careers/early-career-opportunities/newsroom-fellowship/\">The New York Times Fellowship</a>",
+  "url": "https://www.nytco.com/careers/early-career-opportunities/newsroom-fellowship/",
+  "types": [
+   "fellowship",
+   "after",
+   "journalism"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Late 2026",
+  "whenS": "opens then · June 2027 start",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Late 2026",
+  "opensMD": "",
+  "meta": "New York, with a few spots in D.C. and San Francisco · 1 year from June",
+  "body": "A yearlong paid newsroom job for early-career reporters, editors and visual journalists, about 30 a year. It replaced the Times' summer internship.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Early-career journalists, including recent college graduates. Students on a visa that can be extended with OPT are considered"
+   ],
+   [
+    "Pay",
+    "Full-time salary with benefits; fellows are union employees"
+   ]
+  ]
+ },
+{
+  "id": "gp-nyt-times-corps",
+  "name": "<a href=\"https://www.nytco.com/careers/early-career-opportunities/times-corps/\">The New York Times Corps</a>",
+  "url": "https://www.nytco.com/careers/early-career-opportunities/times-corps/",
+  "short": "NYT Corps mentoring",
+  "types": [
+   "course",
+   "journalism"
+  ],
+  "years": [
+   "fr",
+   "so"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": false,
+  "allOpen": true,
+  "whenB": "Spring",
+  "whenS": "applications open each spring",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Spring 2027",
+  "opensMD": "",
+  "meta": "Remote · mentoring until you graduate",
+  "body": "A Times journalist mentors you through college, at least three times a year. About 20 students a year, with preference for low-income students and colleges that rarely send people to the Times. Strong members can be considered for the Times Fellowship.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Rising sophomores and juniors (apply as a freshman or sophomore). International students at US colleges can apply"
+   ],
+   [
+    "Pay",
+    "Unpaid mentoring; members who finish can earn a paid trip to the newsroom"
+   ]
+  ]
+ },
+{
+  "id": "gp-dow-jones-news-fund",
+  "name": "<a href=\"https://www.dowjonesnewsfund.org/djnfinternships/\">Dow Jones News Fund internships</a>",
+  "url": "https://www.dowjonesnewsfund.org/djnfinternships/",
+  "short": "Dow Jones News Fund",
+  "types": [
+   "summer-internship",
+   "journalism"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Nov 11",
+  "whenS": "2026 · summer 2027",
+  "due": "2026-11-11",
+  "status": "confirmed",
+  "dueMD": "11-11",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Newsrooms across the US · 1 week of training, then 10–12 weeks",
+  "body": "About 100 paid summer newsroom internships a year in reporting, data, digital media, audience and editing. The application includes a test, due by Nov 15.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time sophomores, juniors, seniors and graduate students; international students in the US with work authorization"
+   ],
+   [
+    "Pay",
+    "From $525 a week (median $675), plus training and a $1,500 scholarship if eligible"
+   ]
+  ]
+ },
+{
+  "id": "gp-politico-reporting-internships",
+  "name": "<a href=\"https://politico.wd108.myworkdayjobs.com/POLITICO/job/New-York-NY/Reporting-Intern--New-York--Summer-2027-_JR100565\">POLITICO reporting internships</a>",
+  "url": "https://politico.wd108.myworkdayjobs.com/POLITICO/job/New-York-NY/Reporting-Intern--New-York--Summer-2027-_JR100565",
+  "short": "POLITICO internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "journalism"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 26",
+  "whenS": "2026 · spring and summer 2027",
+  "due": "2026-10-26",
+  "status": "confirmed",
+  "dueMD": "10-26",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "New York (City Hall, City Council, NY Playbook) or other bureaus · full time, hybrid",
+  "body": "Paid reporting internships covering politics and policy. The New York bureau covers the mayor, the City Council and New York Playbook; other bureaus and teams post their own.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College students and recent graduates; one earlier news internship or job is preferred"
+   ],
+   [
+    "Pay",
+    "$23 an hour, 40 hours a week"
+   ],
+   [
+    "Dates",
+    "Spring: January–May 2027. Summer: June–August 2027"
+   ]
+  ]
+ },
+{
+  "id": "gp-emma-bowen-foundation",
+  "name": "<a href=\"https://www.emmabowenfoundation.org/apply\">Emma Bowen Foundation Fellows Program</a>",
+  "url": "https://www.emmabowenfoundation.org/apply",
+  "types": [
+   "summer-internship",
+   "journalism"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "September to April",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Media and tech companies across the US · 8–12 weeks each summer",
+  "body": "Paid summer internships at media and tech companies, repeated every summer until you graduate, with a content track for news. Placements are set by May 15.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates graduating spring 2027 or later at four-year US colleges, with a 3.0+ GPA"
+   ],
+   [
+    "Pay",
+    "Paid (amount not posted)"
+   ]
+  ]
+ },
+{
+  "id": "gp-mother-jones-bagdikian",
+  "name": "<a href=\"https://www.motherjones.com/careers/fellowships/\">Mother Jones Ben Bagdikian Fellowship</a>",
+  "url": "https://www.motherjones.com/careers/fellowships/",
+  "types": [
+   "fellowship",
+   "after",
+   "journalism"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Apr 26",
+  "whenS": "last cycle",
+  "due": "",
+  "status": "last",
+  "dueMD": "04-26",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C., or San Francisco, in the office weekly · 1 year from August",
+  "body": "A full-time year of investigative fact-checking and research at Mother Jones.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Not open to people still in school or only available part time; must be able to work in the US"
+   ],
+   [
+    "Pay",
+    "$27.47 an hour, 37.5 hours a week, with benefits"
+   ]
+  ]
+ },
+{
+  "id": "gp-nation-navasky-internship",
+  "name": "<a href=\"https://thenationfund.org/internship-application/\">The Nation internship (Victor S. Navasky Internship Program)</a>",
+  "url": "https://thenationfund.org/internship-application/",
+  "short": "The Nation internship",
+  "types": [
+   "spring-internship",
+   "after",
+   "journalism"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 1",
+  "whenS": "2026 · Jan–June 2027 session",
+  "due": "2026-11-01",
+  "status": "confirmed",
+  "dueMD": "11-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "New York, in the office 2 days a week · 6 months, Jan 4–June 25, 2027",
+  "body": "Six months of fact-checking, research and web production at a progressive political magazine. Decisions by Nov 20.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Graduates and people not in school during the internship, such as December graduates"
+   ],
+   [
+    "Pay",
+    "$20 an hour, $700 a week"
+   ]
+  ]
+ },
+{
+  "id": "gp-american-prospect-writing-fellowship",
+  "name": "<a href=\"https://prospect.org/careers/\">The American Prospect Writing Fellowship</a>",
+  "url": "https://prospect.org/careers/",
+  "types": [
+   "fellowship",
+   "after",
+   "journalism"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Early 2027",
+  "whenS": "opens then",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Early 2027",
+  "opensMD": "",
+  "meta": "Remote or Washington, D.C. · 2 years from late spring 2027",
+  "body": "A two-year paid fellowship writing about politics, policy and power, with editors as mentors. Journalism experience helps but isn't required.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Journalists at the start of their careers with a passion for politics and policy"
+   ],
+   [
+    "Pay",
+    "Salary with full benefits; a union position"
+   ]
+  ]
+ },
+{
+  "id": "gp-allbritton-journalism-institute",
+  "name": "<a href=\"https://aji.org/\">Allbritton Journalism Institute Reporting Fellowship</a>",
+  "url": "https://aji.org/",
+  "types": [
+   "fellowship",
+   "after",
+   "journalism"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Late 2026",
+  "whenS": "opens then · 2027–2029 class",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Late 2026",
+  "opensMD": "",
+  "meta": "Rosslyn, Va., in person · 2 years from September",
+  "body": "A paid two-year fellowship: classes plus reporting on Congress and national politics for the institute's newsroom. Journalism experience isn't required.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "$60,000 a year with benefits, plus $1,500 for moving"
+   ]
+  ]
+ },
+{
+  "id": "gp-npr-internships",
+  "name": "<a href=\"https://www.npr.org/about-npr/181881227/want-to-be-an-npr-intern\">NPR internships</a>",
+  "url": "https://www.npr.org/about-npr/181881227/want-to-be-an-npr-intern",
+  "types": [
+   "fall-internship",
+   "journalism"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Postings",
+  "whenS": "watch NPR's career portal",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "On site, remote or hybrid · full time",
+  "body": "Paid internships on NPR's news desks and shows. Postings go up on NPR's career portal and close quickly.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current students and people who graduated within the past 12 months; must be authorized to work in the US"
+   ],
+   [
+    "Pay",
+    "$20 an hour"
+   ]
+  ]
+ },
+{
+  "id": "gp-newmark-4plus1",
+  "name": "<a href=\"https://www.journalism.cuny.edu/future-students/academic-programs/4plus1/\">CUNY Newmark J-School 4+1 (BA and MA in Journalism)</a>",
+  "url": "https://www.journalism.cuny.edu/future-students/academic-programs/4plus1/",
+  "short": "Newmark 4+1 journalism MA",
+  "types": [
+   "campus",
+   "course",
+   "journalism"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "apply as a junior",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Anytime",
+  "opensMD": "",
+  "meta": "Newmark J-School, Manhattan · 12 senior-year credits count toward both degrees",
+  "body": "Queens College students can start CUNY's journalism master's in senior year and finish in about one more year. The required summer news internship pays a $4,200 stipend.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "QC students with 75 credits done and a 3.5+ GPA; no journalism experience needed"
+   ],
+   [
+    "Cost",
+    "Senior-year credits at undergraduate tuition; then $12,473 full time"
+   ]
+  ]
+ },
+{
+  "id": "gp-aaja-voices",
+  "name": "<a href=\"https://voices.aaja.org/apply/\">AAJA VOICES student newsroom</a>",
+  "url": "https://voices.aaja.org/apply/",
+  "short": "AAJA VOICES",
+  "types": [
+   "course",
+   "journalism"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Dec 16",
+  "whenS": "2026 · VOICES 2027",
+  "due": "2026-12-16",
+  "status": "confirmed",
+  "dueMD": "12-16",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Training from late spring, ending at the AAJA convention",
+  "body": "The Asian American Journalists Association's student program: months of training, then reporting from its national convention.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time college students or graduates within one year, 18 or older"
+   ]
+  ]
+ },
+{
+  "id": "gp-nabj-student-multimedia",
+  "name": "<a href=\"https://nabjonline.org/student-services/\">NABJ Student Multimedia Project</a>",
+  "url": "https://nabjonline.org/student-services/",
+  "short": "NABJ student project",
+  "types": [
+   "course",
+   "journalism"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 25",
+  "whenS": "2027",
+  "due": "2027-01-25",
+  "status": "confirmed",
+  "dueMD": "01-25",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "The NABJ convention · 1 week",
+  "body": "An expense-paid week staffing the student newsroom at the National Association of Black Journalists convention.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "NABJ student members ($40 a year)"
+   ]
+  ]
+ },
+{
+  "id": "gp-nahj-student-project",
+  "name": "<a href=\"https://nahj.org/student-project/\">NAHJ Student Project</a>",
+  "url": "https://nahj.org/student-project/",
+  "types": [
+   "course",
+   "journalism"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Dec 28",
+  "whenS": "last cycle",
+  "due": "",
+  "status": "last",
+  "dueMD": "12-28",
+  "opens": "",
+  "opensMD": "",
+  "meta": "The NAHJ convention · 1 week",
+  "body": "A week reporting in the student newsroom at the National Association of Hispanic Journalists convention. NAHJ covers travel, hotel, meals and registration.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "NAHJ student members"
+   ]
+  ]
+ },
+{
+  "id": "gp-cia-undergraduate-internship",
+  "name": "<a href=\"https://www.cia.gov/careers/student-programs/\">CIA undergraduate internships and co-ops</a>",
+  "url": "https://www.cia.gov/careers/student-programs/",
+  "short": "CIA internships",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "apply 6–12 months ahead",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Anytime",
+  "opensMD": "",
+  "meta": "Washington, D.C., area, in person · 12 weeks; co-ops alternate at least three semesters",
+  "body": "Paid analytic and support work at CIA headquarters. The security clearance takes months, so send your expression of interest 6 to 12 months before you want to start.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time students, usually with a 3.0+ GPA; US citizens (dual citizens OK), in the US when applying. Medical exam, polygraph and background check"
+   ],
+   [
+    "Pay",
+    "GS-5 to GS-7: $54,378–$71,209 a year, prorated (USAJOBS posting). You pay for housing"
+   ]
+  ]
+ },
+{
+  "id": "gp-cia-do-internship",
+  "name": "<a href=\"https://www.cia.gov/careers/student-programs/undergraduate-internship-program-directorate-of-operations/\">CIA Directorate of Operations internship (freshmen)</a>",
+  "url": "https://www.cia.gov/careers/student-programs/undergraduate-internship-program-directorate-of-operations/",
+  "short": "CIA freshman internship",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "fr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 30",
+  "whenS": "2027 · opens Dec 15",
+  "due": "2027-01-30",
+  "status": "confirmed",
+  "dueMD": "01-30",
+  "opens": "Dec 15",
+  "opensMD": "12-15",
+  "meta": "Washington, D.C., area · two summers, 90 days each",
+  "body": "A two-summer internship with the CIA's Directorate of Operations, open only to freshmen.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time freshmen with one semester done, not graduating before December 2028; US citizens. A 3.0 GPA is preferred"
+   ],
+   [
+    "Pay",
+    "$58,714 a year, prorated. You pay for housing"
+   ]
+  ]
+ },
+{
+  "id": "gp-fbi-honors-internship",
+  "name": "<a href=\"https://www.usajobs.gov/job/857040400\">FBI Honors Internship Program</a>",
+  "url": "https://www.usajobs.gov/job/857040400",
+  "short": "FBI Honors Internship",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Mar 5",
+  "whenS": "last cycle · for the summer after next",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-05",
+  "opens": "Feb 9 (last cycle)",
+  "opensMD": "02-09",
+  "meta": "FBI headquarters and field offices · 10 weeks, June–August",
+  "body": "A paid summer at the FBI. It recruits more than a year ahead: the window for summer 2027 ran Feb 9–Mar 5, 2026.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time students with a 3.0+ GPA; US citizens. Not for students graduating before the internship unless they continue to graduate school"
+   ],
+   [
+    "Pay",
+    "$14.76–$16.51 an hour before locality pay (GS-4 to GS-5)"
+   ]
+  ]
+ },
+{
+  "id": "gp-state-department-student-internship",
+  "name": "<a href=\"https://careers.state.gov/interns-fellows/student-internship-program/\">U.S. Department of State Student Internship Program</a>",
+  "url": "https://careers.state.gov/interns-fellows/student-internship-program/",
+  "short": "State Department internships",
+  "types": [
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Sept 1",
+  "whenS": "last cycle · spring and summer 2027 closed",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-01",
+  "opens": "Aug 7 (last cycle)",
+  "opensMD": "08-07",
+  "meta": "Washington, D.C., or an embassy abroad · 10 weeks full time",
+  "body": "A paid foreign-affairs internship in a State Department bureau or an embassy. One window each August covers the next spring and summer.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens with 60+ credits by the start and a 3.2+ GPA; also recent graduates within two years. Needs a Secret clearance"
+   ],
+   [
+    "Pay",
+    "$19.96 an hour, plus furnished housing and travel"
+   ]
+  ]
+ },
+{
+  "id": "gp-white-house-internship",
+  "name": "<a href=\"https://www.whitehouse.gov/internships/\">White House Internship Program</a>",
+  "url": "https://www.whitehouse.gov/internships/",
+  "short": "White House internship (summer)",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Jan 4",
+  "whenS": "2027 · summer, opens Dec 7",
+  "due": "2027-01-04",
+  "status": "confirmed",
+  "dueMD": "01-04",
+  "opens": "Dec 7",
+  "opensMD": "12-07",
+  "meta": "Washington, D.C., in person · full time; summer 2027 runs June 2–Aug 6",
+  "body": "An unpaid full-time internship in the offices of the President and Vice President.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens 18+ with two semesters done, or graduates within two years. Drug test and security screening. Selection includes commitment to the administration's mission"
+   ],
+   [
+    "Pay",
+    "Unpaid; housing is not provided"
+   ]
+  ]
+ },
+{
+  "id": "gp-congressional-office-internships",
+  "name": "<a href=\"https://www.house.gov/educators-and-students/college-internships\">Congressional office internships (House and Senate)</a>",
+  "url": "https://www.house.gov/educators-and-students/college-internships",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "each office sets its own",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Year-round",
+  "opensMD": "",
+  "meta": "Washington, D.C., or offices in New York, including Queens",
+  "body": "Intern for a member of Congress, in D.C. or a local office. Many offices now pay. Start with New York's: <a href=\"https://meng.house.gov/services/internships\">Rep. Grace Meng</a> (Flushing), <a href=\"https://www.schumer.senate.gov/services/students/internships\">Sen. Schumer</a> and <a href=\"https://www.gillibrand.senate.gov/help/internships/\">Sen. Gillibrand</a>, whose interns all get a stipend.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Set by each office; paid positions generally require US citizenship or permanent residence"
+   ],
+   [
+    "Pay",
+    "Varies by office; many House and Senate offices pay"
+   ]
+  ]
+ },
+{
+  "id": "gp-supreme-court-internship",
+  "name": "<a href=\"https://www.supremecourt.gov/jobs/internship/InternshipProgram.aspx\">Supreme Court Internship Program</a>",
+  "url": "https://www.supremecourt.gov/jobs/internship/InternshipProgram.aspx",
+  "short": "Supreme Court internship",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "jd",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Mar 1",
+  "whenS": "summer · June 15 fall, Oct 15 spring",
+  "due": "2027-03-01",
+  "status": "confirmed",
+  "dueMD": "03-01",
+  "opens": "Feb 15",
+  "opensMD": "02-15",
+  "meta": "Washington, D.C. · 16 weeks in fall or spring, 8+ weeks in summer",
+  "body": "A paid internship in the Court's offices, such as the Counselor to the Chief Justice and Public Information, with seminars and courtroom access.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens with two semesters of college done, enrolled in a bachelor's program. Law and graduate students are not eligible"
+   ],
+   [
+    "Pay",
+    "$22.41 an hour (fall 2026 posting)"
+   ]
+  ]
+ },
+{
+  "id": "gp-library-of-congress-junior-fellows",
+  "name": "<a href=\"https://www.loc.gov/item/internships/junior-fellows-program/\">Library of Congress Junior Fellows</a>",
+  "url": "https://www.loc.gov/item/internships/junior-fellows-program/",
+  "short": "Library of Congress Junior Fellows",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 2",
+  "whenS": "last cycle · opens early Dec",
+  "due": "",
+  "status": "last",
+  "dueMD": "01-02",
+  "opens": "Dec (last cycle)",
+  "opensMD": "12-02",
+  "meta": "Washington, D.C., or remote · 10 weeks full time, May–July",
+  "body": "Paid summer work with the Library of Congress's collections. In 2026 there was a remote track, so you can do it from Queens.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students in a degree program, or recent graduates; US citizens only"
+   ],
+   [
+    "Pay",
+    "$17.61 an hour on site (2026)"
+   ]
+  ]
+ },
+{
+  "id": "gp-opm-semester-of-service",
+  "name": "<a href=\"https://talent.opm.gov/semesterofservice\">Federal Semester of Service</a>",
+  "url": "https://talent.opm.gov/semesterofservice",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": false,
+  "allOpen": true,
+  "whenB": "Rolling",
+  "whenS": "per project",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Year-round",
+  "opensMD": "",
+  "meta": "Remote, hybrid or in person · 8–20 hours a week for at least 90 days",
+  "body": "Part-time, often remote projects for federal agencies, started in 2026. Unpaid, but you can arrange course credit.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students enrolled at least half time in any major; US citizens and nationals, and international students on valid visas who meet the rules"
+   ],
+   [
+    "Where to look",
+    "The <a href=\"https://semesterofservice.usajobs.gov/\">Semester of Service portal</a> on USAJOBS"
+   ]
+  ]
+ },
+{
+  "id": "gp-ny-fed-summer-internships",
+  "name": "<a href=\"https://www.newyorkfed.org/careers/student-programs-and-internships\">Federal Reserve Bank of New York summer internships</a>",
+  "url": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+  "short": "New York Fed internships",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "phd",
+   "predoc",
+   "mpp",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Sept 2027",
+  "whenS": "summer 2028 posts then",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Sept 2027",
+  "opensMD": "",
+  "meta": "Manhattan · 10 weeks from early June",
+  "body": "Ten weeks of project work in one part of the New York Fed: a career exploration program for sophomores and a summer analyst program for juniors. Summer 2027 is closed.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Sophomores and juniors; freshmen can join an information webinar"
+   ]
+  ]
+ },
+{
+  "id": "gp-nyc-mayors-office-internship",
+  "name": "<a href=\"https://a002-irm.nyc.gov/Handlers/Html/HtmlContent.ashx?pageId=73359fa5-19b9-4964-a0a1-a211cb8d168a\">NYC Mayor's Office Internship Program</a>",
+  "url": "https://a002-irm.nyc.gov/Handlers/Html/HtmlContent.ashx?pageId=73359fa5-19b9-4964-a0a1-a211cb8d168a",
+  "short": "Mayor's Office internship",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Aug 23",
+  "whenS": "last cycle · for the Oct–Apr term",
+  "due": "",
+  "status": "last",
+  "dueMD": "08-23",
+  "opens": "Aug 3 (last cycle)",
+  "opensMD": "08-03",
+  "meta": "City Hall units · part time October–April, or summer",
+  "body": "A paid internship in a Mayor's Office unit, with a speaker series and a service project. Summer roles also come through the <a href=\"#gp-nyc-summer-internship-program\">NYC Summer Internship Program</a>.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Enrolled undergraduates and graduate students; not recent graduates. The October–April term requires NYC residency"
+   ],
+   [
+    "Pay",
+    "$17.75 an hour for undergraduates"
+   ]
+  ]
+ },
+{
+  "id": "gp-ny-attorney-general-students",
+  "name": "<a href=\"https://ag.ny.gov/job-postings/undergraduate-graduate-students\">New York State Attorney General student assistants</a>",
+  "url": "https://ag.ny.gov/job-postings/undergraduate-graduate-students",
+  "short": "NY Attorney General internships",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "jd",
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 27",
+  "whenS": "last cycle · summer",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-27",
+  "opens": "",
+  "opensMD": "",
+  "meta": "NYC and regional offices, hybrid · summer: 8 weeks full time; part time in fall and spring",
+  "body": "Paid work supporting the Attorney General's attorneys and investigators, for example in the Public Integrity Bureau in Manhattan. You can apply to up to three postings.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time students after their first year; US citizenship and NY residency not required, but you must be eligible to work in the US"
+   ],
+   [
+    "Pay",
+    "$17.75 an hour for undergraduates (summer 2026)"
+   ]
+  ]
+ },
+{
+  "id": "gp-ny-state-internship-program",
+  "name": "<a href=\"https://www.cs.ny.gov/nnyl/\">New York State Internship Program</a>",
+  "url": "https://www.cs.ny.gov/nnyl/",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Rolling",
+  "whenS": "year-round",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Year-round",
+  "opensMD": "",
+  "meta": "State agencies across New York, many in Albany",
+  "body": "The state's central listing of internships in executive-branch agencies. Search StateJobsNY with \"Internship\" set to Yes.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students 18+ with a 2.0+ GPA at a New York school, or New Yorkers studying elsewhere; citizens or foreign nationals eligible to work in the US"
+   ],
+   [
+    "Pay",
+    "$16–$27 an hour, most $18–$20; some are unpaid"
+   ]
+  ]
+ },
+{
+  "id": "gp-nys-comptroller-future-forward",
+  "name": "<a href=\"https://www.osc.ny.gov/jobs/interns\">NYS Comptroller Future Forward Internship Academy</a>",
+  "url": "https://www.osc.ny.gov/jobs/interns",
+  "short": "NYS Comptroller academy",
+  "types": [
+   "summer-internship",
+   "course"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 19",
+  "whenS": "2027",
+  "due": "2027-02-19",
+  "status": "confirmed",
+  "dueMD": "02-19",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Albany, a few spots in NYC · May 20–Aug 13, 2027, full time",
+  "body": "A paid summer in the State Comptroller's office plus classes, worth up to 12–13 upper-level credits. Send official transcripts and two recommendation letters.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time students finishing sophomore, junior or senior year, any major"
+   ],
+   [
+    "Pay",
+    "Paid for 22.5 hours a week; the other 15 are class time"
+   ]
+  ]
+ },
+ {
+  "id": "gp-isf-scholarships",
+  "name": "<a href=\"https://islamicscholarshipfund.org/policy-scholarship\">Islamic Scholarship Fund scholarships</a>",
+  "url": "https://islamicscholarshipfund.org/policy-scholarship",
+  "short": "Islamic Scholarship Fund",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "March",
+  "whenS": "2027 · opens in December",
+  "due": "",
+  "status": "none",
+  "dueMD": "03-21",
+  "opens": "Dec 2026",
+  "opensMD": "12-01",
+  "meta": "Policy, media, law and film tracks · decisions in July",
+  "body": "Merit scholarships for Muslim students in political science, international relations, public policy, journalism and law. The law track takes seniors heading to law school.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Juniors, seniors and graduate students with a 3.0+ GPA in an ISF-supported major, active in the Muslim community. Apply in spring for the next school year"
+   ],
+   [
+    "Status",
+    "The policy track takes US citizens, permanent residents and DACA recipients; the media, law and film pages say citizens and permanent residents only"
+   ],
+   [
+    "Award",
+    "$3,000–5,000 (policy, media, film); $5,000–10,000 (law)"
+   ]
+  ]
+ },
+{
+  "id": "gp-isf-congressional-internship",
+  "name": "<a href=\"https://islamicscholarshipfund.org/internship\">Islamic Scholarship Fund Congressional Policy Internship</a>",
+  "url": "https://islamicscholarshipfund.org/internship",
+  "short": "ISF congressional internship",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Mar 21",
+  "whenS": "last cycle · opens in winter",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-21",
+  "opens": "",
+  "opensMD": "",
+  "meta": "A congressional office in Washington, D.C. · one semester",
+  "body": "A funded semester working in a congressional office, for Muslim students.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Rising juniors and seniors, graduate students (not PhD) and graduates within a year, with a 3.0+ GPA; active in the Muslim community. US citizens, permanent residents and DACA recipients"
+   ],
+   [
+    "Pay",
+    "Summer: housing plus a living stipend. Fall and spring: a stipend for housing and living costs"
+   ]
+  ]
+ },
+{
+  "id": "gp-isf-journalism-internship",
+  "name": "<a href=\"https://islamicscholarshipfund.org/media-internship\">Islamic Scholarship Fund journalism internships</a>",
+  "url": "https://islamicscholarshipfund.org/media-internship",
+  "short": "ISF journalism internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "journalism"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Nov 1",
+  "whenS": "2026 · spring and summer 2027",
+  "due": "2026-11-01",
+  "status": "confirmed",
+  "dueMD": "11-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Remote (Religion News Service, Zeteo) or Los Angeles and Chicago newsrooms · 10–20 weeks",
+  "body": "Paid newsroom placements for Muslim journalism students. The Religion News Service and Zeteo spots are remote, so you can do them from Queens.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Juniors, seniors, graduate students in journalism or a related field, and graduates within 12 months, with a 3.0+ GPA; active in the Muslim community. US citizens, permanent residents and DACA recipients"
+   ],
+   [
+    "Pay",
+    "$5,000 (Religion News Service, Zeteo), $6,000 (Borderless, Chicago) or $8,400 (Los Angeles Times)"
+   ]
+  ]
+ },
+{
+  "id": "gp-isf-congressional-fellowship",
+  "name": "<a href=\"https://islamicscholarshipfund.org/fellowship\">Islamic Scholarship Fund Congressional Policy Fellowship</a>",
+  "url": "https://islamicscholarshipfund.org/fellowship",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "February",
+  "whenS": "opens in October",
+  "due": "",
+  "status": "none",
+  "dueMD": "02-15",
+  "opens": "Oct",
+  "opensMD": "10-01",
+  "meta": "A congressional office in Washington, D.C. · 9 months from September",
+  "body": "A salaried nine-month fellowship on Capitol Hill for Muslim graduates who already have some policy experience.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College graduates with at least a year of full-time policy experience; active in the Muslim community. US citizens, permanent residents and DACA recipients"
+   ],
+   [
+    "Pay",
+    "$35,000–40,000 for the nine months (the pages differ), plus airfare and help with health insurance"
+   ]
+  ]
+ },
+{
+  "id": "gp-cair-national-internships",
+  "name": "<a href=\"https://www.cair.com/get-involved/internships/\">CAIR national internships</a>",
+  "url": "https://www.cair.com/get-involved/internships/",
+  "short": "CAIR internships (spring)",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Dec 1",
+  "whenS": "2026 · spring (suggested); summer Apr 1",
+  "due": "2026-12-01",
+  "status": "confirmed",
+  "dueMD": "12-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Remote or Washington, D.C. · about 10 weeks, 10–20 hours a week",
+  "body": "Civil-rights advocacy, research and government-affairs internships at the Council on American-Islamic Relations. You can do them remotely from Queens.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduate and graduate students in any major, full or part time; background check"
+   ],
+   [
+    "Pay",
+    "Summer: $1,500 stipend. Spring and fall: unpaid, for credit"
+   ]
+  ]
+ },
+{
+  "id": "gp-cair-ny-internships",
+  "name": "<a href=\"https://cair-ny.org/undergraduate-internships\">CAIR-NY internships</a>",
+  "url": "https://cair-ny.org/undergraduate-internships",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "year-round",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Anytime",
+  "opensMD": "",
+  "meta": "Manhattan (233 Broadway) · 10–15 hours a week, 20 in summer",
+  "body": "Outreach, communications and grants internships at the New York chapter of the Council on American-Islamic Relations. Arabic or Urdu is a plus.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current undergraduate and graduate students and recent graduates"
+   ],
+   [
+    "Pay",
+    "Not posted; ask when you apply"
+   ]
+  ]
+ },
+{
+  "id": "gp-mpac-cldp",
+  "name": "<a href=\"https://cldp.org/program-details/\">MPAC Congressional Leadership Development Program</a>",
+  "url": "https://cldp.org/program-details/",
+  "short": "MPAC Hill program",
+  "types": [
+   "summer-internship",
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Dec 29",
+  "whenS": "last cycle · 2027 not posted yet",
+  "due": "",
+  "status": "last",
+  "dueMD": "12-29",
+  "opens": "",
+  "opensMD": "",
+  "meta": "A Capitol Hill office, Washington, D.C. · 10 weeks, late May–Aug 1",
+  "body": "The Muslim Public Affairs Council's funded summer on Capitol Hill for American Muslim students, with free housing.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Rising juniors and seniors, graduate students and graduates within a year, with a 3.0+ GPA; Muslim or active in the Muslim community. US citizens, permanent residents and DACA recipients"
+   ],
+   [
+    "Pay",
+    "Free housing in D.C. plus a stipend (amount not posted)"
+   ]
+  ]
+ },
+{
+  "id": "gp-muslim-public-service-network",
+  "name": "<a href=\"https://muslimpublicservice.org/apply.html\">Muslim Public Service Network Summer Fellowship</a>",
+  "url": "https://muslimpublicservice.org/apply.html",
+  "short": "Muslim Public Service Network",
+  "types": [
+   "summer-internship",
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Apr 30",
+  "whenS": "2027 · opens Jan 30",
+  "due": "2027-04-30",
+  "status": "confirmed",
+  "dueMD": "04-30",
+  "opens": "Jan 30, 2027",
+  "opensMD": "01-30",
+  "meta": "Washington, D.C. · June 1–July 31",
+  "body": "Free housing, meals, evening seminars and mentors in D.C. for Muslim students doing a summer public-service job. You find your own job or internship first. It has run since 1994.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students with two years of college done, any major; international students at US colleges are welcome"
+   ],
+   [
+    "Pay",
+    "No stipend; free housing and meals for June and July"
+   ]
+  ]
+ },
+{
+  "id": "gp-emgage-new-york",
+  "name": "<a href=\"https://emgageusa.org/job/emgage-new-york-field-canvassing-fellows/\">Emgage New York fellows</a>",
+  "url": "https://emgageusa.org/job/emgage-new-york-field-canvassing-fellows/",
+  "types": [
+   "fall-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "election seasons",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "In person in Queens · 20 hours a week, through Nov 4, 2026",
+  "body": "Paid voter-outreach work in Queens with Emgage, the Muslim American civic engagement group. Its New York Metro chapter also runs a yearly <a href=\"https://emgageusa.org/emerging-leaders-program/\">Emerging Leaders Program</a>.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "16 or older, free evenings and weekends"
+   ],
+   [
+    "Pay",
+    "$18 an hour"
+   ]
+  ]
+ },
+{
+  "id": "lp-mlfa-pre-law-fellow",
+  "name": "<a href=\"https://mlfa.org/join-our-team/\">Muslim Legal Fund of America Pre-Law Fellow</a>",
+  "url": "https://mlfa.org/join-our-team/",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Apr 25",
+  "whenS": "last cycle",
+  "due": "",
+  "status": "last",
+  "dueMD": "04-25",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Richardson, Texas, in person · 2 years, full time",
+  "body": "A two-year paralegal job on federal national-security defense cases, before law school.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College graduates with a 3.5+ GPA and pre-law experience; background check"
+   ],
+   [
+    "Pay",
+    "Full-time salary with benefits (amount not posted)"
+   ]
+  ]
+ },
+{
+  "id": "gp-arab-american-leadership-program",
+  "name": "<a href=\"https://www.centeraap.org/grants/scholarships/the-arab-american-leadership-program-application/\">Arab American Leadership Program</a>",
+  "url": "https://www.centeraap.org/grants/scholarships/the-arab-american-leadership-program-application/",
+  "short": "Arab American Leadership Program",
+  "types": [
+   "summer-internship",
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Dec 13",
+  "whenS": "2026 · summer 2027",
+  "due": "2026-12-13",
+  "status": "confirmed",
+  "dueMD": "12-13",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Capitol Hill, government agencies or public-service groups in D.C. · May–August",
+  "body": "A paid summer placement in Washington for Arab American students, run by the National Network for Arab American Communities.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students or graduates 20 or older by May 1, with a 3.4+ GPA"
+   ],
+   [
+    "Pay",
+    "$3,000 stipend, plus up to $2,000 for housing and travel based on need"
+   ]
+  ]
+ },
+{
+  "id": "gp-arab-american-institute-internship",
+  "name": "<a href=\"https://www.aaiusa.org/internship\">Arab American Institute summer internship</a>",
+  "url": "https://www.aaiusa.org/internship",
+  "short": "Arab American Institute internship",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Mar 16",
+  "whenS": "last cycle · opens in January",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-16",
+  "opens": "Jan 12 (last cycle)",
+  "opensMD": "01-12",
+  "meta": "Washington, D.C., in the office Tuesday–Thursday · 10 weeks, June–August",
+  "body": "A paid policy and civic-engagement internship at the Arab American advocacy group. No heritage requirement.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College students, recent graduates and graduate students interested in public affairs"
+   ],
+   [
+    "Pay",
+    "$1,000 a month, or course credit"
+   ]
+  ]
+ },
+ {
+  "id": "gp-politico-journalism-institute",
+  "name": "<a href=\"https://www.politico.com/blogs/meet-politico/2020/11/09/politico-journalism-institute-1524434\">POLITICO Journalism Institute</a>",
+  "url": "https://www.politico.com/blogs/meet-politico/2020/11/09/politico-journalism-institute-1524434",
+  "short": "POLITICO Journalism Institute",
+  "types": [
+   "course",
+   "journalism"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 23",
+  "whenS": "last cycle · 2027 not posted yet",
+  "due": "",
+  "status": "last",
+  "dueMD": "01-23",
+  "opens": "",
+  "opensMD": "",
+  "meta": "American University and POLITICO's newsroom, Washington area · 10 days in late May",
+  "body": "A fully funded 10-day training in covering politics and policy, run with American University and the Maynard Institute. POLITICO pays for travel, housing and meals.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates, graduate students and recent graduates; rising juniors and seniors get preference"
+   ],
+   [
+    "Pay",
+    "All costs covered"
+   ]
+  ]
+ },
+{
+  "id": "gp-propublica-emerging-reporters",
+  "name": "<a href=\"https://www.propublica.org/article/propublica-emerging-reporters-2025\">ProPublica Emerging Reporters Program</a>",
+  "url": "https://www.propublica.org/article/propublica-emerging-reporters-2025",
+  "types": [
+   "fellowship",
+   "journalism"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Summer",
+  "whenS": "posts each summer · for the next school year",
+  "due": "",
+  "status": "none",
+  "dueMD": "08-17",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Remote mentoring while you're in school, September to June",
+  "body": "A ProPublica journalist mentors you through the school year, with a stipend and a trip to a journalism conference. Five students a year, chosen partly on financial need.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Juniors and seniors with financial need taking a full course load; apply the summer before"
+   ],
+   [
+    "Pay",
+    "$9,000 stipend, plus the conference trip"
+   ]
+  ]
+ },
+{
+  "id": "gp-bloomberg-industry-news-internship",
+  "name": "<a href=\"https://bloomberg.wd1.myworkdayjobs.com/en-US/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/XMLNAME-2027-Summer-News-Internship_144733\">Bloomberg Industry Group summer news internship</a>",
+  "url": "https://bloomberg.wd1.myworkdayjobs.com/en-US/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/XMLNAME-2027-Summer-News-Internship_144733",
+  "short": "Bloomberg Industry Group internship",
+  "types": [
+   "summer-internship",
+   "journalism"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 30",
+  "whenS": "2026 · summer 2027",
+  "due": "2026-10-30",
+  "status": "confirmed",
+  "dueMD": "10-30",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Arlington, Va. · 10 weeks full time, with free housing",
+  "body": "A paid summer newsroom internship covering law, tax and government policy news. There are also data, digital editing, graphics and video tracks.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Rising seniors (three years of college done), recent graduates and graduate journalism students"
+   ],
+   [
+    "Pay",
+    "Paid (amount not posted), with free housing"
+   ]
+  ]
+ },
+{
+  "id": "gp-ap-news-internship",
+  "name": "<a href=\"https://www.ap.org/about/careers/\">Associated Press news internship</a>",
+  "url": "https://www.ap.org/about/careers/",
+  "types": [
+   "summer-internship",
+   "journalism"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Early 2027",
+  "whenS": "2027 plans announced then",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Early 2027",
+  "opensMD": "",
+  "meta": "AP bureaus such as New York and Washington",
+  "body": "AP's paid, highly selective news internship. AP says it is changing the program and will announce 2027 plans early next year.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US and international upperclassmen, graduate students and recent graduates"
+   ],
+   [
+    "Pay",
+    "Paid (amount not posted)"
+   ]
+  ]
+ },
+{
+  "id": "gp-nsa-summer-internships",
+  "name": "<a href=\"https://www.usajobs.gov/job/880807100\">NSA summer internships (language, analysis and communications)</a>",
+  "url": "https://www.usajobs.gov/job/880807100",
+  "short": "NSA summer internships",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Sept 5",
+  "whenS": "last cycle · for the summer after next",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-05",
+  "opens": "Aug 15 (last cycle)",
+  "opensMD": "08-15",
+  "meta": "Fort Meade, Md., and other sites · 12 weeks, mid-May to mid-August",
+  "body": "Paid summer programs at the National Security Agency, several open to non-STEM majors: language, strategic communications, security and counterintelligence, and (for juniors and up) intelligence analysis. Applications close about nine months ahead.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students in a degree program; US citizens only. The language program takes freshmen; most others start at sophomore or junior year"
+   ],
+   [
+    "Pay",
+    "$41,659–$91,815 a year, prorated (GG-4 to GG-9), with housing and travel help if eligible"
+   ]
+  ]
+ },
+{
+  "id": "lp-doj-civil-rights-internships",
+  "name": "<a href=\"https://www.justice.gov/crt/volunteer-student-internships\">Justice Department Civil Rights Division internships</a>",
+  "url": "https://www.justice.gov/crt/volunteer-student-internships",
+  "types": [
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd",
+   "mpp",
+   "mpa"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Jun 1",
+  "whenS": "fall · window opens Mar 1",
+  "due": "2027-06-01",
+  "status": "confirmed",
+  "dueMD": "06-01",
+  "opens": "Mar 1 (fall); Jul 1 (spring)",
+  "opensMD": "03-01",
+  "meta": "Washington, D.C.",
+  "body": "Volunteer internships in the Civil Rights Division's sections. Apply by email in the window for each term: March 1–June 1 for fall, July 1–October 1 for spring.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduate and graduate students enrolled at least half time; US citizens (dual citizens case by case)"
+   ],
+   [
+    "Pay",
+    "Unpaid; can count for work-study"
+   ]
+  ]
+ },
+{
+  "id": "gp-dia-summer-internship",
+  "name": "<a href=\"https://www.intelligencecareers.gov/dia/students-and-internships\">Defense Intelligence Agency summer internships</a>",
+  "url": "https://www.intelligencecareers.gov/dia/students-and-internships",
+  "short": "DIA internships",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "March",
+  "whenS": "postings usually open then",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "March",
+  "opensMD": "03-01",
+  "meta": "Washington, D.C., area · 10–12 weeks, May–August",
+  "body": "A paid summer working alongside DIA intelligence analysts. Political science, international relations and public administration are among the fields it lists.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time students with a 3.0+ GPA who can hold a security clearance; US citizens"
+   ],
+   [
+    "Pay",
+    "Paid every two weeks, scaled to credits completed"
+   ]
+  ]
+ },
+{
+  "id": "gp-udall-scholarship",
+  "name": "<a href=\"https://www.udall.gov/OurPrograms/Scholarship/Scholarship.aspx\">Udall Undergraduate Scholarship (environment)</a>",
+  "url": "https://www.udall.gov/OurPrograms/Scholarship/Scholarship.aspx",
+  "short": "Udall Scholarship",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Mar 4",
+  "whenS": "2027 · a faculty rep must register you by Mar 3",
+  "due": "2027-03-04",
+  "status": "confirmed",
+  "dueMD": "03-04",
+  "opens": "Oct 9",
+  "opensMD": "10-09",
+  "meta": "Award plus a scholars' orientation",
+  "body": "A scholarship for sophomores and juniors headed to careers related to the environment; recent scholars include political science majors working on environmental policy. A campus faculty representative nominates you.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Sophomores and juniors committed to an environmental career; US citizens, nationals and permanent residents"
+   ],
+   [
+    "Award",
+    "Up to $7,500; up to 65 awards"
+   ],
+   [
+    "Apply",
+    "Ask the Office of Honors and Scholarships who QC's Udall faculty representative is"
+   ]
+  ]
+ },
+{
+  "id": "gp-nyc-council-internships",
+  "name": "<a href=\"https://council.nyc.gov/jobs/\">NYC Council internships</a>",
+  "url": "https://council.nyc.gov/jobs/",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "each office sets its own",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Year-round",
+  "opensMD": "",
+  "meta": "City Hall and Council Member district offices",
+  "body": "The City Council has no single program; council members take interns in their own offices. In Queens, <a href=\"https://council.nyc.gov/nantasha-williams/councilmember-williams-internship-program/\">Council Member Nantasha Williams</a> runs fall, spring and summer cohorts. Email your own council member's office too.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "Varies by office"
+   ]
+  ]
+ },
+ {
+  "id": "gp-carnegie-junior-fellows",
+  "name": "<a href=\"https://carnegieendowment.org/about/jr-fellows\">Carnegie Endowment James C. Gaither Junior Fellows</a>",
+  "url": "https://carnegieendowment.org/about/jr-fellows",
+  "short": "Carnegie Junior Fellows",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Jan 15",
+  "whenS": "2027 · QC's nomination deadline is earlier",
+  "due": "2027-01-15",
+  "status": "confirmed",
+  "dueMD": "01-15",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 10–12 months from Sept 1, 2027",
+  "body": "A paid year as a research assistant to senior scholars at a leading foreign-policy think tank. Queens College is a participating school, so you apply through the Office of Honors and Scholarships, which nominates.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Graduating seniors and graduates from the past year who haven't started graduate school. You need not be a US citizen if you attend a US school and can work in the US"
+   ],
+   [
+    "Pay",
+    "$4,166.67 a month with full benefits, plus up to $1,500 to move"
+   ]
+  ]
+ },
+{
+  "id": "gp-scoville-peace-fellowship",
+  "name": "<a href=\"https://scoville.org/\">Herbert Scoville Jr. Peace Fellowship</a>",
+  "url": "https://scoville.org/",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Late Feb",
+  "whenS": "last cycle, for a fall start · October for spring",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-27",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 6–9 months at a peace or security nonprofit",
+  "body": "A full-time paid job at a D.C. arms-control, peace or security organization, for recent graduates.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Recent college and graduate school alumni; US citizens preferred"
+   ],
+   [
+    "Pay",
+    "$4,497 a month, up to $400 a month for health costs, travel to D.C. and $1,500 for professional development"
+   ]
+  ]
+ },
+{
+  "id": "gp-govern-for-america",
+  "name": "<a href=\"https://www.govforamerica.org/how-to-apply-fellows\">Govern For America Fellowship</a>",
+  "url": "https://www.govforamerica.org/how-to-apply-fellows",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "opens Dec 14, 2026",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Dec 14",
+  "opensMD": "12-14",
+  "meta": "State and local governments across the US · 2 years from late June 2027",
+  "body": "Places recent graduates in full-time data, budget and program jobs in state and local government, starting with a summer institute.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A bachelor's degree by June 2027; US citizens only"
+   ],
+   [
+    "Pay",
+    "A two-year paid job (amount not posted)"
+   ]
+  ]
+ },
+{
+  "id": "gp-chci-public-policy-fellowship",
+  "name": "<a href=\"https://chci.org/programs/public-policy-fellowship/\">CHCI Public Policy Fellowship</a>",
+  "url": "https://chci.org/programs/public-policy-fellowship/",
+  "short": "CHCI Public Policy Fellowship",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Dec 1",
+  "whenS": "2026 · Aug 2027 start",
+  "due": "2026-12-01",
+  "status": "confirmed",
+  "dueMD": "12-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 9 months, Aug 2027–May 2028",
+  "body": "A paid nine-month placement in a congressional office or federal agency, with leadership training from the Congressional Hispanic Caucus Institute. Separate from CHCI's congressional internship.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A bachelor's degree earned within three years of the start (May 2024–Aug 2027); DACA recipients with a work permit can apply"
+   ],
+   [
+    "Pay",
+    "$34,200 for nine months"
+   ]
+  ]
+ },
+{
+  "id": "gp-apaics-congressional-fellowship",
+  "name": "<a href=\"https://www.apaics.org/fellowship-details\">APAICS Congressional Fellowship</a>",
+  "url": "https://www.apaics.org/fellowship-details",
+  "short": "APAICS Congressional Fellowship",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Dec 18",
+  "whenS": "2026 · Aug 2027 start",
+  "due": "2026-12-18",
+  "status": "confirmed",
+  "dueMD": "12-18",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 12 months from Aug 30, 2027",
+  "body": "A paid year on staff in a congressional office for people committed to Asian American and Pacific Islander communities. Separate from APAICS's internship.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A bachelor's degree by the start (some offices prefer a graduate degree); DACA recipients with a work permit valid for the year can apply"
+   ],
+   [
+    "Pay",
+    "$4,250 a month ($51,000 for the year)"
+   ]
+  ]
+ },
+{
+  "id": "lp-immigrant-justice-corps-community",
+  "name": "<a href=\"https://justicecorps.org/community-fellowship/\">Immigrant Justice Corps Community Fellowship</a>",
+  "url": "https://justicecorps.org/community-fellowship/",
+  "short": "Immigrant Justice Corps",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd",
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "May",
+  "whenS": "opens in March",
+  "due": "",
+  "status": "none",
+  "dueMD": "05-03",
+  "opens": "March",
+  "opensMD": "03-01",
+  "meta": "Legal services groups in New York State, including NYC · 3 years from September",
+  "body": "Recent graduates train to become accredited immigration advocates, helping immigrants with their cases at New York legal-services organizations. You need a second language; Spanish was preferred last cycle.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Graduated no more than two years before the start, with a second language. DACA and TPS holders are welcome"
+   ],
+   [
+    "Pay",
+    "$49,500, $51,500 and $53,000 in years one to three"
+   ]
+  ]
+ },
+{
+  "id": "gp-cbyx-young-professionals",
+  "name": "<a href=\"https://culturalvistas.org/programs/abroad/congress-bundestag-youth-exchange-young-professionals/\">Congress-Bundestag Youth Exchange for Young Professionals</a>",
+  "url": "https://culturalvistas.org/programs/abroad/congress-bundestag-youth-exchange-young-professionals/",
+  "short": "Congress-Bundestag exchange",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 1",
+  "whenS": "2026 · 2027–28 year",
+  "due": "2026-11-01",
+  "status": "confirmed",
+  "dueMD": "11-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Germany · about a year: language school, a semester of classes, then an internship",
+  "body": "A State Department and German Bundestag work-study year in Germany, with flights, tuition, a monthly stipend and insurance covered.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens aged 18½–24 on Aug 1 with some work or internship experience"
+   ],
+   [
+    "Pay",
+    "Flights, two months of German classes, a semester's tuition, a monthly stipend and insurance; bring about $5,000"
+   ]
+  ]
+ },
+{
+  "id": "gp-hearst-newspapers-fellowship",
+  "name": "<a href=\"https://www.hearstfellowships.com/\">Hearst Newspapers Fellowship</a>",
+  "url": "https://www.hearstfellowships.com/",
+  "short": "Hearst Newspapers Fellowship",
+  "types": [
+   "fellowship",
+   "after",
+   "journalism"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 4",
+  "whenS": "2027 · Aug 2027 start",
+  "due": "2027-01-04",
+  "status": "confirmed",
+  "dueMD": "01-04",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Two newsrooms such as the Houston Chronicle, San Francisco Chronicle or Albany Times Union · 2 years",
+  "body": "A two-year paid reporting job with a year each at two Hearst newspapers.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A degree by Aug 2, 2027 and one to two years of journalism experience; must be authorized to work in the US"
+   ],
+   [
+    "Pay",
+    "Salary with benefits, plus moving costs"
+   ]
+  ]
+ },
+{
+  "id": "gp-report-for-america",
+  "name": "<a href=\"https://www.reportforamerica.org/\">Report for America</a>",
+  "url": "https://www.reportforamerica.org/",
+  "types": [
+   "fellowship",
+   "after",
+   "journalism"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 16",
+  "whenS": "last cycle · opens in January",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-16",
+  "opens": "Jan 19 (last cycle)",
+  "opensMD": "01-19",
+  "meta": "Local newsrooms across the US · 2 years",
+  "body": "A national service program that places early-career reporters in local newsrooms covering under-covered communities.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "At least a year of journalism experience; two internships, or one plus student media, count. Must be authorized to work in the US"
+   ],
+   [
+    "Pay",
+    "Set by the newsroom at a living wage; each posting lists a range"
+   ]
+  ]
+ },
+{
+  "id": "gp-ida-stpi-science-policy-fellowship",
+  "name": "<a href=\"https://www.ida.org/careers/students-and-recent-graduates/internships-and-fellowships/science-policy-fellowship\">IDA Science and Technology Policy Institute Fellowship</a>",
+  "url": "https://www.ida.org/careers/students-and-recent-graduates/internships-and-fellowships/science-policy-fellowship",
+  "short": "IDA science policy fellowship",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "phd",
+   "predoc"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 4",
+  "whenS": "2027 · mid-July start",
+  "due": "2027-01-04",
+  "status": "confirmed",
+  "dueMD": "01-04",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 2 years",
+  "body": "A paid two-year research analyst job at a think tank that supports the White House science office and federal agencies. Social and behavioral science majors qualify; no policy experience needed.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A bachelor's degree conferred May 2025–July 2027; US citizens, with a security investigation"
+   ],
+   [
+    "Pay",
+    "Full-time salary with benefits (amount not posted)"
+   ]
+  ]
+ },
+{
+  "id": "lp-trials-pre-law",
+  "name": "<a href=\"https://trials.atfoundation.org/\">TRIALS pre-law program</a>",
+  "url": "https://trials.atfoundation.org/",
+  "short": "TRIALS pre-law program",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Jan 15",
+  "whenS": "2027 · summer at NYU Law",
+  "due": "2027-01-15",
+  "status": "confirmed",
+  "dueMD": "01-15",
+  "opens": "Oct 15",
+  "opensMD": "10-15",
+  "meta": "NYU School of Law, Manhattan · June 26–Aug 1, 2027, plus a year of support",
+  "body": "A free five-week residential LSAT and pre-law program run with Harvard and NYU law schools, followed by a year of help with the LSAT and applications. It gives preference to students of modest means from colleges that send few graduates to those law schools.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College students and graduates of modest means; international students who studied full time at a US college can apply"
+   ],
+   [
+    "Pay",
+    "Free tuition, housing, meals and travel, plus a $3,000 stipend"
+   ]
+  ]
+ },
+{
+  "id": "gp-chli-global-leaders-internship",
+  "name": "<a href=\"https://chli.org/?p=592\">CHLI Global Leaders Internship</a>",
+  "url": "https://chli.org/?p=592",
+  "short": "CHLI Global Leaders (spring)",
+  "types": [
+   "spring-internship",
+   "fall-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 30",
+  "whenS": "2026 · spring 2027 semester",
+  "due": "2026-10-30",
+  "status": "confirmed",
+  "dueMD": "10-30",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C. · one semester",
+  "body": "A fully funded semester in D.C. from the Congressional Hispanic Leadership Institute, split between a congressional office and a company's government-affairs office.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Sophomores, juniors and seniors at four-year colleges, or within a year of graduating, any major; must be eligible to work in the US"
+   ],
+   [
+    "Pay",
+    "Airfare, Capitol Hill housing, transit and a monthly stipend"
+   ]
+  ]
+ },
+{
+  "id": "gp-ajc-goldman-fellowship",
+  "name": "<a href=\"https://www.ajc.org/ajc-goldman-summer-fellowship\">AJC Goldman Fellowship</a>",
+  "url": "https://www.ajc.org/ajc-goldman-summer-fellowship",
+  "types": [
+   "summer-internship",
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Early Jan",
+  "whenS": "last cycle · opens in early November",
+  "due": "",
+  "status": "last",
+  "dueMD": "01-05",
+  "opens": "Early Nov",
+  "opensMD": "11-01",
+  "meta": "New York, Washington, Atlanta, Los Angeles or Brussels · 8 weeks, then a trip to Germany",
+  "body": "A paid summer of advocacy and diplomacy work at the American Jewish Committee, open to students of any background.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduate and graduate students in any field; you don't need to be Jewish"
+   ],
+   [
+    "Pay",
+    "At least $4,200, plus travel"
+   ]
+  ]
+ },
+{
+  "id": "gp-victory-congressional-internship",
+  "name": "<a href=\"https://victoryinstitute.org/programs/victory-congressional-internship/\">Victory Congressional Internship</a>",
+  "url": "https://victoryinstitute.org/programs/victory-congressional-internship/",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Winter",
+  "whenS": "summer dates not posted yet",
+  "due": "",
+  "status": "none",
+  "dueMD": "01-05",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 8 weeks with an LGBTQ-friendly member of Congress",
+  "body": "A paid Capitol Hill internship with leadership training for LGBTQ+ undergraduates, with free housing in D.C.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time undergraduates with at least one year done; citizens, permanent residents or work-permit holders"
+   ],
+   [
+    "Pay",
+    "$15 an hour, free housing and travel"
+   ]
+  ]
+ },
+{
+  "id": "gp-running-start-congressional-fellowship",
+  "name": "<a href=\"https://www.runningstart.org/congressional-fellowship\">Running Start Congressional Fellowship</a>",
+  "url": "https://www.runningstart.org/congressional-fellowship",
+  "types": [
+   "fall-internship",
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Mar 15",
+  "whenS": "last cycle · priority Feb 15",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-15",
+  "opens": "",
+  "opensMD": "",
+  "meta": "A congressional office in D.C. or a district office · fall semester, part time",
+  "body": "A part-time fall placement with a member of Congress plus political leadership training, for young women.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Young women aged 18–25"
+   ],
+   [
+    "Pay",
+    "$1,000 stipend plus expenses-paid training in D.C."
+   ]
+  ]
+ },
+ {
+  "id": "gp-yenching-academy",
+  "name": "<a href=\"https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm\">Yenching Academy of Peking University</a>",
+  "url": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+  "short": "Yenching Academy",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "phd",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Nov 29",
+  "whenS": "2026 · 8 p.m. New York time · Sept 2027 start",
+  "due": "2026-11-29",
+  "status": "confirmed",
+  "dueMD": "11-29",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Beijing, China · 2-year master's",
+  "body": "A fully funded master's in China Studies at Peking University: a funded two years abroad for future leaders in any field. QC students apply directly; no nomination.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Seniors graduating by August 2027 and graduates in any field, who aren't Chinese citizens. English test unless you're a native speaker"
+   ],
+   [
+    "Funding",
+    "Tuition, housing, a monthly stipend, round-trip travel, insurance and field research costs"
+   ]
+  ]
+ },
+{
+  "id": "gp-rhodes-scholarship",
+  "name": "<a href=\"https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/\">Rhodes Scholarship (United States)</a>",
+  "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/",
+  "short": "Rhodes Scholarship",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Oct 7",
+  "whenS": "last cycle · opens in July",
+  "due": "",
+  "status": "last",
+  "dueMD": "10-07",
+  "opens": "July",
+  "opensMD": "07-01",
+  "meta": "University of Oxford, England · 2 years or more",
+  "body": "Fully funded graduate study at Oxford, 32 US scholars a year. Queens College must endorse you, through the Office of Honors and Scholarships; start the summer before senior year.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens, permanent residents and DACA recipients aged 18–23 (or under 27 in some cases), with a degree by July of the start year. A 3.7+ GPA is expected; below that needs an exception"
+   ],
+   [
+    "Funding",
+    "Oxford fees, a stipend of about £20,400 a year, flights and visa costs"
+   ]
+  ]
+ },
+{
+  "id": "gp-marshall-scholarship",
+  "name": "<a href=\"https://www.marshallscholarship.org/apply/\">Marshall Scholarship</a>",
+  "url": "https://www.marshallscholarship.org/apply/",
+  "short": "Marshall Scholarship",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Sept 29",
+  "whenS": "last cycle · opens in summer 2027",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-29",
+  "opens": "Summer",
+  "opensMD": "06-01",
+  "meta": "Any UK university · 1 or 2 years",
+  "body": "Fully funded graduate study at any UK university, up to 50 a year. Queens College must endorse you, through the Office of Honors and Scholarships.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens with a 3.7+ GPA (no rounding) who finished college within about three years"
+   ],
+   [
+    "Funding",
+    "University fees, living costs, books, research travel and flights"
+   ]
+  ]
+ },
+{
+  "id": "gp-gates-cambridge",
+  "name": "<a href=\"https://www.gatescambridge.org/apply/timeline/\">Gates Cambridge Scholarship</a>",
+  "url": "https://www.gatescambridge.org/apply/timeline/",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Oct 14",
+  "whenS": "last cycle (US round) · international round Dec–Jan",
+  "due": "",
+  "status": "last",
+  "dueMD": "10-14",
+  "opens": "Sept 11 (last cycle)",
+  "opensMD": "09-11",
+  "meta": "University of Cambridge, England · 1-year master's or a PhD",
+  "body": "Full-cost scholarships for graduate study at Cambridge, for strong students committed to improving others' lives. US citizens living in the US apply in the October US round; others in the international round.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Citizens of any country outside the UK applying to a Cambridge PhD or one-year master's"
+   ],
+   [
+    "Funding",
+    "Full fees plus £23,152 a year (2026–27), flights, visa and health surcharge"
+   ]
+  ]
+ },
+{
+  "id": "gp-knight-hennessy-scholars",
+  "name": "<a href=\"https://knight-hennessy.stanford.edu/admission\">Knight-Hennessy Scholars (Stanford)</a>",
+  "url": "https://knight-hennessy.stanford.edu/admission",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Oct 6",
+  "whenS": "last cycle · opens summer 2027",
+  "due": "",
+  "status": "last",
+  "dueMD": "10-06",
+  "opens": "Summer",
+  "opensMD": "06-01",
+  "meta": "Stanford University, California · up to 3 years of graduate study",
+  "body": "Fully funded graduate study in any Stanford program, including law, with leadership training. Not abroad, but students from every country apply.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A bachelor's earned in January 2020 or later; citizens of all countries, and DACA and undocumented students can apply"
+   ],
+   [
+    "Funding",
+    "Tuition, a living stipend, travel and relocation for up to three years"
+   ]
+  ]
+ },
+{
+  "id": "gp-clarendon-fund",
+  "name": "<a href=\"https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants\">Clarendon Scholarships (Oxford)</a>",
+  "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Dec–Jan",
+  "whenS": "your Oxford course's deadline",
+  "due": "",
+  "status": "none",
+  "dueMD": "01-10",
+  "opens": "",
+  "opensMD": "",
+  "meta": "University of Oxford, England · the length of your course",
+  "body": "About 200 fully funded Oxford graduate scholarships a year, awarded on merit. There's no separate application: apply to an Oxford master's or DPhil by its December or January deadline and you're considered.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Any nationality; about a 3.7+ GPA"
+   ],
+   [
+    "Funding",
+    "Full fees and a living grant of at least £20,780 (2025–26)"
+   ]
+  ]
+ },
+{
+  "id": "gp-erasmus-mundus",
+  "name": "<a href=\"https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en\">Erasmus Mundus Joint Master's scholarships</a>",
+  "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Oct–Jan",
+  "whenS": "each program sets its own",
+  "due": "",
+  "status": "none",
+  "dueMD": "01-10",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Three or more universities in Europe · 1–2 years",
+  "body": "EU-funded master's degrees taught at several European universities, including programs in politics and international relations, with scholarships for top applicants. Browse the catalogue and apply to each program.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students in their last year of college and graduates, from any country"
+   ],
+   [
+    "Funding",
+    "Program costs plus help with travel, visa and living costs"
+   ]
+  ]
+ },
+{
+  "id": "gp-daad-study-scholarship",
+  "name": "<a href=\"https://www.daad.org/en/find-funding/country-specific-information-for-us-applicants/\">DAAD Study Scholarship (master's in Germany)</a>",
+  "url": "https://www.daad.org/en/find-funding/country-specific-information-for-us-applicants/",
+  "short": "DAAD study scholarship",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Oct 30",
+  "whenS": "2026 · for October 2027",
+  "due": "2026-10-30",
+  "status": "confirmed",
+  "dueMD": "10-30",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Germany · 10–24 months",
+  "body": "German government funding for a full master's degree abroad in Germany (many are taught in English).",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Seniors at US colleges and graduates within six years; US citizens and permanent residents, and foreign nationals living or studying in the US"
+   ],
+   [
+    "Funding",
+    "€992 a month, insurance, travel and €460 a year for study costs (not tuition)"
+   ]
+  ]
+ },
+{
+  "id": "gp-jet-programme",
+  "name": "<a href=\"https://jetprogramusa.org/\">JET Programme (Japan)</a>",
+  "url": "https://jetprogramusa.org/",
+  "short": "JET Programme",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 13",
+  "whenS": "2026 · July 2027 departure",
+  "due": "2026-11-13",
+  "status": "confirmed",
+  "dueMD": "11-13",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Japan · 1 year, renewable up to 5",
+  "body": "Paid jobs abroad as an assistant language teacher in Japanese schools or a coordinator in a local government.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens with a bachelor's by June 25, 2027"
+   ],
+   [
+    "Pay",
+    "¥4,020,000 the first year, plus flights"
+   ]
+  ]
+ },
+{
+  "id": "gp-tapif-france",
+  "name": "<a href=\"https://villa-albertine.org/frenchculture/?p=7863\">Teaching Assistant Program in France (TAPIF)</a>",
+  "url": "https://villa-albertine.org/frenchculture/?p=7863",
+  "short": "TAPIF teaching in France",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 15",
+  "whenS": "2027 · opened Oct 15",
+  "due": "2027-02-15",
+  "status": "confirmed",
+  "dueMD": "02-15",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "French public schools · 7 months, Oct–Apr",
+  "body": "Paid work abroad as an English teaching assistant in France. The application costs $149.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens and green card holders aged 20–35 with three years of college done and intermediate (B1) French"
+   ],
+   [
+    "Pay",
+    "About €1,011 a month before tax"
+   ]
+  ]
+ },
+{
+  "id": "gp-spain-nalcap",
+  "name": "<a href=\"https://www.educacionfpydeportes.gob.es/eeuu/convocatorias-programas/convocatorias-eeuu/nalcap/announcements.html\">Language assistants in Spain (Auxiliares de Conversación)</a>",
+  "url": "https://www.educacionfpydeportes.gob.es/eeuu/convocatorias-programas/convocatorias-eeuu/nalcap/announcements.html",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "June 30",
+  "whenS": "last cycle · 2027–28 call not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "06-30",
+  "opens": "June (last cycle)",
+  "opensMD": "06-02",
+  "meta": "Spanish public schools · Oct or Nov to May",
+  "body": "Paid English language assistant jobs abroad in Spanish schools, run by Spain's Ministry of Education. Applying is free; ignore anyone who asks for a fee.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens who are college graduates or have finished at least two years of college; 18 or older"
+   ],
+   [
+    "Pay",
+    "€800 a month for 14 hours a week, more in some regions"
+   ]
+  ]
+ },
+{
+  "id": "gp-epik-korea",
+  "name": "<a href=\"https://www.epik.go.kr/\">EPIK (English Program in Korea)</a>",
+  "url": "https://www.epik.go.kr/",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "spring intake through January",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Year-round",
+  "opensMD": "",
+  "meta": "South Korean public schools",
+  "body": "Korean government jobs abroad teaching English in public schools, with housing provided.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens (and a few other countries) with a bachelor's; a 100-hour TEFL certificate if your degree isn't related"
+   ],
+   [
+    "Pay",
+    "About ₩2.35–2.8 million a month, housing and a settlement allowance"
+   ]
+  ]
+ },
+{
+  "id": "gp-freeman-asia",
+  "name": "<a href=\"https://www.iie.org/programs/freeman-asia/\">Freeman-ASIA study abroad scholarship</a>",
+  "url": "https://www.iie.org/programs/freeman-asia/",
+  "types": [
+   "fellowship",
+   "course"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Spring",
+  "whenS": "2027–28 terms open in February",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Feb 2027",
+  "opensMD": "02-01",
+  "meta": "East or Southeast Asia · a summer, semester or year",
+  "body": "Need-based scholarships for undergraduates studying abroad in East or Southeast Asia. Your study abroad and financial aid offices endorse the application.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates with financial need; US citizens and permanent residents"
+   ],
+   [
+    "Award",
+    "Up to $3,000 (summer), $5,000 (semester) or $7,000 (year)"
+   ]
+  ]
+ },
+{
+  "id": "gp-blakemore-freeman-fellowships",
+  "name": "<a href=\"https://www.blakemorefoundation.org/fellowships\">Blakemore Freeman Fellowships (Asian languages)</a>",
+  "url": "https://www.blakemorefoundation.org/fellowships",
+  "short": "Blakemore language fellowship",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Dec 30",
+  "whenS": "2026 · fall 2027 start",
+  "due": "2026-12-30",
+  "status": "confirmed",
+  "dueMD": "12-30",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Beijing, Taiwan, Yokohama and other sites in Asia · 1 academic year",
+  "body": "A funded year of advanced study of Chinese, Japanese, Korean or a Southeast Asian language abroad, for graduates headed to careers that use it.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens and green card holders with a bachelor's by the start and about three years of the language"
+   ],
+   [
+    "Funding",
+    "Tuition plus a stipend for living costs and travel"
+   ]
+  ]
+ },
+{
+  "id": "gp-mext-research-scholarship",
+  "name": "<a href=\"https://www.ny.us.emb-japan.go.jp/itpr_en/SCHOLARSHIP02.html\">Japanese Government (MEXT) Research Scholarship</a>",
+  "url": "https://www.ny.us.emb-japan.go.jp/itpr_en/SCHOLARSHIP02.html",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "phd",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "May 22",
+  "whenS": "last cycle · next April–May",
+  "due": "",
+  "status": "last",
+  "dueMD": "05-22",
+  "opens": "April (last cycle)",
+  "opensMD": "04-01",
+  "meta": "A Japanese university · graduate study or research",
+  "body": "Fully funded graduate study or research in Japan, applied for through the Consulate General of Japan in New York.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens born on or after April 2, 1992 (2027 cycle) who qualify for a Japanese graduate program; New York-area residents apply through the New York consulate"
+   ],
+   [
+    "Funding",
+    "Tuition, a monthly stipend and airfare"
+   ]
+  ]
+ },
+{
+  "id": "gp-taiwan-huayu-scholarship",
+  "name": "<a href=\"https://depart.moe.edu.tw/NY/Default.aspx\">Taiwan Huayu Enrichment Scholarship</a>",
+  "url": "https://depart.moe.edu.tw/NY/Default.aspx",
+  "types": [
+   "fellowship",
+   "course"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Mar 31",
+  "whenS": "last cycle · guidelines post Jan–Feb",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-31",
+  "opens": "",
+  "opensMD": "",
+  "meta": "A Mandarin language center in Taiwan · 2 to 9 months",
+  "body": "A Taiwan government stipend for full-time Mandarin study abroad in Taiwan, through the New York education office. You also apply to a language center yourself.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens 18 or older living in New York, New Jersey, Connecticut or Pennsylvania"
+   ],
+   [
+    "Funding",
+    "NT$28,000 a month"
+   ]
+  ]
+ },
+{
+  "id": "gp-global-korea-scholarship",
+  "name": "<a href=\"https://boston.mofa.go.kr/us-boston-en/brd/m_4558/view.do?seq=761392\">Global Korea Scholarship (graduate)</a>",
+  "url": "https://boston.mofa.go.kr/us-boston-en/brd/m_4558/view.do?seq=761392",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "phd",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 25",
+  "whenS": "last cycle · New York applicants go through the Korean Education Center",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-25",
+  "opens": "Feb (last cycle)",
+  "opensMD": "02-12",
+  "meta": "A Korean university · 3 years for a master's, including a year of Korean",
+  "body": "Korean government full scholarships for graduate degrees in Korea, starting with a year of language training. You apply after you graduate.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens under 40 with a bachelor's, usually in the top 20% academically; not Korean citizens"
+   ],
+   [
+    "Funding",
+    "Airfare, full tuition, a monthly allowance, language training and insurance"
+   ]
+  ]
+ },
+{
+  "id": "gp-luce-scholars",
+  "name": "<a href=\"https://lucescholars.org/selection/\">Henry Luce Scholars</a>",
+  "url": "https://lucescholars.org/selection/",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Early Sept",
+  "whenS": "last cycle · application opens in April",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-08",
+  "opens": "April",
+  "opensMD": "04-01",
+  "meta": "A placement in one of 19 countries in Asia · 13 months",
+  "body": "A funded year of professional work and immersion in Asia for people who aren't Asia specialists. You apply directly; a college nomination is no longer needed.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens and permanent residents: seniors, recent graduates and young professionals under 33"
+   ],
+   [
+    "Funding",
+    "A stipend, housing allowance and language training"
+   ]
+  ]
+ },
+{
+  "id": "gp-princeton-in-latin-america",
+  "name": "<a href=\"https://princetoninlatinamerica.org/apply\">Princeton in Latin America</a>",
+  "url": "https://princetoninlatinamerica.org/apply",
+  "short": "Princeton in Latin America",
+  "types": [
+   "after",
+   "fellowship"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 1",
+  "whenS": "2026 · fellowships starting summer 2027",
+  "due": "2026-11-01",
+  "status": "confirmed",
+  "dueMD": "11-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "NGOs and agencies in Latin America and the Caribbean · about 12 months",
+  "body": "Year-long service fellowships abroad with Latin American nonprofits and multilateral organizations, open to graduates of any college. The application fee is $100, less for students on financial aid.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Graduating seniors and early-career professionals with professional or advanced Spanish"
+   ],
+   [
+    "Funding",
+    "Housing and a stipend from the host, varying by placement; you pay airfare and insurance"
+   ]
+  ]
+ },
+{
+  "id": "gp-boren-fellowship",
+  "name": "<a href=\"https://www.borenawards.org/\">Boren Fellowship (graduate)</a>",
+  "url": "https://www.borenawards.org/",
+  "short": "Boren Fellowship",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 20",
+  "whenS": "2027",
+  "due": "2027-01-20",
+  "status": "confirmed",
+  "dueMD": "01-20",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Countries outside Western Europe, Canada, Australia and New Zealand · up to a year",
+  "body": "Funding for graduate students to study a language and do research abroad in regions important to US national security, with a year of federal service afterward. The undergraduate version is the <a href=\"#gp-boren-scholarship\">Boren Scholarship</a>.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens enrolled in or applying to a US graduate program"
+   ],
+   [
+    "Funding",
+    "Up to $25,000 for 25–52 weeks, or $12,500 for 12–24 weeks"
+   ]
+  ]
+ },
+{
+  "id": "gp-bundestag-ips",
+  "name": "<a href=\"https://www.germany.info/us-en/welcome/ips/1305996\">Bundestag International Parliamentary Scholarship</a>",
+  "url": "https://www.germany.info/us-en/welcome/ips/1305996",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "July 31",
+  "whenS": "last cycle · for the following March",
+  "due": "",
+  "status": "last",
+  "dueMD": "07-31",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Berlin, Germany · March–July",
+  "body": "A paid five-month program abroad in the German parliament, including three months in a member of parliament's office.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens with a college degree, under 30, with upper-intermediate (B2) German"
+   ],
+   [
+    "Pay",
+    "€700 a month, free housing, insurance and travel"
+   ]
+  ]
+ },
+{
+  "id": "gp-fulbright-austria-teaching",
+  "name": "<a href=\"https://www.fulbright.at/programs/in-austria/teaching-assistants/grant-details/us-teaching-assistant-program\">Fulbright Austria Teaching Assistantships</a>",
+  "url": "https://www.fulbright.at/programs/in-austria/teaching-assistants/grant-details/us-teaching-assistant-program",
+  "short": "Fulbright Austria teaching",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 15",
+  "whenS": "2027 · opens Nov 15",
+  "due": "2027-01-15",
+  "status": "confirmed",
+  "dueMD": "01-15",
+  "opens": "Nov 15",
+  "opensMD": "11-15",
+  "meta": "Austrian secondary schools · Oct 2027–May 2028",
+  "body": "Paid English teaching assistant jobs abroad in Austria, with a separate application from the main Fulbright program.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens (dual citizens OK) in their final year of college or with a bachelor's, with intermediate (B1) German"
+   ],
+   [
+    "Pay",
+    "About €2,012 a month before tax, plus health insurance"
+   ]
+  ]
+ },
+{
+  "id": "gp-peace-corps",
+  "name": "<a href=\"https://www.peacecorps.gov/ways-to-serve/serve-with-us/\">Peace Corps</a>",
+  "url": "https://www.peacecorps.gov/ways-to-serve/serve-with-us/",
+  "types": [
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "each opening has its own date",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Year-round",
+  "opensMD": "",
+  "meta": "60+ countries · 2 years and 3 months",
+  "body": "Two years of community service abroad, with a living allowance and graduate school benefits afterward.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "US citizens 18 or older, usually with a four-year degree"
+   ],
+   [
+    "Pay",
+    "A living allowance, housing, medical care, travel and a readjustment allowance at the end"
+   ]
+  ]
+ },
+ {
+  "id": "lp-fordham-ideal",
+  "name": "<a href=\"https://www.fordham.edu/school-of-law/life-at-fordham-law/diversity-at-fordham-law/ideal-program/\">Fordham Law IDEAL pre-law program</a>",
+  "url": "https://www.fordham.edu/school-of-law/life-at-fordham-law/diversity-at-fordham-law/ideal-program/",
+  "short": "Fordham Law IDEAL",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 30",
+  "whenS": "2027 · opens in December",
+  "due": "2027-01-30",
+  "status": "confirmed",
+  "dueMD": "01-30",
+  "opens": "Dec 2026",
+  "opensMD": "12-01",
+  "meta": "Fordham Law, Manhattan, and online · 10 weeks each summer, June to early August",
+  "body": "A free two-summer pre-law program at Fordham Law for New York City-area college students. Summer I (apply as a sophomore) introduces law school through Fordham's online Pre-Law Institute, visits to law firms and the DA's office, and mentoring. Summer II (apply as a junior) is a 10-week LSAT boot camp with a judicial internship and help with law school applications. Online information sessions: Nov 2 and Nov 6, 2026.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time sophomores (no more than 90 credits by June 1, 2027) or juniors (no more than 105 credits and a 3.5+ GPA) at four-year colleges, with a strong interest in law"
+   ],
+   [
+    "Pay",
+    "Free, with some meals and a modest stipend; no housing or travel to campus"
+   ],
+   [
+    "Note",
+    "You can't hold another job or internship during the summer"
+   ]
+  ]
+ },
+ {
+  "id": "gp-commonpoint-data-insights-fellowship",
+  "name": "<a href=\"https://www.commonpoint.org/careers\">Commonpoint Data & Insights Fellowship</a>",
+  "url": "https://www.commonpoint.org/careers",
+  "short": "Commonpoint Data & Insights Fellowship",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma",
+   "predoc"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Each term",
+  "whenS": "spring, summer and fall cohorts",
+  "due": "",
+  "status": "none",
+  "dueMD": "11-23",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Commonpoint, a social-services nonprofit in Queens · one semester",
+  "body": "Data, insights, research and program evaluation on the impact team of Commonpoint, a large Queens nonprofit. The application has voice answers, a 72-hour practice task, and an interview with a presentation, and it asks you not to use AI to write your answers. Email impact@commonpoint.org to ask when the next cohort opens.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College students who can earn internship credit or a stipend through their school; current US work authorization required"
+   ],
+   [
+    "Pay",
+    "Through academic credit or a stipend program at your school, such as QC's internship stipend fund"
+   ]
+  ]
+ },
+{
+  "id": "gp-qc-journalism-minor",
+  "name": "<a href=\"https://qc-undergraduate.catalog.cuny.edu/programs/JOURN-MIN\">Journalism minor (Media Studies)</a>",
+  "url": "https://qc-undergraduate.catalog.cuny.edu/programs/JOURN-MIN",
+  "short": "QC journalism minor",
+  "types": [
+   "campus",
+   "course",
+   "journalism"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Anytime",
+  "whenS": "declare it with the department",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Anytime",
+  "opensMD": "",
+  "meta": "Queens College · 18 credits",
+  "body": "Reporting, writing, editing and digital journalism, taught by people with newsroom experience. It pairs well with political science: PSCI 217 and 220 are on the elective list, though courses that count for your major can't also count here.",
+  "warn": "",
+  "facts": [
+   [
+    "Required",
+    "JOURN 100 (Beat the Press), 101W (Introduction to News Reporting), 200W (Reporting from the Field) and 201 (Digital Journalism)"
+   ],
+   [
+    "Electives",
+    "Two of JOURN 202, 265, 300 (Internship in Journalism), 304 and 310, or approved courses in other departments"
    ]
   ]
  }

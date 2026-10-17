@@ -69,6 +69,10 @@
     PROGRAMS.forEach(function(p){
       if (!p.due || p.event || (p.status !== "confirmed" && p.status !== "estimate")) return;
       if (!p.degrees.some(function(d){ return t.degrees.indexOf(d) >= 0; })) return;
+      // the graduate school handout sticks to graduate school prep: no journalism, and no
+      // after-college jobs unless they lead to a PhD (predocs, research fellowships)
+      if (path === "grad" && (p.types.indexOf("journalism") >= 0 ||
+          (p.types.indexOf("after") >= 0 && !p.degrees.some(function(d){ return d === "phd" || d === "predoc"; })))) return;
       list.push({d:p.due, n:p.short || textOf(p.name).replace(/\s*\([^)]*\)\s*$/, ""), a:p.status === "estimate"});
     });
     EXTRA.forEach(function(x){ if (x.t === path) list.push(x); });
@@ -78,10 +82,13 @@
   }
 
   var t = TEXT[path];
-  var checked = today.toLocaleDateString("en-US", {month:"long", day:"numeric", year:"numeric"});
+  var LONG = {month:"long", day:"numeric", year:"numeric"};
+  var checked = today.toLocaleDateString("en-US", LONG);
+  // window.UPDATED (data.js) is the last weekly check of programs and deadlines
+  var updated = window.UPDATED ? parse(window.UPDATED).toLocaleDateString("en-US", LONG) : "";
   var html = '<header><div class="site">Queens College Political Science Pathways</div>' +
     '<h1>' + esc(t.title) + '</h1>' +
-    '<p class="sub">Full guide: ' + SITE + ' · Program details checked September 2026 · Deadlines as of ' + esc(checked) + '</p></header>' +
+    '<p class="sub">Full guide: ' + SITE + (updated ? ' · Programs last updated ' + esc(updated) : '') + ' · Deadlines as of ' + esc(checked) + '</p></header>' +
     '<p class="intro">' + esc(t.intro) + '</p>' +
     '<h2>' + esc(t.firstHead) + '</h2><dl class="degrees">' +
     t.first.map(function(r){ return '<dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd>'; }).join("") + '</dl>' +

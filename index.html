@@ -4,970 +4,144 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Queens College Political Science Pathways</title>
-<meta name="description" content="Graduate school and law school paths for Queens College political science majors: paid internships, research programs, deadlines and sample résumés.">
+<meta name="description" content="Year by year, what Queens College political science majors should do, how to do it, and what to apply to for graduate school and law school.">
+<meta name="theme-color" content="#E71939">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<meta name="theme-color" content="#E71939">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Queens College Political Science Pathways">
-<meta property="og:description" content="A student-made guide to graduate school and law school for Queens College Political Science majors: research programs, paid internships, deadlines and sample résumés.">
-<meta property="og:url" content="https://maljahmi.github.io/qc-polisci-pathways/">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400&display=swap">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@400..700&family=Libre+Baskerville:wght@400;700&display=swap">
+<link rel="stylesheet" href="taste.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="oldlinks.js"></script>
 </head>
-<body>
-<header class="bar">
-  <div class="wrap">
-    <div class="brand">Queens College Political Science Pathways<small>CUNY</small></div>
-    <nav class="switch" aria-label="Choose a path">
-      <button type="button" data-t="grad" aria-pressed="true">Graduate<span class="x"> school</span></button>
-      <button type="button" data-t="law" aria-pressed="false">Law<span class="x"> school</span></button>
-    </nav>
-  </div>
+<body class="path-page">
+
+<header class="nav">
+  <a class="wordmark" href="index.html"><span class="long">Queens College Political Science </span>Pathways</a>
+  <nav class="nav-links" aria-label="Main">
+    <a href="grad.html">Graduate school</a>
+    <a href="law.html">Law school</a>
+    <a href="jobs.html">Jobs</a>
+    <a href="programs.html">Programs</a>
+    <a href="guides.html">Guides</a>
+    <a href="about.html">About</a>
+  </nav>
+  <a class="btn btn-small" href="#path">Find your year</a>
 </header>
 
-<div class="hero">
-  <div class="wrap">
-    <div>
-      <h1 id="headline">Your route from Queens College Political Science to a funded PhD or policy master's.</h1>
-      <p class="lede" id="lede">Research programs, paid internships, fellowships and application steps, <b>checked against each official page in September 2026</b>.</p>
-      <div class="covers" id="eyebrow">PhD · MPA · MPP · MA</div>
+<main>
+<section class="hero" aria-labelledby="hero-h">
+  <h1 class="lines" id="hero-h">
+    <span class="line"><span data-line style="--i:0">Political Science</span></span>
+    <span class="line"><span data-line style="--i:1">Pathways</span></span>
+  </h1>
+  <figure class="hero-pic">
+    <img src="assets/manhattan-seen-from-queens-college.jpg" width="1920" height="1273" alt="The Queens College Quad, with the Manhattan skyline in the distance and the library clock tower on the right" fetchpriority="high">
+  </figure>
+  <div class="hero-foot">
+    <div class="hero-say" data-rise>
+      <p>Graduate school and law school for Queens College political science majors: what to do each year, how to do it, and the <span data-count>229</span> programs to apply to.</p>
+      <a class="btn" href="#path">Start with your year</a>
     </div>
-    <div class="board" aria-labelledby="board-h">
-      <div class="board-h"><span id="board-h">Next deadlines</span><span>Days left</span></div>
-      <ol id="board"></ol>
-    </div>
+    <p class="hero-next" data-rise data-next>The next deadline is in the path below.</p>
   </div>
-</div>
-<div class="credit"><div class="wrap"><span>Made by Mohamed Aljahmi, QC political science and sociology, 2026 Ralph Bunche Summer Institute scholar.</span><span>Student-made guide, not an official Queens College publication.</span></div></div>
+</section>
 
-<div class="wrap layout">
-  <nav class="toc" aria-label="Tabs and sections"><ol id="toc"></ol></nav>
-  <div>
-
-<!-- ===================== GRAD ===================== -->
-<main id="grad">
-
-<div class="intro">
-  <h2>Choosing a graduate degree</h2>
-  <p class="lead">A political science degree leads to several kinds of graduate programs. Pick one to see what it is, what to do each year of college, and the programs that help you get there. Not sure yet? Most of these programs exist to help you find out.</p>
-  <aside class="note-from" aria-label="A note from the author">
-    <p>Hello! I made this site because, as an undergrad, I didn't know about all the opportunities I had. It's based on my own experience, so it won't match everyone's. Questions or comments? Email me at <a href="mailto:mohamed.aljahmi@qc.cuny.edu">mohamed.aljahmi@qc.cuny.edu</a>. I'm always happy to help and can point you to the right resources on campus.</p>
-    <p class="sig">Mohamed Aljahmi · <a href="#about">About this guide</a></p>
-  </aside>
-  <nav class="degrees" aria-label="Degrees">
-    <a href="#g-phd"><b>PhD</b><span>Research and teaching. Funded, 5–6 years</span></a>
-    <a href="#g-predoc"><b>Predoc</b><span>A paid research job before a PhD. Any major, 1–2 years</span></a>
-    <a href="#g-mpp"><b>MPP</b><span>Design and evaluate policy. About 2 years</span></a>
-    <a href="#g-mpa"><b>MPA</b><span>Run public and nonprofit organizations. 1–2 years</span></a>
-    <a href="#g-ma"><b>MA</b><span>Graduate study and methods, no PhD required. 1–2 years</span></a>
-    <a href="#g-guides"><b>Guides</b><span>Professors, methods, applying and résumés</span></a>
+<div class="picker" id="path" aria-label="Choose your goal and year">
+  <div class="pick-row" role="group" aria-label="Aiming for">
+    <span class="pick-label">Aiming for</span>
+    <button type="button" data-goal="phd" aria-pressed="true">PhD</button>
+    <button type="button" data-goal="predoc" aria-pressed="false">Predoc</button>
+    <button type="button" data-goal="mpp" aria-pressed="false">MPP</button>
+    <button type="button" data-goal="mpa" aria-pressed="false">MPA</button>
+    <button type="button" data-goal="ma" aria-pressed="false">MA</button>
+    <button type="button" data-goal="jd" aria-pressed="false">Law school</button>
+  </div>
+  <nav class="pick-row" aria-label="Jump to your year">
+    <span class="pick-label">Jump to</span>
+    <a href="#y-fr">Freshman</a><a href="#y-so">Sophomore</a><a href="#y-jr">Junior</a><a href="#y-sr">Senior</a><a href="#y-grad">After college</a><a href="#quiz">Not sure? Take the quiz</a>
   </nav>
 </div>
 
-<div class="panel" id="g-phd" data-label="PhD" data-degree="phd">
-
-<section id="g-phd-about">
-  <div class="sh"><div class="no">01</div><h2>What a PhD is</h2></div>
-  <p class="lead">Original research and teaching. A PhD prepares you to be a professor, or to do research at think tanks, in government and in tech. Political science PhD programs pay you.</p>
-  <dl class="facts deg">
-    <dt>Length</dt><dd>5–6 years</dd>
-    <dt>Who pays</dt><dd>The school: tuition plus a stipend. 2026–27: <a href="https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs">Princeton</a> $52,680, <a href="https://gradschool.duke.edu/financial-support/tuition-fees-and-phd-stipend-schedule/">Duke</a> $43,775, <a href="https://www.gc.cuny.edu/fellowships-and-financial-aid/doctoral-student-funding/prospective-doctoral-student-funding">CUNY Graduate Center</a> $31,141</dd>
-    <dt>Pick it if</dt><dd>You want answering questions with data or theory to be your career</dd>
-    <dt>Apply</dt><dd>Fall of senior year or later. Most deadlines fall Dec 1–17; Columbia's is Nov 25. See <a href="#g-apply">Applying</a></dd>
-  </dl>
-  <div class="pull"><b>A political science PhD can also lead to data science.</b><p>PhD students train in statistics, causal inference, survey design and coding, and some go straight into industry. <a href="https://lsa.umich.edu/polisci/graduates/placement-records.html">Michigan's placement records</a> include a research scientist on Meta's demography and survey science team, a director of data science at Civiqs and a lead data scientist at Cox Automotive. <a href="https://polisci.mit.edu/graduate/job-placement">MIT's</a> include a data scientist at NORC. Choosing methodology as a minor field keeps that door open.</p></div>
-  <div class="pull"><b>A master's is not required for a PhD.</b><p>Most political science PhD students are admitted straight from a BA or after a paid research job. A paid year or two first is normal; the standard route is a <a href="#g-predoc">predoc</a>, a full-time research assistant job.</p></div>
-  <div class="pull"><b>Where to look.</b><p><a href="https://www.predoc.org/opportunities">predoc.org</a> is the main job board; filter by political economy or public policy. Listings go stale, so confirm on the lab's own page. For a pay benchmark, Stanford's SIEPR economics predoc posted $64,260 a year.</p></div>
-  <h3 class="kick">PhDs beyond political science</h3>
-  <div class="ledger">
-        <div class="row" style="grid-template-columns:1fr" id="gp-cuny-graduate-center">
-          <div class="what"><h4><a href="https://www.gc.cuny.edu/phd-info">CUNY Graduate Center</a></h4><p class="meta">Doctoral programs across the social sciences</p><p class="body">Anthropology, Criminal Justice, Economics, Educational Psychology, Political Science, Psychology, Sociology, Linguistics and Urban Education. The GC also offers an M.S. in Quantitative Methods in the Social Sciences and a Demography Certificate.</p></div>
-        </div>
-        <div class="row feat" style="grid-template-columns:1fr" id="gp-nyu-phd-statistics-computational">
-          <div class="what"><h4><a href="https://steinhardt.nyu.edu/degree/phd-statistics-and-computational-social-science">NYU PhD in Statistics and Computational Social Science</a></h4><p class="meta">NYU Steinhardt · due Dec 1</p><p class="body">Combines statistics, computation and social science on problems in public health, education and criminal justice. Graduates go into academia, nonprofits, government and industry.</p></div>
-        </div>
-        <div class="row feat" style="grid-template-columns:1fr" id="gp-michigan-phd-information">
-          <div class="what"><h4><a href="https://www.si.umich.edu/programs/degree-programs/phd-information">Michigan PhD in Information</a></h4><p class="meta">School of Information · due Dec 1 · no GRE</p><p class="body"><a href="https://www.si.umich.edu/research/research-areas/computational-social-science">Computational social science</a> is one of its research areas, and some of its faculty also work with Michigan's Center for Political Studies. Funded with tuition, a stipend and health insurance for 12 months a year.</p></div>
-        </div>
-      </div>
-</section>
-
-<section id="g-phd-fields">
-  <div class="sh"><div class="no">02</div><h2>Find your subfield</h2></div>
-  <p class="lead">You don't have to be a "methods person" to get a political science PhD. You apply to study one subfield, only some subfields are math-heavy, and most programs teach statistics from the start.</p>
-  <h3 class="kick">The five core subfields</h3>
-  <div class="ledger">
-    <div class="row">
-      <div class="when none" data-label="Math"><b>Mixed</b><span>often quantitative</span></div>
-      <div class="what"><h4><a href="https://politics.princeton.edu/areas-study/american-politics">American politics</a></h4><p class="meta">Also called American government and politics</p><p class="body">U.S. institutions such as Congress, the presidency and the courts, plus elections, public opinion and political behavior.</p></div>
-      <dl class="facts"><dt>Look for</dt><dd>No special prerequisites are listed. Expect statistics: <a href="https://gking.harvard.edu/teaching/math-prefresher/">Harvard's math prefresher</a> notes it is hard to take American politics courses without meeting statistical or game-theoretic models</dd></dl>
-    </div>
-    <div class="row">
-      <div class="when none" data-label="Math"><b>Mixed</b><span>qualitative and quantitative</span></div>
-      <div class="what"><h4><a href="https://politics.princeton.edu/areas-study/comparative-politics">Comparative politics</a></h4><p class="body">Compares politics across countries and regions: democracy, development, civil war, institutions and identity.</p></div>
-      <dl class="facts"><dt>Look for</dt><dd>A foreign language and knowledge of a region. <a href="https://polisci.rutgers.edu/academics/graduate/prospective-students/comparative-politics">Rutgers</a> tests majors in the language they need, and Michigan advises starting languages before graduate school</dd><dt>Research</dt><dd><a href="https://www.polisci.berkeley.edu/graduate-program/applying/frequently-asked-questions">Berkeley</a> PhD students usually spend at least a year doing fieldwork</dd></dl>
-    </div>
-    <div class="row">
-      <div class="when none" data-label="Math"><b>Mixed</b><span>depends on approach</span></div>
-      <div class="what"><h4><a href="https://www.gov.harvard.edu/graduate/programs-of-study/international-relations/">International relations</a></h4><p class="meta">Also called international relations and world politics</p><p class="body">War and security, trade, international law and organizations, and why countries cooperate or fight.</p></div>
-      <dl class="facts"><dt>Look for</dt><dd>Methods vary: historical, statistical and game-theoretic work all appear. No IR-specific prerequisites are listed</dd></dl>
-    </div>
-    <div class="row">
-      <div class="when none" data-label="Math"><b>Light</b><span>little math</span></div>
-      <div class="what"><h4><a href="https://www.gov.harvard.edu/graduate/programs-of-study/political-thought-and-its-history/">Political theory</a></h4><p class="meta">Also called political thought, or normative political theory and philosophy</p><p class="body">Ideas of justice, legitimacy, democracy and power, read through the history of political thought and contemporary philosophy.</p></div>
-      <dl class="facts"><dt>Look for</dt><dd>Reading in philosophy, history or classics, and often a foreign language: <a href="https://politics.virginia.edu/program-requirements">UVA</a> requires one for theory majors</dd><dt>Methods</dt><dd><a href="https://polisci.duke.edu/graduate/phd/requirements">Duke's</a> methods requirements don't apply to theory students, <a href="https://www.gov.harvard.edu/graduate/for-current-graduate-students/coursework">Harvard</a> lets them skip its methods course, and Berkeley weighs math less for theory applicants</dd></dl>
-    </div>
-    <div class="row">
-      <div class="when none" data-label="Math"><b>Heavy</b><span>real math</span></div>
-      <div class="what"><h4><a href="https://polisci.duke.edu/graduate/fields/methodology">Methodology and formal theory</a></h4><p class="meta">Also called research methods, quantitative methodology, or formal and quantitative analysis</p><p class="body">Methodologists build the statistical and research-design tools other political scientists use. Formal theorists use game-theory models of strategic choices.</p></div>
-      <dl class="facts"><dt>Look for</dt><dd>Math and statistics. Duke's methodology field expects competency in both, and Michigan asks methods majors for math coursework</dd><dt>Tip</dt><dd>Many students take methods as a minor next to a substantive subfield</dd></dl>
-    </div>
+<section class="stairs" aria-label="How the path works">
+  <p class="stair-text">
+    <span class="stair" style="--s:0" data-reveal>Pick where you're headed,</span>
+    <span class="stair" style="--s:1" data-reveal>then find your year:</span>
+    <span class="stair" style="--s:2" data-reveal>what to do,</span>
+    <span class="stair" style="--s:3" data-reveal>how to do it,</span>
+    <span class="stair" style="--s:4" data-reveal>and what to apply to.</span>
+  </p>
+  <div class="stair-pics">
+    <img data-reveal src="assets/courthouses-on-foley-square.jpg" width="1920" height="2369" alt="The federal and state courthouses on Foley Square in Lower Manhattan" loading="lazy" decoding="async">
+    <img data-reveal src="assets/united-states-capitol-washington-dc.jpg" width="1920" height="1440" alt="The United States Capitol in Washington, seen across the lawn" loading="lazy" decoding="async">
   </div>
-  <h3 class="kick">You don't have to arrive methods-heavy</h3>
-  <ul class="rules">
-    <li><b>Math camps.</b> <a href="https://gking.harvard.edu/teaching/math-prefresher/">Harvard</a>, <a href="https://politicalscience.stanford.edu/graduate-program/faq-prospective-phd-students">Stanford</a>, Michigan, <a href="https://politics.princeton.edu/graduate/plan-study/important-dates-graduate-students">Princeton</a> and <a href="https://polisci.ucsd.edu/grad/prospective-students/admitted-students-faqs.html">UC San Diego</a> run summer math courses for incoming PhD students. At Harvard, almost every first-year student takes it.</li>
-    <li><b>Methods from scratch.</b> Stanford says you don't need advanced quantitative courses to be admitted, and its first-year sequence assumes no background in statistics or advanced math.</li>
-    <li><b>Language or methods.</b> At the <a href="https://www.gc.cuny.edu/sites/default/files/2021-10/Political-Science-Handbook.pdf">CUNY Graduate Center</a>, <a href="https://polisci.ucla.edu/academics/graduate/phd-program/coursework/">UCLA</a>, <a href="https://politicalscience.yale.edu/academics/graduate-program/program-requirements">Yale</a> and Columbia, a research-tools requirement can be met with a foreign language or with methods courses.</li>
-    <li><b>Your topic can change.</b> Michigan notes that students often change focus once coursework starts. The statement of purpose is not a contract.</li>
-  </ul>
-  <div class="pull"><b>Be honest with yourself about math.</b><p>Quantitative skills still count. Most top programs require the GRE again, and <a href="https://politicalscience.stanford.edu/graduate-program/faq-prospective-phd-students">Stanford</a> reports admitted students typically score 163 or higher on the quantitative section. Stanford also requires <a href="https://politicalscience.stanford.edu/graduate-program/doctoral-program/doctoral-program-requirements">two methods courses</a> of every PhD student. Taking PSCI 200 and an intro statistics course, such as <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0140801">PSYCH 107</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0148731">DATA 205</a>, helps whichever subfield you choose.</p></div>
-  <h3 class="kick">Other fields at some schools</h3>
-  <p class="note">Some departments add fields beyond the core five. Check whether a field can be your main field or only a minor.</p>
-  <ul class="rules">
-    <li><b>Public policy.</b> <a href="https://www.gc.cuny.edu/political-science/curriculum-and-degree-information/subfields">CUNY Graduate Center</a> (Public Policy, with areas like health, education, housing and urban development), <a href="https://polisci.berkeley.edu/research-and-teaching/subfields">UC Berkeley</a> (Public Policy &amp; Organization), <a href="https://liberalarts.utexas.edu/government/graduate-program/program-information/fields/">UT Austin</a>, <a href="https://bush.tamu.edu/academics/graduate/phd-political-science/">Texas A&amp;M</a> (Public Policy / Public Administration), <a href="https://www.maxwell.syr.edu/academics/political-science/graduate-studies/phd">Syracuse</a> (public administration and policy) and <a href="https://lsa.umich.edu/content/dam/polisci-assets/Docs/Updated%202025-2026%20Graduate%20Program%20Guide.pdf">Michigan</a> (a student-designed Public Policy and Administration minor).</li>
-    <li><b>Law and courts.</b> <a href="https://politics.princeton.edu/fields-study/public-law">Princeton</a> and <a href="https://polisci.sas.rutgers.edu/academics/graduate/prospective-students">Rutgers</a> (Public Law), Michigan (Law, Courts, and Politics), UC Berkeley (Public Law &amp; Jurisprudence), <a href="https://www.polisci.washington.edu/phd-program-requirements">Washington</a> and UT Austin, which also has a combined JD/PhD.</li>
-    <li><b>Race, ethnicity and gender.</b> <a href="https://polisci.ucla.edu/academics/graduate/phd-program/curriculum/">UCLA</a> (Race, Ethnicity &amp; Politics), Rutgers (Women and Politics), UC Berkeley, Washington and <a href="https://polisci.osu.edu/graduate/fields-study">Ohio State</a> (Race, Ethnicity, and Gender).</li>
-    <li><b>Political psychology and behavior.</b> <a href="https://www.stonybrook.edu/commcms/polisci/graduate/phd/phd_program.php">Stony Brook</a>, Ohio State and <a href="https://cla.umn.edu/polisci/graduate/graduate-programs/phd-political-science">Minnesota</a> (as a minor).</li>
-    <li><b>Political economy and formal theory.</b> <a href="https://www.sas.rochester.edu/psc/graduate/curriculum.html">Rochester</a> (formal political theory; every student takes it or methodology), <a href="https://catalog.yale.edu/gsas/degree-granting-departments-programs/political-science/">Yale</a>, <a href="https://bulletins.nyu.edu/graduate/arts-science/programs/politics-phd/">NYU</a> and <a href="https://politicaleconomy.uchicago.edu/">UChicago</a>, which runs a separate Political Economy PhD with its public policy school. Expect heavy math.</li>
-    <li><b>Organized by theme.</b> <a href="https://polisci.duke.edu/graduate/fields">Duke</a> has no American, comparative or international relations fields. Its six fields are Political Behavior &amp; Identities, Political Institutions, Political Economy, Security, Peace &amp; Conflict, Political Methodology, and Normative Political Theory &amp; Philosophy.</li>
-  </ul>
+  <p class="stair-note" data-reveal>Every program links to its official page. Deadlines are checked every week; <span data-updated>last updated October 16, 2026</span>.</p>
 </section>
 
-<section id="g-timeline">
-  <div class="sh"><div class="no">03</div><h2>Your timeline</h2></div>
-  <p class="lead">Junior year is the busiest stretch: RBSI, PPIA, MIT, Leadership Alliance, SROP and Truman all open or close between October and February.</p>
-  <div class="sched">
-    <div class="sn corner"></div>
-    <div class="yh">Freshman</div><div class="yh">Sophomore</div><div class="yh key">Junior<small>Busiest year</small></div><div class="yh">Senior</div>
-    <div class="sn">Fall</div>
-    <div data-s="Fall">PSCI 100-level courses; go to one professor's <a href="#g-social">office hours</a>; Political Science Club or Model UN; start <a href="#g-methods">OpenIntro Statistics</a></div>
-    <div data-s="Fall">Get to know 2–3 professors; ask about <a href="#g-social">RA work</a>. Apply for <a href="#gp-mit-msrp-pathways-political">MIT</a>, <a href="#gp-leadership-alliance-sr-eip">Leadership Alliance</a>, <a href="#gp-big-ten-academic-alliance">SROP</a>, <a href="#gp-yale-surf">Yale SURF</a> (Nov–Feb). Apply for <a href="#gp-cuny-spring-forward">CUNY Spring Forward</a> (by Oct 13)</div>
-    <div data-s="Fall" class="key"><a href="#gp-ny-state-senate-session">Senate</a> or <a href="#gp-ny-state-assembly-session">Assembly</a> session internship (campus dates mid–late Oct), <a href="#gp-ppia-junior-summer-institute">PPIA JSI</a> (Nov 6), <a href="#gp-apsa-ralph-bunche-summer">RBSI</a> (Nov 2–Jan 24), <a href="#gp-mit-msrp-pathways-political">MIT</a> (Jan 19), <a href="#gp-truman-scholarship">Truman</a> (QC's date before Feb 2)</div>
-    <div data-s="Fall"><a href="#g-visit">PhD visit programs</a> (October); <a href="#gp-apsa-diversity-fellowship-program">APSA DFP</a> (Oct 25); <a href="#g-apply">GRE</a> by October; letters; <a href="#g-apply">fee waivers</a>; PhD applications late Nov–Dec 17</div>
-    <div class="sn">Spring</div>
-    <div data-s="Spring">Protect your GPA; many programs cut off at 3.0, some at 3.3–3.5. Take PSCI 200. <a href="#gp-nyc-ladders-leaders">Ladders for Leaders</a> or <a href="#gp-summer-youth-employment-program">SYEP</a> for summer</div>
-    <div data-s="Spring">Apply to <a href="#gp-honors-social-sciences-hss">HSS</a>, and to <a href="#gp-mellon-mays-undergraduate-fellowship">Mellon Mays</a> if your major is eligible. Take an intro statistics course (<a href="https://qc-undergraduate.catalog.cuny.edu/courses/0140801">PSYCH 107</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0148731">DATA 205</a>). <a href="#gp-microsoft-research-data-science">Microsoft DS3</a> (April). Double majoring in sociology? Ask sociology professors about the <a href="#gp-accelerated-ba-ma-data">4+1</a></div>
-    <div data-s="Spring" class="key"><a href="#gp-cuny-pipeline-program">CUNY Pipeline Program</a> (priority deadline Mar 1); start the HSS thesis; draft a program list; apply for the <a href="#gp-accelerated-ba-ma-data">4+1</a> with a 3.5 GPA</div>
-    <div data-s="Spring"><a href="#gp-columbia-sps-cuny-fellowship">Columbia SPS CUNY Fellowship</a> (Jan 7), <a href="#gp-coro-fellows-program-public">Coro</a>, <a href="#gp-nyc-urban-fellows">Urban Fellows</a>, <a href="#gp-cuny-civil-service-pathways">Civil Service Pathways</a>, <a href="#gp-yale-emerging-scholars-initiative">Yale ESI</a> (Feb 28); decisions usually by April 15</div>
-    <div class="sn">Summer</div>
-    <div data-s="Summer">Paid job or <a href="#g-phd-db" data-type="summer-internship">internship</a>; start <a href="#g-methods">R for Data Science</a></div>
-    <div data-s="Summer">First research program, <a href="#gp-cuny-career-launch">Career Launch</a>, a faculty RA job, or <a href="#gp-washu-wusteps">WUSTEPS</a></div>
-    <div data-s="Summer" class="key"><a href="#gp-apsa-ralph-bunche-summer">RBSI</a>, <a href="#gp-ppia-junior-summer-institute">PPIA</a>, <a href="#gp-mit-msrp-pathways-political">MSRP</a> or another <a href="#g-phd-db" data-type="summer-research">funded program</a>. Study for the GRE. Apply to fall <a href="#g-visit">PhD visit programs</a> (July–Aug)</div>
-    <div data-s="Summer">Start a <a href="#g-phd-db" data-type="after">predoc, fellowship or program</a></div>
+<section class="quiz" id="quiz" aria-labelledby="quiz-h">
+  <div class="quiz-intro" data-reveal>
+    <h2 id="quiz-h">Not sure where to start?</h2>
+    <p>Eight quick questions. There are no wrong answers, and "not sure" is a fine answer. You'll get the path that fits you best, a second one worth a look, and a fact about each.</p>
+  </div>
+  <div class="quiz-box" data-quiz aria-live="polite">
+    <p>The quiz needs JavaScript. Try <a href="grad.html">Graduate school</a> or <a href="law.html">Law school</a> instead.</p>
   </div>
 </section>
 
-<section id="g-phd-db" class="db" data-degree="phd">
-  <div class="sh"><div class="no">04</div><h2>Opportunities</h2></div>
-  <p class="lead">Programs that prepare you for a PhD. Most summer research programs open between late September and early November and close between mid-January and mid-February.</p>
-  <div class="db-app"></div>
-</section>
-
+<div class="stages" data-stages>
+  <p class="stage-fallback">The year-by-year path needs JavaScript. <a href="grad.html">Open the graduate school page</a> or <a href="law.html">the law school page</a>.</p>
 </div>
 
-<div class="panel" id="g-predoc" data-label="Predoc" data-degree="predoc">
-
-<section id="g-predoc-about">
-  <div class="sh"><div class="no">01</div><h2>What a predoc is</h2></div>
-  <p class="lead">A predoc is a full-time, paid research job with a professor or research center, usually for one or two years before a PhD. You clean data, run analyses and see how research gets made. Economics departments hire the most predocs, but political science, sociology and public policy centers hire them too, and you don't need to major in economics.</p>
-  <dl class="facts deg">
-    <dt>Length</dt><dd>1–2 years, usually starting in July</dd>
-    <dt>Pay</dt><dd>Posted salaries run about $59,500 to $69,300 a year (Stanford GSB, the Stanford King Center, SIEPR and MIT); Stanford IRiSS pays $32.45 an hour</dd>
-    <dt>Any major</dt><dd><a href="https://isps.yale.edu/predoctoral-fellows-program">Yale ISPS</a> "very strongly encourage[s]" applicants who didn't major in political science, <a href="https://opportunityinsights.org/wp-content/uploads/2026/09/FAQs_PredocApplication_Fall-2026.pdf">Opportunity Insights</a> says applicants "need not be Economics majors," and the <a href="https://kingcenter.stanford.edu/opportunities/prospective-predoctoral-research-fellows">Stanford King Center</a> welcomes "all disciplines"</dd>
-    <dt>When to apply</dt><dd>The fall of senior year. Many economics predocs close between August and October (in 2026: Opportunity Insights Oct 1, SIEPR Oct 8, Stanford GSB Oct 16; <a href="#gp-yale-tobin-economics-predoc">Yale's Tobin Center</a> opens its rolling application Oct 5). Political science ones, such as <a href="#gp-yale-isps-csap-predoctoral">Yale ISPS</a> and Stanford IRiSS, hire on a rolling basis or in spring</dd>
-    <dt>Where to look</dt><dd><a href="https://www.predoc.org/opportunities">predoc.org</a>, filtered by field, and the research centers in the <a href="#g-predoc-db">list below</a></dd>
-  </dl>
-</section>
-
-<section id="g-predoc-reqs">
-  <div class="sh"><div class="no">02</div><h2>What postings ask for</h2></div>
-  <p class="lead">Twelve official predoc postings from September 2026, across economics, political science and public policy, ask for much the same things. Here is how often each came up, and how to build it at Queens College.</p>
-  <div class="tbl"><table>
-    <thead><tr><th>What they ask for</th><th>How often</th><th>At Queens College</th><th>When</th></tr></thead>
-    <tbody>
-      <tr><td>Stata, R or Python</td><td>12 of 12 name Stata or R; 10 also name Python</td><td>R is taught in <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0148731">DATA 205</a>, <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0149551">DATA 306</a> and <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0149661">DATA 333</a>, and in <a href="https://www.qc.cuny.edu/academics/ps/people/">Professor Earl Asberry's</a> section of <a href="https://qc-undergraduate.catalog.cuny.edu/courses/1312411">PSCI 200</a>; check the syllabus, since it can vary by instructor. <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0056541">CSCI 111</a> is intro programming, with no prerequisite. Practice free with <a href="#g-methods">R for Data Science</a> or LinkedIn Learning</td><td>Start with your first statistics or methods course, then use it every semester</td></tr>
-      <tr><td>Statistics and regression</td><td>8 of 12 name a statistics, econometrics or math background</td><td>Intro statistics: <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0140801">PSYCH 107</a>, <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0148731">DATA 205</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0065201">ECON 249</a>. Regression: <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0065421">ECON 382</a> (Introduction to Econometrics) or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0149551">DATA 306</a> (Data Analysis and Modeling)</td><td>Intro statistics freshman spring or sophomore year; regression junior year</td></tr>
-      <tr><td>Math</td><td>4 of 12 mention math; <a href="https://www.predoc.org/learn-more/recommended-coursework">predoc.org</a> recommends calculus and linear algebra for economics</td><td>Calculus after <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112481">MATH 122</a> (Precalculus): <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112541">MATH 131</a> for the social sciences, or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112591">MATH 141</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112631">MATH 151</a>. <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112931">MATH 231</a> (Linear Algebra I) and <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112981">MATH 241</a> (probability) for economics predocs</td><td>Calculus freshman or sophomore year; linear algebra sophomore or junior year</td></tr>
-      <tr><td>Research experience</td><td>7 of 12 require or prefer it</td><td>Research assistant work with a professor, a <a href="#g-predoc-db" data-type="summer-research">summer research program</a>, or the <a href="#gp-honors-social-sciences-hss">Honors in the Social Sciences</a> thesis</td><td>Sophomore year on</td></tr>
-      <tr><td>A writing sample</td><td>10 of 12 (7 require it, 3 make it optional)</td><td>An empirical paper from a writing-intensive seminar such as <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0137541">PSCI 381W</a>, <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0149671">DATA 334</a> (Applied Research), <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0065521">ECON 390</a> (Research Methods in Economics) or your honors thesis. See <a href="#g-predoc-writing">below</a></td><td>Finished by the end of the summer before senior year</td></tr>
-      <tr><td>A code sample or data task</td><td>7 of 12</td><td>One clean, commented script from a class project or research job</td><td>Junior year on</td></tr>
-      <tr><td>CV and transcript</td><td>CV 12 of 12; transcript 11 of 12</td><td>See the <a href="#g-samples">sample CV</a></td><td>Keep both current</td></tr>
-      <tr><td>References</td><td>10 of 12 ask for names; only Stanford GSB wants letters up front</td><td>Two or three professors who know your research</td><td>Ask early in senior fall</td></tr>
-    </tbody>
-  </table></div>
-  <p class="note">None of the twelve set a minimum GPA, but several ask for it, and SIEPR looks for "high grades in quantitative courses." One catch for economics: <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112931">MATH 231</a> requires <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112591">MATH 141</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112631">MATH 151</a>, not the social-science calculus (<a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112541">MATH 131</a>), and <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0064821">ECON 202</a> (intermediate microeconomics) requires <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112541">MATH 131</a> or the equivalent. If you might apply to economics predocs, choose the <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112591">MATH 141</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112631">MATH 151</a> track.</p>
-  <div class="pull"><b>Consider an economics minor.</b><p>Most predocs are in economics, and economics coursework helps you qualify. That doesn't mean you have to do an economics PhD: a predoc is strong research training in general, and some are in finance and behavioral research. <a href="https://www.gsb.stanford.edu/programs/research-fellows">Stanford GSB's Research Fellows</a>, for example, work across finance, organizational behavior and political economics. See the <a href="https://qc-undergraduate.catalog.cuny.edu/programs/ECON-MIN">economics minor</a>.</p></div>
-</section>
-
-<section id="g-predoc-timeline">
-  <div class="sh"><div class="no">03</div><h2>Your timeline</h2></div>
-  <p class="lead">The key date is the summer before senior year: that's when your writing sample should be done, because many postings close in early fall.</p>
-  <div class="sched">
-    <div class="sn corner"></div>
-    <div class="yh">Freshman</div><div class="yh">Sophomore</div><div class="yh key">Junior<small>Writing sample year</small></div><div class="yh">Senior</div>
-    <div class="sn">Fall</div>
-    <div data-s="Fall">PSCI 100-level courses or ECON 101; <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112481">MATH 122</a> if you need precalculus; go to one professor's <a href="#g-social">office hours</a></div>
-    <div data-s="Fall"><a href="https://qc-undergraduate.catalog.cuny.edu/courses/1312411">PSCI 200</a> (Professor Asberry's section teaches R); start the <a href="https://qc-undergraduate.catalog.cuny.edu/programs/ECON-MIN">economics minor</a>; ask a professor about <a href="#g-social">research assistant work</a>. Apply for summer research: <a href="#gp-mit-msrp-pathways-political">MIT</a>, <a href="#gp-syracuse-text-analytics-social">Syracuse</a>, <a href="#gp-big-ten-academic-alliance">SROP</a> (Nov–Feb)</div>
-    <div data-s="Fall" class="key">Regression: <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0065421">ECON 382</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0149551">DATA 306</a> (taught in R). Keep your research job. Pick a question you could answer with data</div>
-    <div data-s="Fall">Apply: economics predocs close August–October; political science ones hire on a rolling basis. Ask two or three professors to be references</div>
-    <div class="sn">Spring</div>
-    <div data-s="Spring">An intro statistics course: <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0148731">DATA 205</a> (taught in R), <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0140801">PSYCH 107</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0065201">ECON 249</a>. Start calculus</div>
-    <div data-s="Spring"><a href="https://qc-undergraduate.catalog.cuny.edu/courses/0148801">DATA 212W</a> (Research Methods) or another methods course; <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112931">MATH 231</a> if you're on the <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112591">MATH 141</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0112631">MATH 151</a> track. Apply to <a href="#gp-honors-social-sciences-hss">HSS</a></div>
-    <div data-s="Spring" class="key">A writing-intensive seminar or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0149671">DATA 334</a> where you write an empirical paper. Present it at the <a href="#gp-borough-queens-undergraduate-research">Queens research symposium</a></div>
-    <div data-s="Spring">Data tasks and interviews; more postings open in spring, and the <a href="#gp-stanford-king-center-predoc">King Center</a> closes in January</div>
-    <div class="sn">Summer</div>
-    <div data-s="Summer">Learn R with <a href="#g-methods">R for Data Science</a> (free); a paid job</div>
-    <div data-s="Summer">A first research program or a research job with a professor</div>
-    <div data-s="Summer" class="key">Finish your writing sample: an empirical paper of 12–15 pages. Clean up one code sample</div>
-    <div data-s="Summer">Start your predoc, usually in July</div>
+<section class="about" aria-labelledby="about-h">
+  <div class="about-left">
+    <h2 id="about-h" data-reveal>Made by a student,<br>for students</h2>
+    <figure class="arch" data-reveal>
+      <img src="assets/main-st-qns-college-td-32-queens.jpg" width="1920" height="1280" alt="Queens Hall on the Queens College campus, seen from Main Street" loading="lazy" decoding="async">
+    </figure>
   </div>
-</section>
-
-<section id="g-predoc-writing">
-  <div class="sh"><div class="no">04</div><h2>The writing sample</h2></div>
-  <p class="lead">Have an empirical paper finished by the summer before your senior year. It doesn't have to be long: 12 to 15 pages is appropriate. Several postings ask for an excerpt of about 5 pages, so know which section you would send.</p>
-  <ul class="rules">
-    <li><b>What makes it empirical.</b> A clear question, real data, a method (at least a regression), results in tables or figures, and an honest section on limitations.</li>
-    <li><b>Where it can come from.</b> A paper for a writing-intensive seminar, <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0149671">DATA 334</a>, <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0065521">ECON 390</a> or a chapter of your <a href="#gp-honors-social-sciences-hss">honors thesis</a>. Ask the professor to read a draft.</li>
-    <li><b>Data you can use.</b> <a href="https://www.icpsr.umich.edu/">ICPSR</a> (Queens College is a member), the <a href="https://electionstudies.org/">American National Election Studies</a>, the <a href="https://cces.gov.harvard.edu/">Cooperative Election Study</a>, <a href="https://www.ipums.org/">IPUMS</a> census and survey data, and <a href="https://opendata.cityofnewyork.us/">NYC Open Data</a>.</li>
-    <li><b>Write it yourself.</b> A Harvard Kennedy School posting asked for a single-authored sample, and <a href="https://blueprintlabs.mit.edu/careers/predoctoral-researcher/">MIT Blueprint Labs</a> says code samples must be "no more than 50% AI-assisted." Use AI as a proofreader at most (see <a href="#g-help">Statements, help and AI</a>).</li>
-    <li><b>Keep a code sample too.</b> Seven of the twelve postings ask for a code sample or a data task. Keep the R, Stata or Python script behind your paper clean and commented.</li>
-  </ul>
-</section>
-
-<section id="g-predoc-db" class="db" data-degree="predoc">
-  <div class="sh"><div class="no">05</div><h2>Opportunities</h2></div>
-  <p class="lead">Predoc postings, and the research programs and training that build the skills they ask for. Pay and dates are from each program's latest posting.</p>
-  <div class="db-app"></div>
-</section>
-
-</div>
-
-<div class="panel" id="g-mpp" data-label="MPP" data-degree="mpp">
-
-<section id="g-mpp-about">
-  <div class="sh"><div class="no">01</div><h2>What an MPP is</h2></div>
-  <p class="lead">A Master of Public Policy teaches you to analyze and evaluate policy with economics and statistics. It is faster than a PhD, but you usually pay for it.</p>
-  <dl class="facts deg">
-    <dt>Length</dt><dd>About 2 years</dd>
-    <dt>Cost</dt><dd>You usually pay. Some schools fund everyone: <a href="https://spia.princeton.edu/graduate-admissions/master-public-affairs/financial-aid">Princeton SPIA's MPA</a>, a policy degree, covers full tuition for every student</dd>
-    <dt>At CUNY</dt><dd>Baruch's <a href="https://marxe.baruch.cuny.edu/homepage/academics/master-of-public-policy/">Marxe School</a> starts an MPP in fall 2027: evening classes, in person and hybrid, 36–39 credits, about 2 years full-time. Tuition is $545 a credit for New York residents, pending CUNY Board approval</dd>
-    <dt>Pick it if</dt><dd>You want to design policy or judge whether programs work</dd>
-    <dt>Prepare</dt><dd>Take economics and statistics. For a future MPP or MPA student, the most valuable program is the <a href="#gp-ppia-junior-summer-institute">PPIA Junior Summer Institute</a></dd>
-  </dl>
-  <div class="pull"><b>MPP or MPA?</b><p>Schools use the two labels loosely, so read each program's courses, not just its name. An MPP leans on analysis; an MPA leans on management.</p></div>
-</section>
-
-<section id="g-mpp-timeline">
-  <div class="sh"><div class="no">02</div><h2>Your timeline</h2></div>
-  <p class="lead">Junior year is the busiest stretch for policy students: PPIA, the Albany session internships, congressional internships and Truman all close between October and February.</p>
-  <div class="sched">
-    <div class="sn corner"></div>
-    <div class="yh">Freshman</div><div class="yh">Sophomore</div><div class="yh key">Junior<small>Busiest year</small></div><div class="yh">Senior</div>
-    <div class="sn">Fall</div>
-    <div data-s="Fall">PSCI 100-level courses; take economics or statistics early; go to one professor's <a href="#g-social">office hours</a></div>
-    <div data-s="Fall">Apply for <a href="#gp-cuny-spring-forward">CUNY Spring Forward</a> (by Oct 13) and the <a href="#gp-roosevelt-institute-emerging-fellowship">Roosevelt Emerging Fellowship</a></div>
-    <div data-s="Fall" class="key"><a href="#gp-ppia-junior-summer-institute">PPIA JSI</a> (Nov 6); <a href="#gp-ny-state-senate-session">Senate</a> or <a href="#gp-ny-state-assembly-session">Assembly</a> session internship; <a href="#gp-cbcf-congressional-internship">CBCF</a> (Nov 30), <a href="#gp-chci-congressional-internship">CHCI</a> (Dec 1), <a href="#gp-apaics-congressional-internship">APAICS</a> (Dec 18); <a href="#gp-truman-scholarship">Truman</a></div>
-    <div data-s="Fall"><a href="#gp-coro-fellows-program-public">Coro</a> (Jan 12), <a href="#gp-nyc-urban-fellows">Urban Fellows</a>, <a href="#gp-cuny-civil-service-pathways">Civil Service Pathways</a>; apply to MPP programs, including <a href="#g-mpp-about">Baruch's new MPP</a></div>
-    <div class="sn">Spring</div>
-    <div data-s="Spring">Protect your GPA. <a href="#gp-nyc-ladders-leaders">Ladders for Leaders</a> or <a href="#gp-summer-youth-employment-program">SYEP</a> for summer</div>
-    <div data-s="Spring">Policy internships: <a href="#gp-manhattan-institute-collegiate-associates">Manhattan Institute</a>, <a href="#gp-center-urban-future">Center for an Urban Future</a>, <a href="#gp-brennan-center-justice">Brennan Center</a></div>
-    <div data-s="Spring" class="key">A session internship in Albany, or a <a href="#gp-council-on-foreign-relations">CFR</a> or think tank internship</div>
-    <div data-s="Spring">Compare MPP offers, or plan a paid year first</div>
-    <div class="sn">Summer</div>
-    <div data-s="Summer">A paid job or internship, such as the <a href="#gp-nyc-summer-internship-program">NYC Summer Internship Program</a></div>
-    <div data-s="Summer"><a href="#gp-cuny-career-launch">Career Launch</a>, a <a href="#gp-chci-congressional-internship">congressional internship</a> or a city internship</div>
-    <div data-s="Summer" class="key"><a href="#gp-ppia-junior-summer-institute">PPIA JSI</a> or a congressional internship; <a href="#gp-hertog-political-studies">Hertog</a> or <a href="#gp-aei-summer-honors-program">AEI</a></div>
-    <div data-s="Summer">Start a fellowship, a city job or your MPP</div>
-  </div>
-</section>
-
-<section id="g-mpp-db" class="db" data-degree="mpp">
-  <div class="sh"><div class="no">03</div><h2>Opportunities</h2></div>
-  <p class="lead">Programs that prepare you for an MPP: policy internships, summer institutes and fellowships.</p>
-  <div class="db-app"></div>
-</section>
-
-</div>
-
-<div class="panel" id="g-mpa" data-label="MPA" data-degree="mpa">
-
-<section id="g-mpa-about">
-  <div class="sh"><div class="no">01</div><h2>What an MPA is</h2></div>
-  <p class="lead">A Master of Public Administration teaches you to manage public and nonprofit organizations: budgets, operations and people. CUNY's MPA programs cost far less than private ones.</p>
-  <dl class="facts deg">
-    <dt>Length</dt><dd>1–2 years</dd>
-    <dt>Cost</dt><dd><a href="https://marxe.baruch.cuny.edu/homepage/academics/master-of-public-administration/">Baruch Marxe</a> and <a href="https://www.jjay.cuny.edu/about/senior-leadership/finance-administration/bursar/tuition-and-fees/graduate-tuition-fees">John Jay</a> charge NY residents $6,375 a semester full-time; <a href="https://www.sipa.columbia.edu/office-financial-aid/tuition-and-fees">Columbia SIPA</a> tuition is $74,220 a year</dd>
-    <dt>Pick it if</dt><dd>You want to run programs, agencies or nonprofits</dd>
-    <dt>Prepare</dt><dd>City, state and nonprofit internships, then fellowships like <a href="#gp-coro-fellows-program-public">Coro</a> and the <a href="#gp-cuny-civil-service-pathways">CUNY Civil Service Pathways Fellowship</a></dd>
-  </dl>
-</section>
-
-<section id="g-mpa-timeline">
-  <div class="sh"><div class="no">02</div><h2>Your timeline</h2></div>
-  <p class="lead">Future MPA students build a record of public service: city, state and nonprofit work, then a fellowship or a city job.</p>
-  <div class="sched">
-    <div class="sn corner"></div>
-    <div class="yh">Freshman</div><div class="yh">Sophomore</div><div class="yh key">Junior<small>Busiest year</small></div><div class="yh">Senior</div>
-    <div class="sn">Fall</div>
-    <div data-s="Fall">PSCI 100-level courses; join the Political Science Club or volunteer with a nonprofit</div>
-    <div data-s="Fall">Apply for <a href="#gp-cuny-spring-forward">CUNY Spring Forward</a> (by Oct 13); ask about <a href="#gp-cuny-service-corps">CUNY Service Corps</a></div>
-    <div data-s="Fall" class="key"><a href="#gp-ny-state-senate-session">Senate</a> or <a href="#gp-ny-state-assembly-session">Assembly</a> session internship; <a href="#gp-ppia-junior-summer-institute">PPIA JSI</a> (Nov 6); <a href="#gp-truman-scholarship">Truman</a></div>
-    <div data-s="Fall"><a href="#gp-cuny-civil-service-pathways">Civil Service Pathways</a> (two cohorts a year), <a href="#gp-nyc-urban-fellows">Urban Fellows</a>, <a href="#gp-coro-fellows-program-public">Coro</a> (Jan 12); look at <a href="#g-mpa-about">CUNY MPAs</a></div>
-    <div class="sn">Spring</div>
-    <div data-s="Spring">Protect your GPA. <a href="#gp-nyc-ladders-leaders">Ladders for Leaders</a> or <a href="#gp-summer-youth-employment-program">SYEP</a> for summer</div>
-    <div data-s="Spring"><a href="#gp-nyc-summer-internship-program">City agency and Mayor’s Office internships</a> (recruiting from February)</div>
-    <div data-s="Spring" class="key">A session internship in Albany, or a city or nonprofit internship</div>
-    <div data-s="Spring">Choose between starting an MPA and a paid city job first</div>
-    <div class="sn">Summer</div>
-    <div data-s="Summer">A paid job or internship with a city agency or nonprofit</div>
-    <div data-s="Summer"><a href="#gp-cuny-career-launch">Career Launch</a>, <a href="#gp-cuny-islg-public-policy">CUNY ISLG Public Policy Pathways</a> or a <a href="#gp-nyc-comptroller-budget-research">Comptroller</a> internship</div>
-    <div data-s="Summer" class="key"><a href="#gp-ppia-junior-summer-institute">PPIA JSI</a> or a city internship</div>
-    <div data-s="Summer">Start a fellowship, a city job or your MPA</div>
-  </div>
-</section>
-
-<section id="g-mpa-db" class="db" data-degree="mpa">
-  <div class="sh"><div class="no">03</div><h2>Opportunities</h2></div>
-  <p class="lead">Programs that prepare you for an MPA: city, state, nonprofit and congressional internships, and fellowships after college.</p>
-  <div class="db-app"></div>
-</section>
-
-</div>
-
-<div class="panel" id="g-ma" data-label="MA" data-degree="ma">
-
-<section id="g-ma-about">
-  <div class="sh"><div class="no">01</div><h2>What an MA is</h2></div>
-  <p class="lead">A master's in political science gives you graduate-level political science and methods without committing to a PhD. It helps if your record needs strengthening first. A master's in methods or data is another route.</p>
-  <dl class="facts deg">
-    <dt>Length</dt><dd>1–2 years</dd>
-    <dt>CUNY</dt><dd><a href="https://www.gc.cuny.edu/political-science/curriculum-and-degree-information/ma">Graduate Center</a> (30 credits, master's thesis); <a href="https://www.brooklyn.edu/academics/programs/political-science-ma/">Brooklyn College</a> (30 credits, evening and online); <a href="https://www.ccny.cuny.edu/polisci/ma-internationalaffairs">City College</a> offers a Master of International Affairs instead</dd>
-    <dt>Private</dt><dd><a href="https://mapss.uchicago.edu/">UChicago MAPSS</a> (one year; 73% of graduates who applied to PhDs got funded offers) and <a href="https://www.gsas.columbia.edu/content/political-science-ma">Columbia</a> cost far more</dd>
-    <dt>Methods or data</dt><dd>QC's own <a href="https://qc-undergraduate.catalog.cuny.edu/programs/DATA-MIN">Data Analytics</a> programs lead to an <a href="https://qc-graduate.catalog.cuny.edu/programs/DATA-MA">MA</a>, with a faster <a href="#gp-accelerated-ba-ma-data">4+1 route</a> for sociology majors. The <a href="#gp-columbia-sps-cuny-fellowship">Columbia SPS CUNY Fellowship</a> fully funds some Columbia master's for CUNY students</dd>
-    <dt>Pick it if</dt><dd>You need more methods before a PhD, or want a data career now</dd>
-  </dl>
-</section>
-
-<section id="g-ma-timeline">
-  <div class="sh"><div class="no">02</div><h2>Your timeline</h2></div>
-  <p class="lead">An MA works as a bridge to a PhD or a data career. The QC route is the 4+1, which needs a sociology major and a 3.5 GPA by junior spring.</p>
-  <div class="sched">
-    <div class="sn corner"></div>
-    <div class="yh">Freshman</div><div class="yh">Sophomore</div><div class="yh key">Junior<small>Busiest year</small></div><div class="yh">Senior</div>
-    <div class="sn">Fall</div>
-    <div data-s="Fall">PSCI 100-level courses; start the <a href="#g-pair">Data Analytics minor</a></div>
-    <div data-s="Fall">Apply for <a href="#gp-syracuse-text-analytics-social">Syracuse Text Analytics</a> (Nov 8); ask a professor about <a href="#g-social">RA work</a></div>
-    <div data-s="Fall" class="key">Summer research applications: <a href="#gp-mit-msrp-pathways-political">MIT</a> (Jan 19), <a href="#gp-yale-surf">Yale SURF</a> (Feb 1), <a href="#gp-big-ten-academic-alliance">SROP</a> (Feb 10)</div>
-    <div data-s="Fall"><a href="#gp-columbia-sps-cuny-fellowship">Columbia SPS CUNY Fellowship</a> (Jan 7); compare <a href="#g-ma-about">CUNY and private MAs</a></div>
-    <div class="sn">Spring</div>
-    <div data-s="Spring">Protect your GPA. Thinking about the <a href="#gp-accelerated-ba-ma-data">4+1</a>? Ask sociology professors about a double major</div>
-    <div data-s="Spring">Apply to <a href="#gp-honors-social-sciences-hss">HSS</a>; take DATA 205 and 212W; <a href="#gp-microsoft-research-data-science">Microsoft DS3</a> (April)</div>
-    <div data-s="Spring" class="key">Apply for the <a href="#gp-accelerated-ba-ma-data">4+1</a> with a 3.5 GPA and a B+ in DATA 205 and 212</div>
-    <div data-s="Spring">Start the 4+1's graduate courses if you're admitted</div>
-    <div class="sn">Summer</div>
-    <div data-s="Summer">A paid job or internship; start <a href="#g-methods">R for Data Science</a></div>
-    <div data-s="Summer">A first research program or a faculty RA job</div>
-    <div data-s="Summer" class="key">A funded research program; draft a list of MA programs</div>
-    <div data-s="Summer">Start your MA</div>
-  </div>
-</section>
-
-<section id="g-ma-db" class="db" data-degree="ma">
-  <div class="sh"><div class="no">03</div><h2>Opportunities</h2></div>
-  <p class="lead">Programs that fit an MA: research programs, data training and funded master’s options.</p>
-  <div class="db-app"></div>
-</section>
-
-</div>
-
-<div class="panel" id="g-guides" data-label="Guides">
-
-<section id="g-start">
-  <div class="sh"><div class="no">01</div><h2>Start here</h2></div>
-  <p class="lead">This path covers funded PhDs and policy master's for any Queens College Political Science major who is even curious about graduate school. You don't need to be sure yet. Most of these programs exist to help you find out.</p>
-  <h3 class="kick">Three ground rules</h3>
-  <ul class="rules">
-    <li><b>Good research programs pay you.</b> Almost everything here is free and comes with a stipend, housing, or both. Be skeptical of programs that charge you to "do research."</li>
-    <li><b>Deadlines move every year.</b> Confirm on the official page before you plan around a date.</li>
-    <li><b>Apply to more than one.</b> These programs are competitive, and a rejection says little about you.</li>
-  </ul>
-  <div class="cols">
-    <div><b>Take the methods courses early</b>PSCI 200 (<a href="https://qc-undergraduate.catalog.cuny.edu/departments/PSCI-QC/courses">Research Skills</a>) and an intro statistics course such as <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0140801">PSYCH 107</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0148731">DATA 205</a>. Either one also counts toward the <a href="https://qc-undergraduate.catalog.cuny.edu/programs/DATA-MIN">Data Analytics minor</a>.</div>
-    <div><b>Ask for research assistant work</b>No office posts it. Pick one or two professors whose work you understand, and email what you read, what skill you bring and how many hours you have.</div>
-  </div>
-  <div class="pull"><b>Get credit for it.</b><p>QC's <a href="https://www.qc.cuny.edu/academics/ps/internships-in-political-science/">political science internship courses</a> give credit for urban politics, law and advocacy, and international politics placements. CUNY's <a href="https://www.cuny.edu/about/administration/offices/ocip/students/rogowsky-internship-program/">Rogowsky Internship Program</a> places juniors and seniors in government for 3–12 credits.</p></div>
-  <div class="pull"><b>Undocumented or an international student?</b><p>Emory SOAR says it accepts undocumented and international students. MIT MSRP accepts international students with a visa and work authorization. RBSI, MIT and Michigan also take DACA recipients.</p></div>
-</section>
-
-<section id="g-help">
-  <div class="sh"><div class="no">02</div><h2>Statements, help and AI</h2></div>
-  <div class="pull"><b>Pick programs that fit, and get help with your statement.</b><p>Read what each program focuses on and make sure it matches what you want to study. Then ask your professors and Rebecca Baron, QC's Advisor for Scholarships and Fellowships in the <a href="https://www.qc.cuny.edu/academics/ohs/contact-us-page/">Office of Honors and Scholarships</a>, to help with your statements of purpose. They are here to help. Don't lose out on an opportunity because you were scared to ask. You're in college to learn, so learn.</p></div>
-  <div class="pull"><b>Don't let AI write your application.</b><p>AI is useful for some tasks, like building this website. But professors read the applications to these programs, and they will know if AI wrote yours. Use it as a proofreader instead: give it the prompt and your own draft, and ask where you could improve or show more of yourself. It's a machine, and it doesn't know you better than you know yourself. Before you submit, have peers and professors read your writing too.</p></div>
-</section>
-
-<section id="g-social">
-  <div class="sh"><div class="no">03</div><h2>Talk to your professors</h2></div>
-  <p class="lead">Your research doesn't have to be political science. Methods travel across fields, and CUNY faculty in many departments need student help with surveys, data, experiments, fieldwork and archives.</p>
-  <h3 class="kick">What research looks like next door</h3>
-      <ul class="rules">
-        <li><b>Sociology.</b> Surveys and interviews on inequality, immigration, work and neighborhoods. Home of QC's data analytics program.</li>
-        <li><b>Economics.</b> Labor markets and policy evaluation, often with large administrative datasets and causal inference.</li>
-        <li><b>Psychology.</b> Experiments on attitudes, prejudice and decision-making, the base of political psychology.</li>
-        <li><b>Urban studies.</b> Housing, transit, policing and city budgets, often with NYC open data.</li>
-        <li><b>Anthropology and history.</b> Fieldwork, oral histories and archives.</li>
-        <li><b>Linguistics.</b> Text as data, and language and identity (see <a href="#g-pair">Pair your major</a>).</li>
-      </ul>
-  <div class="talk">
-    <div>
-      <h3>Going to office hours</h3>
-      <p>Office hours are not only for grade questions. Professors expect students to come in and ask for advice, and most of the opportunities on this site started with a conversation like that.</p>
-      <ul>
-        <li><b>Go to office hours</b> or email to ask for 15 minutes. It's normal, even if you've never taken their class.</li>
-        <li><b>Ask for advice, not a favor:</b> "What would you do in my position?" "Which classes or programs should I look at?" "Who else should I talk to?"</li>
-        <li><b>Ask about their research</b>, and read one of their papers first.</li>
-        <li><b>Look outside your department.</b> Sociology, economics, psychology and urban studies faculty take political science students too.</li>
-        <li><b>Follow up.</b> Send a thank-you, then tell them what you did with their advice. That is how a professor becomes a recommender.</li>
-      </ul>
+  <div class="about-right">
+    <div data-reveal>
+      <h3>Why this exists</h3>
+      <p>Hello! I made this site because, as an undergrad, I didn't know about all the opportunities I had. It's based on my own experience, so it won't match everyone's. Questions or comments? Email me at <a href="mailto:mohamed.aljahmi@qc.cuny.edu">mohamed.aljahmi@qc.cuny.edu</a>. I'm always happy to help and can point you to the right resources on campus.</p>
+      <p class="sig">Mohamed Aljahmi</p>
     </div>
-    <div class="mail">
-      <span class="mail-h">Sample email</span>
-      <p><b>Subject:</b> Advice on research opportunities, [Your name], [major]</p>
-      <p>Dear Professor [Last name],</p>
-      <p>I'm a [year] majoring in [major] at Queens College. I read your [paper or project] on [topic], and I'm interested in [one sentence on why].</p>
-      <p>I'm hoping to get research experience before applying to [PhD or master's programs]. Could I come to your office hours on [day] to ask for advice on next steps? If you ever need help on a project, I can offer [a skill, e.g., R or survey coding] for [number] hours a week.</p>
-      <p>Thank you,<br>[Full name]</p>
+    <div data-reveal>
+      <h3>Not an official page</h3>
+      <p>This guide is student-made, not a Queens College or CUNY publication. Dates change every year, so confirm each one on the program's official page before you apply.</p>
     </div>
+    <a class="btn" data-reveal href="mailto:mohamed.aljahmi@qc.cuny.edu?subject=Queens%20College%20Political%20Science%20Pathways">Email Mohamed</a>
   </div>
 </section>
-
-<section id="g-pair">
-  <div class="sh"><div class="no">04</div><h2>Pair your major</h2></div>
-  <p class="lead">Take a broad range of courses early. Trying history, philosophy, economics or urban studies is how you find the questions you actually want to study, and a second field can make you a stronger applicant.</p>
-  <h3 class="kick">Theory, history and cities</h3>
-  <div class="pairs">
-    <div><h4><a href="https://qc-undergraduate.catalog.cuny.edu/programs/PHIL-MIN">Philosophy</a></h4><p class="meta">Minor (18 credits) or second major</p><p>Arguments about justice, rights and legitimacy, the core of political theory. The minor includes two history-of-philosophy courses (PHIL 140–148). Best for students drawn to political theory.</p></div>
-    <div><h4><a href="https://qc-undergraduate.catalog.cuny.edu/programs/HIST-MIN">History</a></h4><p class="meta">Minor or second major</p><p>Primary sources, archives and long-run change. Useful for political theory, comparative politics and the history of American institutions.</p></div>
-    <div><h4><a href="https://www.qc.cuny.edu/academics/us/">Urban Studies</a></h4><p class="meta">Major, or a BA and MA in five years</p><p>City politics, housing, policing and budgets, often with NYC data. The <a href="https://www.qc.cuny.edu/academics/us/accelerated-ma/">Accelerated MA</a> pairs a BA in Urban Studies with an MA in Urban Affairs in five years, and up to 12 graduate credits count toward both. It needs a 3.0 GPA overall and in the major; majors in other social sciences are considered case by case. Apply at about 45–75 credits. Best for city government and MPA programs.</p></div>
-    <div><h4>Sociology</h4><p class="meta">Double major</p><p>Survey research and theory; home of Data Analytics. It unlocks the <a href="#gp-accelerated-ba-ma-data">4+1 BA/MA in data analytics</a> and Mellon Mays, neither of which takes political science alone.</p></div>
-  </div>
-  <h3 class="kick">Data, economics and business</h3>
-  <p class="note">A quantitative credential helps for policy, campaign, government and research jobs. The Bureau of Labor Statistics projects data scientist jobs to grow 35% from 2025 to 2035 (<a href="https://www.bls.gov/ooh/math/data-scientists.htm">BLS</a>).</p>
-  <div class="pairs">
-    <div><h4><a href="https://www.qc.cuny.edu/academics/smns/data-science-faq/">Data Analytics</a></h4><p class="meta">Minor (21 credits), in Sociology</p><p>The easiest add-on for most political science majors, built for students with no background. Courses: DATA 205 (or PSYCH 107 or ECON 249), 212W, 235, 306, 333 and 334 (<a href="https://qc-undergraduate.catalog.cuny.edu/programs/DATA-MIN">list</a>). DATA 205, 306 and 333 teach R. Best for analyst and research assistant jobs, predocs and MPP programs.</p></div>
-    <div><h4><a href="https://www.qc.cuny.edu/academics/smns/data-science-faq/">Math: Data Science and Statistics</a></h4><p class="meta">BA, as a second major</p><p>Statistics, programming and modeling. Best for methods-heavy PhDs and data science jobs.</p></div>
-    <div><h4><a href="https://qc-undergraduate.catalog.cuny.edu/programs/ECON-MIN">Economics</a></h4><p class="meta">Major or minor</p><p>Policy analysis and econometrics. Best for MPPs, economics predocs and think tanks. For more advanced methods, the <a href="https://www.qc.cuny.edu/academics/economics/quantitative-economics/">Quantitative Economics BS</a> adds calculus, linear algebra, advanced econometrics and scientific computing, and is a STEM major.</p></div>
-    <div><h4><a href="https://www.qc.cuny.edu/academics/cs/undergraduate-studies/">Computer Science</a></h4><p class="meta">Minors</p><p>Also Computer Information Technology. Best for computational social science and tech policy.</p></div>
-    <div><h4><a href="https://www.qc.cuny.edu/academics/lcd/minor-computational-linguistics/">Text as data</a></h4><p class="meta">Courses, a minor or a BS in Linguistics and Communication Disorders</p><p>Want to analyze speeches, bills or social media posts with code? The department teaches <a href="https://qc-undergraduate.catalog.cuny.edu/departments/LCD-QC/courses">LCD 151 and 251</a>, Methods in Computational Linguistics I and II. Go further with the minor (built for CS and linguistics majors; 33 credits for other majors) or the <a href="https://www.qc.cuny.edu/academics/lcd/computational-linguistics/">BS in Computational Linguistics</a>.</p></div>
-    <div><h4><a href="https://www.qc.cuny.edu/academics/bala/about-bala/">Business and Liberal Arts (BALA)</a></h4><p class="meta">Honors minor (21 credits), open to all majors</p><p>Business concepts, communication and analytical decision-making. Best for consulting, government management and MPA programs.</p></div>
-  </div>
-  <h3 class="kick">Skills employers look for, whatever you pair it with</h3>
-  <div class="cols">
-    <div><b>A statistical language</b>R or Python, plus Excel. SQL if you want data jobs.</div>
-    <div><b>Survey and research design</b>Writing a questionnaire, sampling, reading a regression table.</div>
-    <div><b>Short-form writing</b>Policy memos and one-page briefs, not only seminar papers.</div>
-    <div><b>Proof</b>A GitHub page with one or two finished projects. See <a href="#g-samples">the samples</a>.</div>
-  </div>
-</section>
-
-<section id="g-methods">
-  <div class="sh"><div class="no">05</div><h2>Methods and skills</h2></div>
-  <p class="lead">Queens College already teaches solid research methods in PSCI 200 and in intro statistics courses like PSYCH 107 and DATA 205. Several teach R, including <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0148731">DATA 205</a>, <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0149551">DATA 306</a>, <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0149661">DATA 333</a> and <a href="https://www.qc.cuny.edu/academics/ps/people/">Professor Earl Asberry's</a> section of <a href="https://qc-undergraduate.catalog.cuny.edu/courses/1312411">PSCI 200</a>. If you want advanced training, the funded <a href="#g-phd-db" data-type="summer-research">summer research programs</a> like RBSI and MIT MSRP teach graduate-level methods. They are just as good as a summer internship, if not better, and some pay more. Outside class, you already have free access to LinkedIn Learning.</p>
-  <div class="split">
-    <div>
-      <h3 class="kick" style="margin-top:0">Free self-study, in order</h3>
-      <ol class="steps">
-        <li><div><b><a href="https://www.openintro.org/book/os/">OpenIntro Statistics</a></b>Probability, inference and regression from scratch (free PDF).</div></li>
-        <li><div><b><a href="https://r4ds.hadley.nz/">R for Data Science</a></b>Cleaning, plotting and summarizing data in R.</div></li>
-        <li><div><b><a href="https://ocw.mit.edu/courses/17-801-political-science-scope-and-methods-fall-2017/">MIT 17.801, Political Science Scope and Methods</a></b>How political scientists design research.</div></li>
-        <li><div><b><a href="https://mattblackwell.github.io/gov2002-book/">Blackwell, A User's Guide to Statistical Inference and Regression</a></b>Regression, done carefully. Good the summer before a PhD.</div></li>
-        <li><div><b><a href="https://book.declaredesign.org/">Research Design in the Social Sciences</a> and <a href="https://mixtape.scunning.com/">Causal Inference: The Remix</a></b>Causal inference, once regression feels comfortable.</div></li>
-      </ol>
-    </div>
-    <div>
-      <h3 class="kick" style="margin-top:0">Learning outside class</h3>
-      <div class="ledger" style="margin-top:0">
-        <div class="row feat" style="grid-template-columns:1fr" id="gp-linkedin-learning">
-          <div class="what"><h4><a href="https://support.qc.cuny.edu/support/solutions/articles/15000128781-Logging-into-Linkedin-Learning-LiL-">LinkedIn Learning</a></h4><p class="meta">Free through QC</p><p class="body">Video courses in Excel, SQL, Python, R, Tableau, public speaking and writing. Go to <b>linkedin.com/learning</b>, click Sign in, and use your CUNY Login (your CUNYfirst username and password). Add finished certificates to your LinkedIn profile.</p></div>
-        </div>
-        <div class="row" style="grid-template-columns:1fr" id="gp-icpsr-summer-program">
-          <div class="what"><h4><a href="https://www.icpsr.umich.edu/sites/icpsr/sumprog">ICPSR Summer Program</a></h4><p class="meta">Michigan and online · 2027 sessions June 14–July 9 and July 6–30 (tentative)</p><p class="body">Open to undergrads. 2026 general session: $2,725 at member schools, $4,975 otherwise. Queens College is an ICPSR member, so you get the member rate. Registration for 2027 opens in February. <a href="https://www.icpsr.umich.edu/sites/icpsr/sumprog/scholarships">Scholarships</a> reopen December 2026.</p></div>
-        </div>
-        <div class="row" style="grid-template-columns:1fr" id="gp-essex-summer-school">
-          <div class="what"><h4><a href="https://essexsummerschool.com/">Essex Summer School</a></h4><p class="meta">UK · June 28–Aug 13, 2027</p><p class="body">Data analysis courses charged per course. Confirm undergraduate eligibility with the school.</p></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="pull"><b>Put what you build on GitHub.</b><p>A clean replication of a published table in R is a strong line on a PhD or predoc application.</p></div>
-</section>
-
-<section id="g-apply">
-  <div class="sh"><div class="no">06</div><h2>Applying</h2></div>
-  <p class="lead">Political science PhD applications are due from late November to December 17 for fall entry (Columbia's is Nov 25), and the <a href="#gp-apsa-diversity-fellowship-program">APSA Diversity Fellowship</a> closes earlier, on October 25, 2026.</p>
-  <h3 class="kick">Application fees ($75–$125 each) and who waives them</h3>
-  <div class="tbl"><table>
-    <thead><tr><th>School (fee)</th><th>Waives for these programs</th><th>Otherwise</th></tr></thead>
-    <tbody>
-      <tr><td><a href="https://gradadmissions.stanford.edu/apply/application-fee/program-participation-waivers/eligible-programs">Stanford</a> ($125)</td><td>RBSI, McNair, Mellon Mays, Leadership Alliance, Big Ten SROP, PPIA JSI, APSA DFP</td><td>Request 10 business days before the deadline</td></tr>
-      <tr><td><a href="https://gradschool.princeton.edu/admission-onboarding/prepare/application-fee">Princeton</a> ($90)</td><td>McNair, Mellon Mays, Leadership Alliance, PPIA (not RBSI or SROP)</td><td>Hardship waivers too</td></tr>
-      <tr><td><a href="https://grad.berkeley.edu/admissions/application-process/fee-waiver/">UC Berkeley</a></td><td>RBSI, Mellon Mays, Leadership Alliance, PPIA</td><td>Need-based</td></tr>
-      <tr><td><a href="https://gradschool.duke.edu/admissions/application-instructions/application-fee/">Duke</a> ($105)</td><td>PPIA JSI</td><td>Low-income; first come, first served</td></tr>
-      <tr><td><a href="https://rackham.umich.edu/admissions/applying/application-fee-and-payment/">Michigan Rackham</a> ($75)</td><td>Michigan SROP</td><td>Pell Grant recipients qualify</td></tr>
-      <tr><td><a href="https://gsas.yale.edu/admissions/phdmasters-application-process/application-fees-fee-waivers">Yale</a> ($105)</td><td>None of these</td><td>Pell Grant, AmeriCorps, Peace Corps, veterans, documented hardship</td></tr>
-    </tbody>
-  </table></div>
-  <p style="margin-top:10px;color:var(--ink-2);font-size:.92rem;max-width:66ch">Program not on the list? Email the department's graduate coordinator and ask anyway, in October rather than the week of the deadline.</p>
-  <h3 class="kick">The GRE is back at most top programs</h3>
-  <div class="cols three">
-    <div><b>Required for fall 2027</b>Harvard (<a href="https://gsas.harvard.edu/program/government">Government</a>), Princeton, Stanford, Yale, Duke, Berkeley, Columbia, MIT, UChicago, UCLA.</div>
-    <div><b>Not required</b>Michigan, Wisconsin, Northwestern, <a href="https://www.gc.cuny.edu/political-science/admissions-and-aid">CUNY Graduate Center</a>.</div>
-    <div><b>Plan</b>Check each program page, and test by early fall of senior year.</div>
-  </div>
-  <h3 class="kick">The rest of the file</h3>
-  <div class="cols">
-    <div><b>Letters (usually 3)</b>From faculty who have seen your research or writing. Ask 6–8 weeks ahead with a one-page summary and your school list.</div>
-    <div><b>Statement of purpose</b>Lead with the question you want to study, show your preparation, and name 2–3 faculty per school whose work fits.</div>
-    <div><b>Writing sample</b>Your best research paper, often a seminar paper or thesis chapter, cut to the page limit and revised with a professor.</div>
-    <div><b>Where to apply</b>Fit with faculty matters more than rank. Look for people whose recent papers you would want to have written.</div>
-  </div>
-</section>
-
-<section id="g-funding">
-  <div class="sh"><div class="no">07</div><h2>Scholarships and funding</h2></div>
-  <p class="lead">Queens College has its own scholarship money, and one application each semester puts you in the running for most of it. Start there, then work with the Office of Honors and Scholarships on national awards. Every scholarship below is also in the <a href="#g-phd-db" data-type="fellowship">opportunities lists</a> with its deadline.</p>
-  <div class="split">
-    <div>
-      <h3 class="kick" style="margin-top:0">At Queens College</h3>
-      <ol class="steps">
-        <li><div><b>Fill out the <a href="#gp-qc-general-scholarship-application">General Application</a> every semester</b>One application on QC's AcademicWorks portal covers most QC Foundation scholarships, and the office says most are open to students without documentation. This fall's closes October 25, 2026; the spring cycle runs from mid-January to mid-March.</div></li>
-        <li><div><b>Answer the supplemental questions</b>Some awards ask one more short question at the end, like the <a href="#gp-ottensoser-award">Ottensoser Award</a>, which helps juniors and seniors pay graduate school application fees and test costs.</div></li>
-        <li><div><b>Let the department know you</b>The <a href="#gp-political-science-department-awards">Political Science department's awards</a> have no application. Professors choose.</div></li>
-        <li><div><b>Graduating with a 3.75 or higher?</b>Seniors with a 3.75+ GPA and 45 QC credits get an email in the spring to be considered for the <a href="https://www.qc.cuny.edu/academics/ohs/baccalaureate-page/">Baccalaureate Award Ceremony</a>'s named awards, including several for students headed to law school or public-interest careers. Fill out the survey in that email.</div></li>
-        <li><div><b>Get paid for an unpaid internship</b>The <a href="#gp-qc-internship-stipend">QC Internship Stipend Fund</a> gives $2,700 once. With a work-study award, the <a href="#gp-nyc-public-service-corps">NYC Public Service Corps</a> pays you to intern in government.</div></li>
-      </ol>
-    </div>
-    <div>
-      <h3 class="kick" style="margin-top:0">National awards, by year</h3>
-      <p>The <a href="https://www.qc.cuny.edu/academics/ohs/externalscholarships/">Office of Honors and Scholarships</a> advises on national awards. For some, Queens College has to nominate you, and its own deadline comes before the national one, so start early.</p>
-      <ul class="rules">
-        <li><b>Freshmen and sophomores.</b> <a href="#gp-jk-watson-fellowship">JK Watson Fellowship</a> (QC nominates), <a href="#gp-fulbright-uk-summer-institutes">Fulbright UK Summer Institutes</a>, <a href="#gp-critical-language-scholarship">Critical Language Scholarship</a> (Nov 17) and, for study abroad, <a href="#gp-gilman-scholarship">Gilman</a>.</li>
-        <li><b>Juniors.</b> <a href="#gp-truman-scholarship">Truman</a>, <a href="#gp-beinecke-scholarship">Beinecke</a> (QC nominates), <a href="#gp-boren-scholarship">Boren</a> and the <a href="#gp-rangel-summer-enrichment">Rangel summer program</a>. Plan now for Rhodes, Marshall and Schwarzman: their applications are due early in senior year.</li>
-        <li><b>Seniors.</b> <a href="#gp-fulbright-us-student">Fulbright</a> (apply through QC), the <a href="#gp-huntington-public-service-award">Huntington Public Service Award</a> and, for future teachers, the <a href="#gp-james-madison-fellowship">James Madison Fellowship</a>.</li>
-        <li><b>Check every year.</b> <a href="#gp-belle-zeller-scholarship">Belle Zeller</a> (30 CUNY credits and a 3.75+ GPA), <a href="#gp-cuny-pilsbury-scholarship">Pilsbury</a> (first-generation), <a href="#gp-apia-scholars">APIA Scholars</a> and the <a href="#gp-hispanic-scholarship-fund">Hispanic Scholarship Fund</a>.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="pull"><b>Not a US citizen?</b><p>Many national awards require citizenship, but not all. Most of QC's own scholarships are open to students without documentation. <a href="#gp-thedream-us-scholarship">TheDream.US</a> is for undocumented students, and Queens College is a partner school. The <a href="#gp-hispanic-scholarship-fund">Hispanic Scholarship Fund</a>, the <a href="#gp-fund-education-abroad">Fund for Education Abroad</a> and <a href="#gp-apsa-ralph-bunche-summer">RBSI</a> accept DACA recipients. Ask the Office of Honors and Scholarships about the rest.</p></div>
-</section>
-
-<section id="g-search">
-  <div class="sh"><div class="no">08</div><h2>Job search tools and AI</h2></div>
-  <p class="lead">Most of these are free. Set up alerts once, and new openings come to you.</p>
-  <div class="split">
-    <div>
-      <h3 class="kick" style="margin-top:0">Free through Queens College</h3>
-      <ul class="rules">
-        <li><b><a href="https://www.qc.cuny.edu/academics/cei/handshake/">HireQC (Handshake)</a>.</b> QC's job and internship board, including work-study jobs. Sign in with your QC credentials.</li>
-        <li><b><a href="https://www.qc.cuny.edu/academics/cei/resume/">Résumé reviews</a>.</b> Book a career educator on QC Navigate, or submit your résumé for review in Handshake. The Center for Career Engagement and Internships is in Frese Hall 213.</li>
-        <li><b><a href="https://www.qc.cuny.edu/academics/cei/career-students/">Vault Career Intelligence</a>.</b> Profiles of employers, industries and 900 internships, plus interview guides. Create a free account.</li>
-        <li><b><a href="https://www.qc.cuny.edu/academics/cei/training/">The Forage</a>.</b> Free, self-paced job simulations from real employers, a good way to try out a field.</li>
-        <li><b><a href="https://info.parkerdewey.com/student/qccuny">Parker Dewey micro-internships</a>.</b> Paid projects for real companies, usually 10 to 40 hours of work.</li>
-      </ul>
-      <h3 class="kick">Job boards with email alerts</h3>
-      <ul class="rules">
-        <li><b><a href="https://www.usajobs.gov">USAJOBS</a>.</b> Federal jobs. Filter by the Students or Recent Graduates hiring path, and see <a href="https://intern.usajobs.gov">federal internships</a>. Internship postings are often open only about two weeks, so turn on alerts.</li>
-        <li><b><a href="https://cityjobs.nyc.gov/">NYC Jobs</a>.</b> New York City government jobs. Many city titles require a civil service exam; see the <a href="https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page">exam schedule</a>.</li>
-        <li><b><a href="https://www.idealist.org">Idealist</a>.</b> Nonprofit and public-interest jobs, with daily email alerts.</li>
-        <li><b><a href="https://www.predoc.org/opportunities">PREDOC.org</a>.</b> Research jobs before a PhD. Sign up on the page to get postings in your field by email.</li>
-        <li><b><a href="https://www.linkedin.com/help/linkedin/answer/a511279">LinkedIn job alerts</a>.</b> Up to 20 alerts, sent daily or weekly. Its <a href="https://www.linkedin.com/help/linkedin/answer/a6889044">AI job search</a> lets you describe the job you want in your own words.</li>
-      </ul>
-    </div>
-    <div>
-      <h3 class="kick" style="margin-top:0">AI that helps without writing for you</h3>
-      <p>CUNY licenses one generative AI tool for all students: <a href="https://provost.baruch.cuny.edu/artificial-intelligence-think-tank/ai-use-guidance/">Microsoft Copilot Chat</a>. Sign in with your CUNY Login email, not a personal Microsoft account. That way your chats fall under Microsoft's enterprise data protection and aren't used to train its models. Even so, CUNY's <a href="https://www.cuny.edu/academics/ai-academic-hub/">AI guidance</a> says not to share sensitive or identifiable information with any AI tool.</p>
-      <ul class="rules">
-        <li><b>Read a posting.</b> Paste in a job or program description and ask for a checklist of what it requires and what you need to prepare.</li>
-        <li><b>Track deadlines.</b> Ask it to turn your list of programs into a table of deadlines, materials and recommenders, then copy it into Excel.</li>
-        <li><b>Practice interviews.</b> Ask it to play the interviewer for a specific internship, one question at a time. Answer out loud, then ask for feedback.</li>
-        <li><b>Prepare for a conversation.</b> Ask it to summarize an organization's recent work before an interview or networking call, then check those facts on the organization's own site.</li>
-      </ul>
-      <div class="pull"><b>Don't let it write your applications.</b><p>The rule from <a href="#g-help">Statements, help and AI</a> applies here too. Some programs set limits: <a href="#gp-mit-blueprint-labs-predoc">MIT Blueprint Labs</a> caps code samples at 50% AI-assisted. Many job tools, including LinkedIn Premium, offer to write cover letters or "tailor" your résumé for you; skip those features.</p></div>
-    </div>
-  </div>
-</section>
-
-<section id="g-visit">
-  <div class="sh"><div class="no">09</div><h2>PhD visit programs</h2></div>
-  <p class="lead">Many universities invite prospective PhD applicants to campus in the fall to meet faculty and graduate students and learn how to apply. Most pay for travel, a hotel and meals, and some waive the application fee. Most fly-ins take applications in July and August, so apply the summer before senior year.</p>
-  <p class="note">Every visit program is in the <a href="#g-phd-db" data-type="visit">PhD opportunities list</a>. Open now: <a href="#gp-notre-dame-our-futures">Notre Dame's Our Futures Weekend</a> (juniors, due Nov 15) and <a href="#gp-princeton-prospective-phd-preview">Princeton's P3</a> (due Mar 15).</p>
-  <div class="pull"><b>No visit? You can still get a fee waiver.</b><p><a href="https://gsas.yale.edu/admissions/phdmasters-application-process/application-fees-fee-waivers">Yale</a> waives its fee for Pell Grant recipients, and <a href="https://socialsciences.uchicago.edu/admissions/application-materials/application-fee">UChicago Social Sciences</a> waives it for undergrads on need-based aid. See <a href="#g-apply">Applying</a> for more.</p></div>
-</section>
-
-<section id="g-samples">
-  <div class="sh"><div class="no">10</div><h2>Sample résumé and CV</h2></div>
-  <p class="lead">Use a one-page résumé for jobs, internships and MPA/MPP applications, and an academic CV for PhD programs, predocs and research programs. Both are for a fictional QC student: copy the structure, not the content.</p>
-  <div class="desk">
-    <div class="stage">
-      <div class="tabs" role="tablist" aria-label="Sample documents">
-        <button type="button" role="tab" aria-selected="true" data-doc="resume">One-page résumé</button>
-        <button type="button" role="tab" aria-selected="false" data-doc="cv">Academic CV</button>
-      </div>
-      <div class="sheet" data-paper="resume">
-        <div class="nm">ALEX RIVERA</div>
-        <div class="ct">Queens, NY · alex.rivera@example.com · github.com/alexrivera · linkedin.com/in/alexrivera</div>
-        <div class="h">Education</div>
-        <div class="r"><b>Queens College, City University of New York</b><span>Flushing, NY</span></div>
-        <div class="r"><span class="it">B.A. in Political Science, Minor in Data Analytics · GPA 3.6 · Dean's List (4 semesters)</span><span>Expected May 2028</span></div>
-        <div>Relevant coursework: Research Skills; Applied Political Research; Data Analysis and Modeling; Data Management, Processing, and Visualization; Urban Politics</div>
-        <div class="h">Experience</div>
-        <div class="r"><span><b>Research Assistant</b>, Department of Political Science, Queens College</span><span>Sept 2026 – Present</span></div>
-        <ul><li>Clean and merge three waves of survey data (4,000+ respondents) in R for a faculty project on local turnout</li><li>Built 12 charts and a codebook used in a conference paper draft</li></ul>
-        <div class="r"><span><b>Legislative Intern</b>, Office of a New York City Council Member</span><span>June – Aug 2026</span></div>
-        <ul><li>Logged and categorized 600+ constituent cases in Excel; flagged the three most common housing complaints for staff</li><li>Drafted two one-page briefs on proposed tenant-protection bills</li></ul>
-        <div class="r"><span><b>Data Intern</b> (CUNY Spring Forward), Community nonprofit, Queens, NY</span><span>Mar – May 2026</span></div>
-        <ul><li>Built a monthly dashboard of program enrollment; cut reporting time from two days to two hours</li></ul>
-        <div class="h">Leadership</div>
-        <div class="r"><span><b>Treasurer</b>, QC Model UN · managed a $4,000 travel budget for two national conferences</span><span>2025 – Present</span></div>
-        <div class="h">Skills</div>
-        <div>R (tidyverse, ggplot2), Excel (pivot tables), SQL (basic), Qualtrics, Git · LinkedIn Learning: SQL Essential Training · Spanish (professional working proficiency)</div>
-      </div>
-      <div class="sheet" data-paper="cv" hidden>
-        <div class="nm">ALEX RIVERA</div>
-        <div class="ct">Department of Political Science, Queens College, CUNY · alex.rivera@example.com · alexrivera.github.io</div>
-        <div class="h">Education</div>
-        <div class="r"><b>Queens College, City University of New York</b><span>Expected May 2028</span></div>
-        <div class="it">B.A. in Political Science, Minor in Data Analytics, Honors in the Social Sciences · GPA 3.6</div>
-        <div>Honors thesis: "Who Shows Up? Language Access and Turnout in Queens City Council Elections." Advisor: Professor <span class="ph">[Name]</span></div>
-        <div class="h">Research Experience</div>
-        <div class="r"><span><b>Summer Research Fellow</b>, <span class="ph">[Program]</span>, <span class="ph">[University]</span></span><span>June – Aug 2027</span></div>
-        <ul><li>Faculty mentor: Professor <span class="ph">[Name]</span>. Designed and ran an original survey experiment on language access (n = 1,200)</li></ul>
-        <div class="r"><span><b>Research Assistant</b> to Professor <span class="ph">[Name]</span>, Queens College</span><span>Sept 2026 – Present</span></div>
-        <ul><li>Survey data cleaning and visualization in R</li></ul>
-        <div class="h">Working Papers and Projects</div>
-        <ul><li>"Who Shows Up? Language Access and Turnout in Queens City Council Elections." Honors thesis, in progress</li><li>Replication of <span class="ph">[Author (Year)]</span>, Table 2, in R. Code on GitHub</li></ul>
-        <div class="h">Presentations</div>
-        <ul><li>Borough of Queens Undergraduate Research Symposium, April 2027</li></ul>
-        <div class="h">Awards and Fellowships</div>
-        <ul><li><span class="ph">[Summer research program]</span>, 2027</li><li>Dean's List, 2025–2027</li></ul>
-        <div class="h">Methods Training</div>
-        <ul><li>Graduate-level: <span class="ph">[course taken at a summer program]</span></li><li>Undergraduate: Research Skills; Applied Political Research; Data Analysis and Modeling</li></ul>
-        <div class="h">Skills</div>
-        <div>R, Stata (basic), Qualtrics, Git · Spanish (professional working proficiency)</div>
-        <div class="h">References</div>
-        <ul><li>Professor <span class="ph">[Name]</span>, Department of Political Science, Queens College</li><li>Professor <span class="ph">[Name]</span>, <span class="ph">[Summer program university]</span></li><li>Professor <span class="ph">[Name]</span>, Department of Sociology, Queens College</li></ul>
-      </div>
-    </div>
-    <div>
-      <div class="aside">
-        <h3>Download the samples</h3>
-        <ul>
-          <li><b>One-page résumé:</b> <a href="downloads/Sample_Resume_Alex_Rivera.docx" download>Word</a> · <a href="downloads/Sample_Resume_Alex_Rivera.pdf">PDF</a></li>
-          <li><b>Academic CV:</b> <a href="downloads/Sample_CV_Alex_Rivera.docx" download>Word</a> · <a href="downloads/Sample_CV_Alex_Rivera.pdf">PDF</a></li>
-        </ul>
-      </div>
-      <div class="aside">
-        <h3>Résumé vs. CV</h3>
-        <div class="tbl" style="margin-top:0"><table><tbody>
-          <tr><td>Length</td><td>Résumé: 1 page. CV: 1–2 pages as an undergrad</td></tr>
-          <tr><td>Leads with</td><td>Résumé: experience. CV: research</td></tr>
-          <tr><td>Bullets</td><td>Résumé: action plus result. CV: short and factual</td></tr>
-          <tr><td>Extras</td><td>CV: thesis, talks, awards, references</td></tr>
-        </tbody></table></div>
-      </div>
-      <div class="aside">
-        <h3>Tips</h3>
-        <ul>
-          <li><b>Numbers make bullets believable.</b> "4,000+ respondents" beats "large dataset."</li>
-          <li><b>Tailor the top third</b> to the job or program.</li>
-          <li><b>Keep a master CV</b> and cut it down for each application.</li>
-          <li><b>Drop high school</b> once you have college experience.</li>
-          <li><b>Send a PDF</b> named LastName_Resume.pdf.</li>
-          <li><b>Get it reviewed</b> at QC's Center for Career Engagement and Internships (Frese 213).</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="g-rbsi">
-  <div class="sh"><div class="no">11</div><h2>Notes from RBSI</h2></div>
-  <div class="soon"><div class="dot" aria-hidden="true"></div><div><b>First-hand notes are on the way</b><p>Advice from a QC student in the 2026 Ralph Bunche Summer Institute cohort at Duke: applying, the five weeks, the recruitment fair, and what came after.</p></div></div>
-</section>
-
-</div>
-
 </main>
 
-<!-- ===================== LAW ===================== -->
-<main id="law" hidden>
-
-<div class="intro">
-  <h2>Preparing for law school</h2>
-  <p class="lead">Admissions weigh your LSAT score and your GPA most, and most of the help is free. The JD tab has what to do each year of college and the programs that help; Guides covers QC resources, the LSAT and fees, gap years and your résumé.</p>
-  <aside class="note-from" aria-label="A note from the author">
-    <p>Hello! I made this site because, as an undergrad, I didn't know about all the opportunities I had. It's based on my own experience, so it won't match everyone's. Questions or comments? Email me at <a href="mailto:mohamed.aljahmi@qc.cuny.edu">mohamed.aljahmi@qc.cuny.edu</a>. I'm always happy to help and can point you to the right resources on campus.</p>
-    <p class="sig">Mohamed Aljahmi · <a href="#about">About this guide</a></p>
-  </aside>
-  <nav class="degrees two" aria-label="Law school">
-    <a href="#l-jd"><b>JD</b><span>Timeline, pre-law programs, internships and scholarships</span></a>
-    <a href="#l-guides"><b>Guides</b><span>QC resources, LSAT and fees, gap years and your résumé</span></a>
-  </nav>
-</div>
-
-<div class="panel" id="l-jd" data-label="JD" data-degree="jd">
-
-<section id="l-path">
-  <div class="sh"><div class="no">01</div><h2>What law school takes</h2></div>
-  <p class="lead">Admissions weigh two numbers most, your LSAT score and your GPA, then your personal statement, letters and résumé. Your major does not need to be pre-law or political science.</p>
-  <div class="split">
-    <div>
-      <h3 class="kick" style="margin-top:0">One application cycle (<a href="https://www.lsac.org/applying-law-school/jd-application-process/steps-apply-jd-programs">LSAC's steps</a>)</h3>
-      <ol class="steps">
-        <li><div><b>Spring before you apply</b>Request the LSAC fee waiver if you might qualify, at least 6 months before your first LSAT.</div></li>
-        <li><div><b>June or September–October</b>Take the LSAT. Many schools want a score by November or December.</div></li>
-        <li><div><b>Summer</b>Draft the personal statement; ask 2–3 professors or supervisors for letters.</div></li>
-        <li><div><b>6–8 weeks before your first deadline</b>Register for CAS, which sends your transcripts and letters to every school.</div></li>
-        <li><div><b>September–December</b>Submit applications. Earlier is better at schools that admit on a rolling basis.</div></li>
-        <li><div><b>Winter–spring</b>Decisions and scholarship offers. QC's pre-law advisor helps you compare and negotiate.</div></li>
-      </ol>
+<footer class="foot">
+  <div class="foot-top">
+    <div class="invite">
+      <h2 data-reveal>Start with<br>this semester</h2>
+      <a class="btn btn-ink" data-reveal href="programs.html">See all programs</a>
     </div>
-    <div>
-      <h3 class="kick" style="margin-top:0">The LSAT today</h3>
-      <p style="margin-top:12px;font-size:.95rem">Since August 2024 there are no logic games: two scored Logical Reasoning sections, one scored Reading Comprehension section and one unscored section, scored 120–180, plus a separate Argumentative Writing sample (<a href="https://www.lsac.org/lsat/frequently-asked-questions-about-lsat">LSAC</a>). Many schools also accept the GRE.</p>
-      <h3 class="kick">Time off is normal</h3>
-      <div class="stats">
-        <div class="v">86%</div><p>of Harvard Law's Class of 2029 spent at least a year out of college (<a href="https://hls.harvard.edu/jdadmissions/apply-to-harvard-law-school/jdapplicants/hls-profile-and-facts/">HLS</a>)</p>
-        <div class="v">~1 in 3</div><p>of 2024 first-year law students nationally came straight from college (<a href="https://www.lsac.org/sites/default/files/research/20241LProfileReportFinal.pdf">LSAC</a>)</p>
-      </div>
-    </div>
+    <nav class="foot-links" aria-label="More">
+      <a href="grad.html">Graduate school</a>
+      <a href="law.html">Law school</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="programs.html">Programs</a>
+      <a href="guides.html">Guides</a>
+      <a href="about.html">About</a>
+      <a href="https://www.qc.cuny.edu/academics/cei/" target="_blank" rel="noopener">QC Career Center</a>
+    </nav>
   </div>
-</section>
-
-<section id="l-timeline">
-  <div class="sh"><div class="no">02</div><h2>Your timeline</h2></div>
-  <p class="lead">Freshman and sophomore years are for GPA, professors and a first internship. The LSAT comes junior summer at the earliest.</p>
-  <div class="sched five">
-    <div class="sn corner"></div>
-    <div class="yh">Freshman</div><div class="yh">Sophomore</div><div class="yh key">Junior<small>Decide on timing</small></div><div class="yh">Senior<small>Applying now</small></div><div class="yh">Senior<small>Taking time off</small></div>
-    <div class="sn">Fall</div>
-    <div data-s="Fall">Meet <a href="#lp-qc-pre-law-advising">QC pre-law advising</a>; Legal Studies Club or Model UN; PSCI 100</div>
-    <div data-s="Fall"><a href="#lp-cleo-road-law-school">CLEO Road to Law School</a> (Nov 21); start the <a href="#lp-legal-studies-minor">Legal Studies minor</a>; apply for <a href="#lp-cuny-spring-forward">CUNY Spring Forward</a> (by Oct 13)</div>
-    <div data-s="Fall" class="key"><a href="#lp-cleo-road-law-school">CLEO Jumpstart</a>; <a href="#lp-attorney-sdny">SDNY</a> (Sept) or <a href="#lp-manhattan-da-college-internship">Manhattan DA</a> (Oct) semester internships; <a href="#lp-truman-scholarship">Truman</a></div>
-    <div data-s="Fall"><a href="#l-lsat">LSAT</a> by Sept–Oct; CAS; statement and letters; apply Sept–Dec; <a href="#lp-paul-daisy-soros-fellowships">Soros</a> (Oct 29)</div>
-    <div data-s="Fall"><a href="#lp-nyc-urban-fellows">Urban Fellows</a>, <a href="#lp-coro-fellows-program-public">Coro</a> (Jan 12), <a href="#lp-cuny-civil-service-pathways">Civil Service Pathways</a>; <a href="#lp-paralegal-or-legal-assistant">paralegal</a> applications</div>
-    <div class="sn">Spring</div>
-    <div data-s="Spring">Protect your GPA; <a href="#lp-nyc-ladders-leaders-syep">Ladders for Leaders or SYEP</a> for summer</div>
-    <div data-s="Spring"><a href="#lp-manhattan-da-college-internship">Manhattan DA summer</a> (Jan 15–Feb 1) and other <a href="#lp-brooklyn-da-bronx-da">DA internships</a>; apply to <a href="#l-research">HSS</a></div>
-    <div data-s="Spring" class="key"><a href="#lp-harvard-law-junior-deferral">Harvard JDP</a> or <a href="#lp-columbia-law-lead">Columbia LEAD</a> if you'll defer; <a href="#l-lsat">LSAC fee waiver</a>; start LSAT prep on <a href="#l-lsat">LawHub</a></div>
-    <div data-s="Spring"><a href="#lp-aba-legal-opportunity-scholarship">ABA scholarship</a> (Jan 15–Mar 15); compare and negotiate offers</div>
-    <div data-s="Spring">Line up your job; keep two professors who will write letters later</div>
-    <div class="sn">Summer</div>
-    <div data-s="Summer">Any job or internship; responsibility counts</div>
-    <div data-s="Summer"><a href="#l-jd-db" data-type="summer-internship">DA, defender, court, city</a> or <a href="#lp-cuny-career-launch">Career Launch</a> internship</div>
-    <div data-s="Summer" class="key"><a href="#lp-sotomayor-judicial-internship-program">Sotomayor internship</a> or a legal internship; June LSAT if you apply senior fall</div>
-    <div data-s="Summer"><a href="#lp-seo-law-fellowship">SEO Law Fellowship</a> if admitted</div>
-    <div data-s="Summer">Start work; take the LSAT when ready, not rushed</div>
-  </div>
-</section>
-
-<section id="l-jd-db" class="db" data-degree="jd">
-  <div class="sh"><div class="no">03</div><h2>Opportunities</h2></div>
-  <p class="lead">Pre-law programs, legal and city internships, and scholarships for law school.</p>
-  <div class="db-app"></div>
-</section>
-
-</div>
-
-<div class="panel" id="l-guides" data-label="Guides">
-
-<section id="l-start">
-  <div class="sh"><div class="no">01</div><h2>Start here</h2></div>
-  <p class="lead">This path collects the free pre-law programs, NYC internships, scholarships and LSAT logistics a QC political science major needs, whether you apply senior year or five years from now.</p>
-  <h3 class="kick">Three ground rules</h3>
-  <ul class="rules">
-    <li><b>The best pre-law programs are free.</b> The LSAC fee waiver, LSAC Plus and most pipeline programs cost nothing. Be skeptical of paid "pre-law institutes."</li>
-    <li><b>Deadlines move every year.</b> Confirm on the official page before you plan around a date.</li>
-    <li><b>Taking time off is normal.</b> Most law students did not go straight from college.</li>
-  </ul>
-</section>
-
-<section id="l-qc">
-  <div class="sh"><div class="no">02</div><h2>QC and CUNY resources</h2></div>
-  <p class="lead">Start with QC's pre-law advisor, who sits in the Academic Advising Center, and the Legal Studies minor, whose three required courses also count toward the major.</p>
-  <div class="cols">
-    <div><b>Clubs</b>The pre-law page mentions a Legal Studies Club that meets monthly. Model UN, the Political Science Club and QC Future 1Ls are listed on <a href="https://uknighted.qc.cuny.edu/club_signup?view=all">UKnighted</a>. The Political Science Club lists mock trials among its activities, and PSCI 288 covers mock trial and moot court.</div>
-    <div><b>A warning about research programs</b>The CUNY Pipeline Program, Leadership Alliance and Big Ten SROP exclude students headed to law school.</div>
-    <div><b>Scholarships</b>Fill out QC's <a href="#gp-qc-general-scholarship-application">General Application</a> every semester; one award in it, the Swimmer Scholarship, gives preference to students interested in law. The Political Science department's <a href="#gp-political-science-department-awards">Morrison Scholarship</a> favors seniors headed to law school, and graduating seniors with a 3.75+ GPA are considered for law fellowships at the <a href="https://www.qc.cuny.edu/academics/ohs/baccalaureate-page/">Baccalaureate ceremony</a>. More in <a href="#g-funding">Scholarships and funding</a>.</div>
-    <div><b>Job search tools</b>HireQC (Handshake), résumé reviews, government and nonprofit job boards, and how to use CUNY's AI tool without letting it write for you: see <a href="#g-search">Job search tools and AI</a>.</div>
-  </div>
-</section>
-
-<section id="l-research">
-  <div class="sh"><div class="no">03</div><h2>Research as a pre-law student</h2></div>
-  <p class="lead">Research isn't required for law school, but it builds what admissions reads for: careful writing and a professor who knows your work.</p>
-  <div class="cols">
-    <div><b><a href="https://www.qc.cuny.edu/academics/hss/program-overview/">Honors in the Social Sciences</a></b>A thesis on bail, sentencing or voting rights gives you a writing sample and a close mentor. 3.3 GPA to start.</div>
-    <div><b>Methods courses</b>PSCI 200 and an intro statistics course, such as <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0140801">PSYCH 107</a> or <a href="https://qc-undergraduate.catalog.cuny.edu/courses/0148731">DATA 205</a>, teach you to read the empirical studies courts and advocates cite.</div>
-    <div><b>Faculty research work</b>Email a professor whose work on courts, policing, immigration or rights interests you, and offer a set number of hours a week.</div>
-    <div><b>Data work at legal organizations</b>Some defender offices, DA offices and legal aid groups take interns who clean data and summarize case records.</div>
-    <div><b>Present it</b>The <a href="https://www.qc.cuny.edu/academics/ougr/queens-borough-research-symposium/">Borough of Queens Undergraduate Research Symposium</a> takes projects from every field each spring.</div>
-    <div><b>Split between law and a PhD?</b>Research serves both. See the <a href="#g-phd-db" data-type="summer-research" data-go="grad">graduate school path</a> for PhD programs.</div>
-  </div>
-</section>
-
-<section id="l-lsat">
-  <div class="sh"><div class="no">04</div><h2>LSAT and fees</h2></div>
-  <p class="lead">One LSAT plus CAS and six school reports costs about $740 before prep. If money is tight, apply for the LSAC fee waiver at least six months before your first test.</p>
-  <div class="split">
-    <div>
-      <h3 class="kick" style="margin-top:0">2026–27 test dates (<a href="https://www.lsac.org/lsat/lsat-dates-deadlines-score-release-dates">LSAC</a>)</h3>
-      <div class="tbl" style="margin-top:0"><table>
-        <thead><tr><th>Test</th><th>Register by</th><th></th></tr></thead>
-        <tbody>
-          <tr><td>Nov 11–14, 2026</td><td class="num">Oct 1, 2026</td><td class="num" data-left="2026-10-01"></td></tr>
-          <tr><td>Jan 13–16, 2027</td><td class="num">Dec 1, 2026</td><td class="num" data-left="2026-12-01"></td></tr>
-          <tr><td>Feb 12–13, 2027</td><td class="num">Dec 29, 2026</td><td class="num" data-left="2026-12-29"></td></tr>
-          <tr><td>Apr 8–10, 2027</td><td class="num">Feb 25, 2027</td><td class="num" data-left="2027-02-25"></td></tr>
-          <tr><td>June 9–12, 2027</td><td class="num">Apr 29, 2027</td><td class="num" data-left="2027-04-29"></td></tr>
-        </tbody>
-      </table></div>
-    </div>
-    <div>
-      <h3 class="kick" style="margin-top:0">What it costs (<a href="https://www.lsac.org/fees">LSAC</a>)</h3>
-      <div class="tbl" style="margin-top:0"><table><tbody>
-        <tr><td>LSAT, with Argumentative Writing</td><td class="num">$253</td></tr>
-        <tr><td>CAS (Credential Assembly Service)</td><td class="num">$219</td></tr>
-        <tr><td>Each law school report</td><td class="num">$45</td></tr>
-        <tr><td>Score Preview, before / after</td><td class="num">$46 / $87</td></tr>
-      </tbody></table></div>
-    </div>
-  </div>
-  <div class="pull"><b>The LSAC fee waiver</b><p>Based on income and assets. Income limits run from 150% to 300% of the federal poverty guidelines, depending on the tier and whether your parents' income counts. Tier 1 covers 2 LSATs with Writing and Score Preview, CAS, 6 law school reports and LawHub Advantage; Tier 2 covers 1 LSAT, CAS, 3 reports and LawHub Advantage. The LSAT and CAS benefits last two years; LawHub Advantage lasts one year. US citizens, permanent residents, DACA recipients, asylum seekers and TPS holders are eligible. <a href="https://www.lsac.org/lsat/register-lsat/lsat-cas-fees/fee-waiver">Apply</a>, and ask each law school whether it waives its own fee too.</p></div>
-  <h3 class="kick">Free and low-cost prep</h3>
-  <div class="cols">
-    <div><b><a href="https://www.lsac.org/lsat/prep">LawHub</a></b>The free tier includes full official practice tests. Khan Academy's free LSAT course ended June 30, 2024; its content moved here.</div>
-    <div><b>LawHub Advantage</b>The paid tier with many more official tests, included with LSAC Plus and the fee waiver.</div>
-    <div><b><a href="https://www.accesslex.org/lexprelaw-program-design-and-eligibility">AccessLex LexPreLaw</a></b>Kaplan LSAT prep, admissions counseling and financial help for 150 underrepresented applicants a year. You need an LSAT score already, at or below the 25th percentile. The 2027 application opens in March.</div>
-    <div><b>The GRE option</b>ETS's <a href="https://www.ets.org/gre/score-users/law-schools/program-list.html">list</a> includes NYU, Columbia, Fordham, Brooklyn, Cardozo, St. John's, Pace, Hofstra and Touro. CUNY Law is not on it.</div>
-  </div>
-</section>
-
-<section id="l-gap">
-  <div class="sh"><div class="no">05</div><h2>Gap years</h2></div>
-  <p class="lead">A paid job between college and law school is the norm at top schools, and the work you do can become the story in your personal statement.</p>
-  <div class="pull"><b>Using the time well.</b><p>Keep in touch with one or two professors so they can still write letters. Take the LSAT while you are working rather than cramming in the fall you apply.</p></div>
-</section>
-
-<section id="l-sample">
-  <div class="sh"><div class="no">06</div><h2>Sample law school résumé</h2></div>
-  <p class="lead">A law school résumé is a job résumé with three differences: list your hours per week for jobs held during school, add an interests line, and skip the objective.</p>
-  <div class="desk">
-    <div class="stage">
-      <div class="sheet">
-        <div class="nm">JORDAN LEE</div>
-        <div class="ct">Queens, NY · jordan.lee@example.com · (555) 555-0100</div>
-        <div class="h">Education</div>
-        <div class="r"><b>Queens College, City University of New York</b><span>Flushing, NY</span></div>
-        <div class="r"><span class="it">B.A. in Political Science, Minor in Legal Studies · GPA 3.7 · Dean's List (6 semesters)</span><span>May 2027</span></div>
-        <div>Honors thesis: "Bail Reform and Pretrial Detention in Queens County, 2019–2024." Advisor: Professor <span class="ph">[Name]</span></div>
-        <div class="h">Legal Experience</div>
-        <div class="r"><span><b>College Intern</b>, <span class="ph">[District Attorney's Office]</span>, New York, NY · 35 hrs/week</span><span>June – Aug 2026</span></div>
-        <ul><li>Summarized 40+ case files and police reports for assistant district attorneys</li><li>Prepared exhibit binders for two misdemeanor trials</li></ul>
-        <div class="r"><span><b>Intern</b>, <span class="ph">[Public defender organization]</span> · 15 hrs/week, for credit (PSCI Law &amp; Advocacy)</span><span>Jan – May 2026</span></div>
-        <ul><li>Interviewed clients' family members and logged 120+ intake records</li><li>Tracked court dates for 60 open cases in a shared spreadsheet</li></ul>
-        <div class="h">Other Employment</div>
-        <div class="r"><span><b>Sales Associate</b>, <span class="ph">[Retail store]</span>, Flushing, NY · 20 hrs/week during the semester</span><span>Sept 2023 – Present</span></div>
-        <ul><li>Trained four new hires; handle cash closeout for a store with about $8,000 in daily sales</li></ul>
-        <div class="h">Activities</div>
-        <ul><li><b>Member</b>, Legal Studies Club, 2024 – Present</li><li><b>Volunteer</b>, <span class="ph">[Tenant-rights organization]</span>, 2025 – Present · 4 hrs/week. Help tenants prepare repair-request letters</li></ul>
-        <div class="h">Skills and Interests</div>
-        <div>Skills: Spanish (fluent), Excel, legal research and writing (PSCI 2902 Legal Writing)</div>
-        <div>Interests: long-distance running (two NYC Half Marathons), Korean cooking, 1970s New York history</div>
-      </div>
-    </div>
-    <div>
-      <div class="aside">
-        <h3>Download the sample</h3>
-        <ul>
-          <li><b>Law school résumé:</b> <a href="downloads/Sample_Law_Resume_Jordan_Lee.docx" download>Word</a> · <a href="downloads/Sample_Law_Resume_Jordan_Lee.pdf">PDF</a></li>
-        </ul>
-      </div>
-      <div class="aside">
-        <h3>Rules from admissions offices</h3>
-        <ul>
-          <li><b>1–2 pages.</b> Trim to one if the second page is less than half full (<a href="https://www.law.umaryland.edu/admissions--aid/apply/admissions-advice/5-faqs-about-law-school-application-resumes/">Maryland Carey Law</a>).</li>
-          <li><b>One page where asked.</b> Wisconsin's advisors name Yale and Northwestern (<a href="https://prelaw.wisc.edu/resume">UW–Madison pre-law</a>).</li>
-          <li><b>Hours per week</b> for every job held during school. It explains a GPA earned while working.</li>
-          <li><b>An interests line</b> brings the application to life.</li>
-          <li><b>No high school, no objective, no fancy fonts.</b></li>
-        </ul>
-      </div>
-      <div class="aside">
-        <h3>Before you send it</h3>
-        <ul>
-          <li>Make every date match your application form.</li>
-          <li>Keep one format: title, organization, city, dates, hours.</li>
-          <li>Ask QC Pre-Law Advising to review it.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-</div>
-
-</main>
-  </div>
-</div>
-
-<section id="about" class="about">
-  <div class="wrap">
-    <h2>About this guide</h2>
-    <div class="about-grid">
-      <div class="preface">
-        <h3 class="kick">A note from Mohamed</h3>
-        <p>Hello! If you're interested in graduate school or law school, that's great, and there are so many ways to get there. This guide is based on my experience as an undergrad and doesn't represent every experience. I encourage you to find what you're really interested in.</p>
-        <p>I made this site because, as an undergrad, I didn't know about all the opportunities I had. I wish I'd had a resource like this, so I'd have known what to do and how to make myself more competitive for PhD programs, and for the job market in case academia doesn't work out.</p>
-        <p>This is general advice. If you have comments, concerns or questions about the site or its sources, email me at <a href="mailto:mohamed.aljahmi@qc.cuny.edu">mohamed.aljahmi@qc.cuny.edu</a>. I'm always happy to help and can point you to the right resources on campus.</p>
-        <p class="sig">Mohamed Aljahmi, Queens College, political science and sociology</p>
-      </div>
-      <div>
-        <h3 class="kick">How it was put together</h3>
-        <p>Every program, date and requirement comes from the program's official page, the Queens College catalog, or the CUNY office that runs it, and each was checked in September 2026. Where only last year's date is posted, the guide says "last cycle"; "~" and "est." mark dates estimated from the usual pattern. Deadlines change every year, so confirm on the official page before you apply.</p>
-        <h3 class="kick">Main sources</h3>
-        <ul class="sources">
-          <li>Each program's own page, linked from its name</li>
-          <li>The <a href="https://qc-undergraduate.catalog.cuny.edu/">Queens College undergraduate catalog</a> and department pages</li>
-          <li><a href="https://www.lsac.org/lsat/lsat-dates-deadlines-score-release-dates">LSAC</a> for LSAT dates, fees and the fee waiver</li>
-          <li><a href="https://apsanet.org/diversity/ralph-bunche-summer-institute/">APSA</a> for RBSI and the Diversity Fellowship</li>
-          <li>University graduate school pages for PhD funding, application fees and visit programs</li>
-        </ul>
-        <h3 class="kick">Print a one-page handout</h3>
-        <p><a href="handout.html?path=grad">Graduate school handout</a> · <a href="handout.html?path=law">Law school handout</a></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <div><b>Queens College Political Science Pathways</b><p>Made by Mohamed Aljahmi for Queens College political science majors. Student-made guide, not an official Queens College or CUNY publication. Questions: <a class="plain" href="mailto:mohamed.aljahmi@qc.cuny.edu">mohamed.aljahmi@qc.cuny.edu</a>. <a class="plain" href="#about">About this guide</a>.</p></div>
-    <div><p>Every program name links to the official page it was checked against in September 2026. "Last cycle" means only last year's date was posted; "~" and "est." mark dates estimated from the usual pattern. Always confirm before you apply.</p></div>
-  </div>
+  <p class="credits">
+    <span><a href="https://commons.wikimedia.org/" data-credits target="_blank" rel="noopener">Photo credits</a></span>
+    <span>Career help on campus: the <a href="https://www.qc.cuny.edu/academics/cei/" target="_blank" rel="noopener">Center for Career Engagement and Internships</a>, Frese Hall 213.</span>
+    <span>Student-made; not an official Queens College publication.</span>
+  </p>
+  <p class="giant" aria-hidden="true">Pathways</p>
 </footer>
+
 <script src="data.js"></script>
-<script src="app.js"></script>
+<script src="plans.js"></script>
+<script src="common.js"></script>
+<script src="path-core.js"></script>
+<script src="path.js"></script>
+<script src="quiz.js"></script>
 </body>
 </html>
