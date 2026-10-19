@@ -2,11 +2,14 @@
 
     python tools/make_qr.py
 
-Writes assets/qr-programs-grad.svg and assets/qr-programs-law.svg, which open the Programs page. A small
+Writes assets/qr-programs-grad.svg and assets/qr-programs-law.svg, which open the Programs page, and
+assets/qr-site.svg plus downloads/Pathways_QR_code.png, which open the home page (for flyers and slides). A small
 QR encoder (byte mode, error correction level M, versions 1-6), following the QR Code standard
 (ISO/IEC 18004) as laid out in Project Nayuki's reference implementation.
 """
 import os
+import struct
+import zlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://maljahmi.github.io/qc-polisci-pathways/'
@@ -14,6 +17,7 @@ CODES = {
     # utm_source lets site analytics count visits from the printed handout
     'qr-programs-grad.svg': SITE + 'programs.html?degree=grad&utm_source=handout',
     'qr-programs-law.svg': SITE + 'programs.html?degree=jd&utm_source=handout',
+    'qr-site.svg': SITE + '?utm_source=qr',  # the site's own code, for flyers, slides and posts
 }
 
 # level M, versions 1-6 (index = version)
@@ -250,8 +254,29 @@ def svg(g, border=4):
             '<rect width="100%%" height="100%%" fill="#fff"/><path d="%s" fill="#000"/></svg>\n' % (n, n, path))
 
 
+def png(g, scale=20, border=4):
+    """A black and white PNG, standard library only."""
+    n = (g.size + border * 2) * scale
+    rows = []
+    for y in range(n):
+        my = y // scale - border
+        row = bytearray(b'\x00')  # filter byte
+        for x in range(n):
+            mx = x // scale - border
+            dark = 0 <= mx < g.size and 0 <= my < g.size and g.dark[my][mx]
+            row.append(0 if dark else 255)
+        rows.append(bytes(row))
+
+    def chunk(kind, data):
+        return struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind + data) & 0xffffffff)
+    return (b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB', n, n, 8, 0, 0, 0, 0)) +
+            chunk(b'IDAT', zlib.compress(b''.join(rows), 9)) + chunk(b'IEND', b''))
+
+
 if __name__ == '__main__':
     for name, url in CODES.items():
         g = make(url)
         open(os.path.join(ROOT, 'assets', name), 'w', encoding='utf-8', newline='\n').write(svg(g))
+        if name == 'qr-site.svg':
+            open(os.path.join(ROOT, 'downloads', 'Pathways_QR_code.png'), 'wb').write(png(g))
         print(name, 'version', g.ver, url)
