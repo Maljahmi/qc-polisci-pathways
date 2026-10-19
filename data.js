@@ -2881,7 +2881,12 @@ window.PROGRAMS = [
   "meta": "CUNY Law · one day",
   "body": "",
   "warn": "",
-  "facts": []
+  "facts": [
+   [
+    "Cost",
+    "Not stated on the official page"
+   ]
+  ]
  },
  {
   "id": "lp-cuny-law-pipeline-justice",
@@ -2899,6 +2904,7 @@ window.PROGRAMS = [
   ],
   "paid": false,
   "allOpen": false,
+  "cost": "fee",
   "whenB": "July 1",
   "whenS": "2027 · opens late winter",
   "due": "2027-07-01",
@@ -2912,7 +2918,11 @@ window.PROGRAMS = [
   "facts": [
    [
     "Who",
-    "Needs an LSAT score from the past 5 years; $60 application fee plus a one-time program fee; in person only"
+    "Needs an LSAT score from the past 5 years; in person only, at CUNY Law in Long Island City"
+   ],
+   [
+    "Cost",
+    "$60 application fee plus a one-time program fee (amount not posted), and you pay for the January and February LSATs. No scholarships or aid; finishing the program waives CUNY Law's seat deposit if you enroll there"
    ]
   ],
   "short": "CUNY Law Pipeline to Justice"
@@ -3191,6 +3201,7 @@ window.PROGRAMS = [
   ],
   "paid": null,
   "allOpen": true,
+  "cost": "funded",
   "whenB": "Dec 2026",
   "whenS": "opens · last Jan 31",
   "due": "",
@@ -3198,13 +3209,17 @@ window.PROGRAMS = [
   "dueMD": "01-31",
   "opens": "Dec",
   "opensMD": "12-01",
-  "meta": "Virtual cohort · optional NYC meetups · free",
+  "meta": "Virtual cohort · optional in-person meetups · free",
   "body": "Support for your whole application year, including 2 free LSATs, Score Preview, CAS and LawHub Advantage.",
   "warn": "",
   "facts": [
    [
     "Who",
     "Anyone applying in the next cycle (seniors, grads); US citizens or nationals, permanent residents, TPS holders, DACA recipients, asylum seekers"
+   ],
+   [
+    "Cost",
+    "Free and virtual. Covers two LSATs with Score Preview, CAS with up to six law school reports, and LawHub Advantage"
    ]
   ]
  },
@@ -3234,13 +3249,17 @@ window.PROGRAMS = [
   "dueMD": "11-06",
   "opens": "",
   "opensMD": "",
-  "meta": "One week · Jan 11–15, 2027",
+  "meta": "One week, Jan 11–15, 2027, noon to 5 PM · in person in Manhattan (encouraged) or online",
   "body": "",
   "warn": "",
   "facts": [
    [
     "Who",
     "Current students and recent grads planning law school within 1–2 years"
+   ],
+   [
+    "Cost",
+    "Not stated on the official page; email LatinoJustice to ask"
    ]
   ],
   "short": "LatinoJustice LAWbound"
@@ -3264,6 +3283,7 @@ window.PROGRAMS = [
   ],
   "paid": false,
   "allOpen": false,
+  "cost": "fee",
   "whenB": "Nov 21",
   "whenS": "2026 · event",
   "due": "2026-11-21",
@@ -3278,6 +3298,10 @@ window.PROGRAMS = [
    [
     "Who",
     "Road to Law School: freshmen and sophomores. Jumpstart: juniors, seniors, grads"
+   ],
+   [
+    "Cost",
+    "$20 registration, which covers the workshop and lunch. Jumpstart the LSAT is also $20 and includes a graded practice LSAT"
    ]
   ],
   "short": "CLEO workshops at Fordham Law"
@@ -3306,13 +3330,17 @@ window.PROGRAMS = [
   "dueMD": "01-16",
   "opens": "Dec (last cycle)",
   "opensMD": "12-01",
-  "meta": "College Division, with St. John's Law · 8 weeks in NYC",
+  "meta": "College Division · 8 weeks in NYC: a judicial internship, then an LSAT boot camp",
   "body": "A 4-week judicial internship plus 4 weeks of LSAT prep.",
   "warn": "",
   "facts": [
    [
     "Who",
     "Juniors and seniors taking the LSAT in the fall"
+   ],
+   [
+    "Cost",
+    "Not stated on the official page"
    ]
   ]
  },
@@ -3333,7 +3361,7 @@ window.PROGRAMS = [
   "degrees": [
    "jd"
   ],
-  "paid": null,
+  "paid": true,
   "allOpen": false,
   "whenB": "Feb 2027",
   "whenS": "opens",
@@ -3342,13 +3370,17 @@ window.PROGRAMS = [
   "dueMD": "",
   "opens": "Feb",
   "opensMD": "02-01",
-  "meta": "With Latham &amp; Watkins · free",
+  "meta": "With Latham & Watkins · New York and New Haven events, plus online sessions",
   "body": "LSAT prep, mentoring and a weeklong residential program.",
   "warn": "",
   "facts": [
    [
     "Who",
     "Students and grads; 3.3 GPA"
+   ],
+   [
+    "Pay",
+    "$3,500 stipend. Travel, lodging and food for the New York and New Haven events, LSAT prep, up to two LSATs and CAS (if you don't have an LSAC fee waiver), and up to six law school application fees are covered"
    ]
   ]
  },
@@ -3377,13 +3409,17 @@ window.PROGRAMS = [
   "dueMD": "01-31",
   "opens": "",
   "opensMD": "",
-  "meta": "Free",
+  "meta": "Scholarship and mentoring · free",
   "body": "Up to $2,500 for LSAT prep, application fees and CAS, plus an attorney mentor.",
   "warn": "",
   "facts": [
    [
     "Who",
     "Juniors, seniors and graduates with financial need who plan to take the LSAT within 12 months"
+   ],
+   [
+    "Pay",
+    "Up to $2,500 for LSAT prep, application fees and CAS, plus an attorney mentor. You must submit a FAFSA"
    ]
   ]
  },
@@ -3409,13 +3445,17 @@ window.PROGRAMS = [
   "dueMD": "04-10",
   "opens": "",
   "opensMD": "",
-  "meta": "Two summers",
+  "meta": "New York Law School, Manhattan · 4 weeks in each of two summers, 4 days a week",
   "body": "",
   "warn": "",
   "facts": [
    [
     "Who",
-    "Rising juniors from NYC or NY State, nominated by partner colleges. Ask QC pre-law advising whether QC is a partner"
+    "Rising juniors from NYC or New York State. NYLS works with partner colleges to find candidates, but anyone can fill out the application"
+   ],
+   [
+    "Cost",
+    "Not stated on the official page"
    ]
   ]
  },
@@ -3436,6 +3476,7 @@ window.PROGRAMS = [
   ],
   "paid": null,
   "allOpen": false,
+  "cost": "fee",
   "whenB": "Summer 2027",
   "whenS": "interest form open",
   "due": "",
@@ -3450,6 +3491,10 @@ window.PROGRAMS = [
    [
     "Who",
     "Juniors through postgrads; 2.7 GPA"
+   ],
+   [
+    "Cost",
+    "$30 application fee and a $50 seat deposit if you're accepted (2026). Travel, housing and meals aren't mentioned"
    ]
   ]
  },
@@ -3458,7 +3503,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://seo-usa.org/law/our-program/apply-to-fellowship/\">SEO Law Fellowship</a>",
   "url": "https://seo-usa.org/law/our-program/apply-to-fellowship/",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "pipeline"
   ],
   "years": [
    "grad"
@@ -3616,6 +3662,7 @@ window.PROGRAMS = [
   ],
   "paid": null,
   "allOpen": false,
+  "cost": "free",
   "whenB": "June 15",
   "whenS": "2027 · opens Apr 15",
   "due": "2027-06-15",
@@ -3626,7 +3673,12 @@ window.PROGRAMS = [
   "meta": "2-year deferral",
   "body": "Admitted now, enroll after two years of work. LSAT or GRE by June 15.",
   "warn": "",
-  "facts": [],
+  "facts": [
+   [
+    "Cost",
+    "The $85 application fee is waived; you pay for the LSAT or GRE and CAS"
+   ]
+  ],
   "short": "Columbia Law LEAD"
  },
  {
@@ -3644,17 +3696,23 @@ window.PROGRAMS = [
   ],
   "paid": null,
   "allOpen": false,
-  "whenB": "July 1",
-  "whenS": "2027 · opens May 1",
+  "cost": "free",
+  "whenB": "~July 1",
+  "whenS": "est. · opens May 1",
   "due": "2027-07-01",
-  "status": "confirmed",
+  "status": "estimate",
   "dueMD": "07-01",
   "opens": "May 1",
   "opensMD": "05-01",
   "meta": "No application fee",
   "body": "If admitted, work at least 2 years, then enroll. LSAT or GRE by July 1.",
   "warn": "",
-  "facts": [],
+  "facts": [
+   [
+    "Cost",
+    "No application fee and no CAS needed; you pay for the LSAT or GRE"
+   ]
+  ],
   "short": "Harvard Law Junior Deferral"
  },
  {
@@ -9760,6 +9818,7 @@ window.PROGRAMS = [
   ],
   "paid": null,
   "allOpen": false,
+  "cost": "funded",
   "whenB": "Mar 31",
   "whenS": "2027 · opens Feb 1",
   "due": "2027-03-31",
@@ -9800,6 +9859,7 @@ window.PROGRAMS = [
   ],
   "paid": null,
   "allOpen": false,
+  "cost": "funded",
   "whenB": "Mar 1",
   "whenS": "2027 · no application fee",
   "due": "2027-03-01",
@@ -9897,6 +9957,625 @@ window.PROGRAMS = [
    [
     "Pay",
     "A modest monthly stipend (amount not posted), housing and food, health insurance if you don't have it, and a stipend when you finish"
+   ]
+  ]
+ },
+ {
+  "id": "lp-duke-prelaw-fellowship",
+  "name": "<a href=\"https://law.duke.edu/prelawfellowship\">Duke PreLaw Fellowship Program</a>",
+  "url": "https://law.duke.edu/prelawfellowship",
+  "short": "Duke PreLaw Fellowship",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "fr",
+   "so"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "~Early March",
+  "whenS": "est. · applications open January 2027",
+  "due": "",
+  "status": "estimate",
+  "dueMD": "03-06",
+  "opens": "January 2027",
+  "opensMD": "",
+  "meta": "Duke Law, Durham, N.C. · 4 weeks in residence in early summer (2026: May 31–June 26)",
+  "body": "A free four-week summer program at Duke Law: mini-courses taught by Duke Law faculty, LSAT information, visits to other law schools and law firms, and courthouse tours. Each cohort has 24 Fellows.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students finishing their freshman or sophomore year at a four-year, technical or community college, especially first-generation and low-income students. Colleges in the Southeast are encouraged, but students from other regions can apply"
+   ],
+   [
+    "Pay",
+    "All programming, room and board, books and course packets are free, plus a $1,000 stipend. Travel isn't mentioned"
+   ],
+   [
+    "Apply",
+    "Finalists may get a Zoom interview. Questions: dlpp@law.duke.edu"
+   ]
+  ]
+ },
+ {
+  "id": "lp-uva-roadmap-scholars",
+  "name": "<a href=\"https://www.law.virginia.edu/academics/program/roadmap-scholars-initiative\">UVA Law Roadmap Scholars Initiative</a>",
+  "url": "https://www.law.virginia.edu/academics/program/roadmap-scholars-initiative",
+  "short": "UVA Law Roadmap Scholars",
+  "types": [
+   "pipeline",
+   "course",
+   "summer-internship"
+  ],
+  "years": [
+   "so"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 1",
+  "whenS": "2027 · open now",
+  "due": "2027-02-01",
+  "status": "confirmed",
+  "dueMD": "02-01",
+  "opens": "Open now",
+  "opensMD": "10-15",
+  "meta": "UVA Law, Charlottesville, Va. · two summers (Summer I: May 27–June 19, 2027) with LSAT help in between",
+  "body": "A free two-summer program for sophomores. Summer I has law mini-courses, legal writing and visits to firms and agencies; junior year brings a paid LSAT course and mentors; Summer II is an application boot camp and a paid legal internship. UVA picks 8 to 12 scholars a year.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current sophomores working toward a bachelor's degree, with strong preference for first-generation students and students with limited money"
+   ],
+   [
+    "Pay",
+    "No tuition or fees. Summer I covers travel, room and board and a $3,000 stipend; junior year includes an LSAT course stipend; the Summer II internship pays"
+   ],
+   [
+    "Apply",
+    "Application, two short essays, one to three letters and a transcript (unofficial is fine). Decisions by April 15"
+   ]
+  ]
+ },
+ {
+  "id": "lp-bu-summer-pre-law-academy",
+  "name": "<a href=\"https://www.bu.edu/law/admissions-aid/jd-admissions/bu-summer-pre-law-academy/\">BU Law Summer Pre-Law Academy</a>",
+  "url": "https://www.bu.edu/law/admissions-aid/jd-admissions/bu-summer-pre-law-academy/",
+  "short": "BU Summer Pre-Law Academy",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "~Feb 26",
+  "whenS": "est. · opens Dec 16",
+  "due": "2027-02-26",
+  "status": "estimate",
+  "dueMD": "02-26",
+  "opens": "Dec 16",
+  "opensMD": "12-16",
+  "meta": "Boston University School of Law · 4 weeks in residence, June 7–July 1, 2027",
+  "body": "Free law school classes taught Socratic-style, case briefing, a group \"client\" project, LSAT prep and help with your personal statement and résumé. Priority goes to students within a year of starting law school, mostly rising seniors.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current undergraduates and college graduates, with priority for those within a year of starting law school"
+   ],
+   [
+    "Pay",
+    "Free to apply and attend. Travel to Boston, housing and many meals are covered, plus a $1,500 stipend when you finish"
+   ],
+   [
+    "Apply",
+    "Application form, a one- to two-page statement of interest, a résumé and an unofficial transcript; no letters. BU's page says Feb 26, 2026, which looks like a typo for 2027"
+   ]
+  ]
+ },
+ {
+  "id": "lp-cumberland-connection",
+  "name": "<a href=\"https://www.samford.edu/law/connection\">Cumberland Connection Law School Immersion Program</a>",
+  "url": "https://www.samford.edu/law/connection",
+  "short": "Cumberland Connection (Samford)",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "funded",
+  "whenB": "Feb 15",
+  "whenS": "2027 · opens Nov 1",
+  "due": "2027-02-15",
+  "status": "confirmed",
+  "dueMD": "02-15",
+  "opens": "Nov 1",
+  "opensMD": "11-01",
+  "meta": "Samford University's Cumberland School of Law, Birmingham, Ala. · one week, May 16–22, 2027",
+  "body": "A free week of classes taught by law professors (property, constitutional law, torts, civil rights and more), advocacy practice, lunches with lawyers and help applying to law school.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Rising sophomores, juniors and seniors with a 3.25 GPA, with no family history in law or who have overcome financial or other hardship"
+   ],
+   [
+    "Cost",
+    "Free. Travel, meals, housing and program costs are covered by the law school"
+   ],
+   [
+    "Apply",
+    "Online application, a résumé, one letter and a personal statement. Decisions by March 1"
+   ]
+  ]
+ },
+ {
+  "id": "lp-unlv-douglas-prelaw-fellowship",
+  "name": "<a href=\"https://law.unlv.edu/academics/fellowships/prelaw-fellowship-program\">UNLV Justice Michael L. Douglas PreLaw Fellowship</a>",
+  "url": "https://law.unlv.edu/academics/fellowships/prelaw-fellowship-program",
+  "short": "UNLV PreLaw Fellowship",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "funded",
+  "whenB": "Feb 20",
+  "whenS": "last cycle · opens Nov 2",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-20",
+  "opens": "Nov 2",
+  "opensMD": "11-02",
+  "meta": "UNLV Boyd School of Law, Las Vegas · one week in residence in June, plus an optional 6-week online LSAT course",
+  "body": "A week of mock law classes, legal writing, LSAT prep and visits to courts and law firms, mainly for first-generation and under-resourced students.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates, mainly first-generation and under-resourced students; graduates may apply. No GPA cutoff"
+   ],
+   [
+    "Cost",
+    "Housing, food and local transportation during the week are free; you pay to get to Las Vegas. The optional LSAT course needs a deposit you get back if you finish"
+   ],
+   [
+    "Apply",
+    "Online application, a résumé, unofficial transcripts and two letters; no interview"
+   ]
+  ]
+ },
+ {
+  "id": "lp-ub-discover-law",
+  "name": "<a href=\"https://www.law.buffalo.edu/about/diversity-and-inclusion/discover-law.html\">University at Buffalo Discover Law Undergraduate Scholars Program</a>",
+  "url": "https://www.law.buffalo.edu/about/diversity-and-inclusion/discover-law.html",
+  "short": "UB Discover Law (SUNY)",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "fr",
+   "so"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "funded",
+  "whenB": "Apr 13",
+  "whenS": "last cycle · 2027 dates early next year",
+  "due": "",
+  "status": "last",
+  "dueMD": "04-13",
+  "opens": "",
+  "opensMD": "",
+  "meta": "UB School of Law (SUNY), Buffalo, N.Y. · 4 weeks in residence, late May to late June",
+  "body": "A free four-week preview of law school with classes taught by UB Law faculty, weekdays 9 to 4:30, for first-generation, Pell-eligible and economically disadvantaged students.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students finishing their freshman or sophomore year; first-generation, Pell-eligible, veterans or economically disadvantaged. A 3.0 GPA helps. Western, central and eastern New York residents get first consideration, but others are encouraged to apply"
+   ],
+   [
+    "Cost",
+    "Free. Campus housing (required) and most meals are covered; you pay Saturday meals and travel"
+   ],
+   [
+    "Apply",
+    "Personal statement, official transcript, one to three letters and a résumé"
+   ]
+  ]
+ },
+ {
+  "id": "lp-suffolk-achievers",
+  "name": "<a href=\"https://www.suffolk.edu/law/about/diversity-inclusion/summer-pre-law-pipeline-program\">Suffolk Law Summer Pre-Law Achievers Network</a>",
+  "url": "https://www.suffolk.edu/law/about/diversity-inclusion/summer-pre-law-pipeline-program",
+  "short": "Suffolk Law Pre-Law Achievers",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "funded",
+  "whenB": "TBA",
+  "whenS": "deadline not posted · info sessions in winter",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Suffolk University Law School, Boston · 2 weeks in person, June 9–23, 2027",
+  "body": "Two non-credit mini-courses taught by law professors (a first-year subject and legal writing), court visits, meetings with Boston lawyers and an application workshop with one-on-one help. No LSAT course.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students in a bachelor's program or graduates of the last year or two who plan to start law school in 2028 or 2029, with a 3.0 GPA; first-generation, low-income or underrepresented"
+   ],
+   [
+    "Cost",
+    "Free, with free dorm housing and breakfast and lunch on program days; you pay dinners and weekend meals. Travel isn't mentioned"
+   ],
+   [
+    "Apply",
+    "Online form, personal statement, résumé, transcripts, a writing sample and one to three letters"
+   ]
+  ]
+ },
+ {
+  "id": "lp-drexel-sheller-pipeline",
+  "name": "<a href=\"https://drexel.edu/law/admissions/summer-immersion-program/\">Drexel Kline Law Sheller Law School Pipeline Program</a>",
+  "url": "https://drexel.edu/law/admissions/summer-immersion-program/",
+  "short": "Drexel Law pipeline (online)",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "April",
+  "whenS": "opens Apr 1, 2027",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Apr 1, 2027",
+  "opensMD": "04-01",
+  "meta": "Online, weekdays 9 to noon, 3 weeks in July · optional in-person days in Philadelphia",
+  "body": "A free, mostly online program you can do from Queens: LSAT prep, help with the law school application, mentors, briefing cases, public speaking and community lawyering.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students with at least one year done at a two- or four-year college, recent graduates or postgraduates, with a 3.0 GPA, who are underrepresented in law, first-generation or have faced hardship. You must attend every required session"
+   ],
+   [
+    "Cost",
+    "Free; no stipend"
+   ],
+   [
+    "Apply",
+    "A transcript and one letter"
+   ]
+  ]
+ },
+ {
+  "id": "lp-minnesota-pre-law-scholars",
+  "name": "<a href=\"https://law.umn.edu/admissions/minnesota-pre-law-scholars-mpls-program\">Minnesota Pre-Law Scholars (MPLS) Program</a>",
+  "url": "https://law.umn.edu/admissions/minnesota-pre-law-scholars-mpls-program",
+  "short": "Minnesota Pre-Law Scholars (online)",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Mar 15",
+  "whenS": "last cycle · opens late January",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-15",
+  "opens": "Late January",
+  "opensMD": "01-26",
+  "meta": "Online · 11 weeks of evening LSAT classes, June to mid-August",
+  "body": "A free online LSAT course from the University of Minnesota Law School, three evenings a week, with admissions and career sessions. A second track offers only the admissions and career sessions.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students and graduates of any college with a 3.5 GPA who will apply to law school in the next cycle"
+   ],
+   [
+    "Cost",
+    "Free, with study materials. Plan on 15 to 20 hours of study a week"
+   ],
+   [
+    "Apply",
+    "Application, unofficial transcripts, a statement of interest and a practice or official LSAT score"
+   ]
+  ]
+ },
+ {
+  "id": "lp-widener-commonwealth-pathway",
+  "name": "<a href=\"https://commonwealthlaw.widener.edu/prospective-students/admissions/law-school-pathway-program/\">Widener Law Commonwealth Pathway Program</a>",
+  "url": "https://commonwealthlaw.widener.edu/prospective-students/admissions/law-school-pathway-program/",
+  "short": "Widener Law LSAT course (online)",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Each term",
+  "whenS": "fall and spring cohorts · fill out the interest form",
+  "due": "",
+  "status": "none",
+  "dueMD": "08-17",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Online, Mon and Wed evenings for 12 weeks · one Saturday at the law school in Harrisburg, Pa.",
+  "body": "A free 12-week online LSAT course with practice tests, plus a day of mock classes and meetings with deans and admissions staff. About 40 students per cohort.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Anyone planning to take the LSAT in the next two years"
+   ],
+   [
+    "Cost",
+    "Free (funded by an LSAC grant); you pay travel for the Saturday visit"
+   ],
+   [
+    "Catch",
+    "You must include Widener Law Commonwealth among the law schools you apply to"
+   ]
+  ]
+ },
+ {
+  "id": "lp-plsi-american-indian-alaska-native",
+  "name": "<a href=\"https://www.ailc-inc.org/plsi/\">Pre-Law Summer Institute for American Indians and Alaska Natives</a>",
+  "url": "https://www.ailc-inc.org/plsi/",
+  "short": "PLSI (American Indian Law Center)",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Mar 20",
+  "whenS": "last cycle",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-20",
+  "opens": "",
+  "opensMD": "",
+  "meta": "American Indian Law Center, UNM School of Law, Albuquerque · 8 weeks, late May to late July",
+  "body": "An intensive two-month program that copies a first semester of law school: Federal Indian Law, first-year courses, legal writing and moot court.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "American Indian and Alaska Native students with proof of tribal membership or descent, who have taken the LSAT, will finish college by May and have applied to an ABA law school"
+   ],
+   [
+    "Cost",
+    "No charge to attend; you pay travel and living costs. Students ask their tribes for help, and PLSI helps if a tribe can't"
+   ]
+  ]
+ },
+ {
+  "id": "lp-ny-leo",
+  "name": "<a href=\"https://www.nycourts.gov/legal-education-opportunity-program-ny-leo\">New York Legal Education Opportunity Program (NY LEO)</a>",
+  "url": "https://www.nycourts.gov/legal-education-opportunity-program-ny-leo",
+  "short": "NY LEO (NY State courts)",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Dec 1",
+  "whenS": "last cycle · first round, then rolling to May",
+  "due": "",
+  "status": "last",
+  "dueMD": "12-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "New York State Judicial Institute, live on campus · 5 weeks full time in the summer before law school",
+  "body": "A five-week live-in program run by the New York State courts for graduates about to start law school: first-year subjects, legal research and writing, court visits and meetings with judges.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "New York State residents from groups traditionally underrepresented in law who have graduated, taken the LSAT and applied to law school"
+   ],
+   [
+    "Cost",
+    "Not stated on the official page"
+   ],
+   [
+    "Apply",
+    "Email the NY LEO application to NY_LEO_App@nycourts.gov. Last cycle had rounds from Dec 1 to May, and a waitlist"
+   ]
+  ]
+ },
+ {
+  "id": "lp-dla-piper-raja-gaddipati-fellowship",
+  "name": "<a href=\"https://www.dlapiper.com/en-us/about-us/raja-gaddipati-fellowship\">DLA Piper Raja Gaddipati Fellowship</a>",
+  "url": "https://www.dlapiper.com/en-us/about-us/raja-gaddipati-fellowship",
+  "short": "DLA Piper Gaddipati Fellowship",
+  "types": [
+   "summer-internship",
+   "pipeline"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 20",
+  "whenS": "last cycle · opens late 2026",
+  "due": "",
+  "status": "last",
+  "dueMD": "01-20",
+  "opens": "Late 2026",
+  "opensMD": "12-08",
+  "meta": "DLA Piper U.S. offices · 6 weeks full time in summer",
+  "body": "A paid six-week internship inside a large law firm, with research projects, lectures and mentoring, for students about to apply to law school.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Rising seniors or recent graduates applying to law school within a year, who have taken or plan to take the LSAT"
+   ],
+   [
+    "Pay",
+    "Paid (amount not posted). Housing and travel are on you"
+   ],
+   [
+    "Apply",
+    "Résumé, cover letter, unofficial transcript and two letters, then recorded and live video interviews"
+   ]
+  ]
+ },
+ {
+  "id": "lp-practicepro-pre-law-scholarship",
+  "name": "<a href=\"https://www.practicepro.cc/pre-law/0l/pre-law-scholarship/\">PracticePro Pre-Law Scholarship</a>",
+  "url": "https://www.practicepro.cc/pre-law/0l/pre-law-scholarship/",
+  "short": "PracticePro Pre-Law Scholarship",
+  "types": [
+   "fellowship",
+   "pipeline"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 22",
+  "whenS": "last cycle · opens in January",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-22",
+  "opens": "January",
+  "opensMD": "01-10",
+  "meta": "Remote · 12 months · run by PracticePro, a legal career training company, with sponsor law firms",
+  "body": "Up to $1,500 back for LSAT prep, tutoring, books or the test fee, plus a year of training, admissions coaching and a sponsor firm.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Seniors or graduates with a 3.0 GPA who will apply to law school that fall"
+   ],
+   [
+    "Pay",
+    "Up to $1,500 toward LSAT costs, plus free entry to its career conferences"
+   ],
+   [
+    "Apply",
+    "Google Form, résumé, transcript, a 350-word statement and a short video"
    ]
   ]
  }

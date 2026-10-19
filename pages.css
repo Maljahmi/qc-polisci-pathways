@@ -166,6 +166,14 @@
 .filters { display: flex; flex-wrap: wrap; gap: 14px 18px; align-items: end; background: var(--surface); padding: 20px; }
 .filters label { display: grid; gap: 6px; font-size: var(--t-small); font-weight: 700; color: var(--muted); }
 .filters select, .filters input[type="search"] { font: 500 var(--t-body)/1.2 var(--text); color: var(--ink); background: #fff; border: 0; padding: 10px 12px; min-height: 44px; }
+.filters .presets { flex: 1 1 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
+.filters .presets span { font-size: var(--t-small); font-weight: 700; color: var(--muted); margin-right: 4px; }
+.filters .presets button { font: 600 var(--t-small)/1.2 var(--text); color: var(--ink); background: #fff; border: 0; min-height: 44px; padding: 0 16px; cursor: pointer; transition: background-color var(--t-hover) ease, transform var(--t-press) var(--ease-out); }
+.filters .presets button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.filters .presets .n { margin-left: 4px; font-weight: 400; font-variant-numeric: tabular-nums; color: var(--muted); }
+.filters .presets button[aria-pressed="true"] .n { color: #c9c9c9; }
+.filters .presets button:active { transform: scale(0.98); }
+@media (hover: hover) and (pointer: fine) { .filters .presets button:not([aria-pressed="true"]):hover { background: #e2e2dd; } }
 .filters .f-search { flex: 1 1 100%; }
 .filters .f-search input { width: 100%; max-width: 44rem; }
 .filters .f-check { display: flex; align-items: center; gap: 8px; color: var(--ink); font-weight: 600; min-height: 44px; }

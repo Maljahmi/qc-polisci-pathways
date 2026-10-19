@@ -302,6 +302,7 @@ def law_page():
   <p class="sec-lede" data-np-lede>The next deadlines for students headed to law school.</p>
   <ol class="apply np" data-next-programs></ol>
   <a class="all-link" data-all-programs href="programs.html?degree=jd">All programs</a>
+  <a class="all-link" href="programs.html?type=pipeline">Pre-law pipeline programs</a>
 </section>
 <section class="more-guides" id="guides" aria-labelledby="mg-h">
   <h2 id="mg-h">Guides for law school</h2>
@@ -442,11 +443,12 @@ def programs_page():
                 '<p class="updated" data-updated></p>') + '''
 <section class="programs" aria-label="All programs">
   <div class="filters">
+    <div class="presets" role="group" aria-label="Quick filters"><span>Quick filters</span><button type="button" data-preset='{"soon": 30}' aria-pressed="false">Closing in 30 days</button><button type="button" data-preset='{"paid": true}' aria-pressed="false">Paid or fully funded</button><button type="button" data-preset='{"type": "summer-internship", "paid": true}' aria-pressed="false">Paid summer internships</button><button type="button" data-preset='{"type": "summer-research"}' aria-pressed="false">Summer research</button><button type="button" data-preset='{"type": "fellowship"}' aria-pressed="false">Scholarships and fellowships</button><button type="button" data-preset='{"type": "pipeline"}' aria-pressed="false">Pre-law pipeline programs</button><button type="button" data-preset='{"type": "after"}' aria-pressed="false">After college</button><button type="button" data-preset='{"q": "housing"}' aria-pressed="false">Covers housing</button><button type="button" data-preset='{"open": true}' aria-pressed="false">Open to DACA students</button><button type="button" data-preset='{"year": "fr"}' aria-pressed="false">For freshmen</button></div>
     <label class="f-search"><span>Search</span><input type="search" data-f="q" placeholder="A name or topic, like CIA, journalism or Brooklyn" autocomplete="off"></label>
     <label><span>Goal</span><select data-f="degree"><option value="">Any goal</option><option value="grad">Any graduate degree</option><option value="phd">PhD</option><option value="predoc">Predoc</option><option value="mpp">MPP</option><option value="mpa">MPA</option><option value="ma">MA</option><option value="jd">Law school</option></select></label>
     <label><span>Year</span><select data-f="year"><option value="">Any year</option><option value="fr">Freshman</option><option value="so">Sophomore</option><option value="jr">Junior</option><option value="sr">Senior</option><option value="grad">After college</option></select></label>
     <label><span>Type</span><select data-f="type"><option value="">Any type</option></select></label>
-    <label class="f-check"><input type="checkbox" data-f="paid"> Paid or funded</label>
+    <label class="f-check"><input type="checkbox" data-f="paid"> Paid or fully funded</label>
     <label class="f-check"><input type="checkbox" data-f="open"> Open to DACA, undocumented or international students</label>
     <p class="p-count" aria-live="polite"></p>
   </div>

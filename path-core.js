@@ -63,7 +63,7 @@
     var when;
     if (dated(p)){ var d = parse(p.due), n = left(p.due); when = '<time datetime="' + p.due + '"' + (n <= 14 ? ' class="soon"' : "") + ">" + MON[d.getMonth()] + " " + d.getDate() + "</time>"; }
     else when = '<span class="when">' + esc(p.whenB || "") + "</span>";
-    var bits = (p.paid === true ? "Paid " : "") + (KIND[p.types[0]] || "");
+    var bits = (p.paid === true ? "Paid " : p.cost === "funded" ? "Fully funded " : p.cost === "free" ? "Free " : "") + (KIND[p.types[0]] || "");
     if (dated(p)) bits += ", " + inDays(left(p.due)); else if (p.whenS) bits += ", " + p.whenS;
     bits = bits.charAt(0).toUpperCase() + bits.slice(1);
     return "<li>" + when + '<a href="programs.html#' + esc(p.id) + '">' + esc(name(p)) + '</a><span class="m">' + esc(bits) + "</span></li>";
