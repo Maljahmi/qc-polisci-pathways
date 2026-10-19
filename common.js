@@ -58,7 +58,7 @@
   if ("MutationObserver" in window) new MutationObserver(function(){
     if (queued) return;
     queued = true;
-    requestAnimationFrame(function(){ queued = false; newTab(); });
+    setTimeout(function(){ queued = false; newTab(); }, 0);  // a timer, not a frame: frames don't run in background tabs
   }).observe(document.body, {childList: true, subtree: true});
 
   var bar = document.querySelector(".topbar");

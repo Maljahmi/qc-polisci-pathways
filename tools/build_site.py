@@ -199,7 +199,7 @@ def page(fname, title, desc, body_class, main, scripts=(), here=''):
     </div>
     <nav class="foot-links" aria-label="More">{''.join('<a href="%s">%s</a>' % (u, t) for u, t in NAV)}<a href="{CAREER_CENTER}">QC Career Center</a></nav>
   </div>
-  <p class="credits"><span>Photos via Wikimedia Commons; <a href="about.html#credits">photo credits</a>.</span><span>Career help on campus: the <a href="{CAREER_CENTER}">Center for Career Engagement and Internships</a>, Frese Hall 213.</span><span>Student-made; not an official Queens College or CUNY publication. Questions: <a href="mailto:mohamed.aljahmi@qc.cuny.edu">mohamed.aljahmi@qc.cuny.edu</a>.</span></p>
+  <p class="credits"><span>Photos via Wikimedia Commons; <a href="about.html#credits">photo credits</a>.</span><span>Career help on campus: the <a href="{CAREER_CENTER}">Center for Career Engagement and Internships</a>, Frese Hall 213.</span><span>Details change often: always check each program's official website for the most accurate, up-to-date information before you apply.</span><span>Student-made; not an official Queens College or CUNY publication. Questions: <a href="mailto:mohamed.aljahmi@qc.cuny.edu">mohamed.aljahmi@qc.cuny.edu</a>.</span></p>
   <p class="giant" aria-hidden="true">Pathways</p>
 </footer>
 
@@ -438,19 +438,24 @@ def jobs_page():
 
 # ---------------------------------------------------------------- programs
 def programs_page():
-    main = hero('Programs', 'Every program on this site in one list: research programs, internships, scholarships, fellowships, journalism, government and nonprofits. Search, or filter by goal, year and type.',
+    main = hero('Programs', 'Every program on this site in one list. Search, tap a popular filter, or narrow it down by goal, year and type.',
                 'united-states-capitol-washington-dc.jpg', 'The United States Capitol in Washington', '50% 50%',
-                '<p class="updated" data-updated></p>') + '''
+                '<p class="updated" data-updated></p><p class="updated"><b>Details change often: always check each program\'s official website for the most accurate, up-to-date information before you apply.</b></p>') + '''
 <section class="programs" aria-label="All programs">
   <div class="filters">
-    <div class="presets" role="group" aria-label="Quick filters"><span>Quick filters</span><button type="button" data-preset='{"soon": 30}' aria-pressed="false">Closing in 30 days</button><button type="button" data-preset='{"paid": true}' aria-pressed="false">Paid or fully funded</button><button type="button" data-preset='{"type": "summer-internship", "paid": true}' aria-pressed="false">Paid summer internships</button><button type="button" data-preset='{"type": "summer-research"}' aria-pressed="false">Summer research</button><button type="button" data-preset='{"type": "fellowship"}' aria-pressed="false">Scholarships and fellowships</button><button type="button" data-preset='{"type": "pipeline"}' aria-pressed="false">Pre-law pipeline programs</button><button type="button" data-preset='{"type": "after"}' aria-pressed="false">After college</button><button type="button" data-preset='{"q": "housing"}' aria-pressed="false">Covers housing</button><button type="button" data-preset='{"open": true}' aria-pressed="false">Open to DACA students</button><button type="button" data-preset='{"year": "fr"}' aria-pressed="false">For freshmen</button></div>
-    <label class="f-search"><span>Search</span><input type="search" data-f="q" placeholder="A name or topic, like CIA, journalism or Brooklyn" autocomplete="off"></label>
-    <label><span>Goal</span><select data-f="degree"><option value="">Any goal</option><option value="grad">Any graduate degree</option><option value="phd">PhD</option><option value="predoc">Predoc</option><option value="mpp">MPP</option><option value="mpa">MPA</option><option value="ma">MA</option><option value="jd">Law school</option></select></label>
-    <label><span>Year</span><select data-f="year"><option value="">Any year</option><option value="fr">Freshman</option><option value="so">Sophomore</option><option value="jr">Junior</option><option value="sr">Senior</option><option value="grad">After college</option></select></label>
-    <label><span>Type</span><select data-f="type"><option value="">Any type</option></select></label>
-    <label class="f-check"><input type="checkbox" data-f="paid"> Paid or fully funded</label>
-    <label class="f-check"><input type="checkbox" data-f="open"> Open to DACA, undocumented or international students</label>
-    <p class="p-count" aria-live="polite"></p>
+    <label class="f-search"><span>Search all <span data-count></span> programs</span><input type="search" data-f="q" placeholder="A name or topic, like CIA, journalism or Brooklyn" autocomplete="off"></label>
+    <div class="presets" role="group" aria-label="Popular filters"><span class="presets-h">Popular</span><button type="button" data-preset='{"soon": 30}' aria-pressed="false">Closing in 30 days</button><button type="button" data-preset='{"paid": true}' aria-pressed="false">Paid or fully funded</button><button type="button" data-preset='{"type": "summer-internship", "paid": true}' aria-pressed="false">Paid summer internships</button><button type="button" data-preset='{"type": "summer-research"}' aria-pressed="false">Summer research</button><button type="button" data-preset='{"type": "fellowship"}' aria-pressed="false">Scholarships and fellowships</button><button type="button" data-preset='{"type": "pipeline"}' aria-pressed="false">Pre-law pipeline programs</button><button type="button" data-preset='{"type": "after"}' aria-pressed="false">After college</button><button type="button" data-preset='{"q": "housing"}' aria-pressed="false">Covers housing</button><button type="button" data-preset='{"open": true}' aria-pressed="false">Open to DACA students</button><button type="button" data-preset='{"year": "fr"}' aria-pressed="false">For freshmen</button></div>
+    <details class="more-f" open>
+      <summary>More filters: goal, year and type</summary>
+      <div class="more-f-body">
+        <label><span>Your goal</span><select data-f="degree"><option value="">Any goal</option><option value="grad">Any graduate degree</option><option value="phd">PhD</option><option value="predoc">Predoc (research job)</option><option value="mpp">Public policy master's (MPP)</option><option value="mpa">Public administration master's (MPA)</option><option value="ma">Master's (MA)</option><option value="jd">Law school</option></select></label>
+        <label><span>Your year</span><select data-f="year"><option value="">Any year</option><option value="fr">Freshman</option><option value="so">Sophomore</option><option value="jr">Junior</option><option value="sr">Senior</option><option value="grad">After college</option></select></label>
+        <label><span>Type</span><select data-f="type"><option value="">Any type</option></select></label>
+        <label class="f-check"><input type="checkbox" data-f="paid"> Paid or fully funded</label>
+        <label class="f-check"><input type="checkbox" data-f="open"> Open to DACA, undocumented or international students</label>
+      </div>
+    </details>
+    <div class="p-status"><p class="p-count" aria-live="polite"></p><div class="p-active"></div></div>
   </div>
   <div class="p-list"></div>
   <p class="p-note">Dates are this cycle's where posted; otherwise last cycle's, which are usually close. Confirm on the official page.</p>
