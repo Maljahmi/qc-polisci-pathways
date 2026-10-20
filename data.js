@@ -1,7 +1,7 @@
 // Opportunities database. One entry per program; every degree tab, the deadline board and the
 // Commons export read from it. See CLAUDE.md for the fields.
 // the date programs and deadlines were last checked; the home page and All opportunities show it
-window.UPDATED = "2026-10-16";
+window.UPDATED = "2026-10-19";
 
 window.PROGRAMS = [
  {
@@ -252,11 +252,11 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Oct 13",
-  "whenS": "2026 · best chance Oct 6",
-  "due": "2026-10-13",
-  "status": "confirmed",
+  "whenS": "last cycle · best chance Oct 6",
+  "due": "",
+  "status": "last",
   "dueMD": "10-13",
-  "opens": "Sept 8",
+  "opens": "Sept 8 (last cycle)",
   "opensMD": "09-08",
   "meta": "Spring · March to May · 9 weeks",
   "body": "CUNY-wide paid internships for undergrads without substantial paid professional experience.",
@@ -625,14 +625,14 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Oct 11",
-  "whenS": "2026 · spring 2027",
-  "due": "2026-10-11",
-  "status": "confirmed",
+  "whenS": "last cycle · spring 2027",
+  "due": "",
+  "status": "last",
   "dueMD": "10-11",
-  "opens": "Open now (spring); Feb (summer); June (fall)",
+  "opens": "Late Dec–early Jan (summer); June (fall)",
   "opensMD": "",
   "meta": "NYC or DC, hybrid, or fully remote · 14–18 hours a week",
-  "body": "25+ roles each term, from regional and economics research in the Studies program to data visualization and communications. Apply to up to five. Summer postings open in February, fall in June.",
+  "body": "25+ roles each term, from regional and economics research in the Studies program to data visualization and communications. Apply to up to five. Summer 2027 postings open in late December or early January, fall in June.",
   "warn": "",
   "facts": [
    [
@@ -941,12 +941,12 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": true,
   "whenB": "Jan 12",
-  "whenS": "last cycle · opened Oct 1",
+  "whenS": "last cycle · opens late Nov–early Dec",
   "due": "",
   "status": "last",
   "dueMD": "01-12",
-  "opens": "Oct 1 (last cycle)",
-  "opensMD": "10-01",
+  "opens": "Late Nov–early Dec 2026",
+  "opensMD": "11-30",
   "meta": "Virtual, plus a 4-day conference in August · 5 hours a week, June to May",
   "body": "Research and write policy with a national network of students.",
   "warn": "",
@@ -1475,7 +1475,7 @@ window.PROGRAMS = [
   "facts": [
    [
     "Who",
-    "Rising juniors and seniors; 3.0 GPA; citizens, permanent residents or DACA"
+    "Rising juniors and seniors; 3.0 GPA; domestic students"
    ],
    [
     "You get",
@@ -2089,9 +2089,9 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "whenB": "Oct 5–9",
-  "whenS": "2026 · virtual",
-  "due": "2026-10-05",
-  "status": "confirmed",
+  "whenS": "last cycle · virtual",
+  "due": "",
+  "status": "last",
   "dueMD": "10-05",
   "opens": "",
   "opensMD": "",
@@ -2333,24 +2333,24 @@ window.PROGRAMS = [
   ],
   "paid": null,
   "allOpen": false,
-  "whenB": "Oct 9",
-  "whenS": "last cycle (2025)",
-  "due": "",
-  "status": "last",
-  "dueMD": "10-09",
+  "whenB": "Oct 29",
+  "whenS": "2026 · event Nov 7 (Zoom)",
+  "due": "2026-10-29",
+  "status": "confirmed",
+  "dueMD": "10-29",
   "opens": "",
   "opensMD": "",
   "meta": "One free day on Zoom in October, then feedback",
-  "body": "Panels with faculty and graduate students, then structured feedback on your research statement. It's for people underrepresented in political science PhDs, but Harvard asks you to apply even if you're unsure you fit. The 2026 dates aren't posted yet, so check now.",
+  "body": "Panels with faculty and graduate students, then structured feedback on your research statement. It's for people underrepresented in political science PhDs, but Harvard asks you to apply even if you're unsure you fit. Decisions come Nov 3.",
   "warn": "",
   "facts": [
    [
     "Who",
-    "18+, from any school; priority to people applying to PhDs this cycle"
+    "18+, from any school; everyone 18+ who applies is invited to the virtual workshop"
    ],
    [
     "How",
-    "A 10–15 minute application; participants are picked at random by subfield"
+    "A 10–15 minute application; mentoring slots go by subfield, first to people applying to PhDs this fall, then at random"
    ]
   ]
  },
@@ -2946,13 +2946,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Oct 15",
-  "whenS": "2026 · opens Oct 1",
-  "due": "2026-10-15",
+  "whenB": "Feb 1",
+  "whenS": "2027 · summer · opens Jan 15",
+  "due": "2027-02-01",
   "status": "confirmed",
-  "dueMD": "10-15",
-  "opens": "Oct 1 (semester); Jan 15 (summer)",
-  "opensMD": "10-01",
+  "dueMD": "02-01",
+  "opens": "Jan 15 (summer); Apr 1 (fall); Oct 1 (spring)",
+  "opensMD": "01-15",
   "meta": "Semester and summer · next summer window Jan 15–Feb 1",
   "body": "",
   "warn": "",
@@ -2987,13 +2987,13 @@ window.PROGRAMS = [
   ],
   "paid": false,
   "allOpen": false,
-  "whenB": "Sept 30",
-  "whenS": "2026 · spring",
-  "due": "2026-09-30",
+  "whenB": "Feb 15",
+  "whenS": "2027 · summer · window Feb 1–15",
+  "due": "2027-02-15",
   "status": "confirmed",
-  "dueMD": "09-30",
-  "opens": "Sept 1 (spring); Feb 1 (summer); May 1 (fall)",
-  "opensMD": "09-01",
+  "dueMD": "02-15",
+  "opens": "Feb 1 (summer); May 1 (fall); Sept 1 (spring)",
+  "opensMD": "02-01",
   "meta": "Unpaid · summer Feb 1–15; fall May 1–31",
   "body": "",
   "warn": "",
@@ -3001,6 +3001,10 @@ window.PROGRAMS = [
    [
     "Who",
     "US citizens; 3.5 GPA"
+   ],
+   [
+    "Format",
+    "Unpaid; summer is 40 hours a week for 8 weeks in Manhattan or White Plains; needs a DOJ security clearance"
    ]
   ],
   "short": "SDNY U.S. Attorney spring internship"
@@ -3761,9 +3765,9 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Oct 1",
-  "whenS": "2026 · July 2027 start",
-  "due": "2026-10-01",
-  "status": "confirmed",
+  "whenS": "last cycle · July 2027 start",
+  "due": "",
+  "status": "last",
   "dueMD": "10-01",
   "opens": "",
   "opensMD": "",
@@ -3799,11 +3803,11 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Oct 4",
-  "whenS": "2026 · priority; final Nov 1",
-  "due": "2026-10-04",
+  "whenB": "Nov 1",
+  "whenS": "2026 · final (priority Oct 4 passed)",
+  "due": "2026-11-01",
   "status": "confirmed",
-  "dueMD": "10-04",
+  "dueMD": "11-01",
   "opens": "",
   "opensMD": "",
   "meta": "MIT · economics and public policy · 1 year, renewable; 2 preferred",
@@ -3843,12 +3847,12 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Oct 8",
-  "whenS": "2026 · July 2027 start",
-  "due": "2026-10-08",
-  "status": "confirmed",
+  "whenS": "last cycle · July 2027 start",
+  "due": "",
+  "status": "last",
   "dueMD": "10-08",
-  "opens": "",
-  "opensMD": "",
+  "opens": "Sept 24 (last cycle)",
+  "opensMD": "09-24",
   "meta": "Stanford · economic policy · up to 2 years",
   "body": "",
   "warn": "",
@@ -3885,11 +3889,11 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Oct 16",
-  "whenS": "2026 · full consideration; rolling to Mar 1",
-  "due": "2026-10-16",
+  "whenB": "Mar 1",
+  "whenS": "2027 · rolling (full consideration Oct 16 passed)",
+  "due": "2027-03-01",
   "status": "confirmed",
-  "dueMD": "10-16",
+  "dueMD": "03-01",
   "opens": "Sept 3",
   "opensMD": "09-03",
   "meta": "Stanford Graduate School of Business · 2 years · includes a Political Economics track",
@@ -4956,10 +4960,10 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": true,
-  "whenB": "Opens Nov 1",
-  "whenS": "2027–28 round",
-  "due": "",
-  "status": "none",
+  "whenB": "Feb 28",
+  "whenS": "2027–28 round · opens Nov 1",
+  "due": "2027-02-28",
+  "status": "confirmed",
   "dueMD": "02-28",
   "opens": "Nov 1, 2026",
   "opensMD": "11-01",
@@ -4969,11 +4973,11 @@ window.PROGRAMS = [
   "facts": [
    [
     "Who",
-    "Undocumented immigrants who came to the US before age 16 and before November 1, 2020; a 2.5+ college GPA. Not for students eligible for a Pell Grant"
+    "Undocumented immigrants who came to the US before age 16 and before November 1, 2021; a 2.5+ college GPA; not eligible for federal aid (FAFSA); full-time at a partner college in your state"
    ],
    [
     "Award",
-    "Up to $33,000 for a bachelor's degree, plus a stipend of up to $6,000"
+    "Up to $36,000 for a bachelor's degree, plus a stipend of up to $6,000"
    ]
   ]
  },
@@ -5145,7 +5149,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nypirg-future-leaders",
   "name": "<a href=\"https://www.nypirgstudents.org/internship/\">NYPIRG Donald K. Ross Future Leaders Program</a>",
   "url": "https://www.nypirgstudents.org/internship/",
@@ -5186,7 +5190,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-aclu-undergraduate-internships",
   "name": "<a href=\"https://job-boards.greenhouse.io/acluinternships\">ACLU national office undergraduate internships</a>",
   "url": "https://job-boards.greenhouse.io/acluinternships",
@@ -5226,7 +5230,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-partnership-public-service-internship",
   "name": "<a href=\"https://ourpublicservice.org/about/work-with-us/partnership-internship-program\">Partnership for Public Service internships</a>",
   "url": "https://ourpublicservice.org/about/work-with-us/partnership-internship-program",
@@ -5270,7 +5274,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-city-year-new-york",
   "name": "<a href=\"https://www.cityyear.org/apply-now/\">City Year New York</a>",
   "url": "https://www.cityyear.org/apply-now/",
@@ -5309,7 +5313,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-teach-for-america",
   "name": "<a href=\"https://www.teachforamerica.org/apply/deadlines\">Teach For America</a>",
   "url": "https://www.teachforamerica.org/apply/deadlines",
@@ -5349,7 +5353,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nyc-civic-corps",
   "name": "<a href=\"https://www.nycservice.org/nyc_civic_corps\">NYC Civic Corps</a>",
   "url": "https://www.nycservice.org/nyc_civic_corps",
@@ -5387,7 +5391,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-emerson-hunger-fellowship",
   "name": "<a href=\"https://hungercenter.org/what-we-do/emerson-fellowship/fellows/\">Bill Emerson National Hunger Fellowship</a>",
   "url": "https://hungercenter.org/what-we-do/emerson-fellowship/fellows/",
@@ -5426,7 +5430,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-princeton-in-asia",
   "name": "<a href=\"https://princetoninasia.org/fellowship-faq\">Princeton in Asia</a>",
   "url": "https://princetoninasia.org/fellowship-faq",
@@ -5466,7 +5470,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-princeton-in-africa",
   "name": "<a href=\"https://www.princetoninafrica.org/applicants/how-to-apply/\">Princeton in Africa</a>",
   "url": "https://www.princetoninafrica.org/applicants/how-to-apply/",
@@ -5506,7 +5510,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-atlantic-editorial-fellowship",
   "name": "<a href=\"https://atlanticmedia.wd1.myworkdayjobs.com/Careers/job/Washington-DC---The-Wharf/Editorial-Fellow_R744\">The Atlantic Editorial Fellowship</a>",
   "url": "https://atlanticmedia.wd1.myworkdayjobs.com/Careers/job/Washington-DC---The-Wharf/Editorial-Fellow_R744",
@@ -5552,7 +5556,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nyt-fellowship",
   "name": "<a href=\"https://www.nytco.com/careers/early-career-opportunities/newsroom-fellowship/\">The New York Times Fellowship</a>",
   "url": "https://www.nytco.com/careers/early-career-opportunities/newsroom-fellowship/",
@@ -5593,7 +5597,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nyt-times-corps",
   "name": "<a href=\"https://www.nytco.com/careers/early-career-opportunities/times-corps/\">The New York Times Corps</a>",
   "url": "https://www.nytco.com/careers/early-career-opportunities/times-corps/",
@@ -5634,7 +5638,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-dow-jones-news-fund",
   "name": "<a href=\"https://www.dowjonesnewsfund.org/djnfinternships/\">Dow Jones News Fund internships</a>",
   "url": "https://www.dowjonesnewsfund.org/djnfinternships/",
@@ -5676,7 +5680,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-politico-reporting-internships",
   "name": "<a href=\"https://politico.wd108.myworkdayjobs.com/POLITICO/job/New-York-NY/Reporting-Intern--New-York--Summer-2027-_JR100565\">POLITICO reporting internships</a>",
   "url": "https://politico.wd108.myworkdayjobs.com/POLITICO/job/New-York-NY/Reporting-Intern--New-York--Summer-2027-_JR100565",
@@ -5724,7 +5728,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-emma-bowen-foundation",
   "name": "<a href=\"https://www.emmabowenfoundation.org/apply\">Emma Bowen Foundation Fellows Program</a>",
   "url": "https://www.emmabowenfoundation.org/apply",
@@ -5766,7 +5770,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-mother-jones-bagdikian",
   "name": "<a href=\"https://www.motherjones.com/careers/fellowships/\">Mother Jones Ben Bagdikian Fellowship</a>",
   "url": "https://www.motherjones.com/careers/fellowships/",
@@ -5807,7 +5811,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nation-navasky-internship",
   "name": "<a href=\"https://thenationfund.org/internship-application/\">The Nation internship (Victor S. Navasky Internship Program)</a>",
   "url": "https://thenationfund.org/internship-application/",
@@ -5849,7 +5853,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-american-prospect-writing-fellowship",
   "name": "<a href=\"https://prospect.org/careers/\">The American Prospect Writing Fellowship</a>",
   "url": "https://prospect.org/careers/",
@@ -5890,7 +5894,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-allbritton-journalism-institute",
   "name": "<a href=\"https://aji.org/\">Allbritton Journalism Institute Reporting Fellowship</a>",
   "url": "https://aji.org/",
@@ -5927,7 +5931,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-npr-internships",
   "name": "<a href=\"https://www.npr.org/about-npr/181881227/want-to-be-an-npr-intern\">NPR internships</a>",
   "url": "https://www.npr.org/about-npr/181881227/want-to-be-an-npr-intern",
@@ -5970,7 +5974,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-newmark-4plus1",
   "name": "<a href=\"https://www.journalism.cuny.edu/future-students/academic-programs/4plus1/\">CUNY Newmark J-School 4+1 (BA and MA in Journalism)</a>",
   "url": "https://www.journalism.cuny.edu/future-students/academic-programs/4plus1/",
@@ -6010,7 +6014,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-aaja-voices",
   "name": "<a href=\"https://voices.aaja.org/apply/\">AAJA VOICES student newsroom</a>",
   "url": "https://voices.aaja.org/apply/",
@@ -6050,7 +6054,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nabj-student-multimedia",
   "name": "<a href=\"https://nabjonline.org/student-services/\">NABJ Student Multimedia Project</a>",
   "url": "https://nabjonline.org/student-services/",
@@ -6089,7 +6093,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nahj-student-project",
   "name": "<a href=\"https://nahj.org/student-project/\">NAHJ Student Project</a>",
   "url": "https://nahj.org/student-project/",
@@ -6127,7 +6131,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-cia-undergraduate-internship",
   "name": "<a href=\"https://www.cia.gov/careers/student-programs/\">CIA undergraduate internships and co-ops</a>",
   "url": "https://www.cia.gov/careers/student-programs/",
@@ -6170,7 +6174,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-cia-do-internship",
   "name": "<a href=\"https://www.cia.gov/careers/student-programs/undergraduate-internship-program-directorate-of-operations/\">CIA Directorate of Operations internship (freshmen)</a>",
   "url": "https://www.cia.gov/careers/student-programs/undergraduate-internship-program-directorate-of-operations/",
@@ -6209,7 +6213,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-fbi-honors-internship",
   "name": "<a href=\"https://www.usajobs.gov/job/857040400\">FBI Honors Internship Program</a>",
   "url": "https://www.usajobs.gov/job/857040400",
@@ -6250,7 +6254,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-state-department-student-internship",
   "name": "<a href=\"https://careers.state.gov/interns-fellows/student-internship-program/\">U.S. Department of State Student Internship Program</a>",
   "url": "https://careers.state.gov/interns-fellows/student-internship-program/",
@@ -6293,7 +6297,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-white-house-internship",
   "name": "<a href=\"https://www.whitehouse.gov/internships/\">White House Internship Program</a>",
   "url": "https://www.whitehouse.gov/internships/",
@@ -6338,7 +6342,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-congressional-office-internships",
   "name": "<a href=\"https://www.house.gov/educators-and-students/college-internships\">Congressional office internships (House and Senate)</a>",
   "url": "https://www.house.gov/educators-and-students/college-internships",
@@ -6382,7 +6386,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-supreme-court-internship",
   "name": "<a href=\"https://www.supremecourt.gov/jobs/internship/InternshipProgram.aspx\">Supreme Court Internship Program</a>",
   "url": "https://www.supremecourt.gov/jobs/internship/InternshipProgram.aspx",
@@ -6426,7 +6430,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-library-of-congress-junior-fellows",
   "name": "<a href=\"https://www.loc.gov/item/internships/junior-fellows-program/\">Library of Congress Junior Fellows</a>",
   "url": "https://www.loc.gov/item/internships/junior-fellows-program/",
@@ -6470,7 +6474,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-opm-semester-of-service",
   "name": "<a href=\"https://talent.opm.gov/semesterofservice\">Federal Semester of Service</a>",
   "url": "https://talent.opm.gov/semesterofservice",
@@ -6514,7 +6518,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-ny-fed-summer-internships",
   "name": "<a href=\"https://www.newyorkfed.org/careers/student-programs-and-internships\">Federal Reserve Bank of New York summer internships</a>",
   "url": "https://www.newyorkfed.org/careers/student-programs-and-internships",
@@ -6551,7 +6555,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nyc-mayors-office-internship",
   "name": "<a href=\"https://a002-irm.nyc.gov/Handlers/Html/HtmlContent.ashx?pageId=73359fa5-19b9-4964-a0a1-a211cb8d168a\">NYC Mayor's Office Internship Program</a>",
   "url": "https://a002-irm.nyc.gov/Handlers/Html/HtmlContent.ashx?pageId=73359fa5-19b9-4964-a0a1-a211cb8d168a",
@@ -6595,7 +6599,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-ny-attorney-general-students",
   "name": "<a href=\"https://ag.ny.gov/job-postings/undergraduate-graduate-students\">New York State Attorney General student assistants</a>",
   "url": "https://ag.ny.gov/job-postings/undergraduate-graduate-students",
@@ -6639,7 +6643,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-ny-state-internship-program",
   "name": "<a href=\"https://www.cs.ny.gov/nnyl/\">New York State Internship Program</a>",
   "url": "https://www.cs.ny.gov/nnyl/",
@@ -6681,7 +6685,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nys-comptroller-future-forward",
   "name": "<a href=\"https://www.osc.ny.gov/jobs/interns\">NYS Comptroller Future Forward Internship Academy</a>",
   "url": "https://www.osc.ny.gov/jobs/interns",
@@ -6770,7 +6774,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-isf-congressional-internship",
   "name": "<a href=\"https://islamicscholarshipfund.org/internship\">Islamic Scholarship Fund Congressional Policy Internship</a>",
   "url": "https://islamicscholarshipfund.org/internship",
@@ -6814,7 +6818,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-isf-journalism-internship",
   "name": "<a href=\"https://islamicscholarshipfund.org/media-internship\">Islamic Scholarship Fund journalism internships</a>",
   "url": "https://islamicscholarshipfund.org/media-internship",
@@ -6857,7 +6861,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-isf-congressional-fellowship",
   "name": "<a href=\"https://islamicscholarshipfund.org/fellowship\">Islamic Scholarship Fund Congressional Policy Fellowship</a>",
   "url": "https://islamicscholarshipfund.org/fellowship",
@@ -6896,7 +6900,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-cair-national-internships",
   "name": "<a href=\"https://www.cair.com/get-involved/internships/\">CAIR national internships</a>",
   "url": "https://www.cair.com/get-involved/internships/",
@@ -6941,7 +6945,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-cair-ny-internships",
   "name": "<a href=\"https://cair-ny.org/undergraduate-internships\">CAIR-NY internships</a>",
   "url": "https://cair-ny.org/undergraduate-internships",
@@ -6985,7 +6989,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-mpac-cldp",
   "name": "<a href=\"https://cldp.org/program-details/\">MPAC Congressional Leadership Development Program</a>",
   "url": "https://cldp.org/program-details/",
@@ -7028,7 +7032,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-muslim-public-service-network",
   "name": "<a href=\"https://muslimpublicservice.org/apply.html\">Muslim Public Service Network Summer Fellowship</a>",
   "url": "https://muslimpublicservice.org/apply.html",
@@ -7071,7 +7075,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-emgage-new-york",
   "name": "<a href=\"https://emgageusa.org/job/emgage-new-york-field-canvassing-fellows/\">Emgage New York fellows</a>",
   "url": "https://emgageusa.org/job/emgage-new-york-field-canvassing-fellows/",
@@ -7112,7 +7116,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "lp-mlfa-pre-law-fellow",
   "name": "<a href=\"https://mlfa.org/join-our-team/\">Muslim Legal Fund of America Pre-Law Fellow</a>",
   "url": "https://mlfa.org/join-our-team/",
@@ -7148,7 +7152,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-arab-american-leadership-program",
   "name": "<a href=\"https://www.centeraap.org/grants/scholarships/the-arab-american-leadership-program-application/\">Arab American Leadership Program</a>",
   "url": "https://www.centeraap.org/grants/scholarships/the-arab-american-leadership-program-application/",
@@ -7191,7 +7195,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-arab-american-institute-internship",
   "name": "<a href=\"https://www.aaiusa.org/internship\">Arab American Institute summer internship</a>",
   "url": "https://www.aaiusa.org/internship",
@@ -7276,7 +7280,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-propublica-emerging-reporters",
   "name": "<a href=\"https://www.propublica.org/article/propublica-emerging-reporters-2025\">ProPublica Emerging Reporters Program</a>",
   "url": "https://www.propublica.org/article/propublica-emerging-reporters-2025",
@@ -7316,7 +7320,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-bloomberg-industry-news-internship",
   "name": "<a href=\"https://bloomberg.wd1.myworkdayjobs.com/en-US/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/XMLNAME-2027-Summer-News-Internship_144733\">Bloomberg Industry Group summer news internship</a>",
   "url": "https://bloomberg.wd1.myworkdayjobs.com/en-US/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/XMLNAME-2027-Summer-News-Internship_144733",
@@ -7358,7 +7362,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-ap-news-internship",
   "name": "<a href=\"https://www.ap.org/about/careers/\">Associated Press news internship</a>",
   "url": "https://www.ap.org/about/careers/",
@@ -7399,7 +7403,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nsa-summer-internships",
   "name": "<a href=\"https://www.usajobs.gov/job/880807100\">NSA summer internships (language, analysis and communications)</a>",
   "url": "https://www.usajobs.gov/job/880807100",
@@ -7442,7 +7446,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "lp-doj-civil-rights-internships",
   "name": "<a href=\"https://www.justice.gov/crt/volunteer-student-internships\">Justice Department Civil Rights Division internships</a>",
   "url": "https://www.justice.gov/crt/volunteer-student-internships",
@@ -7485,7 +7489,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-dia-summer-internship",
   "name": "<a href=\"https://www.intelligencecareers.gov/dia/students-and-internships\">Defense Intelligence Agency summer internships</a>",
   "url": "https://www.intelligencecareers.gov/dia/students-and-internships",
@@ -7526,7 +7530,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-udall-scholarship",
   "name": "<a href=\"https://www.udall.gov/OurPrograms/Scholarship/Scholarship.aspx\">Udall Undergraduate Scholarship (environment)</a>",
   "url": "https://www.udall.gov/OurPrograms/Scholarship/Scholarship.aspx",
@@ -7569,7 +7573,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-nyc-council-internships",
   "name": "<a href=\"https://council.nyc.gov/jobs/\">NYC Council internships</a>",
   "url": "https://council.nyc.gov/jobs/",
@@ -7651,7 +7655,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-scoville-peace-fellowship",
   "name": "<a href=\"https://scoville.org/\">Herbert Scoville Jr. Peace Fellowship</a>",
   "url": "https://scoville.org/",
@@ -7691,7 +7695,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-govern-for-america",
   "name": "<a href=\"https://www.govforamerica.org/how-to-apply-fellows\">Govern For America Fellowship</a>",
   "url": "https://www.govforamerica.org/how-to-apply-fellows",
@@ -7730,7 +7734,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-chci-public-policy-fellowship",
   "name": "<a href=\"https://chci.org/programs/public-policy-fellowship/\">CHCI Public Policy Fellowship</a>",
   "url": "https://chci.org/programs/public-policy-fellowship/",
@@ -7771,7 +7775,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-apaics-congressional-fellowship",
   "name": "<a href=\"https://www.apaics.org/fellowship-details\">APAICS Congressional Fellowship</a>",
   "url": "https://www.apaics.org/fellowship-details",
@@ -7812,7 +7816,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "lp-immigrant-justice-corps-community",
   "name": "<a href=\"https://justicecorps.org/community-fellowship/\">Immigrant Justice Corps Community Fellowship</a>",
   "url": "https://justicecorps.org/community-fellowship/",
@@ -7853,7 +7857,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-cbyx-young-professionals",
   "name": "<a href=\"https://culturalvistas.org/programs/abroad/congress-bundestag-youth-exchange-young-professionals/\">Congress-Bundestag Youth Exchange for Young Professionals</a>",
   "url": "https://culturalvistas.org/programs/abroad/congress-bundestag-youth-exchange-young-professionals/",
@@ -7894,7 +7898,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-hearst-newspapers-fellowship",
   "name": "<a href=\"https://www.hearstfellowships.com/\">Hearst Newspapers Fellowship</a>",
   "url": "https://www.hearstfellowships.com/",
@@ -7936,7 +7940,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-report-for-america",
   "name": "<a href=\"https://www.reportforamerica.org/\">Report for America</a>",
   "url": "https://www.reportforamerica.org/",
@@ -7977,7 +7981,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-ida-stpi-science-policy-fellowship",
   "name": "<a href=\"https://www.ida.org/careers/students-and-recent-graduates/internships-and-fellowships/science-policy-fellowship\">IDA Science and Technology Policy Institute Fellowship</a>",
   "url": "https://www.ida.org/careers/students-and-recent-graduates/internships-and-fellowships/science-policy-fellowship",
@@ -8018,7 +8022,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "lp-trials-pre-law",
   "name": "<a href=\"https://trials.atfoundation.org/\">TRIALS pre-law program</a>",
   "url": "https://trials.atfoundation.org/",
@@ -8058,7 +8062,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-chli-global-leaders-internship",
   "name": "<a href=\"https://chli.org/?p=592\">CHLI Global Leaders Internship</a>",
   "url": "https://chli.org/?p=592",
@@ -8101,7 +8105,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-ajc-goldman-fellowship",
   "name": "<a href=\"https://www.ajc.org/ajc-goldman-summer-fellowship\">AJC Goldman Fellowship</a>",
   "url": "https://www.ajc.org/ajc-goldman-summer-fellowship",
@@ -8142,7 +8146,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-victory-congressional-internship",
   "name": "<a href=\"https://victoryinstitute.org/programs/victory-congressional-internship/\">Victory Congressional Internship</a>",
   "url": "https://victoryinstitute.org/programs/victory-congressional-internship/",
@@ -8182,7 +8186,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-running-start-congressional-fellowship",
   "name": "<a href=\"https://www.runningstart.org/congressional-fellowship\">Running Start Congressional Fellowship</a>",
   "url": "https://www.runningstart.org/congressional-fellowship",
@@ -8265,7 +8269,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-rhodes-scholarship",
   "name": "<a href=\"https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/\">Rhodes Scholarship (United States)</a>",
   "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/",
@@ -8307,7 +8311,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-marshall-scholarship",
   "name": "<a href=\"https://www.marshallscholarship.org/apply/\">Marshall Scholarship</a>",
   "url": "https://www.marshallscholarship.org/apply/",
@@ -8349,7 +8353,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-gates-cambridge",
   "name": "<a href=\"https://www.gatescambridge.org/apply/timeline/\">Gates Cambridge Scholarship</a>",
   "url": "https://www.gatescambridge.org/apply/timeline/",
@@ -8390,7 +8394,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-knight-hennessy-scholars",
   "name": "<a href=\"https://knight-hennessy.stanford.edu/admission\">Knight-Hennessy Scholars (Stanford)</a>",
   "url": "https://knight-hennessy.stanford.edu/admission",
@@ -8431,7 +8435,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-clarendon-fund",
   "name": "<a href=\"https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants\">Clarendon Scholarships (Oxford)</a>",
   "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
@@ -8472,7 +8476,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-erasmus-mundus",
   "name": "<a href=\"https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en\">Erasmus Mundus Joint Master's scholarships</a>",
   "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
@@ -8512,7 +8516,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-daad-study-scholarship",
   "name": "<a href=\"https://www.daad.org/en/find-funding/country-specific-information-for-us-applicants/\">DAAD Study Scholarship (master's in Germany)</a>",
   "url": "https://www.daad.org/en/find-funding/country-specific-information-for-us-applicants/",
@@ -8553,7 +8557,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-jet-programme",
   "name": "<a href=\"https://jetprogramusa.org/\">JET Programme (Japan)</a>",
   "url": "https://jetprogramusa.org/",
@@ -8593,7 +8597,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-tapif-france",
   "name": "<a href=\"https://villa-albertine.org/frenchculture/?p=7863\">Teaching Assistant Program in France (TAPIF)</a>",
   "url": "https://villa-albertine.org/frenchculture/?p=7863",
@@ -8633,7 +8637,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-spain-nalcap",
   "name": "<a href=\"https://www.educacionfpydeportes.gob.es/eeuu/convocatorias-programas/convocatorias-eeuu/nalcap/announcements.html\">Language assistants in Spain (Auxiliares de Conversación)</a>",
   "url": "https://www.educacionfpydeportes.gob.es/eeuu/convocatorias-programas/convocatorias-eeuu/nalcap/announcements.html",
@@ -8674,7 +8678,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-epik-korea",
   "name": "<a href=\"https://www.epik.go.kr/\">EPIK (English Program in Korea)</a>",
   "url": "https://www.epik.go.kr/",
@@ -8713,7 +8717,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-freeman-asia",
   "name": "<a href=\"https://www.iie.org/programs/freeman-asia/\">Freeman-ASIA study abroad scholarship</a>",
   "url": "https://www.iie.org/programs/freeman-asia/",
@@ -8756,7 +8760,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-blakemore-freeman-fellowships",
   "name": "<a href=\"https://www.blakemorefoundation.org/fellowships\">Blakemore Freeman Fellowships (Asian languages)</a>",
   "url": "https://www.blakemorefoundation.org/fellowships",
@@ -8797,7 +8801,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-mext-research-scholarship",
   "name": "<a href=\"https://www.ny.us.emb-japan.go.jp/itpr_en/SCHOLARSHIP02.html\">Japanese Government (MEXT) Research Scholarship</a>",
   "url": "https://www.ny.us.emb-japan.go.jp/itpr_en/SCHOLARSHIP02.html",
@@ -8837,7 +8841,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-taiwan-huayu-scholarship",
   "name": "<a href=\"https://depart.moe.edu.tw/NY/Default.aspx\">Taiwan Huayu Enrichment Scholarship</a>",
   "url": "https://depart.moe.edu.tw/NY/Default.aspx",
@@ -8880,7 +8884,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-global-korea-scholarship",
   "name": "<a href=\"https://boston.mofa.go.kr/us-boston-en/brd/m_4558/view.do?seq=761392\">Global Korea Scholarship (graduate)</a>",
   "url": "https://boston.mofa.go.kr/us-boston-en/brd/m_4558/view.do?seq=761392",
@@ -8919,7 +8923,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-luce-scholars",
   "name": "<a href=\"https://lucescholars.org/selection/\">Henry Luce Scholars</a>",
   "url": "https://lucescholars.org/selection/",
@@ -8959,7 +8963,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-princeton-in-latin-america",
   "name": "<a href=\"https://princetoninlatinamerica.org/apply\">Princeton in Latin America</a>",
   "url": "https://princetoninlatinamerica.org/apply",
@@ -9000,7 +9004,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-boren-fellowship",
   "name": "<a href=\"https://www.borenawards.org/\">Boren Fellowship (graduate)</a>",
   "url": "https://www.borenawards.org/",
@@ -9041,7 +9045,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-bundestag-ips",
   "name": "<a href=\"https://www.germany.info/us-en/welcome/ips/1305996\">Bundestag International Parliamentary Scholarship</a>",
   "url": "https://www.germany.info/us-en/welcome/ips/1305996",
@@ -9079,7 +9083,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-fulbright-austria-teaching",
   "name": "<a href=\"https://www.fulbright.at/programs/in-austria/teaching-assistants/grant-details/us-teaching-assistant-program\">Fulbright Austria Teaching Assistantships</a>",
   "url": "https://www.fulbright.at/programs/in-austria/teaching-assistants/grant-details/us-teaching-assistant-program",
@@ -9119,7 +9123,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-peace-corps",
   "name": "<a href=\"https://www.peacecorps.gov/ways-to-serve/serve-with-us/\">Peace Corps</a>",
   "url": "https://www.peacecorps.gov/ways-to-serve/serve-with-us/",
@@ -9245,7 +9249,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-qc-journalism-minor",
   "name": "<a href=\"https://qc-undergraduate.catalog.cuny.edu/programs/JOURN-MIN\">Journalism minor (Media Studies)</a>",
   "url": "https://qc-undergraduate.catalog.cuny.edu/programs/JOURN-MIN",
@@ -9339,7 +9343,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-hertog-security-studies",
   "name": "<a href=\"https://hertogfoundation.org/programs/security-studies\">Hertog Security Studies Program</a>",
   "url": "https://hertogfoundation.org/programs/security-studies",
@@ -9380,7 +9384,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-hertog-war-studies",
   "name": "<a href=\"https://hertogfoundation.org/programs/war-studies\">Hertog War Studies Program</a>",
   "url": "https://hertogfoundation.org/programs/war-studies",
@@ -9421,7 +9425,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-hertog-constitutional-studies",
   "name": "<a href=\"https://hertogfoundation.org/programs/constitutional-studies-program\">Hertog Constitutional Studies Program</a>",
   "url": "https://hertogfoundation.org/programs/constitutional-studies-program",
@@ -9461,7 +9465,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-hoover-summer-policy-boot-camp",
   "name": "<a href=\"https://www.hoover.org/hoover-institution-summer-policy-boot-camp\">Hoover Institution Summer Policy Boot Camp</a>",
   "url": "https://www.hoover.org/hoover-institution-summer-policy-boot-camp",
@@ -9503,7 +9507,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-claremont-publius-fellowship",
   "name": "<a href=\"https://www.claremont.org/publius-fellowship/\">Claremont Institute Publius Fellowship</a>",
   "url": "https://www.claremont.org/publius-fellowship/",
@@ -9544,7 +9548,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-hks-public-policy-leadership-conference",
   "name": "<a href=\"https://www.hks.harvard.edu/educational-programs/undergraduate-opportunities/public-policy-leadership-conference\">Harvard Kennedy School Public Policy Leadership Conference</a>",
   "url": "https://www.hks.harvard.edu/educational-programs/undergraduate-opportunities/public-policy-leadership-conference",
@@ -9583,7 +9587,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-hacu-national-internship-program",
   "name": "<a href=\"https://hacu.net/hnip/overview/\">HACU National Internship Program</a>",
   "url": "https://hacu.net/hnip/overview/",
@@ -9630,7 +9634,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-institute-responsible-citizenship",
   "name": "<a href=\"https://www.theinstitute.net/apply\">Institute for Responsible Citizenship (Washington Program)</a>",
   "url": "https://www.theinstitute.net/apply",
@@ -9670,7 +9674,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-udall-native-american-congressional-internship",
   "name": "<a href=\"https://www.udall.gov/OurPrograms/Internship/AboutInternship\">Udall Foundation Native American Congressional Internship</a>",
   "url": "https://www.udall.gov/OurPrograms/Internship/AboutInternship",
@@ -9712,7 +9716,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-aapd-summer-internship",
   "name": "<a href=\"https://www.aapd.com/summer-internship-program\">AAPD Summer Internship Program</a>",
   "url": "https://www.aapd.com/summer-internship-program",
@@ -9755,7 +9759,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-national-journalism-center",
   "name": "<a href=\"https://yaf.org/national-journalism-center/\">National Journalism Center</a>",
   "url": "https://yaf.org/national-journalism-center/",
@@ -9799,7 +9803,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "lp-usc-gould-ascend",
   "name": "<a href=\"https://gould.usc.edu/academics/degrees/jd/ascend-pre-law-summer-institute/\">USC Gould ASCEND Pre-Law Summer Institute</a>",
   "url": "https://gould.usc.edu/academics/degrees/jd/ascend-pre-law-summer-institute/",
@@ -9840,7 +9844,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "lp-fsu-summer-for-undergraduates",
   "name": "<a href=\"https://law.fsu.edu/academics/summer-for-undergraduates\">FSU Law Donald J. Weidner Summer for Undergraduates Program</a>",
   "url": "https://law.fsu.edu/academics/summer-for-undergraduates",
@@ -9881,7 +9885,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-americorps-nccc",
   "name": "<a href=\"https://www.americorps.gov/serve/americorps/americorps-nccc\">AmeriCorps NCCC</a>",
   "url": "https://www.americorps.gov/serve/americorps/americorps-nccc",
@@ -9920,7 +9924,7 @@ window.PROGRAMS = [
    ]
   ]
  },
-{
+ {
   "id": "gp-jesuit-volunteer-corps",
   "name": "<a href=\"https://www.jesuitvolunteers.org/apply/\">Jesuit Volunteer Corps</a>",
   "url": "https://www.jesuitvolunteers.org/apply/",
@@ -10578,6 +10582,273 @@ window.PROGRAMS = [
     "Google Form, résumé, transcript, a 350-word statement and a short video"
    ]
   ]
+ },
+ {
+  "id": "gp-atlantic-council-ygp",
+  "name": "<a href=\"https://www.atlanticcouncil.org/careers/internships/\">Atlantic Council Young Global Professionals</a>",
+  "url": "https://www.atlanticcouncil.org/careers/internships/",
+  "short": "Atlantic Council YGP",
+  "types": [
+   "spring-internship",
+   "fall-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Nov 8",
+  "whenS": "2026 · spring 2027 cohort",
+  "due": "2026-11-08",
+  "status": "confirmed",
+  "dueMD": "11-08",
+  "opens": "Oct 19, 2026",
+  "opensMD": "10-19",
+  "meta": "Washington, DC (a few remote US spots) · 19 weeks in spring or fall, 9–10 weeks in summer",
+  "body": "A paid foreign policy internship at a large DC think tank. Interns do research, writing and event work in one of its centers, plus training workshops. Summer internships are a separate application.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College juniors, seniors, graduate students and recent graduates. International students need US work authorization (CPT or OPT); the Council does not sponsor visas"
+   ],
+   [
+    "Pay",
+    "$18.50 an hour (spring 2027 posting); 30–40 hours a week. No housing"
+   ],
+   [
+    "Dates",
+    "Spring 2027 runs Jan 19–May 28. Last summer's window ran Feb 10–Mar 13, 2026"
+   ]
+  ]
+ },
+ {
+  "id": "gp-fox-news-media-internship",
+  "name": "<a href=\"https://www.foxcareers.com/Internships\">FOX News Media Summer Internship</a>",
+  "url": "https://www.foxcareers.com/Internships",
+  "short": "FOX News Media",
+  "types": [
+   "summer-internship",
+   "journalism"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 10",
+  "whenS": "2027",
+  "due": "2027-01-10",
+  "status": "confirmed",
+  "dueMD": "01-10",
+  "opens": "Sept 28, 2026",
+  "opensMD": "09-28",
+  "meta": "New York City or Washington, DC · 8 weeks, June–August",
+  "body": "A paid summer newsroom internship at FOX News Channel or FOX Business. Interns work on assignment desks, booking and shows, and attend master classes. Interviews test your knowledge of current events.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Sophomores and up, enrolled in college during the internship"
+   ],
+   [
+    "Pay",
+    "$20 an hour (Washington, DC posting); 32–40 hours a week. You find your own housing"
+   ],
+   [
+    "Dates",
+    "Session 1: June 7–July 30, 2027. Session 2: June 21–Aug 13, 2027"
+   ]
+  ]
+ },
+ {
+  "id": "gp-irt-andover",
+  "name": "<a href=\"https://www.andover.edu/about/outreach/irt/irt-programs\">Institute for Recruitment of Teachers (IRT)</a>",
+  "url": "https://www.andover.edu/about/outreach/irt/irt-programs",
+  "short": "IRT",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Mar 1",
+  "whenS": "2027 · opens Dec 1",
+  "due": "2027-03-01",
+  "status": "confirmed",
+  "dueMD": "03-01",
+  "opens": "Dec 1, 2026",
+  "opensMD": "12-01",
+  "meta": "Phillips Academy, Andover, Mass. · virtual · about one year",
+  "body": "Free help applying to graduate school for students who will bring diversity to teaching faculties. Scholars get advising, application fee waivers for 10 to 12 graduate programs and virtual meetings with recruiters from partner schools each July.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College juniors and seniors, recent graduates and working professionals headed for graduate study in the humanities, social sciences or education. Undergraduates need a 3.0 GPA"
+   ],
+   [
+    "Cost",
+    "Free. Fee waivers save at least $1,000"
+   ],
+   [
+    "Apply",
+    "Online application, three academic recommendations and essays. You must attend or watch an information session"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cbpp-internships",
+  "name": "<a href=\"https://www.cbpp.org/internships\">Center on Budget and Policy Priorities</a>",
+  "url": "https://www.cbpp.org/internships",
+  "short": "CBPP",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Rolling",
+  "whenS": "spring 2027 positions not posted yet",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, DC or remote · about 10–12 weeks",
+  "body": "Paid policy internships at a leading think tank on budgets, taxes and programs for low-income families. Areas include food assistance, health, housing, income security, state fiscal policy, communications and government affairs.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates, graduate and law students, and recent graduates. International students can apply but need US work authorization and a Social Security number"
+   ],
+   [
+    "Pay",
+    "$18.40 an hour for undergraduates and $19 for graduates, plus health insurance"
+   ],
+   [
+    "Dates",
+    "Fall, spring and summer terms. Last fall's deadline was June 19, 2026"
+   ]
+  ]
+ },
+ {
+  "id": "lp-burr-forman-pre-law",
+  "name": "<a href=\"https://www.burr.com/opportunity/pre-law-program\">Burr &amp; Forman Pre-Law Program</a>",
+  "url": "https://www.burr.com/opportunity/pre-law-program",
+  "short": "Burr & Forman Pre-Law",
+  "types": [
+   "pipeline",
+   "summer-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Late Nov",
+  "whenS": "2027 dates and application post late Nov–early Dec",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Late November 2026",
+  "opensMD": "11-25",
+  "meta": "A Burr & Forman office (the firm is in the Southeast) · summer",
+  "body": "A paid summer internship at a large law firm for students who plan to go to law school. Interns get hands-on legal work, mentoring, panels and networking.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Rising college juniors and seniors and recent graduates who show potential for law school"
+   ],
+   [
+    "Pay",
+    "Paid internship; the amount isn't posted"
+   ]
+  ]
+ },
+ {
+  "id": "lp-nyc-bar-lsat-conference",
+  "name": "<a href=\"https://www.nycbar.org/diversity/student-pipeline-program\">NYC Bar LSAT Prep &amp; Law School Conference</a>",
+  "url": "https://www.nycbar.org/diversity/student-pipeline-program",
+  "short": "NYC Bar LSAT Conference",
+  "types": [
+   "pipeline"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Spring",
+  "whenS": "2027 date not posted",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "New York City Bar Association, Manhattan · one day",
+  "body": "A free yearly conference on the LSAT and law school. Law school representatives share tips on admissions, money and the personal statement. You get lunch, a workshop and a free headshot.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Anyone interested in law school"
+   ],
+   [
+    "Cost",
+    "Free, including lunch. You pay your own travel"
+   ]
+  ],
+  "event": true
  }
 ];
 

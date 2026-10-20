@@ -42,7 +42,7 @@ window.PLANS = {
      "items": [
       "Get to know 2–3 professors and ask about <a href=\"guide-professors.html\">RA work</a>",
       "Apply for summer research (Nov–Feb): <a href=\"programs.html#gp-mit-msrp-pathways-political\">MIT</a>, <a href=\"programs.html#gp-leadership-alliance-sr-eip\">Leadership Alliance</a>, <a href=\"programs.html#gp-big-ten-academic-alliance\">SROP</a>, <a href=\"programs.html#gp-yale-surf\">Yale SURF</a>",
-      "<a href=\"programs.html#gp-cuny-spring-forward\">CUNY Spring Forward</a> (by Oct 13)"
+      "<a href=\"programs.html#gp-cuny-spring-forward\">CUNY Spring Forward</a> (mid-October)"
      ]
     },
     {
@@ -281,7 +281,7 @@ window.PLANS = {
     {
      "name": "Fall",
      "items": [
-      "<a href=\"programs.html#gp-cuny-spring-forward\">CUNY Spring Forward</a> (by Oct 13)",
+      "<a href=\"programs.html#gp-cuny-spring-forward\">CUNY Spring Forward</a> (mid-October)",
       "The <a href=\"programs.html#gp-roosevelt-institute-emerging-fellowship\">Roosevelt Emerging Fellowship</a>"
      ]
     },
@@ -391,7 +391,7 @@ window.PLANS = {
     {
      "name": "Fall",
      "items": [
-      "<a href=\"programs.html#gp-cuny-spring-forward\">CUNY Spring Forward</a> (by Oct 13)",
+      "<a href=\"programs.html#gp-cuny-spring-forward\">CUNY Spring Forward</a> (mid-October)",
       "Ask about <a href=\"programs.html#gp-cuny-service-corps\">CUNY Service Corps</a>"
      ]
     },
@@ -612,7 +612,7 @@ window.PLANS = {
      "items": [
       "<a href=\"programs.html#lp-cleo-road-law-school\">CLEO Road to Law School</a> (Nov 21)",
       "Start the <a href=\"programs.html#lp-legal-studies-minor\">Legal Studies minor</a>",
-      "<a href=\"programs.html#gp-cuny-spring-forward\">CUNY Spring Forward</a> (by Oct 13)"
+      "<a href=\"programs.html#gp-cuny-spring-forward\">CUNY Spring Forward</a> (mid-October)"
      ]
     },
     {
