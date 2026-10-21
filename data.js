@@ -609,7 +609,8 @@ window.PROGRAMS = [
   "types": [
    "fall-internship",
    "spring-internship",
-   "summer-internship"
+   "summer-internship",
+   "international"
   ],
   "years": [
    "jr",
@@ -1638,7 +1639,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://www.nysenate.gov/student-programs\">NY State Senate Session Assistants</a>",
   "url": "https://www.nysenate.gov/student-programs",
   "types": [
-   "spring-internship"
+   "spring-internship",
+   "politics"
   ],
   "years": [
    "jr",
@@ -1678,7 +1680,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://nyassembly.gov/internship/undergraduates/\">NY State Assembly Session Internship</a>",
   "url": "https://nyassembly.gov/internship/undergraduates/",
   "types": [
-   "spring-internship"
+   "spring-internship",
+   "politics"
   ],
   "years": [
    "jr",
@@ -1718,7 +1721,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://www.cbcfinc.org/programs/internships/\">CBCF Congressional Internship</a>",
   "url": "https://www.cbcfinc.org/programs/internships/",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "politics"
   ],
   "years": [
    "so",
@@ -1760,7 +1764,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://chci.org/programs/congressional-internship-program/\">CHCI Congressional Internship</a>",
   "url": "https://chci.org/programs/congressional-internship-program/",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "politics"
   ],
   "years": [
    "fr",
@@ -1803,7 +1808,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://www.apaics.org/congressional-internship-details\">APAICS Congressional Internship</a>",
   "url": "https://www.apaics.org/congressional-internship-details",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "politics"
   ],
   "years": [
    "fr",
@@ -2591,7 +2597,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://kingcenter.stanford.edu/opportunities/prospective-predoctoral-research-fellows\">Stanford King Center Predoc</a>",
   "url": "https://kingcenter.stanford.edu/opportunities/prospective-predoctoral-research-fellows",
   "types": [
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "sr",
@@ -4303,7 +4310,8 @@ window.PROGRAMS = [
   "types": [
    "campus",
    "fall-internship",
-   "spring-internship"
+   "spring-internship",
+   "politics"
   ],
   "years": [
    "so",
@@ -4486,7 +4494,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://www.gilmanscholarship.org/applicants/eligibility/\">Benjamin A. Gilman International Scholarship</a>",
   "url": "https://www.gilmanscholarship.org/applicants/eligibility/",
   "types": [
-   "fellowship"
+   "fellowship",
+   "international"
   ],
   "years": [
    "so",
@@ -4530,7 +4539,8 @@ window.PROGRAMS = [
   "url": "https://clscholarship.org/applicants/eligibility",
   "types": [
    "fellowship",
-   "summer-research"
+   "summer-research",
+   "international"
   ],
   "years": [
    "so",
@@ -4572,7 +4582,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://www.borenawards.org/eligible-programs\">Boren Scholarship</a>",
   "url": "https://www.borenawards.org/eligible-programs",
   "types": [
-   "fellowship"
+   "fellowship",
+   "international"
   ],
   "years": [
    "so",
@@ -4618,7 +4629,8 @@ window.PROGRAMS = [
   "url": "https://rangelprogram.org/summer-enrichment-program/",
   "types": [
    "summer-research",
-   "fellowship"
+   "fellowship",
+   "international"
   ],
   "years": [
    "so",
@@ -4743,7 +4755,8 @@ window.PROGRAMS = [
   "url": "https://us.fulbrightonline.org/about/eligibility",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "sr",
@@ -4910,7 +4923,8 @@ window.PROGRAMS = [
   "url": "https://www.schwarzmanscholars.org/admissions/",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "jr",
@@ -5155,7 +5169,8 @@ window.PROGRAMS = [
   "url": "https://www.nypirgstudents.org/internship/",
   "short": "NYPIRG Albany semester",
   "types": [
-   "spring-internship"
+   "spring-internship",
+   "politics"
   ],
   "years": [
    "so",
@@ -5436,7 +5451,8 @@ window.PROGRAMS = [
   "url": "https://princetoninasia.org/fellowship-faq",
   "types": [
    "after",
-   "fellowship"
+   "fellowship",
+   "international"
   ],
   "years": [
    "sr",
@@ -5476,7 +5492,8 @@ window.PROGRAMS = [
   "url": "https://www.princetoninafrica.org/applicants/how-to-apply/",
   "types": [
    "after",
-   "fellowship"
+   "fellowship",
+   "international"
   ],
   "years": [
    "sr",
@@ -6139,7 +6156,8 @@ window.PROGRAMS = [
   "types": [
    "summer-internship",
    "fall-internship",
-   "spring-internship"
+   "spring-internship",
+   "international"
   ],
   "years": [
    "fr",
@@ -6180,7 +6198,8 @@ window.PROGRAMS = [
   "url": "https://www.cia.gov/careers/student-programs/undergraduate-internship-program-directorate-of-operations/",
   "short": "CIA freshman internship",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "international"
   ],
   "years": [
    "fr"
@@ -6261,7 +6280,8 @@ window.PROGRAMS = [
   "short": "State Department internships",
   "types": [
    "spring-internship",
-   "summer-internship"
+   "summer-internship",
+   "international"
   ],
   "years": [
    "jr",
@@ -6305,7 +6325,8 @@ window.PROGRAMS = [
   "types": [
    "summer-internship",
    "fall-internship",
-   "spring-internship"
+   "spring-internship",
+   "politics"
   ],
   "years": [
    "fr",
@@ -6349,7 +6370,8 @@ window.PROGRAMS = [
   "types": [
    "fall-internship",
    "spring-internship",
-   "summer-internship"
+   "summer-internship",
+   "politics"
   ],
   "years": [
    "fr",
@@ -6782,7 +6804,8 @@ window.PROGRAMS = [
   "types": [
    "summer-internship",
    "fall-internship",
-   "spring-internship"
+   "spring-internship",
+   "politics"
   ],
   "years": [
    "so",
@@ -6867,7 +6890,8 @@ window.PROGRAMS = [
   "url": "https://islamicscholarshipfund.org/fellowship",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "politics"
   ],
   "years": [
    "grad"
@@ -6996,7 +7020,8 @@ window.PROGRAMS = [
   "short": "MPAC Hill program",
   "types": [
    "summer-internship",
-   "fellowship"
+   "fellowship",
+   "politics"
   ],
   "years": [
    "so",
@@ -7080,7 +7105,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://emgageusa.org/job/emgage-new-york-field-canvassing-fellows/\">Emgage New York fellows</a>",
   "url": "https://emgageusa.org/job/emgage-new-york-field-canvassing-fellows/",
   "types": [
-   "fall-internship"
+   "fall-internship",
+   "politics"
   ],
   "years": [
    "fr",
@@ -7201,7 +7227,8 @@ window.PROGRAMS = [
   "url": "https://www.aaiusa.org/internship",
   "short": "Arab American Institute internship",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "politics"
   ],
   "years": [
    "fr",
@@ -7409,7 +7436,8 @@ window.PROGRAMS = [
   "url": "https://www.usajobs.gov/job/880807100",
   "short": "NSA summer internships",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "international"
   ],
   "years": [
    "fr",
@@ -7495,7 +7523,8 @@ window.PROGRAMS = [
   "url": "https://www.intelligencecareers.gov/dia/students-and-internships",
   "short": "DIA internships",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "international"
   ],
   "years": [
    "so",
@@ -7580,7 +7609,8 @@ window.PROGRAMS = [
   "types": [
    "fall-internship",
    "spring-internship",
-   "summer-internship"
+   "summer-internship",
+   "politics"
   ],
   "years": [
    "fr",
@@ -7620,7 +7650,8 @@ window.PROGRAMS = [
   "short": "Carnegie Junior Fellows",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "sr",
@@ -7661,7 +7692,8 @@ window.PROGRAMS = [
   "url": "https://scoville.org/",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "sr",
@@ -7741,7 +7773,8 @@ window.PROGRAMS = [
   "short": "CHCI Public Policy Fellowship",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "politics"
   ],
   "years": [
    "sr",
@@ -7782,7 +7815,8 @@ window.PROGRAMS = [
   "short": "APAICS Congressional Fellowship",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "politics"
   ],
   "years": [
    "sr",
@@ -7864,7 +7898,8 @@ window.PROGRAMS = [
   "short": "Congress-Bundestag exchange",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "sr",
@@ -8069,7 +8104,8 @@ window.PROGRAMS = [
   "short": "CHLI Global Leaders (spring)",
   "types": [
    "spring-internship",
-   "fall-internship"
+   "fall-internship",
+   "politics"
   ],
   "years": [
    "so",
@@ -8111,7 +8147,8 @@ window.PROGRAMS = [
   "url": "https://www.ajc.org/ajc-goldman-summer-fellowship",
   "types": [
    "summer-internship",
-   "fellowship"
+   "fellowship",
+   "international"
   ],
   "years": [
    "so",
@@ -8151,7 +8188,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://victoryinstitute.org/programs/victory-congressional-internship/\">Victory Congressional Internship</a>",
   "url": "https://victoryinstitute.org/programs/victory-congressional-internship/",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "politics"
   ],
   "years": [
    "so",
@@ -8192,7 +8230,8 @@ window.PROGRAMS = [
   "url": "https://www.runningstart.org/congressional-fellowship",
   "types": [
    "fall-internship",
-   "fellowship"
+   "fellowship",
+   "politics"
   ],
   "years": [
    "so",
@@ -8235,7 +8274,8 @@ window.PROGRAMS = [
   "short": "Yenching Academy",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "sr",
@@ -8723,7 +8763,8 @@ window.PROGRAMS = [
   "url": "https://www.iie.org/programs/freeman-asia/",
   "types": [
    "fellowship",
-   "course"
+   "course",
+   "international"
   ],
   "years": [
    "fr",
@@ -8767,7 +8808,8 @@ window.PROGRAMS = [
   "short": "Blakemore language fellowship",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "sr",
@@ -8847,7 +8889,8 @@ window.PROGRAMS = [
   "url": "https://depart.moe.edu.tw/NY/Default.aspx",
   "types": [
    "fellowship",
-   "course"
+   "course",
+   "international"
   ],
   "years": [
    "fr",
@@ -8929,7 +8972,8 @@ window.PROGRAMS = [
   "url": "https://lucescholars.org/selection/",
   "types": [
    "fellowship",
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "sr",
@@ -8970,7 +9014,8 @@ window.PROGRAMS = [
   "short": "Princeton in Latin America",
   "types": [
    "after",
-   "fellowship"
+   "fellowship",
+   "international"
   ],
   "years": [
    "sr",
@@ -9010,7 +9055,8 @@ window.PROGRAMS = [
   "url": "https://www.borenawards.org/",
   "short": "Boren Fellowship",
   "types": [
-   "fellowship"
+   "fellowship",
+   "international"
   ],
   "years": [
    "sr",
@@ -9050,7 +9096,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://www.germany.info/us-en/welcome/ips/1305996\">Bundestag International Parliamentary Scholarship</a>",
   "url": "https://www.germany.info/us-en/welcome/ips/1305996",
   "types": [
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "grad"
@@ -9128,7 +9175,8 @@ window.PROGRAMS = [
   "name": "<a href=\"https://www.peacecorps.gov/ways-to-serve/serve-with-us/\">Peace Corps</a>",
   "url": "https://www.peacecorps.gov/ways-to-serve/serve-with-us/",
   "types": [
-   "after"
+   "after",
+   "international"
   ],
   "years": [
    "sr",
@@ -9349,7 +9397,8 @@ window.PROGRAMS = [
   "url": "https://hertogfoundation.org/programs/security-studies",
   "short": "Hertog Security Studies",
   "types": [
-   "summer-research"
+   "summer-research",
+   "international"
   ],
   "years": [
    "jr",
@@ -9390,7 +9439,8 @@ window.PROGRAMS = [
   "url": "https://hertogfoundation.org/programs/war-studies",
   "short": "Hertog War Studies",
   "types": [
-   "summer-research"
+   "summer-research",
+   "international"
   ],
   "years": [
    "so",
@@ -9680,7 +9730,8 @@ window.PROGRAMS = [
   "url": "https://www.udall.gov/OurPrograms/Internship/AboutInternship",
   "short": "Udall Native American internship",
   "types": [
-   "summer-internship"
+   "summer-internship",
+   "politics"
   ],
   "years": [
    "so",
@@ -10591,7 +10642,8 @@ window.PROGRAMS = [
   "types": [
    "spring-internship",
    "fall-internship",
-   "summer-internship"
+   "summer-internship",
+   "international"
   ],
   "years": [
    "jr",
@@ -10849,6 +10901,3410 @@ window.PROGRAMS = [
    ]
   ],
   "event": true
+ },
+ {
+  "id": "gp-csis-internships",
+  "name": "<a href=\"https://www.csis.org/about/careers-culture/internships\">CSIS internships (Center for Strategic and International Studies)</a>",
+  "url": "https://www.csis.org/about/careers-culture/internships",
+  "short": "CSIS internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "ma",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Rolling",
+  "whenS": "spring postings go up in October, summer in February, fall in July",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "October (spring)",
+  "opensMD": "",
+  "meta": "Washington, D.C., mostly in person · full or part time; spring, summer or fall",
+  "body": "Paid research and communications internships at a large foreign-policy and national-security think tank. Each program (the Korea Chair, China studies, defense budgets, global health and others) posts its own.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students with two years of college done, graduate students and recent graduates, authorized to work in the U.S. \"regardless of citizenship status\"; no visa sponsorship. Some postings ask for junior standing and a 3.5 GPA"
+   ],
+   [
+    "Pay",
+    "$18.40 an hour for undergraduates and $19.40 with a bachelor's (2026–27 posting); no housing"
+   ],
+   [
+    "Apply",
+    "Cover letter and résumé; finalists may be asked for writing samples and references"
+   ]
+  ]
+ },
+ {
+  "id": "gp-wilson-center-internships",
+  "name": "<a href=\"https://www.wilsoncenter.org/internships\">Wilson Center internships</a>",
+  "url": "https://www.wilsoncenter.org/internships",
+  "short": "Wilson Center internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "phd",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Nov 6",
+  "whenS": "2026 · spring 2027",
+  "due": "2026-11-06",
+  "status": "confirmed",
+  "dueMD": "11-06",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C., remote or in person · part time, one semester",
+  "body": "Paid part-time internships at a foreign-policy research center chartered by Congress. Research assistants work remotely for visiting scholars; staff assistants work in offices like Global Affairs and Communications.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current and recent undergraduate and graduate students; international students in the U.S. with F-1 or J-1 status and work authorization can apply"
+   ],
+   [
+    "Pay",
+    "Staff assistants earn at least $15 an hour for 20–35 hours a week; research assistants are paid for 10–20 hours a week (amount not posted)"
+   ],
+   [
+    "Apply",
+    "One PDF to internship@wilsoncenter.org with a cover letter, résumé and a 3–5 page writing sample"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cnas-nye-internship",
+  "name": "<a href=\"https://www.cnas.org/careers/internships\">CNAS Joseph S. Nye, Jr. National Security Internship and Mentoring Program</a>",
+  "url": "https://www.cnas.org/careers/internships",
+  "short": "CNAS national security internship",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "ma",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "start dates from fall 2026 to spring 2027",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C., in person · 6 months, full time",
+  "body": "A six-month, full-time paid internship with mentoring at the Center for a New American Security, a national-security think tank. It suits recent graduates who can move to Washington.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students and recent graduates who live in or can move to the D.C. area; some programs prefer U.S. citizens"
+   ],
+   [
+    "Pay",
+    "$1,900 a month plus $75 a month for transportation"
+   ],
+   [
+    "Apply",
+    "A cover letter naming the programs you want; the posting asks applicants not to use AI tools"
+   ]
+  ]
+ },
+ {
+  "id": "gp-isw-internships",
+  "name": "<a href=\"https://understandingwar.org/education/internships/\">Institute for the Study of War internships</a>",
+  "url": "https://understandingwar.org/education/internships/",
+  "short": "ISW internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "phd",
+   "mpp"
+  ],
+  "paid": false,
+  "allOpen": true,
+  "whenB": "Nov 13",
+  "whenS": "2026 · spring 2027, reviewed as they come in",
+  "due": "2026-11-13",
+  "status": "confirmed",
+  "dueMD": "11-13",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C., in person or hybrid, or remote in the U.S. · full time, Jan 12–May 14, 2027",
+  "body": "Research internships tracking Russia and Ukraine, China and Taiwan, the Korean Peninsula, the Middle East and more, plus communications and mapping. ISW also helps teach the Hertog War Studies Program.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College students and recent graduates authorized to work in the U.S., including students with CPT or OPT"
+   ],
+   [
+    "Pay",
+    "Unpaid; a need-based scholarship pays up to $1,000 a month"
+   ],
+   [
+    "Apply",
+    "Résumé, cover letter and writing sample, five pages at most together"
+   ]
+  ]
+ },
+ {
+  "id": "gp-carnegie-endowment-internships",
+  "name": "<a href=\"https://carnegieendowment.org/internships-at-the-carnegie-endowment-for-international-peace\">Carnegie Endowment for International Peace internships</a>",
+  "url": "https://carnegieendowment.org/internships-at-the-carnegie-endowment-for-international-peace",
+  "short": "Carnegie Endowment internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "ma",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Varies",
+  "whenS": "each posting sets its own deadline",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C., or remote, by posting",
+  "body": "Paid internships at the think tank behind the Carnegie Junior Fellows program, without the college nomination that Junior Fellows needs.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students and recent graduates; U.S.-based interns need work authorization, which international students in the U.S. usually have"
+   ],
+   [
+    "Pay",
+    "At least $20 an hour"
+   ]
+  ]
+ },
+ {
+  "id": "gp-mei-internships",
+  "name": "<a href=\"https://mei.edu/internships\">Middle East Institute internships</a>",
+  "url": "https://mei.edu/internships",
+  "short": "Middle East Institute internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "phd"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Nov 14",
+  "whenS": "last cycle · spring",
+  "due": "",
+  "status": "last",
+  "dueMD": "11-14",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C., in person · 12 weeks",
+  "body": "Internships in the Policy Center, events and communications, development, and arts and culture at a Washington institute focused on the Middle East. The Arts and Culture internship for spring 2027 is due November 10, 2026.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates, graduate students and recent graduates with a 3.5 GPA and an interest in the Middle East; language skills help"
+   ],
+   [
+    "Pay",
+    "Unpaid"
+   ]
+  ]
+ },
+ {
+  "id": "gp-wola-internship",
+  "name": "<a href=\"https://www.wola.org/get-involved/internships/\">WOLA Sally Yudelman Internship Program (Washington Office on Latin America)</a>",
+  "url": "https://www.wola.org/get-involved/internships/",
+  "short": "WOLA internship",
+  "types": [
+   "spring-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Oct 23",
+  "whenS": "2026 · spring 2027, first come, first served",
+  "due": "2026-10-23",
+  "status": "confirmed",
+  "dueMD": "10-23",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Remote, with an optional D.C. office · Jan 11–May 14, 2027",
+  "body": "A remote internship in foreign policy or in fundraising and communications at a human rights group focused on Latin America.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current undergraduates with intermediate to advanced Spanish"
+   ],
+   [
+    "Pay",
+    "A $780 stipend each semester"
+   ],
+   [
+    "Apply",
+    "One PDF to internapp@wola.org with an English résumé, a cover letter and two writing samples, one in English and one in Spanish"
+   ]
+  ]
+ },
+ {
+  "id": "gp-arab-center-dc-internship",
+  "name": "<a href=\"https://arabcenterdc.org/about/acw-careers/internship-opportunities/\">Arab Center Washington DC internships</a>",
+  "url": "https://arabcenterdc.org/about/acw-careers/internship-opportunities/",
+  "short": "Arab Center DC internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 10",
+  "whenS": "2026 · spring 2027; summer due in February",
+  "due": "2026-11-10",
+  "status": "confirmed",
+  "dueMD": "11-10",
+  "opens": "Oct 1",
+  "opensMD": "10-01",
+  "meta": "Washington, D.C., hybrid · 10–20 hours a week",
+  "body": "Paid internships in government affairs, editing, research and the Palestine program at a think tank on U.S. policy toward the Arab world.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current undergraduate or graduate students and recent graduates authorized to work in the U.S."
+   ],
+   [
+    "Pay",
+    "An hourly wage (rate not posted)"
+   ],
+   [
+    "Apply",
+    "Online form, a 1–2 page résumé and a 3–5 page writing sample"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ncuscr-internship",
+  "name": "<a href=\"https://www.ncuscr.org/internships/\">National Committee on U.S.-China Relations internships</a>",
+  "url": "https://www.ncuscr.org/internships/",
+  "short": "U.S.-China Relations internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 12",
+  "whenS": "2026 · spring 2027",
+  "due": "2026-11-12",
+  "status": "confirmed",
+  "dueMD": "11-12",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Remote, with a New York organization · 18 hours a week",
+  "body": "Remote internships with a New York nonprofit on U.S.-China relations: research, briefing kits, events and translation, or social media and video.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current students and recent graduates authorized to work in the U.S.; Mandarin required"
+   ],
+   [
+    "Pay",
+    "A monthly stipend (amount not posted)"
+   ],
+   [
+    "Apply",
+    "Résumé, cover letter and a short writing sample"
+   ]
+  ]
+ },
+ {
+  "id": "gp-korea-society-internships",
+  "name": "<a href=\"https://www.koreasociety.org/about-us/internships-careers/\">The Korea Society internships</a>",
+  "url": "https://www.koreasociety.org/about-us/internships-careers/",
+  "short": "Korea Society internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "until each position is filled",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Manhattan, at least one day a week in the office · policy internship 15–20 hours a week, ideally six months",
+  "body": "Internships at a New York nonprofit on U.S.-Korea relations, in policy, business and economics, communications, development and the arts.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current and recent undergraduate and graduate students; for policy, a background in political science, international relations or East Asian studies (Korean helps)"
+   ],
+   [
+    "Pay",
+    "Unpaid; course credit is possible for some internships"
+   ]
+  ]
+ },
+ {
+  "id": "gp-asia-society-policy-institute-internship",
+  "name": "<a href=\"https://asiasociety.org/policy-institute/careers\">Asia Society Policy Institute internships</a>",
+  "url": "https://asiasociety.org/policy-institute/careers",
+  "short": "Asia Society Policy Institute",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Varies",
+  "whenS": "postings go up one at a time",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Manhattan, hybrid or in person · 18–20 hours a week for at least 12 weeks",
+  "body": "Paid policy research internships at the Asia Society's think tank in New York.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Juniors and up, graduate students and recent graduates in the U.S. with work authorization; some roles need Chinese"
+   ],
+   [
+    "Pay",
+    "$17.95–18.40 an hour (current posting)"
+   ],
+   [
+    "Apply",
+    "Résumé, cover letter with your available days and hours, and a writing sample"
+   ]
+  ]
+ },
+ {
+  "id": "gp-eurasia-group-summer-internship",
+  "name": "<a href=\"https://www.eurasiagroup.net/careers\">Eurasia Group summer internships</a>",
+  "url": "https://www.eurasiagroup.net/careers",
+  "short": "Eurasia Group internship",
+  "types": [
+   "summer-internship",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Early spring",
+  "whenS": "last cycle's postings were up by early March",
+  "due": "",
+  "status": "none",
+  "dueMD": "03-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Manhattan, about three days a week in the office · June to July",
+  "body": "Paid summer internships at a New York political-risk consulting firm, in areas like geostrategy, Africa research, energy and climate, and its GZERO Media.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Enrolled students"
+   ],
+   [
+    "Pay",
+    "$17 an hour (2026)"
+   ]
+  ]
+ },
+ {
+  "id": "gp-un-secretariat-internship",
+  "name": "<a href=\"https://careers.un.org/job-level?language=en\">United Nations Secretariat Internship Programme</a>",
+  "url": "https://careers.un.org/job-level?language=en",
+  "short": "UN internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa",
+   "phd",
+   "jd"
+  ],
+  "paid": false,
+  "allOpen": true,
+  "whenB": "Year-round",
+  "whenS": "each office posts its own, open about 2–3 weeks",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "UN headquarters, Manhattan, and offices worldwide · 2–6 months",
+  "body": "Unpaid internships across UN offices, many at headquarters in Manhattan: political affairs, humanitarian affairs, public information and more. Search the openings on careers.un.org.",
+  "warn": "Unpaid. Queens College's <a href=\"#gp-qc-internship-stipend\">internship stipend</a> can help with costs.",
+  "facts": [
+   [
+    "Who",
+    "Students in the final year of a bachelor's degree, graduate students and recent graduates, of any nationality; some postings require graduation within the past year"
+   ],
+   [
+    "Pay",
+    "Unpaid; you cover travel, housing and living costs"
+   ],
+   [
+    "Apply",
+    "An online application for each posting, with a cover note, work history and three references"
+   ]
+  ]
+ },
+ {
+  "id": "gp-unicef-internships",
+  "name": "<a href=\"https://www.unicef.org/careers/internships\">UNICEF Internship Programme</a>",
+  "url": "https://www.unicef.org/careers/internships",
+  "short": "UNICEF internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Year-round",
+  "whenS": "each posting sets its own deadline",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "UNICEF headquarters in Manhattan and offices worldwide, some remote · 6–26 weeks",
+  "body": "Paid internships with the UN children's agency, whose headquarters is in New York.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "18 or older, enrolled in college or graduate school or graduated within the past two years, fluent in English, French or Spanish"
+   ],
+   [
+    "Pay",
+    "A monthly stipend (amount not posted)"
+   ]
+  ]
+ },
+ {
+  "id": "gp-un-foundation-internships",
+  "name": "<a href=\"https://unfoundation.org/careers/internship-opportunities/\">United Nations Foundation internships</a>",
+  "url": "https://unfoundation.org/careers/internship-opportunities/",
+  "short": "UN Foundation internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Before each term",
+  "whenS": "postings go up about two months ahead (November for spring)",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "November (spring)",
+  "opensMD": "",
+  "meta": "Washington, D.C., hybrid · part time",
+  "body": "Internships at the nonprofit that supports the UN's work, posted about two months before each term.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students in a degree program and college graduates authorized to work in the U.S."
+   ],
+   [
+    "Pay",
+    "Not posted"
+   ]
+  ]
+ },
+ {
+  "id": "gp-irc-internships",
+  "name": "<a href=\"https://theirc.wd1.myworkdayjobs.com/en-US/External_Careers/job/New-York-NY-HQ-USA/All-US-Internship-Opportunities_JR00000488\">International Rescue Committee internships (New York)</a>",
+  "url": "https://theirc.wd1.myworkdayjobs.com/en-US/External_Careers/job/New-York-NY-HQ-USA/All-US-Internship-Opportunities_JR00000488",
+  "short": "IRC internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "the general pool is open year-round",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Manhattan headquarters or the New York resettlement office · 8–12 weeks",
+  "body": "Internships at a humanitarian and refugee resettlement agency, in advocacy, policy, resettlement programs and strategy.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students with at least two years of college done, based in the U.S.; New York office postings also take recent graduates"
+   ],
+   [
+    "Pay",
+    "Unpaid, with a daily travel and meal stipend"
+   ]
+  ]
+ },
+ {
+  "id": "gp-amnesty-usa-internships",
+  "name": "<a href=\"https://www.amnestyusa.org/careers/\">Amnesty International USA internships</a>",
+  "url": "https://www.amnestyusa.org/careers/",
+  "short": "Amnesty USA internships",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd",
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Varies",
+  "whenS": "each posting sets its own deadline",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Location by posting",
+  "body": "Paid human rights internships for students and recent graduates.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students and recent graduates already authorized to work in the U.S."
+   ],
+   [
+    "Pay",
+    "$17 an hour"
+   ]
+  ]
+ },
+ {
+  "id": "gp-foreign-service-officer-test",
+  "name": "<a href=\"https://careers.state.gov/foreign-service/foreign-service-officer/\">Foreign Service Officer Test (FSOT)</a>",
+  "url": "https://careers.state.gov/foreign-service/foreign-service-officer/",
+  "short": "Foreign Service Officer Test",
+  "types": [
+   "after",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 30",
+  "whenS": "2026 · registration for the October window; next window Jan 30–Feb 6, 2027",
+  "due": "2026-10-30",
+  "status": "confirmed",
+  "dueMD": "10-30",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Pearson test centers or online at home · a few testing windows a year",
+  "body": "The first step to becoming a U.S. diplomat. No degree or foreign language is required. Officers choose a track (consular, economic, management, political or public diplomacy) and serve at embassies abroad. See <a href=\"#g-intl\">International affairs and the Foreign Service</a>.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "U.S. citizens 20 to 59 when they register and open to serving anywhere; one try every 12 months"
+   ],
+   [
+    "Apply",
+    "Register on <a href=\"https://www.pearsonvue.com/us/en/fsot.html\">Pearson VUE</a> in the weeks before a testing window"
+   ]
+  ]
+ },
+ {
+  "id": "gp-consular-fellows-program",
+  "name": "<a href=\"https://careers.state.gov/foreign-service/limited-non-career-appointments-lna/consular-fellows/\">State Department Consular Fellows Program</a>",
+  "url": "https://careers.state.gov/foreign-service/limited-non-career-appointments-lna/consular-fellows/",
+  "short": "Consular Fellows",
+  "types": [
+   "after",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Any time",
+  "whenS": "the test is offered on demand",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "U.S. embassies and consulates abroad · up to five years",
+  "body": "A paid job abroad deciding visa cases and helping U.S. citizens, for people who speak Arabic, Mandarin Chinese, Portuguese or Spanish well. It is not a faster way into the Foreign Service.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "U.S. citizens, at least 20 to apply, who speak one of the four languages and can get a Top Secret clearance; dual nationals can't serve in their other country"
+   ],
+   [
+    "Pay",
+    "A federal salary (not posted) with tax-free housing overseas; the test costs $5, refunded when you show up"
+   ]
+  ]
+ },
+ {
+  "id": "gp-clarke-ds-fellowship",
+  "name": "<a href=\"https://clarkedsfellowship.org/\">William D. Clarke, Sr. Diplomatic Security Fellowship</a>",
+  "url": "https://clarkedsfellowship.org/",
+  "short": "Clarke Diplomatic Security Fellowship",
+  "types": [
+   "fellowship",
+   "summer-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "ma",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 30",
+  "whenS": "2026 · early review Nov 19",
+  "due": "2026-11-30",
+  "status": "confirmed",
+  "dueMD": "11-30",
+  "opens": "Open now",
+  "opensMD": "10-13",
+  "meta": "Your college or graduate school, plus summers in Washington and at an embassy abroad",
+  "body": "Pays for the last two years of college or a two-year master's for future Diplomatic Security special agents, the federal agents who protect U.S. diplomats. In return you serve three years as a special agent.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "U.S. citizens with a 3.2 GPA, ages 19–32, graduating in spring 2029 (today's sophomores) or starting a two-year master's"
+   ],
+   [
+    "Pay",
+    "Up to $24,000 a year for tuition and $18,000 for other costs, for two years, plus paid summer practicums with housing"
+   ],
+   [
+    "Apply",
+    "Transcripts, a personal statement of up to 750 words, a résumé, your FAFSA summary, a statement of financial need and one recommendation"
+   ]
+  ]
+ },
+ {
+  "id": "gp-gmf-internships",
+  "name": "<a href=\"https://www.gmfus.org/about/careers\">German Marshall Fund trainee positions</a>",
+  "url": "https://www.gmfus.org/about/careers",
+  "short": "German Marshall Fund trainees",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Varies",
+  "whenS": "each posting sets its own deadline",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C. · part time, one term",
+  "body": "Paid trainee positions in the research programs of a transatlantic policy institute.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "The D.C. minimum wage"
+   ],
+   [
+    "Apply",
+    "Cover letter and résumé"
+   ]
+  ]
+ },
+ {
+  "id": "gp-un-young-professionals-programme",
+  "name": "<a href=\"https://careers.un.org/ypp?language=en\">UN Young Professionals Programme</a>",
+  "url": "https://careers.un.org/ypp?language=en",
+  "short": "UN Young Professionals",
+  "types": [
+   "after",
+   "international"
+  ],
+  "years": [
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 30",
+  "whenS": "2026 · exam around February 2027",
+  "due": "2026-11-30",
+  "status": "confirmed",
+  "dueMD": "11-30",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "A written exam, then UN jobs worldwide",
+  "body": "The UN's entry-level exam for a career at the UN. This year's exam area is development and sustainability.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Citizens of participating countries (the U.S. is on the 2026 list), 32 or younger, with at least a bachelor's degree"
+   ]
+  ]
+ },
+ {
+  "id": "gp-world-bank-pioneers",
+  "name": "<a href=\"https://www.worldbank.org/ext/en/careers/talent-programs/wbg-pioneers\">World Bank Group Pioneers internships</a>",
+  "url": "https://www.worldbank.org/ext/en/careers/talent-programs/wbg-pioneers",
+  "short": "World Bank Pioneers",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "ma",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan–Feb",
+  "whenS": "for spring and summer; July–August for fall and winter",
+  "due": "",
+  "status": "none",
+  "dueMD": "02-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "World Bank offices, mostly Washington, D.C.",
+  "body": "The World Bank's paid internship program, renamed Pioneers, for students in their final year of college and graduate students.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Final-year undergraduates and master's or PhD students"
+   ],
+   [
+    "Pay",
+    "An hourly salary"
+   ]
+  ]
+ },
+ {
+  "id": "gp-imf-research-analyst-program",
+  "name": "<a href=\"https://imf.wd5.myworkdayjobs.com/IMF/job/USA-Washington-DC/Research-Analyst-under-the-Research-Analyst-Program--RAP-_26-R8967\">IMF Research Analyst Program</a>",
+  "url": "https://imf.wd5.myworkdayjobs.com/IMF/job/USA-Washington-DC/Research-Analyst-under-the-Research-Analyst-Program--RAP-_26-R8967",
+  "short": "IMF Research Analyst Program",
+  "types": [
+   "after",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Dec 31",
+  "whenS": "2026 · posting open until then",
+  "due": "2026-12-31",
+  "status": "confirmed",
+  "dueMD": "12-31",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C. · two years",
+  "body": "A two-year research job at the International Monetary Fund for new graduates, much like a predoc.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Recent graduates in economics or a quantitative field with a 3.5 GPA"
+   ]
+  ]
+ },
+ {
+  "id": "gp-apsia-online-grad-fair",
+  "name": "<a href=\"https://apsia.org/events/apsias-online-graduate-school-fair-ii-5/\">APSIA Online Graduate School Fair</a>",
+  "url": "https://apsia.org/events/apsias-online-graduate-school-fair-ii-5/",
+  "short": "APSIA online grad fair",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "ma",
+   "mpa"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Oct 29",
+  "whenS": "2026 · 11 a.m.–1:45 p.m. Eastern, online",
+  "due": "2026-10-29",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-29",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Online · one afternoon",
+  "body": "Admissions staff from international affairs and public policy graduate schools answer questions about requirements, aid and careers. APSIA also holds an in-person fair in New York each fall.",
+  "warn": "",
+  "facts": [
+   [
+    "Cost",
+    "Not stated"
+   ],
+   [
+    "How to sign up",
+    "Register on the APSIA event page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-nmun-new-york",
+  "name": "<a href=\"https://www.nmun.org/conferences/new-york.html\">National Model United Nations, New York (NMUN)</a>",
+  "url": "https://www.nmun.org/conferences/new-york.html",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "cost": "fee",
+  "whenB": "Mar 21",
+  "whenS": "2027 · first session; second session Mar 29–Apr 2",
+  "due": "2027-03-21",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "03-21",
+  "opens": "",
+  "opensMD": "",
+  "meta": "New York Hilton Midtown, Manhattan · 5 days in late March",
+  "body": "The largest college Model UN conference, held in Manhattan with some sessions at UN headquarters. Schools register as delegations; Queens College's Model UN club and the PSCI 297 course go every year.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College students registered by their school's delegation"
+   ],
+   [
+    "Cost",
+    "$150 per delegate if paid by February 15, 2027 ($200 after), plus a $200 school fee; everyone stays at the conference hotel ($370 a room a night for up to four people)"
+   ],
+   [
+    "How to sign up",
+    "Through QC's Model UN club or a faculty advisor; delegations confirm their numbers by January 15, 2027"
+   ]
+  ]
+ },
+ {
+  "id": "gp-harvard-national-model-un",
+  "name": "<a href=\"https://www.hnmun.org/\">Harvard National Model United Nations (HNMUN)</a>",
+  "url": "https://www.hnmun.org/",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "cost": "fee",
+  "whenB": "Nov 1",
+  "whenS": "2026 · registration; conference Feb 11–14, 2027",
+  "due": "2026-11-01",
+  "status": "confirmed",
+  "dueMD": "11-01",
+  "opens": "Open now",
+  "opensMD": "09-02",
+  "meta": "Boston · 4 days in February",
+  "body": "Harvard's college Model UN conference, one of the biggest in the country. There is no minimum delegation size.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current students working toward an associate's or bachelor's degree"
+   ],
+   [
+    "Cost",
+    "$115 to register and $120 per delegate through November 1, 2026, then $130 each; hotel extra. <a href=\"https://www.hnmun.org/financial-aid\">Financial aid</a> is due December 1"
+   ],
+   [
+    "How to sign up",
+    "Apply online and pay the registration fee"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ncsc-georgetown",
+  "name": "<a href=\"https://ncsc.modelun.org/\">National Collegiate Security Conference (Georgetown)</a>",
+  "url": "https://ncsc.modelun.org/",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "cost": "fee",
+  "whenB": "Sept 30",
+  "whenS": "last cycle · registration; conference in November",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-30",
+  "opens": "Late March",
+  "opensMD": "03-31",
+  "meta": "Washington, D.C. · 4 days in November",
+  "body": "A security and crisis-focused college Model UN conference run by Georgetown students. You can register on your own if your school has no competitive team.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College students, on their own or in a delegation"
+   ],
+   [
+    "Cost",
+    "$125 per individual delegate; delegations pay $80–110 plus $105–115 per delegate"
+   ],
+   [
+    "How to sign up",
+    "Online registration rounds open in late March"
+   ]
+  ]
+ },
+ {
+  "id": "gp-scusa-west-point",
+  "name": "<a href=\"https://www.westpoint.edu/academics/departments/social-sciences/scusa-conference\">Student Conference on U.S. Affairs (SCUSA), West Point</a>",
+  "url": "https://www.westpoint.edu/academics/departments/social-sciences/scusa-conference",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Sept 30",
+  "whenS": "last cycle · invitations through your department",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-30",
+  "opens": "",
+  "opensMD": "",
+  "meta": "West Point, N.Y. · 4 days in October",
+  "body": "About 200 undergraduates from more than 100 colleges stay in the cadet barracks and write policy recommendations with cadets and experts.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students invited through their college; ask the political science department to request an invitation (SCUSA@westpoint.edu)"
+   ],
+   [
+    "Cost",
+    "Not stated; delegates stay in the barracks and eat with cadets"
+   ]
+  ]
+ },
+ {
+  "id": "gp-nafac-naval-academy",
+  "name": "<a href=\"https://www.usna.edu/NAFAC/index.php\">Naval Academy Foreign Affairs Conference (NAFAC)</a>",
+  "url": "https://www.usna.edu/NAFAC/index.php",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Spring",
+  "whenS": "schools are invited in December or January",
+  "due": "",
+  "status": "none",
+  "dueMD": "04-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Annapolis, Md. · spring",
+  "body": "A foreign policy conference for more than 150 undergraduates, held since 1960. Invitations go to colleges, not to individual students.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students from invited colleges; ask the political science department to request an invitation (nafac-group@usna.edu)"
+   ],
+   [
+    "Cost",
+    "Not stated"
+   ]
+  ]
+ },
+ {
+  "id": "gp-hpair-harvard-conference",
+  "name": "<a href=\"https://www.hpair.org/\">Harvard Project for Asian and International Relations (HPAIR) Harvard Conference</a>",
+  "url": "https://www.hpair.org/",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "cost": "fee",
+  "whenB": "Feb 2027",
+  "whenS": "conference Feb 5–7; applications open now",
+  "due": "",
+  "status": "none",
+  "dueMD": "02-05",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Harvard University, Cambridge · 3 days in February",
+  "body": "A student-run conference on Asia and international relations. You apply in writing and then interview.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "18 or older by the conference"
+   ],
+   [
+    "Cost",
+    "A ticket (amount not posted) covers programs and some meals; you pay lodging and travel. Scholarships are offered only in the early-bird round"
+   ],
+   [
+    "How to sign up",
+    "Apply at apply.hpair.org"
+   ]
+  ]
+ },
+ {
+  "id": "gp-idealist-nyc-grad-fair",
+  "name": "<a href=\"https://www.idealist.org/grad-schools/attend\">Idealist Grad School Fair, New York</a>",
+  "url": "https://www.idealist.org/grad-schools/attend",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Late Sept",
+  "whenS": "last fair Sept 29, 2026",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-29",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Metropolitan Pavilion, Manhattan · one evening in late September",
+  "body": "A free evening fair with graduate programs in international affairs, public policy, nonprofit management and related fields.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Anyone"
+   ],
+   [
+    "Cost",
+    "Free"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ppia-pathways-studio",
+  "name": "<a href=\"https://ppiaprogram.org/pathways\">PPIA Pathways Studio (virtual fair)</a>",
+  "url": "https://ppiaprogram.org/pathways",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Oct 22",
+  "whenS": "2026 · 2–4 p.m. Eastern, online",
+  "due": "2026-10-22",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-22",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Online · 2 hours",
+  "body": "A free live virtual fair with public policy and international affairs graduate programs and public service employers.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Open to everyone"
+   ],
+   [
+    "Cost",
+    "Free"
+   ],
+   [
+    "How to sign up",
+    "<a href=\"https://easyvirtualfair.com/ppia?view=prefair\">Register for the fair</a>"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ppia-future-leaders-expo",
+  "name": "<a href=\"https://ppiaprogram.org/future-leaders-expo\">PPIA Future Leaders Expo</a>",
+  "url": "https://ppiaprogram.org/future-leaders-expo",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "July",
+  "whenS": "last expo July 10, 2026",
+  "due": "",
+  "event": true,
+  "status": "last",
+  "dueMD": "07-10",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C. · one day in July",
+  "body": "A one-day fair where students meet public policy and international affairs graduate schools, employers and public service leaders.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "All students; no application"
+   ],
+   [
+    "Cost",
+    "Not listed; travel isn't covered"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ppia-explorers-conference",
+  "name": "<a href=\"https://ppiaprogram.org/explorersconference\">PPIA Explorers Conference</a>",
+  "url": "https://ppiaprogram.org/explorersconference",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Jan 8",
+  "whenS": "2027 · conference; apply now",
+  "due": "2027-01-08",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "01-08",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "UC Riverside, California · 1–3 days",
+  "body": "A Discovery Day on public service careers, after which about 30 selected seniors stay for a two-day Policy Accelerator.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Seniors finishing between December 2026 and August 2027 and juniors finishing between December 2027 and August 2028"
+   ],
+   [
+    "Cost",
+    "Free with meals; you pay travel, and housing is provided only for the Accelerator"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cfr-student-webinars",
+  "name": "<a href=\"https://www.cfr.org/education/events/global-affairs-expert-webinar-what-the-midterms-mean-for-u-s-foreign-policy\">Council on Foreign Relations Global Affairs Expert Webinars</a>",
+  "url": "https://www.cfr.org/education/events/global-affairs-expert-webinar-what-the-midterms-mean-for-u-s-foreign-policy",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Oct 28",
+  "whenS": "2026 · next webinar, 1 p.m. Eastern; more through the year",
+  "due": "2026-10-28",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-28",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Online · 1 hour",
+  "body": "Free webinars where college students and teachers question Council on Foreign Relations fellows. The next one is on what the midterms mean for U.S. foreign policy.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College and university students and teachers"
+   ],
+   [
+    "Cost",
+    "Free"
+   ],
+   [
+    "How to sign up",
+    "Fill out the form on each webinar's page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-fpa-public-lectures",
+  "name": "<a href=\"https://fpa.org/events/\">Foreign Policy Association public lectures</a>",
+  "url": "https://fpa.org/events/",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Oct 28",
+  "whenS": "2026 · next lecture, 6 p.m.; another Oct 29",
+  "due": "2026-10-28",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-28",
+  "opens": "",
+  "opensMD": "",
+  "meta": "SUNY Global Center, 116 E. 55th St., Manhattan, or on Zoom · evening",
+  "body": "Free evening foreign policy lectures in Midtown Manhattan, with a reception.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Anyone"
+   ],
+   [
+    "Cost",
+    "Free, in person or on Zoom"
+   ],
+   [
+    "How to sign up",
+    "Get a free ticket on each event's page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ypfp-new-york",
+  "name": "<a href=\"https://www.ypfp.org/nyc\">Young Professionals in Foreign Policy (YPFP), New York</a>",
+  "url": "https://www.ypfp.org/nyc",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Year-round",
+  "whenS": "events through the year",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Manhattan and online · year-round",
+  "body": "A foreign policy network with a New York series featuring UN ambassadors and consuls general, author talks and career workshops. A good way to meet people working in the field.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Members and guests; some events are open to anyone"
+   ],
+   [
+    "Cost",
+    "Students get their first year of membership free"
+   ],
+   [
+    "How to sign up",
+    "<a href=\"https://www.ypfp.org/join\">Join YPFP</a>"
+   ]
+  ]
+ },
+ {
+  "id": "gp-wfpg-mentoring",
+  "name": "<a href=\"https://www.wfpg.org/mentorship\">Women's Foreign Policy Group mentoring and career panels</a>",
+  "url": "https://www.wfpg.org/mentorship",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "cost": "fee",
+  "whenB": "Oct 27",
+  "whenS": "2026 · next career panel, online",
+  "due": "2026-10-27",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-27",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Online · monthly",
+  "body": "Monthly virtual mentoring and career panels on international affairs careers, plus a year-long one-on-one mentor match.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Members; students and young professionals can apply for the mentor match"
+   ],
+   [
+    "Cost",
+    "$60 a year for a student and young professional membership"
+   ]
+  ]
+ },
+ {
+  "id": "gp-notre-dame-student-peace-conference",
+  "name": "<a href=\"https://sites.nd.edu/peacecon/\">Notre Dame Student Peace Conference</a>",
+  "url": "https://sites.nd.edu/peacecon/",
+  "types": [
+   "conference",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "phd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "April",
+  "whenS": "call for papers usually closes in late January",
+  "due": "",
+  "status": "none",
+  "dueMD": "01-31",
+  "opens": "",
+  "opensMD": "",
+  "meta": "University of Notre Dame, Indiana · 2 days in April",
+  "body": "A student-run peace studies conference where undergraduates present papers, posters or projects; the 2026 conference was free.",
+  "warn": "",
+  "facts": [
+   [
+    "Cost",
+    "Free in 2026; travel not mentioned"
+   ],
+   [
+    "How to sign up",
+    "Answer the call for papers; questions to peacecon@nd.edu"
+   ]
+  ]
+ },
+ {
+  "id": "gp-bridging-scholarship",
+  "name": "<a href=\"https://www.bridgingfoundation.org/scholarships\">Bridging Scholarships for Study Abroad in Japan</a>",
+  "url": "https://www.bridgingfoundation.org/scholarships",
+  "types": [
+   "fellowship",
+   "course",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Mar 15",
+  "whenS": "2027 · for fall 2027 to spring 2028; opens in spring",
+  "due": "2027-03-15",
+  "status": "confirmed",
+  "dueMD": "03-15",
+  "opens": "Spring 2027",
+  "opensMD": "",
+  "meta": "Japan · a semester or an academic year",
+  "body": "Cash awards for U.S. undergraduates going to Japan for a semester or a year. Any major, and no Japanese is required.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "U.S. citizens enrolled as undergraduates at a U.S. college, with credit transferring back"
+   ],
+   [
+    "Pay",
+    "$2,500 for a semester or $4,500 for a year"
+   ]
+  ]
+ },
+ {
+  "id": "gp-watanabe-scholarship",
+  "name": "<a href=\"https://www.usjapancouncil.org/watanabe-scholarship/\">Toshizo Watanabe Study Abroad Scholarship (U.S.-Japan Council)</a>",
+  "url": "https://www.usjapancouncil.org/watanabe-scholarship/",
+  "types": [
+   "fellowship",
+   "course",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 23",
+  "whenS": "last cycle · opens in January",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-23",
+  "opens": "January",
+  "opensMD": "01-12",
+  "meta": "Japan · a semester or a year",
+  "body": "Need-based awards for American undergraduate or graduate students to study for credit in Japan, with preference for first-generation students and students who have never been abroad.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "U.S. citizens or permanent residents at a U.S. college, studying for credit in Japan (not at a language school), with financial need"
+   ],
+   [
+    "Pay",
+    "Based on need (amount not posted)"
+   ]
+  ]
+ },
+ {
+  "id": "gp-banyan-impact-fellowship",
+  "name": "<a href=\"https://aif.org/fellowship/apply-for-service-in-india/\">Banyan Impact Fellowship (American India Foundation)</a>",
+  "url": "https://aif.org/fellowship/apply-for-service-in-india/",
+  "types": [
+   "fellowship",
+   "after",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Feb 28",
+  "whenS": "2027 · opens Dec 4, 2026",
+  "due": "2027-02-28",
+  "status": "confirmed",
+  "dueMD": "02-28",
+  "opens": "Dec 4",
+  "opensMD": "12-04",
+  "meta": "India · starts October 1",
+  "body": "A funded service fellowship, formerly the William J. Clinton Fellowship, that places young American and Indian professionals with development nonprofits in India.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "U.S. citizens, permanent residents or Indian citizens, 21 to 35, with a bachelor's degree by October 1"
+   ],
+   [
+    "Pay",
+    "Fully funded: a stipend, travel and health insurance"
+   ]
+  ]
+ },
+ {
+  "id": "gp-hansen-leadership-institute",
+  "name": "<a href=\"https://hansenleadershipinstitute.org/\">Hansen Leadership Institute</a>",
+  "url": "https://hansenleadershipinstitute.org/",
+  "types": [
+   "fellowship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Mar 15",
+  "whenS": "2027 · for U.S. applicants (international applicants Jan 15)",
+  "due": "2027-03-15",
+  "status": "confirmed",
+  "dueMD": "03-15",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Three weeks, June 29–July 20, 2027",
+  "body": "A fully funded three-week program in leadership and international cooperation that brings American and international fellows together.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "20 to 25 on July 1, 2027, with at least one year of college done or a recent degree (2025 or 2026); international applicants welcome"
+   ],
+   [
+    "Pay",
+    "Fully funded: airfare, room and board and all program costs"
+   ]
+  ]
+ },
+ {
+  "id": "gp-national-defense-fellowship",
+  "name": "<a href=\"https://alexanderhamiltonsociety.org/national-defense-fellowship/\">National Defense Fellowship (Alexander Hamilton Society and Reagan Institute)</a>",
+  "url": "https://alexanderhamiltonsociety.org/national-defense-fellowship/",
+  "types": [
+   "fellowship",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Summer",
+  "whenS": "the application opens each summer; 2026 is closed",
+  "due": "",
+  "status": "none",
+  "dueMD": "08-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C., in September, then the Reagan National Defense Forum in California in December",
+  "body": "Twenty students learn how U.S. defense policy is made in a four-day program in Washington, then attend the Reagan National Defense Forum.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Advanced undergraduates (and, per one sponsor, graduate students)"
+   ],
+   [
+    "Cost",
+    "Covered: lodging, meals and travel reimbursement"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ypfp-rising-experts",
+  "name": "<a href=\"https://www.ypfp.org/rising-experts-program\">YPFP Rising Experts Program</a>",
+  "url": "https://www.ypfp.org/rising-experts-program",
+  "types": [
+   "fellowship",
+   "international"
+  ],
+  "years": [
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Dec 15",
+  "whenS": "last cycle · opens Nov 1",
+  "due": "",
+  "status": "last",
+  "dueMD": "12-15",
+  "opens": "Nov 1",
+  "opensMD": "11-01",
+  "meta": "Online · one year",
+  "body": "A year-long program that helps 15 to 20 early-career foreign policy writers get published, with editors and a peer group.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Early-career professionals who are YPFP members"
+   ]
+  ]
+ },
+ {
+  "id": "gp-uw-madison-polisci-visiting-day",
+  "name": "<a href=\"https://polisci.wisc.edu/diversity-recruitment-conference/\">UW–Madison Political Science Diversity Visiting Day</a>",
+  "url": "https://polisci.wisc.edu/diversity-recruitment-conference/",
+  "types": [
+   "visit"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "funded",
+  "whenB": "TBA",
+  "whenS": "no date posted; ask by email",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "University of Wisconsin–Madison",
+  "body": "A visiting day for undergraduates from underrepresented backgrounds who are thinking about a political science PhD.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates from underrepresented backgrounds"
+   ],
+   [
+    "Cost",
+    "Covered: travel, housing and meals"
+   ],
+   [
+    "How to sign up",
+    "Email shelef@wisc.edu"
+   ]
+  ]
+ },
+ {
+  "id": "gp-dnc-internship",
+  "name": "<a href=\"https://democrats.org/internships/\">Democratic National Committee (DNC) internships</a>",
+  "url": "https://democrats.org/internships/",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "politics"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 27",
+  "whenS": "2026 · spring 2027 (Jan 11–Mar 19); summer roles post later",
+  "due": "2026-11-27",
+  "status": "confirmed",
+  "dueMD": "11-27",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C., in person, hybrid or remote · about 20 hours a week",
+  "body": "Part-time internships in DNC departments like social media, technology, legal, and civic engagement and voter protection.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "18 or older and in the U.S.: current undergraduate or graduate students (after one full term), graduates from the past two years, or recent veterans. Interns are expected to be registered Democrats"
+   ],
+   [
+    "Pay",
+    "$3,700 for the term; no housing or commuting help"
+   ],
+   [
+    "How to apply",
+    "Apply to each role on the DNC job board with a résumé, cover letter and references; you can list up to three departments"
+   ]
+  ]
+ },
+ {
+  "id": "gp-rnc-internship",
+  "name": "<a href=\"https://gop.com/internships/\">Republican National Committee (RNC) internships</a>",
+  "url": "https://gop.com/internships/",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship",
+   "politics"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "spring and fall; no summer deadline posted",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "RNC headquarters, Washington, D.C. · summer program early June to late July",
+  "body": "Internships in divisions like communications, data, digital, political and research. The full-time summer Eisenhower Internship Program adds weekly professional development and group outings.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates with a 3.0 GPA who are registered Republicans; juniors and seniors preferred"
+   ],
+   [
+    "Pay",
+    "Summer interns get a stipend every two weeks (amount not posted); spring and fall pay isn't stated"
+   ],
+   [
+    "How to apply",
+    "Apply online with a résumé and personal statement; two references email letters to the RNC"
+   ]
+  ]
+ },
+ {
+  "id": "gp-dccc-internship",
+  "name": "<a href=\"https://dccc.org/internships/\">DCCC internships (House Democrats' campaign committee)</a>",
+  "url": "https://dccc.org/internships/",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "politics"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "TBA",
+  "whenS": "no application open now",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C. · spring (January–April) or summer (May–August)",
+  "body": "National campaign work in areas like analytics, communications, digital, finance, research and operations, for the committee that works to elect House Democrats.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "A stipend and Metro reimbursement (amount not posted)"
+   ],
+   [
+    "How to apply",
+    "Watch the page; only applicants chosen for interviews hear back"
+   ]
+  ]
+ },
+ {
+  "id": "gp-nrcc-internship",
+  "name": "<a href=\"https://act.nrcc.org/internship-application/\">NRCC internships (House Republicans' campaign committee)</a>",
+  "url": "https://act.nrcc.org/internship-application/",
+  "types": [
+   "summer-internship",
+   "spring-internship",
+   "fall-internship",
+   "politics"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "no deadline posted",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C. · summer, spring or fall; full or part time",
+  "body": "Internships with the committee that works to elect House Republicans; you rank three areas such as finance, political and data, communications, research or marketing.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "Not stated"
+   ],
+   [
+    "How to apply",
+    "An online form with a cover letter, résumé and two references who aren't family"
+   ],
+   [
+    "Campaign jobs",
+    "The NRCC also collects résumés for House campaigns: <a href=\"https://act.nrcc.org/campaign-jobs/\">campaign jobs</a>"
+   ]
+  ]
+ },
+ {
+  "id": "gp-leadership-institute-internship",
+  "name": "<a href=\"https://leadershipinstitute.org/internship-program/\">Leadership Institute internships (Aileen Chuck Internship Program)</a>",
+  "url": "https://leadershipinstitute.org/internship-program/",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "politics"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Dec 1",
+  "whenS": "2026 · spring 2027 (Jan 11–Apr 9); summer due Apr 7, fall Aug 31",
+  "due": "2026-12-01",
+  "status": "confirmed",
+  "dueMD": "12-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Arlington, Va. · full time, on site",
+  "body": "A staff internship at a conservative training nonprofit, in departments like digital training, development and Campus Reform, with lectures, book discussions and career advice.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "18 or older with a high school diploma"
+   ],
+   [
+    "Pay",
+    "$1,000 a month, free housing, free trainings for a year and a $200 book allowance"
+   ],
+   [
+    "How to apply",
+    "Each term's posting on the Institute's job board, with a résumé, cover letter and one recommendation letter"
+   ]
+  ]
+ },
+ {
+  "id": "gp-bipartisan-policy-center-internship",
+  "name": "<a href=\"https://bipartisanpolicy.org/about-us/careers/internships/\">Bipartisan Policy Center internships</a>",
+  "url": "https://bipartisanpolicy.org/about-us/careers/internships/",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "politics"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Early Mar",
+  "whenS": "2027 · summer; the posting opens Feb 8 and stays up about four weeks",
+  "due": "2027-03-08",
+  "status": "estimate",
+  "dueMD": "03-08",
+  "opens": "Feb 8",
+  "opensMD": "02-08",
+  "meta": "Washington, D.C. · in the office Tuesday to Thursday",
+  "body": "Research and policy internships at a bipartisan think tank, on teams like economics, energy, health, housing, education and governance, or in government relations.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Rising juniors and up, or recent graduates; non-citizens need their own U.S. work authorization"
+   ],
+   [
+    "Pay",
+    "$6,000 for a full-time summer; $3,000 for part-time fall or spring"
+   ],
+   [
+    "How to apply",
+    "One PDF with a résumé, cover letter, 3–5 page writing sample, unofficial transcript and a short answer on what bipartisanship means to you"
+   ],
+   [
+    "Other terms",
+    "The spring 2027 posting opened Sept 28, 2026; fall 2027 opens June 14, 2027"
+   ]
+  ]
+ },
+ {
+  "id": "gp-lwvnyc-internship",
+  "name": "<a href=\"https://lwvnyc.org/internships/\">League of Women Voters of the City of New York internships</a>",
+  "url": "https://lwvnyc.org/internships/",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship",
+   "politics"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Apr 15",
+  "whenS": "2027 · summer; fall and spring are rolling",
+  "due": "2027-04-15",
+  "status": "confirmed",
+  "dueMD": "04-15",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Midtown Manhattan · summer June 29–Aug 4, Tuesdays and Wednesdays",
+  "body": "A nonpartisan voter group: run voter registration drives and get-out-the-vote events, make voter guides, and train to lobby officials in Albany and at the City Council.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College and high school students"
+   ],
+   [
+    "Pay",
+    "Unpaid; QC's <a href=\"#gp-qc-internship-stipend\">internship stipend</a> can help"
+   ],
+   [
+    "How to apply",
+    "Contact the internship coordinator through the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-nyc-cfb-community-education-intern",
+  "name": "<a href=\"https://www.nyccfb.info/about/careers/\">NYC Votes Community Education Intern (NYC Campaign Finance Board)</a>",
+  "url": "https://www.nyccfb.info/about/careers/",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "politics"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 15",
+  "whenS": "2026 · this posting; new ones appear on NYC Jobs",
+  "due": "2026-11-15",
+  "status": "confirmed",
+  "dueMD": "11-15",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "100 Church St., Manhattan · part time, some evenings and weekends",
+  "body": "Help run NYC Votes workshops at high schools and colleges, register voters and represent the city's nonpartisan Campaign Finance Board at events.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students enrolled in college or graduate school; you generally must live in New York City within 90 days of starting"
+   ],
+   [
+    "Pay",
+    "$17.85 to $21.40 an hour"
+   ],
+   [
+    "How to apply",
+    "<a href=\"https://cityjobs.nyc.gov/job/community-education-intern-in-manhattan-jid-47480\">The NYC Jobs posting</a> (Job ID 800908), with a résumé and cover letter"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ignite-fellowship",
+  "name": "<a href=\"https://ignitenational.org/fellowship\">IGNITE Fellowship (Dr. Anne Moses IGNITE Fellowship)</a>",
+  "url": "https://ignitenational.org/fellowship",
+  "types": [
+   "fellowship",
+   "politics"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "TBA",
+  "whenS": "2027–28 dates not posted",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "10 months, about 15 hours a week · sites change each year",
+  "body": "A paid, part-time fellowship with a nonpartisan group that prepares young women to be political leaders, building its college chapters and leadership programs.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Young women and nonbinary and gender-expansive leaders, 18 or older, with organizing experience; past years required U.S. work authorization"
+   ],
+   [
+    "Pay",
+    "Hourly (the current rate isn't posted); fellowship travel is covered"
+   ],
+   [
+    "How to apply",
+    "The interest form on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ignite-internship",
+  "name": "<a href=\"https://ignitenational.org/work-with-ignite/\">IGNITE internships</a>",
+  "url": "https://ignitenational.org/work-with-ignite/",
+  "types": [
+   "spring-internship",
+   "fall-internship",
+   "politics"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Nov 13",
+  "whenS": "2026 · spring 2027",
+  "due": "2026-11-13",
+  "status": "confirmed",
+  "dueMD": "11-13",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Remote",
+  "body": "Remote internships in advocacy, research, storytelling, program development and youth organizing with IGNITE, a nonpartisan group for young women in politics.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "High school and college students and recent graduates"
+   ],
+   [
+    "Pay",
+    "Not stated"
+   ]
+  ]
+ },
+ {
+  "id": "gp-psa-student-research-conference",
+  "name": "<a href=\"https://pisigmaalpha.org/2027-national-student-research-conference/\">Pi Sigma Alpha National Student Research Conference</a>",
+  "url": "https://pisigmaalpha.org/2027-national-student-research-conference/",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "fee",
+  "whenB": "Oct 31",
+  "whenS": "2026 · proposals; conference Feb 26–27, 2027",
+  "due": "2026-10-31",
+  "status": "confirmed",
+  "dueMD": "10-31",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "American University, Washington, D.C. (some panels online) · 2 days",
+  "body": "The political science honor society's conference, where undergraduate and master's students present papers. You send a title and a 250-word abstract.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Pi Sigma Alpha members only; ask the department whether QC's chapter (Beta Kappa) is inducting"
+   ],
+   [
+    "Cost",
+    "$20 in person or $10 online; travel grants average $150–250"
+   ]
+  ]
+ },
+ {
+  "id": "gp-mpsa-undergraduate-posters",
+  "name": "<a href=\"https://www.mpsanet.org/conference/important-dates-and-deadlines/\">Midwest Political Science Association conference, undergraduate posters</a>",
+  "url": "https://www.mpsanet.org/conference/important-dates-and-deadlines/",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "fee",
+  "whenB": "Dec 1",
+  "whenS": "2026 · undergraduate proposals; conference Apr 1–4, 2027",
+  "due": "2026-12-01",
+  "status": "confirmed",
+  "dueMD": "12-01",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Palmer House Hilton, Chicago · undergraduate posters are in person only",
+  "body": "One of the biggest political science conferences, with undergraduate poster sessions. You don't need to be a member to submit.",
+  "warn": "",
+  "facts": [
+   [
+    "Cost",
+    "A registration fee (not posted yet); fee waivers don't cover undergraduates"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ncur",
+  "name": "<a href=\"https://ncur.secure-platform.com/2027/page/faqs\">National Conference on Undergraduate Research (NCUR)</a>",
+  "url": "https://ncur.secure-platform.com/2027/page/faqs",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": true,
+  "cost": "fee",
+  "whenB": "Dec 4",
+  "whenS": "2026 · abstracts; conference Apr 12–14, 2027",
+  "due": "2026-12-04",
+  "status": "confirmed",
+  "dueMD": "12-04",
+  "opens": "Open now",
+  "opensMD": "09-09",
+  "meta": "Grand Rapids, Mich. · 3 days",
+  "body": "A national conference for undergraduate research in every field. Recent graduates can present work they did as undergraduates.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates and recent graduates; international students are eligible"
+   ],
+   [
+    "Cost",
+    "A registration fee that depends on whether your college is a member"
+   ]
+  ]
+ },
+ {
+  "id": "gp-nyspsa-undergraduate",
+  "name": "<a href=\"https://nyspsa.org/80th-annual-conference-information-2026-1/undergraduate-guidelines-for-submission-link/\">New York State Political Science Association, undergraduate section</a>",
+  "url": "https://nyspsa.org/80th-annual-conference-information-2026-1/undergraduate-guidelines-for-submission-link/",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "July",
+  "whenS": "last cycle · July 15, 2026 (extended)",
+  "due": "",
+  "status": "last",
+  "dueMD": "07-15",
+  "opens": "",
+  "opensMD": "",
+  "meta": "One day in late September; the 2027 site isn't chosen yet, possibly in the New York City area",
+  "body": "A state political science conference with its own undergraduate section. You need a faculty sponsor, like the professor whose class you wrote the paper for, and an abstract of up to 500 words.",
+  "warn": "",
+  "facts": [
+   [
+    "Last time",
+    "September 26, 2026, at St. John Fisher in Rochester"
+   ]
+  ]
+ },
+ {
+  "id": "gp-nepsa-annual-meeting",
+  "name": "<a href=\"https://www.northeasternpsa.com/2026-call-for-participation-providence/\">Northeastern Political Science Association annual meeting</a>",
+  "url": "https://www.northeasternpsa.com/2026-call-for-participation-providence/",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "fee",
+  "whenB": "May 31",
+  "whenS": "last cycle · 2027 details not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "05-31",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Providence, R.I., Nov 12–14, 2026 · the 2027 site is not announced",
+  "body": "A regional political science conference that encourages undergraduates to submit papers. One paper per person.",
+  "warn": "",
+  "facts": [
+   [
+    "Cost",
+    "$40 for an undergraduate two-day pass in 2026"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cuny-celebration-undergraduate-research",
+  "name": "<a href=\"https://www.cuny.edu/research/research-development-programs/student-programs/curc/\">CUNY Celebration of Undergraduate Research</a>",
+  "url": "https://www.cuny.edu/research/research-development-programs/student-programs/curc/",
+  "types": [
+   "campus",
+   "conference"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Late May",
+  "whenS": "by nomination from QC",
+  "due": "",
+  "status": "none",
+  "dueMD": "05-26",
+  "opens": "",
+  "opensMD": "",
+  "meta": "A CUNY campus · one day in late May (2026: May 26 at John Jay)",
+  "body": "CUNY's yearly showcase of undergraduate research. Each college's representative nominates students, and finalists present posters.",
+  "warn": "",
+  "facts": [
+   [
+    "How to take part",
+    "Ask QC's representative on the CUNY Undergraduate Research Council, Dr. Alicia Melendez, or the <a href=\"https://www.qc.cuny.edu/academics/ougr/\">Office of Undergraduate Research</a>"
+   ]
+  ]
+ },
+ {
+  "id": "gp-qc-nonprofit-career-fair",
+  "name": "<a href=\"https://www.qc.cuny.edu/academics/cei/career-fair/\">Queens College Social Services and Nonprofit Career Fair</a>",
+  "url": "https://www.qc.cuny.edu/academics/cei/career-fair/",
+  "types": [
+   "conference",
+   "campus"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma",
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Oct 27",
+  "whenS": "2026 · noon–2 p.m., Dining Hall (Patio Room)",
+  "due": "2026-10-27",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-27",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Queens College · one afternoon each fall",
+  "body": "QC's fall fair for social service, nonprofit and public-sector employers. This year's list includes the NYC Department of Correction, the State Department of Civil Service, CASES, the American Red Cross and Reading Partners.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Queens College students"
+   ],
+   [
+    "How to sign up",
+    "Register for the fair on QC Handshake (HireQC) and read the job postings first"
+   ]
+  ]
+ },
+ {
+  "id": "gp-qc-spring-career-fair",
+  "name": "<a href=\"https://www.qc.cuny.edu/academics/cei/career-fair/\">Queens College Spring Career and Internship Fair</a>",
+  "url": "https://www.qc.cuny.edu/academics/cei/career-fair/",
+  "types": [
+   "conference",
+   "campus"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma",
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "March",
+  "whenS": "last fair Mar 18, 2026; 2027 date not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-18",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Queens College · one afternoon each March",
+  "body": "QC's main yearly fair across all fields. Public-sector employers in 2026 included the State Department of Civil Service, the State Comptroller, NYC Service, the State Police and Housing Works.",
+  "warn": "",
+  "facts": [
+   [
+    "How to sign up",
+    "Register on QC Handshake (HireQC)"
+   ],
+   [
+    "Questions",
+    "The Center for Career Engagement and Internships, Frese Hall 213, qc_career@qc.cuny.edu"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cuny-graduate-school-fair",
+  "name": "<a href=\"https://www.cuny.edu/admissions/graduate-studies/graduate-school-fair/\">CUNY Graduate School Fair</a>",
+  "url": "https://www.cuny.edu/admissions/graduate-studies/graduate-school-fair/",
+  "types": [
+   "conference",
+   "campus"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpa",
+   "mpp",
+   "phd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Oct 21",
+  "whenS": "2026 · 4–7 p.m., CUNY Graduate Center",
+  "due": "2026-10-21",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-21",
+  "opens": "",
+  "opensMD": "",
+  "meta": "CUNY Graduate Center, 365 Fifth Ave., Manhattan · one evening",
+  "body": "Meet CUNY's graduate programs one on one and go to info sessions, including public administration and public policy (5:30 p.m.), doctoral programs (6 p.m.) and admissions and financial aid.",
+  "warn": "",
+  "facts": [
+   [
+    "How to sign up",
+    "<a href=\"https://welcome.cuny.edu/register/GradFair\">Register for the fair</a>"
+   ],
+   [
+    "Questions",
+    "Grad@cuny.edu, 646-664-3550"
+   ],
+   [
+    "More events",
+    "CUNY lists program info sessions and monthly \"Grad School 101\" sessions on its <a href=\"https://www.cuny.edu/admissions/graduate-studies/events/\">graduate events page</a>"
+   ]
+  ]
+ },
+ {
+  "id": "gp-csi-spring-career-fair",
+  "name": "<a href=\"https://www.csi.cuny.edu/csi-spring-2026-career-fair\">College of Staten Island Spring Career Fair (open to all CUNY students)</a>",
+  "url": "https://www.csi.cuny.edu/csi-spring-2026-career-fair",
+  "types": [
+   "conference",
+   "campus"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma",
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "March",
+  "whenS": "last fair Mar 12, 2026; 2027 date not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-12",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Staten Island Hilton · one day in spring",
+  "body": "A free spring career fair run by the College of Staten Island that welcomes students and alumni from every CUNY college.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "All CUNY students and alumni; bring your CUNY ID"
+   ],
+   [
+    "How to sign up",
+    "The Handshake link on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cuny-leads-career-fair",
+  "name": "<a href=\"https://webforms.hunter.cuny.edu/accessability/view.php?id=23252\">CUNY LEADS Career Fair (for students with disabilities)</a>",
+  "url": "https://webforms.hunter.cuny.edu/accessability/view.php?id=23252",
+  "types": [
+   "conference",
+   "campus"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma",
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "April",
+  "whenS": "last fair Apr 24, 2026; 2027 date not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "04-24",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Hunter College, Manhattan · one day, with a sensory-friendly space",
+  "body": "A career fair for CUNY students with disabilities, run by Hunter College's Office of AccessABILITY with CUNY LEADS. Queens College students can register.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "CUNY students with disabilities, including Queens College students"
+   ]
+  ]
+ },
+ {
+  "id": "gp-marxe-graduate-open-houses",
+  "name": "<a href=\"https://marxe.baruch.cuny.edu/homepage/events/graduate-admissions-events/\">Baruch Marxe School graduate open houses (MPA, MPP, MIA)</a>",
+  "url": "https://marxe.baruch.cuny.edu/homepage/events/graduate-admissions-events/",
+  "types": [
+   "conference",
+   "campus"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Nov 10",
+  "whenS": "2026 · online open house, noon; more Feb 9 and May 11",
+  "due": "2026-11-10",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "11-10",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Online and at Baruch College, Manhattan",
+  "body": "Open houses, info sessions and campus tours for CUNY's school of public and international affairs, which offers master's degrees in public administration, public policy and international affairs.",
+  "warn": "",
+  "facts": [
+   [
+    "More dates",
+    "Online info sessions Dec 9, 2026 and Mar 16 and June 9, 2027 (noon); an in-person open house Feb 9, 2027; and a virtual walk-in hour every Thursday at noon"
+   ],
+   [
+    "How to sign up",
+    "RSVP links on the page"
+   ]
+  ]
+ },
+ {
+  "id": "lp-lsac-new-york-forum",
+  "name": "<a href=\"https://www.lsac.org/lawschoolforums/index.html\">LSAC Law School Forum, New York</a>",
+  "url": "https://www.lsac.org/lawschoolforums/index.html",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Oct 8",
+  "whenS": "2027 · two days, Oct 8–9 (the 2026 forum was Oct 16–17)",
+  "due": "2027-10-08",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-08",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Manhattan (2026 was at the New York Hilton Midtown) · 9 a.m.–4 p.m.",
+  "body": "Meet admissions staff from law schools across North America in one place, with a live workshop on law school admissions.",
+  "warn": "",
+  "facts": [
+   [
+    "How to sign up",
+    "Register free through your LSAC account"
+   ]
+  ]
+ },
+ {
+  "id": "lp-lsac-digital-forums",
+  "name": "<a href=\"https://www.lsac.org/lawschoolforums/index.html\">LSAC Digital Law School Forums</a>",
+  "url": "https://www.lsac.org/lawschoolforums/index.html",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Nov 18",
+  "whenS": "2026 · 4–8 p.m. Eastern, online; register by Nov 16",
+  "due": "2026-11-18",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "11-18",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Online · one evening; another Feb 4, 2027",
+  "body": "An online law school fair: chat with admissions staff from 5 to 8 p.m. and join live workshops from 4 to 8 p.m.",
+  "warn": "",
+  "facts": [
+   [
+    "How to sign up",
+    "Log in through your LSAC account by November 16"
+   ]
+  ]
+ },
+ {
+  "id": "gp-dcas-civil-service-101",
+  "name": "<a href=\"https://www.nyc.gov/site/dcas/agencies/office-of-citywide-recruitment.page\">NYC Civil Service 101 information session (Department of Citywide Administrative Services)</a>",
+  "url": "https://www.nyc.gov/site/dcas/agencies/office-of-citywide-recruitment.page",
+  "types": [
+   "conference",
+   "after"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Nov 17",
+  "whenS": "2026 · 5:30–7 p.m., online",
+  "due": "2026-11-17",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "11-17",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Online (Microsoft Teams) · several times a year",
+  "body": "The city's own session on how civil service works: exams, lists and how to apply for city jobs, for first-time and experienced job seekers.",
+  "warn": "",
+  "facts": [
+   [
+    "How to sign up",
+    "The \"Register here\" link on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-jobs-nyc-hiring-halls",
+  "name": "<a href=\"https://www.nyc.gov/employment/events\">Jobs NYC Hiring Halls (City of New York)</a>",
+  "url": "https://www.nyc.gov/employment/events",
+  "types": [
+   "conference",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Monthly",
+  "whenS": "in each borough; next Oct 27 (the 55-a program)",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "All five boroughs · one day a month in each",
+  "body": "The city's monthly resource fairs, where you can interview on the spot, mostly for entry-level jobs.",
+  "warn": "",
+  "facts": [
+   [
+    "How to sign up",
+    "Sign up with <a href=\"https://a801-worksource1.nyc.gov/\">Workforce1</a>, then register for one time slot; bring photo ID and several copies of your résumé"
+   ],
+   [
+    "55-a",
+    "The Oct 27 session covers 55-a, a city hiring program for people with disabilities"
+   ]
+  ]
+ },
+ {
+  "id": "gp-nypl-government-job-fair",
+  "name": "<a href=\"https://www.nyc.gov/employment/events/nypl-new-york-state-job-fair\">NYPL Opportunities in Government Career Fair</a>",
+  "url": "https://www.nyc.gov/employment/events/nypl-new-york-state-job-fair",
+  "types": [
+   "conference",
+   "after"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "June",
+  "whenS": "last fair June 11, 2026; 2027 date not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "06-11",
+  "opens": "",
+  "opensMD": "",
+  "meta": "New York Public Library, Manhattan · one day",
+  "body": "The New York Public Library, the State Department of Labor and the Department of Civil Service bring state and city agencies together to recruit, with workshops on civil service.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Anyone 18 or older; no library card needed"
+   ],
+   [
+    "How to sign up",
+    "A free timed-entry ticket"
+   ],
+   [
+    "Year-round help",
+    "NYPL Career Services gives free coaching and résumé help: careerservices@nypl.org"
+   ]
+  ]
+ },
+ {
+  "id": "gp-amnh-stem2city",
+  "name": "<a href=\"https://www.eventbrite.com/e/stem2city-tickets-1979995180886\">STEM2CITY Career Fair (American Museum of Natural History)</a>",
+  "url": "https://www.eventbrite.com/e/stem2city-tickets-1979995180886",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Spring",
+  "whenS": "last fair Mar 26, 2026; 2027 date not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-26",
+  "opens": "",
+  "opensMD": "",
+  "meta": "American Museum of Natural History, under the blue whale · one evening",
+  "body": "A free career fair at the museum where more than 15 city agencies, including the City Council, City Planning, Parks, Transportation, Health and the MTA, recruit young people for jobs and internships.",
+  "warn": "2026 was the first one, so it may not happen again; watch the museum's youth programs.",
+  "facts": [
+   [
+    "Who",
+    "Ages 16 to 24: high school students, college students and recent graduates"
+   ],
+   [
+    "How to sign up",
+    "A free ticket from the museum's Youth Initiatives office"
+   ]
+  ]
+ },
+ {
+  "id": "gp-nyhistory-internship-fair",
+  "name": "<a href=\"https://rsvp.nyhistory.org/_d7x777\">Museums and Culture Internship Fair (The New York Historical)</a>",
+  "url": "https://rsvp.nyhistory.org/_d7x777",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "Fall",
+  "whenS": "last fair Sept 25, 2026; 2027 date not posted",
+  "due": "",
+  "status": "last",
+  "dueMD": "09-25",
+  "opens": "",
+  "opensMD": "",
+  "meta": "The New York Historical, Central Park West, Manhattan · one evening",
+  "body": "New York City museums and cultural groups share their internships with college and graduate students, with résumé reviews and career chats.",
+  "warn": "",
+  "facts": [
+   [
+    "How to sign up",
+    "RSVP early: the 2026 fair filled up"
+   ]
+  ]
+ },
+ {
+  "id": "gp-roosevelt-house-public-programs",
+  "name": "<a href=\"https://www.roosevelthouse.hunter.cuny.edu/programs/\">Roosevelt House Public Policy Institute talks (Hunter College)</a>",
+  "url": "https://www.roosevelthouse.hunter.cuny.edu/programs/",
+  "types": [
+   "conference",
+   "campus"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "jd",
+   "ma"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Oct 26",
+  "whenS": "2026 · next talk, 6 p.m.; more Oct 28, Nov 2 and Nov 5",
+  "due": "2026-10-26",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-26",
+  "opens": "",
+  "opensMD": "",
+  "meta": "47–49 E. 65th St., Manhattan · evenings through the year",
+  "body": "Free public talks on policy and politics at Hunter College's public policy institute, in Franklin and Eleanor Roosevelt's former home.",
+  "warn": "",
+  "facts": [
+   [
+    "How to sign up",
+    "Register ahead for each event"
+   ]
+  ]
+ },
+ {
+  "id": "gp-gc-public-programs",
+  "name": "<a href=\"https://www.gc.cuny.edu/public-programs\">CUNY Graduate Center public programs</a>",
+  "url": "https://www.gc.cuny.edu/public-programs",
+  "types": [
+   "conference",
+   "campus"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "ma",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Oct 21",
+  "whenS": "2026 · next talk, 6:30 p.m.; Paul Krugman and Heather Cox Richardson Nov 11",
+  "due": "2026-10-21",
+  "event": true,
+  "status": "confirmed",
+  "dueMD": "10-21",
+  "opens": "",
+  "opensMD": "",
+  "meta": "365 Fifth Ave., Manhattan, and livestreamed · evenings through the year",
+  "body": "Free talks and conversations with writers, scholars and public figures at the CUNY Graduate Center, in person or online.",
+  "warn": "",
+  "facts": [
+   [
+    "How to sign up",
+    "Reserve a free spot for each event"
+   ]
+  ]
+ },
+ {
+  "id": "gp-abny-young-professionals",
+  "name": "<a href=\"https://abny.org/abny-programs/about-abny-young-professionals/\">Association for a Better New York (ABNY) Young Professionals</a>",
+  "url": "https://abny.org/abny-programs/about-abny-young-professionals/",
+  "types": [
+   "conference"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "cost": "free",
+  "whenB": "Year-round",
+  "whenS": "join the mailing list for invitations",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "New York City · events through the year",
+  "body": "Free civic networking events, behind-the-scenes tours and talks with public officials and city leaders for young professionals.",
+  "warn": "",
+  "facts": [
+   [
+    "Cost",
+    "Free; an optional Associate membership is $35 a year for ages 21 to 40"
+   ],
+   [
+    "How to join",
+    "Sign up for the mailing list on the page"
+   ]
+  ]
  }
 ];
 

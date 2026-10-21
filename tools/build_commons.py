@@ -37,8 +37,8 @@ PAGES = {
              ('g-mpp', 'MPP', ['g-mpp-about', 'g-mpp-timeline', 'db:mpp']),
              ('g-mpa', 'MPA', ['g-mpa-about', 'g-mpa-timeline', 'db:mpa']),
              ('g-ma', 'MA', ['g-ma-about', 'g-ma-timeline', 'db:ma']),
-             ('g-guides', 'Guides', ['g-start', 'g-social', 'g-pair', 'g-methods', 'g-rbsi', 'g-help', 'g-apply',
-                                     'g-letters', 'g-visit', 'g-samples', 'g-jobs', 'g-funding', 'g-fields', 'g-search', 'g-ai', 'g-network'])],
+             ('g-guides', 'Guides', ['g-start', 'g-glossary', 'g-social', 'g-pair', 'g-methods', 'g-rbsi', 'g-help', 'g-apply',
+                                     'g-letters', 'g-visit', 'g-samples', 'g-dual', 'g-jobs', 'g-pay', 'g-funding', 'g-fields', 'g-intl', 'g-teach', 'g-search', 'g-ai', 'g-network', 'g-daca', 'g-transfer', 'g-support', 'g-politics', 'g-campus', 'g-present'])],
     'law': [('l-jd', 'JD', ['l-path', 'l-timeline', 'db:jd']),
             ('l-guides', 'Guides', ['l-start', 'l-fields', 'l-qc', 'l-research', 'l-lsat', 'l-gap', 'l-sample'])],
 }
@@ -55,7 +55,7 @@ TYPES = [
     ('fall-internship', 'Fall internships'), ('spring-internship', 'Spring internships'),
     ('fellowship', 'Fellowships and scholarships'), ('campus', 'At QC and CUNY'),
     ('visit', 'PhD visit and prep programs'), ('pipeline', 'Pre-law programs'),
-    ('course', 'Courses and training'), ('after', 'After college'), ('journalism', 'Journalism'),
+    ('course', 'Courses and training'), ('conference', 'Conferences and events'), ('after', 'After college'), ('journalism', 'Journalism'),
 ]
 YEAR_WORD = {'fr': 'freshmen', 'so': 'sophomores', 'jr': 'juniors', 'sr': 'seniors'}
 ID_PAGE = {}     # element id -> slug of the page it ends up on

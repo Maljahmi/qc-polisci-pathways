@@ -1,0 +1,2369 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//QC Political Science Pathways//Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:QC Political Science Pathways: graduate school deadlines
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:gp-columbia-sps-cuny-fellowship-2027-01-07@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Deadline: Columbia SPS CUNY Fellowship
+DESCRIPTION:Fully funded master's for CUNY students\nDetails: https://malja
+ hmi.github.io/qc-polisci-pathways/programs.html#gp-columbia-sps-cuny-fello
+ wship\nOfficial website: https://sps.columbia.edu/impact/columbia-sps-cuny
+ -fellowship\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-columbi
+ a-sps-cuny-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Columbia SPS CUNY Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-cuny-pipeline-program-2027-03-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Deadline: CUNY Pipeline Program (priority)
+DESCRIPTION:CUNY Graduate Center · year-long\nDetails: https://maljahmi.gi
+ thub.io/qc-polisci-pathways/programs.html#gp-cuny-pipeline-program\nOffici
+ al website: https://www.gc.cuny.edu/pipeline\nAlways confirm the date on t
+ he official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-cuny-pi
+ peline-program
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CUNY Pipeline Program (priority) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-nyc-ladders-leaders-2027-01-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Deadline: NYC Ladders for Leaders (estimated)
+DESCRIPTION:Summer · part of SYEP\nThis date is an estimate.\nDetails: htt
+ ps://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nyc-ladders-l
+ eaders\nOfficial website: https://www.nyc.gov/site/dycd/services/jobs-inte
+ rnships/nyc-ladders-for-leaders.page\nAlways confirm the date on the offic
+ ial website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nyc-lad
+ ders-leaders
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NYC Ladders for Leaders is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-summer-youth-employment-program-2027-03-12@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Deadline: SYEP summer jobs (estimated)
+DESCRIPTION:Summer · NYC\nThis date is an estimate.\nDetails: https://malj
+ ahmi.github.io/qc-polisci-pathways/programs.html#gp-summer-youth-employmen
+ t-program\nOfficial website: https://www.nyc.gov/site/dycd/services/jobs-i
+ nternships/summer-youth-employment-program-syep.page\nAlways confirm the d
+ ate on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-summer-
+ youth-employment-program
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SYEP summer jobs is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-manhattan-institute-collegiate-associates-2026-11-15@qc-polisci-path
+ ways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Deadline: Manhattan Institute associates (spring)
+DESCRIPTION:NYC\, hybrid or remote possible · research\, journalism\, even
+ ts\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#
+ gp-manhattan-institute-collegiate-associates\nOfficial website: https://jo
+ b-boards.greenhouse.io/manhattaninstituteforpolicyresearchinc\nAlways conf
+ irm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-manhatt
+ an-institute-collegiate-associates
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Manhattan Institute associates (spring) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-syracuse-text-analytics-social-2026-11-08@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Deadline: Syracuse Text Analytics REU (summer 2027)
+DESCRIPTION:Syracuse\, NY · 1 week online in late May\, then 9 weeks on ca
+ mpus (June 3–Aug 8\, 2027)\nDetails: https://maljahmi.github.io/qc-polis
+ ci-pathways/programs.html#gp-syracuse-text-analytics-social\nOfficial webs
+ ite: https://ischool.syracuse.edu/summer-paid-research-experience/\nAlways
+  confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-syracus
+ e-text-analytics-social
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Syracuse Text Analytics REU (summer 2027) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-apsa-ralph-bunche-summer-2027-01-24@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Deadline: Ralph Bunche Summer Institute
+DESCRIPTION:Duke · 5 weeks\nDetails: https://maljahmi.github.io/qc-polisci
+ -pathways/programs.html#gp-apsa-ralph-bunche-summer\nOfficial website: htt
+ ps://apsanet.org/diversity/ralph-bunche-summer-institute/\nAlways confirm 
+ the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-apsa-ra
+ lph-bunche-summer
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ralph Bunche Summer Institute is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-mit-msrp-pathways-political-2027-01-19@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Deadline: MIT MSRP / Pathways
+DESCRIPTION:MIT · June 7–Aug 7\, 2027\nDetails: https://maljahmi.github.
+ io/qc-polisci-pathways/programs.html#gp-mit-msrp-pathways-political\nOffic
+ ial website: https://oge.mit.edu/msrp/application/\nAlways confirm the dat
+ e on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-mit-msr
+ p-pathways-political
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MIT MSRP / Pathways is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-leadership-alliance-sr-eip-2027-02-03@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Deadline: Leadership Alliance SR-EIP (estimated)
+DESCRIPTION:8–10 weeks at a school you rank\nThis date is an estimate.\nD
+ etails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-le
+ adership-alliance-sr-eip\nOfficial website: https://theleadershipalliance.
+ org/summer-research-early-identification-program\nAlways confirm the date 
+ on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-leaders
+ hip-alliance-sr-eip
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leadership Alliance SR-EIP is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-big-ten-academic-alliance-2027-02-10@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Deadline: Big Ten SROP
+DESCRIPTION:8–10 weeks · 12 campuses\nDetails: https://maljahmi.github.i
+ o/qc-polisci-pathways/programs.html#gp-big-ten-academic-alliance\nOfficial
+  website: https://btaa.org/resources-for/students/srop\nAlways confirm the
+  date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-big-ten
+ -academic-alliance
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Big Ten SROP is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-harvard-sroh-2027-02-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Deadline: Harvard SROH
+DESCRIPTION:Harvard · 10 weeks\nDetails: https://maljahmi.github.io/qc-pol
+ isci-pathways/programs.html#gp-harvard-sroh\nOfficial website: https://gsa
+ s.harvard.edu/program/summer-research-opportunities-harvard\nAlways confir
+ m the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-harvard
+ -sroh
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Harvard SROH is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-yale-surf-2027-02-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Deadline: Yale SURF
+DESCRIPTION:Yale · 8 weeks\nDetails: https://maljahmi.github.io/qc-polisci
+ -pathways/programs.html#gp-yale-surf\nOfficial website: https://gsas.yale.
+ edu/programs-of-study/summer-undergraduate-research-fellowship-program\nAl
+ ways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-yale-su
+ rf
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Yale SURF is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ppia-junior-summer-institute-2026-11-06@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Deadline: PPIA Junior Summer Institute
+DESCRIPTION:6–7 weeks · <a href="https://www.hks.harvard.edu/educational
+ -programs/undergraduate-opportunities/public-policy-and-international-affa
+ irs-program">Harvard Kennedy</a>\, <a href="https://jsi.princeton.edu">Pri
+ nceton SPIA</a> or <a href="https://fordschool.umich.edu/ppia">Michigan Fo
+ rd</a>\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.h
+ tml#gp-ppia-junior-summer-institute\nOfficial website: https://www.ppiapro
+ gram.org/jsi\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ppia-ju
+ nior-summer-institute
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PPIA Junior Summer Institute is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ny-state-senate-session-2026-10-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Deadline: NY Senate Session Assistants (estimated)
+DESCRIPTION:Albany · January to April\nThis date is an estimate.\nDetails:
+  https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ny-state-
+ senate-session\nOfficial website: https://www.nysenate.gov/student-program
+ s\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ny-stat
+ e-senate-session
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NY Senate Session Assistants is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ny-state-assembly-session-2026-11-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Deadline: NY Assembly Session Internship
+DESCRIPTION:Albany · Jan 11–May 5\, 2027\nDetails: https://maljahmi.gith
+ ub.io/qc-polisci-pathways/programs.html#gp-ny-state-assembly-session\nOffi
+ cial website: https://nyassembly.gov/internship/undergraduates/\nAlways co
+ nfirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ny-stat
+ e-assembly-session
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NY Assembly Session Internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-cbcf-congressional-internship-2026-11-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Deadline: CBCF congressional internship
+DESCRIPTION:DC · May 24–July 23\, 2027\nDetails: https://maljahmi.github
+ .io/qc-polisci-pathways/programs.html#gp-cbcf-congressional-internship\nOf
+ ficial website: https://www.cbcfinc.org/programs/internships/\nAlways conf
+ irm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-cbcf-co
+ ngressional-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CBCF congressional internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-chci-congressional-internship-2026-12-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Deadline: CHCI congressional internship
+DESCRIPTION:DC · summer · you do not have to be Latino\nDetails: https://
+ maljahmi.github.io/qc-polisci-pathways/programs.html#gp-chci-congressional
+ -internship\nOfficial website: https://chci.org/programs/congressional-int
+ ernship-program/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-chci-co
+ ngressional-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CHCI congressional internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-apaics-congressional-internship-2026-12-18@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Deadline: APAICS congressional internship
+DESCRIPTION:DC · summer\nDetails: https://maljahmi.github.io/qc-polisci-pa
+ thways/programs.html#gp-apaics-congressional-internship\nOfficial website:
+  https://www.apaics.org/congressional-internship-details\nAlways confirm t
+ he date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-apaics-
+ congressional-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:APAICS congressional internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-truman-scholarship-2027-02-02@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Deadline: Truman Scholarship
+DESCRIPTION:National award · public service\nDetails: https://maljahmi.git
+ hub.io/qc-polisci-pathways/programs.html#gp-truman-scholarship\nOfficial w
+ ebsite: https://www.truman.gov/apply/applying/eligibility\nAlways confirm 
+ the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-truman-
+ scholarship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Truman Scholarship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-notre-dame-our-futures-2026-11-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Deadline: Notre Dame Our Futures Weekend
+DESCRIPTION:South Bend\, Indiana · 3 nights\, Jan 28–31\, 2027\nDetails:
+  https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-notre-dam
+ e-our-futures\nOfficial website: https://graduateschool.nd.edu/admissions/
+ recruitment/our-futures-weekend/\nAlways confirm the date on the official 
+ website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-notre-d
+ ame-our-futures
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Notre Dame Our Futures Weekend is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-princeton-prospective-phd-preview-2027-03-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Deadline: Princeton PhD Preview (P3)
+DESCRIPTION:Princeton Graduate School · the 2026 preview ran Oct 5\nDetail
+ s: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-princet
+ on-prospective-phd-preview\nOfficial website: https://graddiversity.prince
+ ton.edu/prospective-phd-preview-p3\nAlways confirm the date on the officia
+ l website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-princet
+ on-prospective-phd-preview
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Princeton PhD Preview (P3) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-indiana-university-half-day-2026-11-07@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Event: Indiana University half-day graduate visit
+DESCRIPTION:Bloomington · in person · free with advance registration\nDet
+ ails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-indi
+ ana-university-half-day\nOfficial website: https://bloomington.iu.edu/admi
+ ssions/visit/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-indiana
+ -university-half-day
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Indiana University half-day graduate visit is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-harvard-government-political-science-2026-10-29@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Deadline: Harvard Government\, Political Science-Prep
+DESCRIPTION:One free day on Zoom in October\, then feedback\nDetails: https
+ ://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-harvard-governm
+ ent-political-science\nOfficial website: https://psprep.hsites.harvard.edu
+ /\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-harvard
+ -government-political-science
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Harvard Government\, Political Science-Prep is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-apsa-diversity-fellowship-program-2026-10-25@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Deadline: APSA Diversity Fellowship
+DESCRIPTION:For PhD applicants\nDetails: https://maljahmi.github.io/qc-poli
+ sci-pathways/programs.html#gp-apsa-diversity-fellowship-program\nOfficial 
+ website: https://apsanet.org/diversity/diversity-fellowship-program/fall-d
+ fp-application/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-apsa-di
+ versity-fellowship-program
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:APSA Diversity Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-yale-emerging-scholars-initiative-2027-02-28@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Deadline: Yale Emerging Scholars Initiative
+DESCRIPTION:Post-bac research year · social sciences included\nDetails: ht
+ tps://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-yale-emergin
+ g-scholars-initiative\nOfficial website: https://gsas.yale.edu/programs-of
+ -study/post-baccalaureate-programs\nAlways confirm the date on the officia
+ l website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-yale-em
+ erging-scholars-initiative
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Yale Emerging Scholars Initiative is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-coro-fellows-program-public-2027-01-12@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Deadline: Coro Fellows Program
+DESCRIPTION:7 months of NYC rotations\nDetails: https://maljahmi.github.io/
+ qc-polisci-pathways/programs.html#gp-coro-fellows-program-public\nOfficial
+  website: https://coro.nyc/coro-programs/coro-fellowship/\nAlways confirm 
+ the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-coro-fe
+ llows-program-public
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Coro Fellows Program is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lp-paul-daisy-soros-fellowships-2026-10-29@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Deadline: Paul & Daisy Soros Fellowship
+DESCRIPTION:Graduate school\, law included\nDetails: https://maljahmi.githu
+ b.io/qc-polisci-pathways/programs.html#lp-paul-daisy-soros-fellowships\nOf
+ ficial website: https://pdsoros.org/eligibility/\nAlways confirm the date 
+ on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#lp-paul-da
+ isy-soros-fellowships
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Paul & Daisy Soros Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-policy-impacts-predoc-2026-11-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Deadline: Policy Impacts predoc (MIT)
+DESCRIPTION:MIT · economics and public policy · 1 year\, renewable\; 2 pr
+ eferred\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.
+ html#gp-policy-impacts-predoc\nOfficial website: https://policyimpacts.org
+ /wp-content/uploads/2026/07/Predoc-Job-Description-Policy-Impacts-Fall-202
+ 6.pdf\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-policy-
+ impacts-predoc
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Policy Impacts predoc (MIT) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-stanford-gsb-research-fellows-2027-03-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Deadline: Stanford GSB Research Fellows
+DESCRIPTION:Stanford Graduate School of Business · 2 years · includes a P
+ olitical Economics track\nDetails: https://maljahmi.github.io/qc-polisci-p
+ athways/programs.html#gp-stanford-gsb-research-fellows\nOfficial website: 
+ https://www.gsb.stanford.edu/programs/research-fellows\nAlways confirm the
+  date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-stanfor
+ d-gsb-research-fellows
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stanford GSB Research Fellows is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-qc-general-scholarship-application-2026-10-25@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Deadline: QC scholarships (General Application)
+DESCRIPTION:QC Foundation scholarships · one application\, every semester\
+ nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-
+ qc-general-scholarship-application\nOfficial website: https://www.qc.cuny.
+ edu/academics/ohs/internal-scholarships/\nAlways confirm the date on the o
+ fficial website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-qc-gene
+ ral-scholarship-application
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:QC scholarships (General Application) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ottensoser-award-2026-10-25@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Deadline: Ottensoser Award (application costs)
+DESCRIPTION:QC scholarship · graduate school application costs\nDetails: h
+ ttps://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ottensoser-
+ award\nOfficial website: https://qc-cuny.academicworks.com/opportunities/7
+ 607\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ottenso
+ ser-award
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ottensoser Award (application costs) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-gilman-scholarship-2027-02-25@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Deadline: Gilman Scholarship
+DESCRIPTION:Study or intern abroad · Pell Grant recipients\nDetails: https
+ ://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-gilman-scholars
+ hip\nOfficial website: https://www.gilmanscholarship.org/applicants/eligib
+ ility/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-gilman-
+ scholarship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gilman Scholarship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-critical-language-scholarship-2026-11-17@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Deadline: Critical Language Scholarship
+DESCRIPTION:Fully funded summer language institute · 8 weeks\nDetails: htt
+ ps://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-critical-lang
+ uage-scholarship\nOfficial website: https://clscholarship.org/applicants/e
+ ligibility\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-critica
+ l-language-scholarship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Critical Language Scholarship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-boren-scholarship-2027-01-27@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Deadline: Boren Scholarship
+DESCRIPTION:Language study abroad · national security\nDetails: https://ma
+ ljahmi.github.io/qc-polisci-pathways/programs.html#gp-boren-scholarship\nO
+ fficial website: https://www.borenawards.org/eligible-programs\nAlways con
+ firm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-boren-s
+ cholarship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Boren Scholarship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-huntington-public-service-award-2027-02-09@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Deadline: Huntington Public Service Award
+DESCRIPTION:A year of public service after graduation\nDetails: https://mal
+ jahmi.github.io/qc-polisci-pathways/programs.html#gp-huntington-public-ser
+ vice-award\nOfficial website: https://www.samuelhuntingtonaward.org/apply\
+ nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-hunting
+ ton-public-service-award
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Huntington Public Service Award is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-james-madison-fellowship-2027-03-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Deadline: James Madison Fellowship
+DESCRIPTION:Master's funding · future government and history teachers\nDet
+ ails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-jame
+ s-madison-fellowship\nOfficial website: https://www.jamesmadison.gov/fello
+ wship-information/fellowship-eligibility\nAlways confirm the date on the o
+ fficial website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-james-m
+ adison-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:James Madison Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-thedream-us-scholarship-2027-02-28@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Deadline: TheDream.US National Scholarship
+DESCRIPTION:Undocumented students · Queens College is a partner college\nD
+ etails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-th
+ edream-us-scholarship\nOfficial website: https://www.thedream.us/scholarsh
+ ips/national-scholarship/\nAlways confirm the date on the official website
+ .
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-thedrea
+ m-us-scholarship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TheDream.US National Scholarship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-apia-scholars-2027-01-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Deadline: APIA Scholars
+DESCRIPTION:Asian American and Pacific Islander students · high financial 
+ need\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.htm
+ l#gp-apia-scholars\nOfficial website: https://apiascholars.org/scholarship
+ s/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-apia-sc
+ holars
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:APIA Scholars is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-nypirg-future-leaders-2026-10-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Deadline: NYPIRG Albany semester
+DESCRIPTION:Albany · full time\, spring semester from Jan 6\, 2027\nDetail
+ s: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nypirg-
+ future-leaders\nOfficial website: https://www.nypirgstudents.org/internshi
+ p/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nypirg-
+ future-leaders
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NYPIRG Albany semester is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-aclu-undergraduate-internships-2026-11-02@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Deadline: ACLU summer internships
+DESCRIPTION:NYC headquarters\, hybrid · summer: 10 weeks\, 35 hours a week
+ \nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp
+ -aclu-undergraduate-internships\nOfficial website: https://job-boards.gree
+ nhouse.io/acluinternships\nAlways confirm the date on the official website
+ .
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-aclu-un
+ dergraduate-internships
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACLU summer internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-city-year-new-york-2026-10-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Deadline: City Year New York
+DESCRIPTION:NYC public schools · about 11 months\, AmeriCorps\nDetails: ht
+ tps://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-city-year-ne
+ w-york\nOfficial website: https://www.cityyear.org/apply-now/\nAlways conf
+ irm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-city-ye
+ ar-new-york
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:City Year New York is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-teach-for-america-2026-10-26@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Deadline: Teach For America
+DESCRIPTION:Schools across the US\, including NYC · 2 years\, training fro
+ m May–June 2027\nDetails: https://maljahmi.github.io/qc-polisci-pathways
+ /programs.html#gp-teach-for-america\nOfficial website: https://www.teachfo
+ ramerica.org/apply/deadlines\nAlways confirm the date on the official webs
+ ite.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-teach-f
+ or-america
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Teach For America is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-princeton-in-asia-2026-11-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Deadline: Princeton in Asia
+DESCRIPTION:Asia · 1–2 years\nDetails: https://maljahmi.github.io/qc-pol
+ isci-pathways/programs.html#gp-princeton-in-asia\nOfficial website: https:
+ //princetoninasia.org/fellowship-faq\nAlways confirm the date on the offic
+ ial website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-princet
+ on-in-asia
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Princeton in Asia is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-princeton-in-africa-2026-10-26@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Deadline: Princeton in Africa
+DESCRIPTION:Africa · 1 year\nDetails: https://maljahmi.github.io/qc-polisc
+ i-pathways/programs.html#gp-princeton-in-africa\nOfficial website: https:/
+ /www.princetoninafrica.org/applicants/how-to-apply/\nAlways confirm the da
+ te on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-princet
+ on-in-africa
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Princeton in Africa is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-atlantic-editorial-fellowship-2026-11-05@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Deadline: The Atlantic fellowship
+DESCRIPTION:Washington\, D.C.\, in person · 1 year\, July 2027–June 2028
+ \nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp
+ -atlantic-editorial-fellowship\nOfficial website: https://atlanticmedia.wd
+ 1.myworkdayjobs.com/Careers/job/Washington-DC---The-Wharf/Editorial-Fellow
+ _R744\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-atlanti
+ c-editorial-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Atlantic fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-dow-jones-news-fund-2026-11-11@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Deadline: Dow Jones News Fund
+DESCRIPTION:Newsrooms across the US · 1 week of training\, then 10–12 we
+ eks\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html
+ #gp-dow-jones-news-fund\nOfficial website: https://www.dowjonesnewsfund.or
+ g/djnfinternships/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-dow-jon
+ es-news-fund
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dow Jones News Fund is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-politico-reporting-internships-2026-10-26@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Deadline: POLITICO internships
+DESCRIPTION:New York (City Hall\, City Council\, NY Playbook) or other bure
+ aus · full time\, hybrid\nDetails: https://maljahmi.github.io/qc-polisci-
+ pathways/programs.html#gp-politico-reporting-internships\nOfficial website
+ : https://politico.wd108.myworkdayjobs.com/POLITICO/job/New-York-NY/Report
+ ing-Intern--New-York--Summer-2027-_JR100565\nAlways confirm the date on th
+ e official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-politic
+ o-reporting-internships
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:POLITICO internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-nation-navasky-internship-2026-11-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Deadline: The Nation internship
+DESCRIPTION:New York\, in the office 2 days a week · 6 months\, Jan 4–Ju
+ ne 25\, 2027\nDetails: https://maljahmi.github.io/qc-polisci-pathways/prog
+ rams.html#gp-nation-navasky-internship\nOfficial website: https://thenatio
+ nfund.org/internship-application/\nAlways confirm the date on the official
+  website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nation-
+ navasky-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Nation internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-aaja-voices-2026-12-16@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Deadline: AAJA VOICES
+DESCRIPTION:Training from late spring\, ending at the AAJA convention\nDeta
+ ils: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-aaja-
+ voices\nOfficial website: https://voices.aaja.org/apply/\nAlways confirm t
+ he date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-aaja-vo
+ ices
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AAJA VOICES is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-nabj-student-multimedia-2027-01-25@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Deadline: NABJ student project
+DESCRIPTION:The NABJ convention · 1 week\nDetails: https://maljahmi.github
+ .io/qc-polisci-pathways/programs.html#gp-nabj-student-multimedia\nOfficial
+  website: https://nabjonline.org/student-services/\nAlways confirm the dat
+ e on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nabj-st
+ udent-multimedia
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NABJ student project is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-cia-do-internship-2027-01-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Deadline: CIA freshman internship
+DESCRIPTION:Washington\, D.C.\, area · two summers\, 90 days each\nDetails
+ : https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-cia-do-i
+ nternship\nOfficial website: https://www.cia.gov/careers/student-programs/
+ undergraduate-internship-program-directorate-of-operations/\nAlways confir
+ m the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-cia-do-
+ internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CIA freshman internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-white-house-internship-2027-01-04@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Deadline: White House internship (summer)
+DESCRIPTION:Washington\, D.C.\, in person · full time\; summer 2027 runs J
+ une 2–Aug 6\nDetails: https://maljahmi.github.io/qc-polisci-pathways/pro
+ grams.html#gp-white-house-internship\nOfficial website: https://www.whiteh
+ ouse.gov/internships/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-white-h
+ ouse-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:White House internship (summer) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-supreme-court-internship-2027-03-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Deadline: Supreme Court internship
+DESCRIPTION:Washington\, D.C. · 16 weeks in fall or spring\, 8+ weeks in s
+ ummer\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.ht
+ ml#gp-supreme-court-internship\nOfficial website: https://www.supremecourt
+ .gov/jobs/internship/InternshipProgram.aspx\nAlways confirm the date on th
+ e official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-supreme
+ -court-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Supreme Court internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-nys-comptroller-future-forward-2027-02-19@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:Deadline: NYS Comptroller academy
+DESCRIPTION:Albany\, a few spots in NYC · May 20–Aug 13\, 2027\, full ti
+ me\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#
+ gp-nys-comptroller-future-forward\nOfficial website: https://www.osc.ny.go
+ v/jobs/interns\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nys-com
+ ptroller-future-forward
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NYS Comptroller academy is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-isf-journalism-internship-2026-11-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Deadline: ISF journalism internships
+DESCRIPTION:Remote (Religion News Service\, Zeteo) or Los Angeles and Chica
+ go newsrooms · 10–20 weeks\nDetails: https://maljahmi.github.io/qc-poli
+ sci-pathways/programs.html#gp-isf-journalism-internship\nOfficial website:
+  https://islamicscholarshipfund.org/media-internship\nAlways confirm the d
+ ate on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-isf-jou
+ rnalism-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISF journalism internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-cair-national-internships-2026-12-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Deadline: CAIR internships (spring)
+DESCRIPTION:Remote or Washington\, D.C. · about 10 weeks\, 10–20 hours a
+  week\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.ht
+ ml#gp-cair-national-internships\nOfficial website: https://www.cair.com/ge
+ t-involved/internships/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-cair-na
+ tional-internships
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CAIR internships (spring) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-muslim-public-service-network-2027-04-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Deadline: Muslim Public Service Network
+DESCRIPTION:Washington\, D.C. · June 1–July 31\nDetails: https://maljahm
+ i.github.io/qc-polisci-pathways/programs.html#gp-muslim-public-service-net
+ work\nOfficial website: https://muslimpublicservice.org/apply.html\nAlways
+  confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-muslim-
+ public-service-network
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Muslim Public Service Network is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-arab-american-leadership-program-2026-12-13@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Deadline: Arab American Leadership Program
+DESCRIPTION:Capitol Hill\, government agencies or public-service groups in 
+ D.C. · May–August\nDetails: https://maljahmi.github.io/qc-polisci-pathw
+ ays/programs.html#gp-arab-american-leadership-program\nOfficial website: h
+ ttps://www.centeraap.org/grants/scholarships/the-arab-american-leadership-
+ program-application/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-arab-am
+ erican-leadership-program
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Arab American Leadership Program is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-bloomberg-industry-news-internship-2026-10-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Deadline: Bloomberg Industry Group internship
+DESCRIPTION:Arlington\, Va. · 10 weeks full time\, with free housing\nDeta
+ ils: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-bloom
+ berg-industry-news-internship\nOfficial website: https://bloomberg.wd1.myw
+ orkdayjobs.com/en-US/Bloombergindustrygroup_External_Career_Site/job/Arlin
+ gton-VA---1801-S-Bell-INDG/XMLNAME-2027-Summer-News-Internship_144733\nAlw
+ ays confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-bloombe
+ rg-industry-news-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bloomberg Industry Group internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lp-doj-civil-rights-internships-2027-06-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:Deadline: Justice Department Civil Rights Division internships
+DESCRIPTION:Washington\, D.C.\nDetails: https://maljahmi.github.io/qc-polis
+ ci-pathways/programs.html#lp-doj-civil-rights-internships\nOfficial websit
+ e: https://www.justice.gov/crt/volunteer-student-internships\nAlways confi
+ rm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#lp-doj-civ
+ il-rights-internships
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Justice Department Civil Rights Division internships is due in 
+ a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-udall-scholarship-2027-03-04@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Deadline: Udall Scholarship
+DESCRIPTION:Award plus a scholars' orientation\nDetails: https://maljahmi.g
+ ithub.io/qc-polisci-pathways/programs.html#gp-udall-scholarship\nOfficial 
+ website: https://www.udall.gov/OurPrograms/Scholarship/Scholarship.aspx\nA
+ lways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-udall-s
+ cholarship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Udall Scholarship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-carnegie-junior-fellows-2027-01-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Deadline: Carnegie Junior Fellows
+DESCRIPTION:Washington\, D.C. · 10–12 months from Sept 1\, 2027\nDetails
+ : https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-carnegie
+ -junior-fellows\nOfficial website: https://carnegieendowment.org/about/jr-
+ fellows\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-carnegi
+ e-junior-fellows
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Carnegie Junior Fellows is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-chci-public-policy-fellowship-2026-12-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Deadline: CHCI Public Policy Fellowship
+DESCRIPTION:Washington\, D.C. · 9 months\, Aug 2027–May 2028\nDetails: h
+ ttps://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-chci-public
+ -policy-fellowship\nOfficial website: https://chci.org/programs/public-pol
+ icy-fellowship/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-chci-pu
+ blic-policy-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CHCI Public Policy Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-apaics-congressional-fellowship-2026-12-18@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Deadline: APAICS Congressional Fellowship
+DESCRIPTION:Washington\, D.C. · 12 months from Aug 30\, 2027\nDetails: htt
+ ps://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-apaics-congre
+ ssional-fellowship\nOfficial website: https://www.apaics.org/fellowship-de
+ tails\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-apaics-
+ congressional-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:APAICS Congressional Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-cbyx-young-professionals-2026-11-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Deadline: Congress-Bundestag exchange
+DESCRIPTION:Germany · about a year: language school\, a semester of classe
+ s\, then an internship\nDetails: https://maljahmi.github.io/qc-polisci-pat
+ hways/programs.html#gp-cbyx-young-professionals\nOfficial website: https:/
+ /culturalvistas.org/programs/abroad/congress-bundestag-youth-exchange-youn
+ g-professionals/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-cbyx-yo
+ ung-professionals
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Congress-Bundestag exchange is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-hearst-newspapers-fellowship-2027-01-04@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Deadline: Hearst Newspapers Fellowship
+DESCRIPTION:Two newsrooms such as the Houston Chronicle\, San Francisco Chr
+ onicle or Albany Times Union · 2 years\nDetails: https://maljahmi.github.
+ io/qc-polisci-pathways/programs.html#gp-hearst-newspapers-fellowship\nOffi
+ cial website: https://www.hearstfellowships.com/\nAlways confirm the date 
+ on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-hearst-
+ newspapers-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hearst Newspapers Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ida-stpi-science-policy-fellowship-2027-01-04@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Deadline: IDA science policy fellowship
+DESCRIPTION:Washington\, D.C. · 2 years\nDetails: https://maljahmi.github.
+ io/qc-polisci-pathways/programs.html#gp-ida-stpi-science-policy-fellowship
+ \nOfficial website: https://www.ida.org/careers/students-and-recent-gradua
+ tes/internships-and-fellowships/science-policy-fellowship\nAlways confirm 
+ the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ida-stp
+ i-science-policy-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IDA science policy fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-chli-global-leaders-internship-2026-10-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Deadline: CHLI Global Leaders (spring)
+DESCRIPTION:Washington\, D.C. · one semester\nDetails: https://maljahmi.gi
+ thub.io/qc-polisci-pathways/programs.html#gp-chli-global-leaders-internshi
+ p\nOfficial website: https://chli.org/?p=592\nAlways confirm the date on t
+ he official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-chli-gl
+ obal-leaders-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CHLI Global Leaders (spring) is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-yenching-academy-2026-11-29@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Deadline: Yenching Academy
+DESCRIPTION:Beijing\, China · 2-year master's\nDetails: https://maljahmi.g
+ ithub.io/qc-polisci-pathways/programs.html#gp-yenching-academy\nOfficial w
+ ebsite: https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm\nAlways confirm 
+ the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-yenchin
+ g-academy
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Yenching Academy is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-daad-study-scholarship-2026-10-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Deadline: DAAD study scholarship
+DESCRIPTION:Germany · 10–24 months\nDetails: https://maljahmi.github.io/
+ qc-polisci-pathways/programs.html#gp-daad-study-scholarship\nOfficial webs
+ ite: https://www.daad.org/en/find-funding/country-specific-information-for
+ -us-applicants/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-daad-st
+ udy-scholarship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DAAD study scholarship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-jet-programme-2026-11-13@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Deadline: JET Programme
+DESCRIPTION:Japan · 1 year\, renewable up to 5\nDetails: https://maljahmi.
+ github.io/qc-polisci-pathways/programs.html#gp-jet-programme\nOfficial web
+ site: https://jetprogramusa.org/\nAlways confirm the date on the official 
+ website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-jet-pro
+ gramme
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:JET Programme is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-tapif-france-2027-02-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Deadline: TAPIF teaching in France
+DESCRIPTION:French public schools · 7 months\, Oct–Apr\nDetails: https:/
+ /maljahmi.github.io/qc-polisci-pathways/programs.html#gp-tapif-france\nOff
+ icial website: https://villa-albertine.org/frenchculture/?p=7863\nAlways c
+ onfirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-tapif-f
+ rance
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TAPIF teaching in France is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-blakemore-freeman-fellowships-2026-12-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Deadline: Blakemore language fellowship
+DESCRIPTION:Beijing\, Taiwan\, Yokohama and other sites in Asia · 1 academ
+ ic year\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.
+ html#gp-blakemore-freeman-fellowships\nOfficial website: https://www.blake
+ morefoundation.org/fellowships\nAlways confirm the date on the official we
+ bsite.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-blakemo
+ re-freeman-fellowships
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Blakemore language fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-princeton-in-latin-america-2026-11-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Deadline: Princeton in Latin America
+DESCRIPTION:NGOs and agencies in Latin America and the Caribbean · about 1
+ 2 months\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs
+ .html#gp-princeton-in-latin-america\nOfficial website: https://princetonin
+ latinamerica.org/apply\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-princet
+ on-in-latin-america
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Princeton in Latin America is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-boren-fellowship-2027-01-20@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Deadline: Boren Fellowship
+DESCRIPTION:Countries outside Western Europe\, Canada\, Australia and New Z
+ ealand · up to a year\nDetails: https://maljahmi.github.io/qc-polisci-pat
+ hways/programs.html#gp-boren-fellowship\nOfficial website: https://www.bor
+ enawards.org/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-boren-f
+ ellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Boren Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-fulbright-austria-teaching-2027-01-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Deadline: Fulbright Austria teaching
+DESCRIPTION:Austrian secondary schools · Oct 2027–May 2028\nDetails: htt
+ ps://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-fulbright-aus
+ tria-teaching\nOfficial website: https://www.fulbright.at/programs/in-aust
+ ria/teaching-assistants/grant-details/us-teaching-assistant-program\nAlway
+ s confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-fulbrig
+ ht-austria-teaching
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fulbright Austria teaching is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-hudson-political-studies-2027-03-16@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:Deadline: Hudson Political Studies
+DESCRIPTION:Washington\, D.C. · 6 weeks in summer\, in one of two sessions
+ \nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp
+ -hudson-political-studies\nOfficial website: https://hudsonpoliticalstudie
+ s.org/fellowship\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-hudson-
+ political-studies
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hudson Political Studies is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-hoover-summer-policy-boot-camp-2027-03-09@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Deadline: Hoover Policy Boot Camp
+DESCRIPTION:Stanford\, Calif. · 4 days\, Aug 9–13\, 2027\nDetails: https
+ ://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-hoover-summer-p
+ olicy-boot-camp\nOfficial website: https://www.hoover.org/hoover-instituti
+ on-summer-policy-boot-camp\nAlways confirm the date on the official websit
+ e.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-hoover-
+ summer-policy-boot-camp
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hoover Policy Boot Camp is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-hacu-national-internship-program-2026-11-20@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Deadline: HACU federal internships
+DESCRIPTION:Federal agencies in D.C. and nationwide · 10 weeks in summer\,
+  15 in spring or fall\nDetails: https://maljahmi.github.io/qc-polisci-path
+ ways/programs.html#gp-hacu-national-internship-program\nOfficial website: 
+ https://hacu.net/hnip/overview/\nAlways confirm the date on the official w
+ ebsite.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-hacu-na
+ tional-internship-program
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:HACU federal internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-institute-responsible-citizenship-2027-01-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Deadline: Institute for Responsible Citizenship
+DESCRIPTION:Washington\, D.C. · 8 weeks\, two summers in a row (2027: June
+  5–July 31)\nDetails: https://maljahmi.github.io/qc-polisci-pathways/pro
+ grams.html#gp-institute-responsible-citizenship\nOfficial website: https:/
+ /www.theinstitute.net/apply\nAlways confirm the date on the official websi
+ te.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-institu
+ te-responsible-citizenship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Institute for Responsible Citizenship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-udall-native-american-congressional-internship-2027-01-15@qc-polisci
+ -pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Deadline: Udall Native American internship
+DESCRIPTION:Washington\, D.C. · June 2–Aug 7\, 2027 · up to 12 interns\
+ nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-
+ udall-native-american-congressional-internship\nOfficial website: https://
+ www.udall.gov/OurPrograms/Internship/AboutInternship\nAlways confirm the d
+ ate on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-udall-n
+ ative-american-congressional-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Udall Native American internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-national-journalism-center-2026-11-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Deadline: National Journalism Center
+DESCRIPTION:Washington\, D.C.\, newsrooms · 12 weeks\nDetails: https://mal
+ jahmi.github.io/qc-polisci-pathways/programs.html#gp-national-journalism-c
+ enter\nOfficial website: https://yaf.org/national-journalism-center/\nAlwa
+ ys confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nationa
+ l-journalism-center
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:National Journalism Center is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-jesuit-volunteer-corps-2026-12-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Deadline: Jesuit Volunteer Corps
+DESCRIPTION:19 US cities · one year\, Aug 2027–July 2028\nDetails: https
+ ://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-jesuit-voluntee
+ r-corps\nOfficial website: https://www.jesuitvolunteers.org/apply/\nAlways
+  confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-jesuit-
+ volunteer-corps
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jesuit Volunteer Corps is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-atlantic-council-ygp-2026-11-08@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Deadline: Atlantic Council YGP
+DESCRIPTION:Washington\, DC (a few remote US spots) · 19 weeks in spring o
+ r fall\, 9–10 weeks in summer\nDetails: https://maljahmi.github.io/qc-po
+ lisci-pathways/programs.html#gp-atlantic-council-ygp\nOfficial website: ht
+ tps://www.atlanticcouncil.org/careers/internships/\nAlways confirm the dat
+ e on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-atlanti
+ c-council-ygp
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Atlantic Council YGP is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-fox-news-media-internship-2027-01-10@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Deadline: FOX News Media
+DESCRIPTION:New York City or Washington\, DC · 8 weeks\, June–August\nDe
+ tails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-fox
+ -news-media-internship\nOfficial website: https://www.foxcareers.com/Inter
+ nships\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-fox-new
+ s-media-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOX News Media is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-irt-andover-2027-03-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Deadline: IRT
+DESCRIPTION:Phillips Academy\, Andover\, Mass. · virtual · about one year
+ \nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp
+ -irt-andover\nOfficial website: https://www.andover.edu/about/outreach/irt
+ /irt-programs\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-irt-and
+ over
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IRT is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-wilson-center-internships-2026-11-06@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Deadline: Wilson Center internships
+DESCRIPTION:Washington\, D.C.\, remote or in person · part time\, one seme
+ ster\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.htm
+ l#gp-wilson-center-internships\nOfficial website: https://www.wilsoncenter
+ .org/internships\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-wilson-
+ center-internships
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Wilson Center internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-isw-internships-2026-11-13@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Deadline: ISW internships
+DESCRIPTION:Washington\, D.C.\, in person or hybrid\, or remote in the U.S.
+  · full time\, Jan 12–May 14\, 2027\nDetails: https://maljahmi.github.i
+ o/qc-polisci-pathways/programs.html#gp-isw-internships\nOfficial website: 
+ https://understandingwar.org/education/internships/\nAlways confirm the da
+ te on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-isw-int
+ ernships
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISW internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-wola-internship-2026-10-23@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Deadline: WOLA internship
+DESCRIPTION:Remote\, with an optional D.C. office · Jan 11–May 14\, 2027
+ \nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp
+ -wola-internship\nOfficial website: https://www.wola.org/get-involved/inte
+ rnships/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-wola-in
+ ternship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:WOLA internship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-arab-center-dc-internship-2026-11-10@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Deadline: Arab Center DC internships
+DESCRIPTION:Washington\, D.C.\, hybrid · 10–20 hours a week\nDetails: ht
+ tps://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-arab-center-
+ dc-internship\nOfficial website: https://arabcenterdc.org/about/acw-career
+ s/internship-opportunities/\nAlways confirm the date on the official websi
+ te.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-arab-ce
+ nter-dc-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Arab Center DC internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ncuscr-internship-2026-11-12@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Deadline: U.S.-China Relations internships
+DESCRIPTION:Remote\, with a New York organization · 18 hours a week\nDetai
+ ls: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ncuscr
+ -internship\nOfficial website: https://www.ncuscr.org/internships/\nAlways
+  confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ncuscr-
+ internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:U.S.-China Relations internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-foreign-service-officer-test-2026-10-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Deadline: Foreign Service Officer Test
+DESCRIPTION:Pearson test centers or online at home · a few testing windows
+  a year\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.
+ html#gp-foreign-service-officer-test\nOfficial website: https://careers.st
+ ate.gov/foreign-service/foreign-service-officer/\nAlways confirm the date 
+ on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-foreign
+ -service-officer-test
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Foreign Service Officer Test is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-clarke-ds-fellowship-2026-11-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Deadline: Clarke Diplomatic Security Fellowship
+DESCRIPTION:Your college or graduate school\, plus summers in Washington an
+ d at an embassy abroad\nDetails: https://maljahmi.github.io/qc-polisci-pat
+ hways/programs.html#gp-clarke-ds-fellowship\nOfficial website: https://cla
+ rkedsfellowship.org/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-clarke-
+ ds-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Clarke Diplomatic Security Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-un-young-professionals-programme-2026-11-30@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Deadline: UN Young Professionals
+DESCRIPTION:A written exam\, then UN jobs worldwide\nDetails: https://malja
+ hmi.github.io/qc-polisci-pathways/programs.html#gp-un-young-professionals-
+ programme\nOfficial website: https://careers.un.org/ypp?language=en\nAlway
+ s confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-un-youn
+ g-professionals-programme
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UN Young Professionals is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-imf-research-analyst-program-2026-12-31@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Deadline: IMF Research Analyst Program
+DESCRIPTION:Washington\, D.C. · two years\nDetails: https://maljahmi.githu
+ b.io/qc-polisci-pathways/programs.html#gp-imf-research-analyst-program\nOf
+ ficial website: https://imf.wd5.myworkdayjobs.com/IMF/job/USA-Washington-D
+ C/Research-Analyst-under-the-Research-Analyst-Program--RAP-_26-R8967\nAlwa
+ ys confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-imf-res
+ earch-analyst-program
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IMF Research Analyst Program is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-apsia-online-grad-fair-2026-10-29@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Event: APSIA online grad fair
+DESCRIPTION:Online · one afternoon\nDetails: https://maljahmi.github.io/qc
+ -polisci-pathways/programs.html#gp-apsia-online-grad-fair\nOfficial websit
+ e: https://apsia.org/events/apsias-online-graduate-school-fair-ii-5/\nAlwa
+ ys confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-apsia-o
+ nline-grad-fair
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:APSIA online grad fair is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-nmun-new-york-2027-03-21@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Event: National Model United Nations\, New York
+DESCRIPTION:New York Hilton Midtown\, Manhattan · 5 days in late March\nDe
+ tails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nmu
+ n-new-york\nOfficial website: https://www.nmun.org/conferences/new-york.ht
+ ml\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nmun-ne
+ w-york
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:National Model United Nations\, New York is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-harvard-national-model-un-2026-11-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Deadline: Harvard National Model United Nations
+DESCRIPTION:Boston · 4 days in February\nDetails: https://maljahmi.github.
+ io/qc-polisci-pathways/programs.html#gp-harvard-national-model-un\nOfficia
+ l website: https://www.hnmun.org/\nAlways confirm the date on the official
+  website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-harvard
+ -national-model-un
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Harvard National Model United Nations is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ppia-pathways-studio-2026-10-22@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Event: PPIA Pathways Studio
+DESCRIPTION:Online · 2 hours\nDetails: https://maljahmi.github.io/qc-polis
+ ci-pathways/programs.html#gp-ppia-pathways-studio\nOfficial website: https
+ ://ppiaprogram.org/pathways\nAlways confirm the date on the official websi
+ te.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ppia-pa
+ thways-studio
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PPIA Pathways Studio is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ppia-explorers-conference-2027-01-08@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Event: PPIA Explorers Conference
+DESCRIPTION:UC Riverside\, California · 1–3 days\nDetails: https://malja
+ hmi.github.io/qc-polisci-pathways/programs.html#gp-ppia-explorers-conferen
+ ce\nOfficial website: https://ppiaprogram.org/explorersconference\nAlways 
+ confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ppia-ex
+ plorers-conference
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PPIA Explorers Conference is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-cfr-student-webinars-2026-10-28@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Event: Council on Foreign Relations Global Affairs Expert Webinars
+DESCRIPTION:Online · 1 hour\nDetails: https://maljahmi.github.io/qc-polisc
+ i-pathways/programs.html#gp-cfr-student-webinars\nOfficial website: https:
+ //www.cfr.org/education/events/global-affairs-expert-webinar-what-the-midt
+ erms-mean-for-u-s-foreign-policy\nAlways confirm the date on the official 
+ website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-cfr-stu
+ dent-webinars
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Council on Foreign Relations Global Affairs Expert Webinars is 
+ in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-fpa-public-lectures-2026-10-28@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Event: Foreign Policy Association public lectures
+DESCRIPTION:SUNY Global Center\, 116 E. 55th St.\, Manhattan\, or on Zoom 
+ · evening\nDetails: https://maljahmi.github.io/qc-polisci-pathways/progra
+ ms.html#gp-fpa-public-lectures\nOfficial website: https://fpa.org/events/\
+ nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-fpa-pub
+ lic-lectures
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Foreign Policy Association public lectures is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-wfpg-mentoring-2026-10-27@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Event: Women's Foreign Policy Group mentoring and career panels
+DESCRIPTION:Online · monthly\nDetails: https://maljahmi.github.io/qc-polis
+ ci-pathways/programs.html#gp-wfpg-mentoring\nOfficial website: https://www
+ .wfpg.org/mentorship\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-wfpg-me
+ ntoring
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Women's Foreign Policy Group mentoring and career panels is in 
+ a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-bridging-scholarship-2027-03-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Deadline: Bridging Scholarships for Study Abroad in Japan
+DESCRIPTION:Japan · a semester or an academic year\nDetails: https://malja
+ hmi.github.io/qc-polisci-pathways/programs.html#gp-bridging-scholarship\nO
+ fficial website: https://www.bridgingfoundation.org/scholarships\nAlways c
+ onfirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-bridgin
+ g-scholarship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bridging Scholarships for Study Abroad in Japan is due in a wee
+ k
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-banyan-impact-fellowship-2027-02-28@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Deadline: Banyan Impact Fellowship
+DESCRIPTION:India · starts October 1\nDetails: https://maljahmi.github.io/
+ qc-polisci-pathways/programs.html#gp-banyan-impact-fellowship\nOfficial we
+ bsite: https://aif.org/fellowship/apply-for-service-in-india/\nAlways conf
+ irm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-banyan-
+ impact-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Banyan Impact Fellowship is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-hansen-leadership-institute-2027-03-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Deadline: Hansen Leadership Institute
+DESCRIPTION:Three weeks\, June 29–July 20\, 2027\nDetails: https://maljah
+ mi.github.io/qc-polisci-pathways/programs.html#gp-hansen-leadership-instit
+ ute\nOfficial website: https://hansenleadershipinstitute.org/\nAlways conf
+ irm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-hansen-
+ leadership-institute
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hansen Leadership Institute is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-dnc-internship-2026-11-27@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Deadline: Democratic National Committee (DNC) internships
+DESCRIPTION:Washington\, D.C.\, in person\, hybrid or remote · about 20 ho
+ urs a week\nDetails: https://maljahmi.github.io/qc-polisci-pathways/progra
+ ms.html#gp-dnc-internship\nOfficial website: https://democrats.org/interns
+ hips/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-dnc-int
+ ernship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Democratic National Committee (DNC) internships is due in a wee
+ k
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-leadership-institute-internship-2026-12-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Deadline: Leadership Institute internships
+DESCRIPTION:Arlington\, Va. · full time\, on site\nDetails: https://maljah
+ mi.github.io/qc-polisci-pathways/programs.html#gp-leadership-institute-int
+ ernship\nOfficial website: https://leadershipinstitute.org/internship-prog
+ ram/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-leaders
+ hip-institute-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leadership Institute internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-bipartisan-policy-center-internship-2027-03-08@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Deadline: Bipartisan Policy Center internships (estimated)
+DESCRIPTION:Washington\, D.C. · in the office Tuesday to Thursday\nThis da
+ te is an estimate.\nDetails: https://maljahmi.github.io/qc-polisci-pathway
+ s/programs.html#gp-bipartisan-policy-center-internship\nOfficial website: 
+ https://bipartisanpolicy.org/about-us/careers/internships/\nAlways confirm
+  the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-biparti
+ san-policy-center-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bipartisan Policy Center internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-lwvnyc-internship-2027-04-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Deadline: League of Women Voters of the City of New York internship
+ s
+DESCRIPTION:Midtown Manhattan · summer June 29–Aug 4\, Tuesdays and Wedn
+ esdays\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.h
+ tml#gp-lwvnyc-internship\nOfficial website: https://lwvnyc.org/internships
+ /\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-lwvnyc-
+ internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:League of Women Voters of the City of New York internships is d
+ ue in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-nyc-cfb-community-education-intern-2026-11-15@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Deadline: NYC Votes Community Education Intern
+DESCRIPTION:100 Church St.\, Manhattan · part time\, some evenings and wee
+ kends\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.ht
+ ml#gp-nyc-cfb-community-education-intern\nOfficial website: https://www.ny
+ ccfb.info/about/careers/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-nyc-cfb
+ -community-education-intern
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NYC Votes Community Education Intern is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ignite-internship-2026-11-13@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Deadline: IGNITE internships
+DESCRIPTION:Remote\nDetails: https://maljahmi.github.io/qc-polisci-pathways
+ /programs.html#gp-ignite-internship\nOfficial website: https://ignitenatio
+ nal.org/work-with-ignite/\nAlways confirm the date on the official website
+ .
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ignite-
+ internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IGNITE internships is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-psa-student-research-conference-2026-10-31@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Deadline: Pi Sigma Alpha National Student Research Conference
+DESCRIPTION:American University\, Washington\, D.C. (some panels online) ·
+  2 days\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.
+ html#gp-psa-student-research-conference\nOfficial website: https://pisigma
+ alpha.org/2027-national-student-research-conference/\nAlways confirm the d
+ ate on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-psa-stu
+ dent-research-conference
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pi Sigma Alpha National Student Research Conference is due in a
+  week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-mpsa-undergraduate-posters-2026-12-01@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Deadline: Midwest Political Science Association conference\, underg
+ raduate posters
+DESCRIPTION:Palmer House Hilton\, Chicago · undergraduate posters are in p
+ erson only\nDetails: https://maljahmi.github.io/qc-polisci-pathways/progra
+ ms.html#gp-mpsa-undergraduate-posters\nOfficial website: https://www.mpsan
+ et.org/conference/important-dates-and-deadlines/\nAlways confirm the date 
+ on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-mpsa-un
+ dergraduate-posters
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Midwest Political Science Association conference\, undergraduat
+ e posters is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-ncur-2026-12-04@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Deadline: National Conference on Undergraduate Research
+DESCRIPTION:Grand Rapids\, Mich. · 3 days\nDetails: https://maljahmi.githu
+ b.io/qc-polisci-pathways/programs.html#gp-ncur\nOfficial website: https://
+ ncur.secure-platform.com/2027/page/faqs\nAlways confirm the date on the of
+ ficial website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ncur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:National Conference on Undergraduate Research is due in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-qc-nonprofit-career-fair-2026-10-27@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Event: Queens College Social Services and Nonprofit Career Fair
+DESCRIPTION:Queens College · one afternoon each fall\nDetails: https://mal
+ jahmi.github.io/qc-polisci-pathways/programs.html#gp-qc-nonprofit-career-f
+ air\nOfficial website: https://www.qc.cuny.edu/academics/cei/career-fair/\
+ nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-qc-nonp
+ rofit-career-fair
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Queens College Social Services and Nonprofit Career Fair is in 
+ a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-cuny-graduate-school-fair-2026-10-21@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Event: CUNY Graduate School Fair
+DESCRIPTION:CUNY Graduate Center\, 365 Fifth Ave.\, Manhattan · one evenin
+ g\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#g
+ p-cuny-graduate-school-fair\nOfficial website: https://www.cuny.edu/admiss
+ ions/graduate-studies/graduate-school-fair/\nAlways confirm the date on th
+ e official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-cuny-gr
+ aduate-school-fair
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CUNY Graduate School Fair is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-marxe-graduate-open-houses-2026-11-10@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Event: Baruch Marxe School graduate open houses
+DESCRIPTION:Online and at Baruch College\, Manhattan\nDetails: https://malj
+ ahmi.github.io/qc-polisci-pathways/programs.html#gp-marxe-graduate-open-ho
+ uses\nOfficial website: https://marxe.baruch.cuny.edu/homepage/events/grad
+ uate-admissions-events/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-marxe-g
+ raduate-open-houses
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Baruch Marxe School graduate open houses is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-dcas-civil-service-101-2026-11-17@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Event: NYC Civil Service 101 information session
+DESCRIPTION:Online (Microsoft Teams) · several times a year\nDetails: http
+ s://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-dcas-civil-ser
+ vice-101\nOfficial website: https://www.nyc.gov/site/dcas/agencies/office-
+ of-citywide-recruitment.page\nAlways confirm the date on the official webs
+ ite.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-dcas-ci
+ vil-service-101
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NYC Civil Service 101 information session is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-roosevelt-house-public-programs-2026-10-26@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Event: Roosevelt House Public Policy Institute talks
+DESCRIPTION:47–49 E. 65th St.\, Manhattan · evenings through the year\nD
+ etails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-ro
+ osevelt-house-public-programs\nOfficial website: https://www.roosevelthous
+ e.hunter.cuny.edu/programs/\nAlways confirm the date on the official websi
+ te.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-rooseve
+ lt-house-public-programs
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Roosevelt House Public Policy Institute talks is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gp-gc-public-programs-2026-10-21@qc-polisci-pathways
+DTSTAMP:20261020T045233Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Event: CUNY Graduate Center public programs
+DESCRIPTION:365 Fifth Ave.\, Manhattan\, and livestreamed · evenings throu
+ gh the year\nDetails: https://maljahmi.github.io/qc-polisci-pathways/progr
+ ams.html#gp-gc-public-programs\nOfficial website: https://www.gc.cuny.edu/
+ public-programs\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-gc-publ
+ ic-programs
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CUNY Graduate Center public programs is in a week
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

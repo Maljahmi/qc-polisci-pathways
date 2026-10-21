@@ -132,6 +132,12 @@ h1, h2, h3, p, figure { margin: 0; }
 .credits { grid-row: 3; display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; font-size: var(--t-small); padding-bottom: 12px; }
 .giant { grid-row: 4; font: 700 28vw/0.78 var(--display); letter-spacing: -0.05em; color: #fff; white-space: nowrap; transform: translateY(24%); margin-left: -0.04em; }
 
+/* narrower screens: the links get their own row under the wordmark */
+@media (max-width: 1200px) and (min-width: 761px) {
+  .nav { grid-template-columns: 1fr auto; row-gap: 10px; }
+  .nav-links { grid-column: 1 / -1; grid-row: 2; }
+}
+
 /* phones: their own composition */
 @media (max-width: 760px) {
   .nav { position: relative; grid-template-columns: 1fr auto; padding: 16px; row-gap: 12px; }

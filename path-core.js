@@ -13,11 +13,13 @@
   function textOf(h){ var d = document.createElement("div"); d.innerHTML = h; return (d.textContent || "").trim(); }
   function esc(t){ return String(t).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
   function name(p){ return p.short || textOf(p.name).replace(/\s*\([^)]*\)\s*$/, ""); }
-  function inDays(n){ return n === 0 ? "closes today" : n === 1 ? "closes tomorrow" : "in " + n + " days"; }
-  function dated(p){ return p.due && !p.event && (p.status === "confirmed" || p.status === "estimate") && left(p.due) >= 0; }
+  // ev: the date is an event (a fair, a talk), not a deadline
+  function inDays(n, ev){ return ev ? "event " + (n === 0 ? "today" : n === 1 ? "tomorrow" : "in " + n + " days")
+                                    : n === 0 ? "closes today" : n === 1 ? "closes tomorrow" : "in " + n + " days"; }
+  function dated(p){ return p.due && (p.status === "confirmed" || p.status === "estimate") && left(p.due) >= 0; }
   var KIND = {"summer-research":"summer research", "summer-internship":"summer internship", "fall-internship":"fall internship",
               "spring-internship":"spring internship", "fellowship":"fellowship or scholarship", "campus":"at QC and CUNY",
-              "visit":"PhD visit or prep", "pipeline":"pre-law program", "course":"course or training", "after":"after-college job"};
+              "visit":"PhD visit or prep", "pipeline":"pre-law program", "course":"course or training", "conference":"conference or event", "after":"after-college job", "journalism":"journalism program", "international":"international affairs program", "politics":"politics program"};
   var GOAL_NAME = {phd:"the PhD", predoc:"a predoc", mpp:"the MPP", mpa:"the MPA", ma:"the MA", jd:"law school"};
 
   var STAGES = [
@@ -30,7 +32,7 @@
   function Gd(id, title, line){ return {id:id, title:title, line:line}; }
   var GUIDES = {
     grad: {
-      fr: [Gd("g-social", "Talk to your professors", "Office hours, and an email you can copy"), Gd("g-pair", "Pair your major", "Minors and second majors that open doors"), Gd("g-funding", "Scholarships and funding", "QC's own application, every semester"), Gd("g-search", "Job search tools and AI", "HireQC, free certificates and job alerts")],
+      fr: [Gd("g-social", "Talk to your professors", "Office hours, and an email you can copy"), Gd("g-campus", "Getting involved at Queens College", "Clubs, student government and honor societies"), Gd("g-pair", "Pair your major", "Minors and second majors that open doors"), Gd("g-funding", "Scholarships and funding", "QC's own application, every semester"), Gd("g-search", "Job search tools and AI", "HireQC, free certificates and job alerts")],
       so: [Gd("g-methods", "Methods and skills", "Statistics, R and the courses that teach them"), Gd("g-network", "Building a network", "Professors, the career center and NYC events"), Gd("g-social", "Talk to your professors", "How office hours turn into research work"), Gd("g-samples", "Sample résumé and CV", "Copy the structure, not the content")],
       jr: [Gd("g-letters", "Recommendation letters", "How to ask, with a sample email"), Gd("g-help", "Statements, help and AI", "Who reads your statement, and where AI fits"), Gd("g-visit", "PhD visit programs", "Funded campus visits; apply the summer before senior year"), Gd("g-funding", "Scholarships and funding", "Truman, Rhodes, Marshall and other national awards"), Gd("g-ai", "Using AI the right way", "A helper and a proofreader, never the writer")],
       sr: [Gd("g-apply", "Applying to PhD programs", "Fees, waivers, the GRE and the rest of the file"), Gd("g-letters", "Recommendation letters", "Ask six to eight weeks ahead"), Gd("g-help", "Statements, help and AI", "Get your statement read before you send it"), Gd("g-funding", "Study or work abroad", "Fully funded master's degrees and teaching jobs abroad")],
@@ -64,7 +66,7 @@
     if (dated(p)){ var d = parse(p.due), n = left(p.due); when = '<time datetime="' + p.due + '"' + (n <= 14 ? ' class="soon"' : "") + ">" + MON[d.getMonth()] + " " + d.getDate() + "</time>"; }
     else when = '<span class="when">' + esc(p.whenB || "") + "</span>";
     var bits = (p.paid === true ? "Paid " : p.cost === "funded" ? "Fully funded " : p.cost === "free" ? "Free " : "") + (KIND[p.types[0]] || "");
-    if (dated(p)) bits += ", " + inDays(left(p.due)); else if (p.whenS) bits += ", " + p.whenS;
+    if (dated(p)) bits += ", " + inDays(left(p.due), p.event); else if (p.whenS) bits += ", " + p.whenS;
     bits = bits.charAt(0).toUpperCase() + bits.slice(1);
     return "<li>" + when + '<a href="programs.html#' + esc(p.id) + '">' + esc(name(p)) + '</a><span class="m">' + esc(bits) + "</span></li>";
   }

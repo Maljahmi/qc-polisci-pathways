@@ -58,6 +58,7 @@
 .article .stats .v { font: 700 var(--t-head)/1 var(--display); color: var(--accent); }
 .article dl.facts { margin: 20px 0 0; display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 12px 24px; max-width: 900px; }
 .article dl.facts dt { font-weight: 700; }
+.article dl.glossary { grid-template-columns: minmax(0, 13em) minmax(0, 1fr); }
 .article dl.facts dd { margin: 0; }
 .article .tbl { margin-top: 20px; overflow-x: auto; }
 .article table { border-collapse: collapse; width: 100%; font-size: var(--t-small); }
@@ -211,6 +212,14 @@
 .tag-ink { background: var(--ink); color: #fff; }
 .tag-fee { color: var(--accent-strong); }
 .p-meta { margin-top: 6px; font-size: var(--t-small); color: var(--muted); }
+.p-acts { margin-top: 12px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.p-acts-h { font-size: var(--t-small); font-weight: 700; color: var(--muted); margin-right: 4px; }
+.p-act, .p-ics-all { display: inline-flex; align-items: center; min-height: 40px; padding: 0 12px; border: 0; background: #fff; color: var(--ink); font: 600 var(--t-small)/1.2 var(--text); text-decoration: none; cursor: pointer; transition: background-color var(--t-hover) ease, transform var(--t-press) var(--ease-out); }
+.p-act:active, .p-ics-all:active { transform: scale(0.98); }
+.p-save { margin-left: auto; }
+.p-save[aria-pressed="true"], .p-ics-all { background: var(--ink); color: #fff; }
+@media (hover: hover) and (pointer: fine) { .p-act:not([aria-pressed="true"]):hover { background: #e2e2dd; } .p-ics-all:hover { background: var(--accent-strong); } }
+@media (max-width: 760px) { .p-save { margin-left: 0; } }
 .p-what details { margin-top: 10px; }
 .p-what summary { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; font-weight: 700; list-style: none; }
 .p-what summary::-webkit-details-marker { display: none; }
@@ -252,7 +261,7 @@
 
 .foot-short { min-height: 0; padding-top: 56px; gap: 40px; grid-template-rows: auto auto auto auto; }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .top-links { grid-column: 1 / -1; grid-row: 2; justify-content: start; }
   .topbar { grid-template-columns: 1fr auto; row-gap: 8px; padding-block: 10px 8px; }
 }

@@ -14,8 +14,8 @@
     ["fall-internship", "Fall internship"], ["spring-internship", "Spring internship"],
     ["fellowship", "Fellowship or scholarship"], ["campus", "At QC and CUNY"],
     ["visit", "PhD visit or prep program"], ["pipeline", "Pre-law program"],
-    ["course", "Course or training"], ["after", "After college"],
-    ["journalism", "Journalism"]
+    ["course", "Course or training"], ["conference", "Conference or event"], ["after", "After college"],
+    ["journalism", "Journalism"], ["international", "International affairs"], ["politics", "Politics and campaigns"]
   ];
   var TYPE_LABEL = {};
   TYPES.forEach(function(t){ TYPE_LABEL[t[0]] = t[1]; });

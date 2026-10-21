@@ -9,7 +9,7 @@
     var spec = {};
     try { spec = JSON.parse(el.getAttribute("data-spec")); } catch(e){}
     var list = (window.PROGRAMS || []).filter(function(p){
-      return any(p.degrees, spec.degrees) && any(p.types, spec.types) && any(p.years, spec.years) && (!spec.paid || p.paid === true);
+      return any(p.degrees, spec.degrees) && any(p.types, spec.types) && any(p.years, spec.years) && (!spec.paid || p.paid === true) && (!spec.open || p.allOpen) && (!spec.ids || spec.ids.indexOf(p.id) >= 0);
     }).sort(function(a, b){ return key(a) - key(b) || Q.name(a).localeCompare(Q.name(b)); });
     el.innerHTML = list.slice(0, spec.limit || 6).map(Q.applyItem).join("");
     if (!list.length) el.closest("section").hidden = true;

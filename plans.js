@@ -11,7 +11,7 @@ window.PLANS = {
      "items": [
       "Take PSCI 100-level courses",
       "Go to one professor's <a href=\"guide-professors.html\">office hours</a>",
-      "Join the Political Science Club or Model UN",
+      "Join Model UN or <a href=\"guide-getting-involved.html\">another club</a>",
       "Start <a href=\"guide-methods.html\">OpenIntro Statistics</a>"
      ]
     },
@@ -365,7 +365,7 @@ window.PLANS = {
      "name": "Fall",
      "items": [
       "PSCI 100-level courses",
-      "Join the Political Science Club or volunteer with a nonprofit"
+      "Join <a href=\"guide-getting-involved.html\">a campus club</a> or volunteer with a nonprofit"
      ]
     },
     {
@@ -720,4 +720,4 @@ window.PLANS = {
   }
  ]
 };
-window.SITEMAP = {"guides": {"g-start": "guide-start-graduate.html", "l-start": "guide-start-law.html", "g-social": "guide-professors.html", "g-pair": "guide-pair-your-major.html", "g-methods": "guide-methods.html", "l-qc": "guide-qc-prelaw.html", "l-research": "guide-prelaw-research.html", "g-rbsi": "guide-rbsi.html", "g-help": "guide-statements.html", "g-letters": "guide-letters.html", "g-apply": "guide-applying.html", "g-visit": "guide-phd-visits.html", "l-lsat": "guide-lsat.html", "g-samples": "guide-resume-cv.html", "l-sample": "guide-law-resume.html", "l-gap": "guide-gap-years.html", "g-funding": "guide-scholarships.html", "g-fields": "guide-journalism-nonprofits-government.html", "g-search": "guide-job-search.html", "g-network": "guide-network.html", "g-ai": "guide-ai.html", "g-jobs": "guide-jobs.html"}};
+window.SITEMAP = {"guides": {"g-start": "guide-start-graduate.html", "g-glossary": "guide-glossary.html", "l-start": "guide-start-law.html", "g-social": "guide-professors.html", "g-pair": "guide-pair-your-major.html", "g-methods": "guide-methods.html", "l-qc": "guide-qc-prelaw.html", "l-research": "guide-prelaw-research.html", "g-rbsi": "guide-rbsi.html", "g-help": "guide-statements.html", "g-letters": "guide-letters.html", "g-apply": "guide-applying.html", "g-visit": "guide-phd-visits.html", "l-lsat": "guide-lsat.html", "g-samples": "guide-resume-cv.html", "l-sample": "guide-law-resume.html", "l-gap": "guide-gap-years.html", "g-funding": "guide-scholarships.html", "g-fields": "guide-journalism-nonprofits-government.html", "g-search": "guide-job-search.html", "g-network": "guide-network.html", "g-politics": "guide-politics-campaigns.html", "g-campus": "guide-getting-involved.html", "g-present": "guide-presenting-research.html", "g-intl": "guide-international-affairs.html", "g-teach": "guide-teaching.html", "g-pay": "guide-paying-for-school.html", "g-dual": "guide-dual-degrees.html", "g-daca": "guide-undocumented-daca.html", "g-transfer": "guide-transfer-working.html", "g-support": "guide-support.html", "g-ai": "guide-ai.html", "g-jobs": "guide-jobs.html"}};
