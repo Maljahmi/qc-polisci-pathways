@@ -1,5 +1,5 @@
 /* Queens College Political Science Pathways: Commons styles for the Twenty Twenty theme. Paste all of it into Appearance > Simple CSS.
-   The pp-... classes come from tools/build_commons.py. Brand rules are in ../CLAUDE.md. Twenty Twenty sets 1rem = 10px. */
+   The pp-... classes come from tools/build_commons.py. Twenty Twenty sets 1rem = 10px. */
 @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville:wght@400;700&display=swap");
 :root{--qc-red:#E71939;--qc-red-dark:#B20E28;--qc-gray:#D5D6D2;--ink:#000;--ink-2:#575757;--sans:"Cabin","Gill Sans","Gill Sans MT","Segoe UI",system-ui,sans-serif;--serif:"Libre Baskerville",Baskerville,Georgia,serif;--wrap:124rem}
 

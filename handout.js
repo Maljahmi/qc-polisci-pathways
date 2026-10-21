@@ -1,10 +1,12 @@
 (function(){
-  // One-page handout for each path: handout.html?path=grad or ?path=law. Black and white, made to print.
+  // A handout for each path: handout.html?path=grad or ?path=law. Black and white, made to print; add &large=1
+  // for large print (18pt, one column).
   // Add &pdf=1 for the digital version (the PDFs in downloads/): the same page with working links to the site.
   // Nothing here goes out of date week to week: no live deadlines, only the months things usually close,
   // and a QR code to the Programs page, which is updated every week.
   var path = /[?&]path=law\b/.test(location.search) ? "law" : "grad";
   var digital = /[?&]pdf=1\b/.test(location.search);
+  var large = /[?&]large=1\b/.test(location.search);
   var BASE = "https://maljahmi.github.io/qc-polisci-pathways/";
   var SITE = "maljahmi.github.io/qc-polisci-pathways";
   var EMAIL = "mohamed.aljahmi@qc.cuny.edu";
@@ -13,7 +15,7 @@
   var TEXT = {
     grad: {
       title: "Graduate school",
-      intro: "For Queens College Political Science majors thinking about a PhD or a policy master's. Most of the programs in the full guide are free, and many pay you.",
+      intro: "For Queens College students in political science or any major thinking about a PhD or a policy master's. Most of the programs in the full guide are free, and many pay you.",
       firstHead: "Degrees and paths",
       first: [
         ["PhD", "Research and teaching. Funded with tuition and a stipend; 5–6 years.", "grad.html?degree=phd#degrees"],
@@ -62,7 +64,7 @@
     },
     law: {
       title: "Law school",
-      intro: "For Queens College Political Science majors thinking about law school. Admissions weigh your LSAT score and GPA most, and most of the help is free. Taking time off before law school is normal.",
+      intro: "For Queens College students in political science or any major thinking about law school. Admissions weigh your LSAT score and GPA most, and most of the help is free. Taking time off before law school is normal.",
       firstHead: "What admissions reads",
       first: [
         ["LSAT", "Two Logical Reasoning sections and one Reading Comprehension section, scored 120–180, plus a writing sample. Many schools also take the GRE.", "guide-lsat.html"],
@@ -74,7 +76,7 @@
         ["Freshman", ["Meet QC Pre-Law Advising.", "Join the Legal Studies Club or Model UN; take PSCI 100.", "Summer: any job or internship; responsibility counts."]],
         ["Sophomore", ["Start the Legal Studies minor.", "CLEO's Road to Law School workshop (fall).", "Apply for district attorney office internships; each office posts its own dates."]],
         ["Junior", ["Decide when to apply. Want to work first? Harvard's Junior Deferral Program or Columbia LEAD.", "Apply for the LSAC fee waiver at least six months before your first LSAT.", "Start LSAT prep on LawHub; take a June LSAT if you'll apply in the fall."]],
-        ["Senior", ["Take the LSAT by September or October.", "Register for CAS; finish your statement and letters.", "Apply September–December.", "The ABA Legal Opportunity Scholarship (January to mid-March)."]]
+        ["Senior", ["Take the LSAT by September or October.", "Register for LSAC's Credential Assembly Service (CAS); finish your statement and letters.", "Apply September–December.", "The ABA Legal Opportunity Scholarship (January to mid-March)."]]
       ],
       calendar: [
         ["Sept–Dec", "Law school applications. Apply early; most schools decide on a rolling basis"],
@@ -126,6 +128,7 @@
 
   var t = TEXT[path], used = {};
   document.documentElement.classList.toggle("digital", digital);
+  document.documentElement.classList.toggle("large", large);
   var html = '<div class="mast"><span>Queens College Political Science Pathways</span>' + a(BASE, '<span class="url">' + SITE + "</span>") + "</div>" +
     '<div class="head"><h1>' + esc(t.title) + "</h1>" +
     '<p class="intro">' + esc(t.intro) + "</p></div>" +
@@ -144,7 +147,7 @@
     "<div><h2>Help on campus</h2><ul class=\"help\">" +
     t.help.map(function(h){ return "<li><b>" + a(h[2], esc(h[0])) + "</b>" + esc(h[1]) + "</li>"; }).join("") + "</ul></div></section>" +
     '<footer><div class="foot">' +
-    '<div class="scan">' + a(t.qrUrl, '<img src="' + t.qr + '" width="96" height="96" alt="QR code that opens the Programs page">') +
+    '<div class="scan">' + a(t.qrUrl, '<img src="' + t.qr + '" width="96" height="96" alt="QR code that opens the Opportunities page">') +
     "<div><b>" + (digital ? a(t.qrUrl, "Every program and deadline") : "Scan for every program and deadline") + "</b>" +
     "<span>Exact dates" + (path === "law" ? " for law school programs" : "") + ", updated every week, at " + a(BASE, SITE) + "</span></div></div>" +
     "<p>Student-made guide by Mohamed Aljahmi, not an official Queens College or CUNY publication. Dates change every year; confirm each one on the official page before you apply. Questions: " +
@@ -152,6 +155,8 @@
   document.getElementById("page").innerHTML = html;
   document.title = t.title + " handout · Queens College Political Science Pathways";
   var other = path === "grad" ? "law" : "grad";
-  document.getElementById("pdf").href = "downloads/Pathways_" + (path === "law" ? "Law" : "Graduate") + "_School_Handout.pdf";
-  document.getElementById("switch").innerHTML = '<a href="handout.html?path=' + other + (digital ? "&pdf=1" : "") + '">' + (other === "law" ? "Law school handout" : "Graduate school handout") + "</a>";
+  document.getElementById("pdf").href = "downloads/Pathways_" + (path === "law" ? "Law" : "Graduate") + "_School_Handout" + (large ? "_Large_Print" : "") + ".pdf";
+  var keep = (digital ? "&pdf=1" : "");
+  document.getElementById("switch").innerHTML = '<a href="handout.html?path=' + path + keep + (large ? "" : "&large=1") + '">' + (large ? "Standard print" : "Large print") + "</a>" +
+    '<a href="handout.html?path=' + other + keep + (large ? "&large=1" : "") + '">' + (other === "law" ? "Law school handout" : "Graduate school handout") + "</a>";
 })();

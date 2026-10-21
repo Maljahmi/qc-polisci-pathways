@@ -1,5 +1,5 @@
 // Opportunities database. One entry per program; every degree tab, the deadline board and the
-// Commons export read from it. See CLAUDE.md for the fields.
+// Commons export read from it. Each field is described in the project notes.
 // the date programs and deadlines were last checked; the home page and All opportunities show it
 window.UPDATED = "2026-10-19";
 
@@ -380,6 +380,7 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
+  "residency": "nyc",
   "whenB": "~Jan 15",
   "whenS": "2027 · est.",
   "due": "2027-01-15",
@@ -398,6 +399,10 @@ window.PROGRAMS = [
    [
     "Last",
     "Deadline was Jan 16, 2026"
+   ],
+   [
+    "Residency",
+    "You must live in New York City"
    ]
   ],
   "short": "NYC Ladders for Leaders"
@@ -424,6 +429,7 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
+  "residency": "nyc",
   "whenB": "~Mar 12",
   "whenS": "2027 · est.",
   "due": "2027-03-12",
@@ -442,6 +448,10 @@ window.PROGRAMS = [
    [
     "Last",
     "Deadline was Mar 13, 2026"
+   ],
+   [
+    "Residency",
+    "You must live in New York City"
    ]
   ],
   "short": "SYEP summer jobs"
@@ -559,6 +569,10 @@ window.PROGRAMS = [
    [
     "Who",
     "Undergrads and grads within a year; NYC residency for Mayor's Office fall and spring"
+   ],
+   [
+    "Residency",
+    "Not required (the city's FAQ says so), but you must be able to commute"
    ]
   ]
  },
@@ -581,6 +595,7 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
+  "residency": "nyc",
   "whenB": "Senior yr",
   "whenS": "two cohorts a year",
   "due": "",
@@ -599,6 +614,10 @@ window.PROGRAMS = [
    [
     "Pay",
     "$48,956 in most tracks. The January 2027 cohort closed Sept 4, 2026"
+   ],
+   [
+    "Residency",
+    "You must live in the five boroughs"
    ]
   ]
  },
@@ -2749,6 +2768,10 @@ window.PROGRAMS = [
    [
     "Who",
     "Recent grads"
+   ],
+   [
+    "Residency",
+    "Not required to apply. City employees generally must live in New York City within 90 days of starting, so ask DCAS whether that applies to fellows"
    ]
   ]
  },
@@ -4376,11 +4399,11 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Winter",
-  "whenS": "2027 date not posted yet",
-  "due": "",
-  "status": "none",
-  "dueMD": "02-01",
+  "whenB": "Feb 26",
+  "whenS": "2027 · for 2027–28",
+  "due": "2027-02-26",
+  "status": "confirmed",
+  "dueMD": "02-26",
   "opens": "",
   "opensMD": "",
   "meta": "CUNY-wide merit scholarship · PSC-CUNY",
@@ -5142,6 +5165,7 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
+  "residency": "nyc",
   "whenB": "Feb 24",
   "whenS": "last cycle · 2027 application open now",
   "due": "",
@@ -5160,6 +5184,10 @@ window.PROGRAMS = [
    [
     "Pay",
     "$6,800 stipend before taxes, plus a transit benefit"
+   ],
+   [
+    "Residency",
+    "You must live in New York City"
    ]
   ]
  },
@@ -6405,6 +6433,10 @@ window.PROGRAMS = [
    [
     "Pay",
     "Varies by office; many House and Senate offices pay"
+   ],
+   [
+    "Near Long Island and Westchester",
+    "Members' district offices take interns too, such as Representatives Gillen (Garden City), Suozzi (Glen Cove), Garbarino (Patchogue), LaLota and Latimer"
    ]
   ]
  },
@@ -6618,6 +6650,10 @@ window.PROGRAMS = [
    [
     "Pay",
     "$17.75 an hour for undergraduates"
+   ],
+   [
+    "Residency",
+    "October–April interns must live in New York City; summer interns don't have to"
    ]
   ]
  },
@@ -10535,7 +10571,7 @@ window.PROGRAMS = [
   "facts": [
    [
     "Who",
-    "New York State residents from groups traditionally underrepresented in law who have graduated, taken the LSAT and applied to law school"
+    "New York State residents (or students planning to attend a New York law school) from groups traditionally underrepresented in law who have graduated, taken the LSAT and applied to law school"
    ],
    [
     "Cost",
@@ -13313,6 +13349,7 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
+  "residency": "nyc",
   "whenB": "Nov 15",
   "whenS": "2026 · this posting; new ones appear on NYC Jobs",
   "due": "2026-11-15",
@@ -13335,6 +13372,10 @@ window.PROGRAMS = [
    [
     "How to apply",
     "<a href=\"https://cityjobs.nyc.gov/job/community-education-intern-in-manhattan-jid-47480\">The NYC Jobs posting</a> (Job ID 800908), with a résumé and cover letter"
+   ],
+   [
+    "Residency",
+    "You can apply from outside the city, but you generally must move to New York City within 90 days of starting"
    ]
   ]
  },
@@ -14303,6 +14344,846 @@ window.PROGRAMS = [
    [
     "How to join",
     "Sign up for the mailing list on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cuny-cultural-corps",
+  "name": "<a href=\"https://www.cuny.edu/CulturalCorps\">CUNY Cultural Corps</a>",
+  "url": "https://www.cuny.edu/CulturalCorps",
+  "types": [
+   "spring-internship",
+   "fall-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "~Oct 31",
+  "whenS": "2026 · spring 2027 applications are open; no deadline posted",
+  "due": "2026-10-31",
+  "status": "estimate",
+  "dueMD": "10-31",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "New York City museums and cultural organizations · 12 weeks, about 15 hours a week",
+  "body": "Paid semester internships at New York City cultural institutions, in communications, public programs, development, curatorial work or production.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "CUNY undergraduates from the second semester of freshman year on, with a 2.5 GPA, U.S. work authorization, and no earlier paid internship through CUNY"
+   ],
+   [
+    "Pay",
+    "$20 an hour, up to 150 hours"
+   ],
+   [
+    "How to apply",
+    "An online form with a résumé and two short essays, then a training session and interviews with employers"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cuny-climate-scholars",
+  "name": "<a href=\"https://www.cuny.edu/research/research-development-programs/student-programs/crsp/climate-scholars-crsp-cs/\">CUNY Climate Scholars (CUNY Research Scholars Program)</a>",
+  "url": "https://www.cuny.edu/research/research-development-programs/student-programs/crsp/climate-scholars-crsp-cs/",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "predoc",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Summer",
+  "whenS": "last cycle · July 31, 2026; the timing moves (March the year before)",
+  "due": "",
+  "status": "last",
+  "dueMD": "07-31",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Your CUNY college, with a faculty mentor · August to May",
+  "body": "A paid year of mentored research on climate policy, climate justice and public health, with a cohort of CUNY students.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time CUNY undergraduates with sophomore standing or higher and a GPA above 3.0; international students who can work on campus are eligible"
+   ],
+   [
+    "Pay",
+    "Up to $7,500"
+   ],
+   [
+    "How to apply",
+    "Through the CUNY Office of Research page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-slu-union-semester",
+  "name": "<a href=\"https://slu.cuny.edu/labor-studies/union-semester/\">Union Semester (CUNY School of Labor and Urban Studies)</a>",
+  "url": "https://slu.cuny.edu/labor-studies/union-semester/",
+  "types": [
+   "spring-internship",
+   "fall-internship",
+   "course"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpa"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "~Oct 25",
+  "whenS": "spring priority date; general Nov 15, final Dec 1",
+  "due": "2026-10-25",
+  "status": "estimate",
+  "dueMD": "10-25",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Manhattan, with a union · a full-time semester (17 weeks)",
+  "body": "Intern about 20 hours a week with a labor union and take four labor studies courses, for 16 credits and a certificate.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "CUNY students with a 2.5 GPA and 45 credits; QC students take it by ePermit"
+   ],
+   [
+    "Cost",
+    "Tuition and fees are subsidized up to $7,000; the internship is unpaid"
+   ],
+   [
+    "How to apply",
+    "A CUNYfirst application with a statement, résumé and two recommendations; the fee is waived for CUNY students"
+   ]
+  ]
+ },
+ {
+  "id": "gp-slu-community-semester",
+  "name": "<a href=\"https://slu.cuny.edu/urban-studies/community-semester/\">Community Semester (CUNY School of Labor and Urban Studies)</a>",
+  "url": "https://slu.cuny.edu/urban-studies/community-semester/",
+  "types": [
+   "spring-internship",
+   "fall-internship",
+   "course"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "mpa"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "~Oct 25",
+  "whenS": "spring priority date; general Nov 15, final Dec 1",
+  "due": "2026-10-25",
+  "status": "estimate",
+  "dueMD": "10-25",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Manhattan, with a community organization · a full-time semester",
+  "body": "Intern with a community organization and take urban studies courses for a semester, earning credits and a Certificate in Community Leadership.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "CUNY students with a 2.5 GPA and 24 credits; QC students take it by ePermit"
+   ],
+   [
+    "Cost",
+    "Tuition and fees are subsidized up to $7,000; the internship is unpaid"
+   ],
+   [
+    "How to apply",
+    "A CUNYfirst application with a statement, résumé and two recommendations; the fee is waived for CUNY students"
+   ]
+  ]
+ },
+ {
+  "id": "gp-qc-study-abroad-scholarships",
+  "name": "<a href=\"https://www.qc.cuny.edu/academics/sa/scholarships/\">Queens College study abroad scholarships</a>",
+  "url": "https://www.qc.cuny.edu/academics/sa/scholarships/",
+  "types": [
+   "fellowship",
+   "campus",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "ma",
+   "phd",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 25",
+  "whenS": "2026 · for winter and spring 2027; summer and fall awards are due in March",
+  "due": "2026-10-25",
+  "status": "confirmed",
+  "dueMD": "10-25",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "QC Study Abroad Office, King Hall 203 · each term",
+  "body": "QC's own awards, including the Cohen, Picken and Sawicki scholarships, that lower the cost of a term abroad.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "QC students going abroad; some grants are for one country (the Greece and Germany winter grants are due Oct 23)"
+   ],
+   [
+    "Pay",
+    "$250 to $5,000"
+   ],
+   [
+    "How to apply",
+    "On QC's scholarship site (AcademicWorks)"
+   ]
+  ]
+ },
+ {
+  "id": "gp-qc-urban-affairs-ba-ma",
+  "name": "<a href=\"https://www.qc.cuny.edu/academics/us/accelerated-ma/\">Accelerated BA/MA in Urban Affairs (Queens College)</a>",
+  "url": "https://www.qc.cuny.edu/academics/us/accelerated-ma/",
+  "types": [
+   "campus",
+   "course"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "ma",
+   "mpa"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "apply with 45 to 75 credits",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Queens College Urban Studies · five years for both degrees",
+  "body": "Count up to 12 graduate credits toward both a bachelor's and a master's in urban affairs, at the undergraduate tuition rate until 120 credits.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Urban Studies majors, and political science majors case by case; a 3.0 GPA overall and in the major"
+   ],
+   [
+    "How to apply",
+    "QC's accelerated degrees system, with a 500-word statement and two recommendations"
+   ]
+  ]
+ },
+ {
+  "id": "gp-qc-public-health-4plus1",
+  "name": "<a href=\"https://qc.cuny.edu/academics/ss/public-health-41\">Public Health 4+1 (Queens College and CUNY School of Public Health)</a>",
+  "url": "https://qc.cuny.edu/academics/ss/public-health-41",
+  "types": [
+   "campus",
+   "course"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "ma"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "~Jan 1",
+  "whenS": "the School of Public Health takes applications Jan 1, May 1 and Aug 1",
+  "due": "2027-01-01",
+  "status": "estimate",
+  "dueMD": "01-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "CUNY School of Public Health, Harlem · five years for a BA and an MPH or MS",
+  "body": "Take up to 18 graduate credits at the CUNY School of Public Health as an undergraduate, with a health policy and management track, and move into the master's without a separate application or the GRE.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "The School of Public Health asks for 60 credits and a 3.0 GPA; QC's page says 75 credits and a 3.2, so check with the advisor"
+   ],
+   [
+    "Cost",
+    "Undergraduate tuition for the graduate courses, taken by ePermit"
+   ],
+   [
+    "How to apply",
+    "The School of Public Health's form and a 600-word statement"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cuny-peer-leaders",
+  "name": "<a href=\"https://futuresinitiative.org/cuny-peer-leaders/\">CUNY Peer Leaders (Futures Initiative, Graduate Center)</a>",
+  "url": "https://futuresinitiative.org/cuny-peer-leaders/",
+  "types": [
+   "fellowship",
+   "campus"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "~June 30",
+  "whenS": "2027 · last deadline June 30, 2026",
+  "due": "2027-06-30",
+  "status": "estimate",
+  "dueMD": "06-30",
+  "opens": "",
+  "opensMD": "",
+  "meta": "CUNY Graduate Center, in person and online · one semester",
+  "body": "A paid semester in which CUNY undergraduates build public community or humanities projects with Graduate Center mentors.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Any CUNY undergraduate"
+   ],
+   [
+    "Pay",
+    "$500"
+   ],
+   [
+    "How to apply",
+    "The online form on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-suffolk-leaders-in-training",
+  "name": "<a href=\"https://suffolkcountyny.gov/Elected-Officials/County-Executive/Suffolk-County-Leaders-in-Training-Program\">Suffolk County Leaders in Training (County Executive internships)</a>",
+  "url": "https://suffolkcountyny.gov/Elected-Officials/County-Executive/Suffolk-County-Leaders-in-Training-Program",
+  "types": [
+   "summer-internship",
+   "fall-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "residency": "li",
+  "whenB": "Rolling",
+  "whenS": "postings open through the year",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Suffolk County departments · varies by posting",
+  "body": "Internships across Suffolk County government through the County Executive's office.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "College students in any year who live in Suffolk or Nassau County"
+   ],
+   [
+    "Pay",
+    "Some placements are paid and some are unpaid"
+   ],
+   [
+    "How to apply",
+    "An online form and a résumé"
+   ]
+  ]
+ },
+ {
+  "id": "gp-suffolk-legislature-page-program",
+  "name": "<a href=\"https://www.scnylegislature.us/895/Page-Program\">Suffolk County Legislature Page Program</a>",
+  "url": "https://www.scnylegislature.us/895/Page-Program",
+  "types": [
+   "summer-internship",
+   "politics"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "whenB": "~May 1",
+  "whenS": "2027 · summer, mid-May to August",
+  "due": "2027-05-01",
+  "status": "estimate",
+  "dueMD": "05-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Legislators' district offices and Hauppauge · mid-May to August",
+  "body": "Work in a county legislator's office, with a mock legislature and Friday workshops.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "18 or older and enrolled in college"
+   ],
+   [
+    "Pay",
+    "Not stated; school credit is possible"
+   ],
+   [
+    "How to apply",
+    "Email the application packet to the address on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-suffolk-human-rights-commission",
+  "name": "<a href=\"https://www.suffolkcountyny.gov/departments/human-rights-commission/internships\">Suffolk County Human Rights Commission internships</a>",
+  "url": "https://www.suffolkcountyny.gov/departments/human-rights-commission/internships",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "jd",
+   "mpa"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "year-round",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Hauppauge · a semester",
+  "body": "Help investigators look into discrimination complaints.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "Unpaid; school credit is possible"
+   ],
+   [
+    "How to apply",
+    "Email a cover letter, a writing sample and a résumé"
+   ]
+  ]
+ },
+ {
+  "id": "lp-nassau-da-internship",
+  "name": "<a href=\"https://nassauda.applicantstack.com/x/openings\">Nassau County District Attorney internships</a>",
+  "url": "https://nassauda.applicantstack.com/x/openings",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "a fall 2026 posting is up; other terms post later",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Mineola · a semester, or 8 weeks in summer",
+  "body": "Help a prosecutors' bureau with court observation, research and case preparation.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "A limited number of undergraduate juniors and seniors"
+   ],
+   [
+    "Pay",
+    "Unpaid"
+   ],
+   [
+    "How to apply",
+    "The posting's form, with a résumé and cover letter"
+   ]
+  ]
+ },
+ {
+  "id": "lp-nassau-county-attorney-internship",
+  "name": "<a href=\"https://www.nassaucountyny.gov/DocumentCenter/View/51764\">Nassau County Attorney internships</a>",
+  "url": "https://www.nassaucountyny.gov/DocumentCenter/View/51764",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "year-round",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Mineola · a semester",
+  "body": "Legal research and memos for the county's litigation, family court and legislation bureaus.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Mainly law students, plus a few undergraduates"
+   ],
+   [
+    "Pay",
+    "Unpaid"
+   ],
+   [
+    "How to apply",
+    "Email a cover letter, résumé, writing sample, transcript and one reference (the address is in the posting)"
+   ]
+  ]
+ },
+ {
+  "id": "lp-westchester-da-internship",
+  "name": "<a href=\"https://www.westchesterda.net/internship-program\">Westchester County District Attorney internships</a>",
+  "url": "https://www.westchesterda.net/internship-program",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Nov 24",
+  "whenS": "2026 · spring 2027; summer about Feb 17, fall Aug 1",
+  "due": "2026-11-24",
+  "status": "confirmed",
+  "dueMD": "11-24",
+  "opens": "",
+  "opensMD": "",
+  "meta": "White Plains · 10–15 hours a week, full time in summer",
+  "body": "Help prosecutors with investigations and trial preparation.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Enrolled undergraduates"
+   ],
+   [
+    "Pay",
+    "Unpaid"
+   ],
+   [
+    "How to apply",
+    "Online through ApplicantStack"
+   ]
+  ]
+ },
+ {
+  "id": "gp-westchester-county-executive-fellowship",
+  "name": "<a href=\"https://humanresources.westchestercountyny.gov/images/stories/adobe/FellowshipapplicationCE2026.pdf\">Westchester County Executive Volunteer Fellow Program</a>",
+  "url": "https://humanresources.westchestercountyny.gov/images/stories/adobe/FellowshipapplicationCE2026.pdf",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "~Apr 25",
+  "whenS": "2027 · summer; applications open Mar 1",
+  "due": "2027-04-25",
+  "status": "estimate",
+  "dueMD": "04-25",
+  "opens": "Mar 1",
+  "opensMD": "03-01",
+  "meta": "White Plains and hybrid · June 1–Aug 7, or 3–5 months during the year",
+  "body": "Policy research and memos for the County Executive's staff.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "Unpaid, with free parking"
+   ],
+   [
+    "Residency",
+    "Not required"
+   ],
+   [
+    "How to apply",
+    "Email the application, résumé, cover letter and a writing sample"
+   ]
+  ]
+ },
+ {
+  "id": "gp-westchester-geist-fellowship",
+  "name": "<a href=\"https://www.westchesterlegislatorsny.gov/about/herman-s-geist-fellowship-program\">Herman S. Geist Fellowship (Westchester County Board of Legislators)</a>",
+  "url": "https://www.westchesterlegislatorsny.gov/about/herman-s-geist-fellowship-program",
+  "types": [
+   "summer-internship",
+   "politics"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "residency": "westchester",
+  "whenB": "Summer",
+  "whenS": "no 2027 date posted",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "White Plains · 4–6 weeks between June 1 and Sept 7, up to 100 hours",
+  "body": "Paid summer work in a county legislator's office.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Westchester County residents aged 16 to 22"
+   ],
+   [
+    "Pay",
+    "Minimum wage"
+   ],
+   [
+    "How to apply",
+    "Contact your county legislator"
+   ]
+  ]
+ },
+ {
+  "id": "gp-oyster-bay-summer-internship",
+  "name": "<a href=\"https://oysterbaytown.com/internship\">Town of Oyster Bay summer internships</a>",
+  "url": "https://oysterbaytown.com/internship",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "~Mar 23",
+  "whenS": "2027 · last cycle closed Mar 23, 2026",
+  "due": "2027-03-23",
+  "status": "estimate",
+  "dueMD": "03-23",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Town of Oyster Bay departments · 10 weeks, 19.5 hours a week",
+  "body": "Paid summer placements in town departments, including the Town Attorney's office.",
+  "warn": "",
+  "facts": [
+   [
+    "Pay",
+    "$20 an hour"
+   ],
+   [
+    "How to apply",
+    "Email the application and a résumé to the address on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-yonkers-city-internships",
+  "name": "<a href=\"https://www.yonkersny.gov/232/Internship-Opportunities\">City of Yonkers internships</a>",
+  "url": "https://www.yonkersny.gov/232/Internship-Opportunities",
+  "types": [
+   "summer-internship",
+   "fall-internship",
+   "spring-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "mostly May to September",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Yonkers City Hall · 15–25 hours a week",
+  "body": "Internships in city departments, coordinated by Human Resources.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Graduate students preferred; undergraduates are considered"
+   ],
+   [
+    "Pay",
+    "Unpaid, for school credit"
+   ],
+   [
+    "How to apply",
+    "Email Human Resources"
+   ]
+  ]
+ },
+ {
+  "id": "gp-excelsior-service-fellowship",
+  "name": "<a href=\"https://www.ny.gov/new-york-state-fellowship-programs/excelsior-service-fellowship-program\">New York State Excelsior Service Fellowship</a>",
+  "url": "https://www.ny.gov/new-york-state-fellowship-programs/excelsior-service-fellowship-program",
+  "types": [
+   "after",
+   "fellowship"
+  ],
+  "years": [
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "ma",
+   "jd",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "~Mar 1",
+  "whenS": "2027 · nominations; school deadlines are late January to early February",
+  "due": "2027-03-01",
+  "status": "estimate",
+  "dueMD": "03-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Mostly Albany · 2 years, full time",
+  "body": "A two-year job in a New York State agency for people finishing a graduate or law degree.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Graduate and law students nominated by a partner school, including Baruch's Marxe School, the Graduate Center, CUNY Law, Hunter, Hofstra Law, Touro Law and Pace Law; you must be able to work without visa sponsorship"
+   ],
+   [
+    "Pay",
+    "$70,000 to $80,000 a year"
+   ],
+   [
+    "How to apply",
+    "Through your school's nominating office"
    ]
   ]
  }

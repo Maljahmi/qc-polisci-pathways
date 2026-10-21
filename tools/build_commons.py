@@ -38,7 +38,7 @@ PAGES = {
              ('g-mpa', 'MPA', ['g-mpa-about', 'g-mpa-timeline', 'db:mpa']),
              ('g-ma', 'MA', ['g-ma-about', 'g-ma-timeline', 'db:ma']),
              ('g-guides', 'Guides', ['g-start', 'g-glossary', 'g-social', 'g-pair', 'g-methods', 'g-rbsi', 'g-help', 'g-apply',
-                                     'g-letters', 'g-visit', 'g-samples', 'g-dual', 'g-jobs', 'g-pay', 'g-funding', 'g-fields', 'g-intl', 'g-teach', 'g-search', 'g-ai', 'g-network', 'g-daca', 'g-transfer', 'g-support', 'g-politics', 'g-campus', 'g-present'])],
+                                     'g-letters', 'g-visit', 'g-samples', 'g-dual', 'g-jobs', 'g-pay', 'g-funding', 'g-fields', 'g-intl', 'g-teach', 'g-search', 'g-ai', 'g-network', 'g-daca', 'g-transfer', 'g-support', 'g-politics', 'g-campus', 'g-present', 'g-howto', 'g-writing'])],
     'law': [('l-jd', 'JD', ['l-path', 'l-timeline', 'db:jd']),
             ('l-guides', 'Guides', ['l-start', 'l-fields', 'l-qc', 'l-research', 'l-lsat', 'l-gap', 'l-sample'])],
 }

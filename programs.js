@@ -27,8 +27,10 @@
 
   // search words must start a word, so "cia" finds the CIA and not "social"
   var HAY = {};
-  function hay(p){ return HAY[p.id] || (HAY[p.id] = (Q.name(p) + " " + p.name.replace(/<[^>]+>/g, " ") + " " + p.meta + " " + p.body.replace(/<[^>]+>/g, " ") + " " +
-    p.types.map(function(t){ return TYPE[t]; }).join(" ") + " " + p.facts.map(function(x){ return x[0] + " " + x[1].replace(/<[^>]+>/g, " "); }).join(" ")).toLowerCase()); }
+  // each text also appears without hyphens, so "prelaw" finds "pre-law"
+  function dehy(s){ return s + " " + s.replace(/-/g, ""); }
+  function hay(p){ return HAY[p.id] || (HAY[p.id] = dehy((Q.name(p) + " " + p.name.replace(/<[^>]+>/g, " ") + " " + p.meta + " " + p.body.replace(/<[^>]+>/g, " ") + " " +
+    p.types.map(function(t){ return TYPE[t]; }).join(" ") + " " + p.facts.map(function(x){ return x[0] + " " + x[1].replace(/<[^>]+>/g, " "); }).join(" ")).toLowerCase())); }
 
   // "Sophomores to seniors", "All years and recent graduates": a run of years reads as a range
   function yearsLabel(ys){
@@ -72,8 +74,14 @@
     if (p.cost === "funded") return '<span class="tag tag-ink">Fully funded</span>';
     if (p.cost === "free") return '<span class="tag">Free</span>';
     if (p.cost === "fee") return '<span class="tag tag-fee">Charges a fee</span>';
+    if (p.paid === false) return '<span class="tag">Unpaid</span>';
+    // pay or cost not stated on the official page (campus courses and advising don't need a label)
+    if (p.types.indexOf("campus") < 0) return '<span class="tag">Pay or cost: check the website</span>';
     return "";
   }
+  // who can live where: residency: "nyc" (the five boroughs) or "nys" (New York State)
+  var RES = {nyc: "NYC residents only", nys: "New York State residents only", li: "Nassau and Suffolk residents only", westchester: "Westchester residents only"};
+  function resTag(p){ return RES[p.residency] ? '<span class="tag tag-res">' + RES[p.residency] + "</span>" : ""; }
 
   // your own list and calendar: add one deadline to Google or as a file for Apple and Outlook, or save programs and
   // add all their deadlines at once. Saved programs stay in this browser only.
@@ -85,11 +93,25 @@
   function ymd(d){ return d.getFullYear() + ("0" + (d.getMonth() + 1)).slice(-2) + ("0" + d.getDate()).slice(-2); }
   function nextDay(d){ var e = new Date(d.getTime()); e.setDate(e.getDate() + 1); return e; }
   function calTitle(p){ return (p.event ? "Event: " : "Deadline: ") + Q.name(p) + (p.status === "estimate" ? " (estimated)" : ""); }
-  function calText(p){ return (p.meta ? p.meta + "\n" : "") + (p.status === "estimate" ? "This date is an estimate.\n" : "") +
-    "Details: " + BASE + "programs.html#" + p.id + "\nOfficial website: " + p.url + "\nAlways confirm the date on the official website."; }
+  // links keep their address in plain text: "Register for the fair (https://...)"
+  function plain(t){ var d = document.createElement("div");
+    d.innerHTML = String(t || "").replace(/<a [^>]*href="(https?:[^"]+)"[^>]*>([\s\S]*?)<\/a>/g, "$2 ($1)"); return (d.textContent || "").trim(); }
+  // a calendar entry says what it is, who it's for, where and when, pay or cost and the other facts, then the links
+  function calText(p){
+    var who = [typeLabel(p.types), yearsLabel(p.years), goalLabel(p.degrees)].filter(Boolean).join(" · ");
+    var out = [plain(p.body), who, p.meta ? "Where and when: " + plain(p.meta) : ""]
+      .concat(p.facts.map(function(x){ return plain(x[0]) + ": " + plain(x[1]); }))
+      .concat([p.opens ? "Opens: " + plain(p.opens) : "", p.status === "estimate" ? "This date is an estimate." : ""]).filter(Boolean);
+    return out.join("\n") + "\n\nDetails: " + BASE + "programs.html#" + p.id + "\nOfficial website: " + p.url + "\nAlways confirm the date on the official website.";
+  }
+  function place(p){ return p.event && p.meta ? plain(p.meta).split(" · ")[0] : ""; }
+  function alarms(p){
+    function a(trig, text){ return ["BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:" + icsEsc(text), "TRIGGER:" + trig, "END:VALARM"]; }
+    return p.event ? a("-P1D", Q.name(p) + " is tomorrow") : a("-P14D", Q.name(p) + " is due in two weeks").concat(a("-P2D", Q.name(p) + " is due in two days"));
+  }
   function googleLink(p){ var d = Q.parse(p.due);
     return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(calTitle(p)) +
-      "&dates=" + ymd(d) + "/" + ymd(nextDay(d)) + "&details=" + encodeURIComponent(calText(p)); }
+      "&dates=" + ymd(d) + "/" + ymd(nextDay(d)) + "&details=" + encodeURIComponent(calText(p).slice(0, 1800)) + (place(p) ? "&location=" + encodeURIComponent(place(p)) : ""); }
   function icsEsc(t){ return String(t).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n"); }
   function icsFold(l){ var out = []; while (l.length > 70){ out.push(l.slice(0, 70)); l = " " + l.slice(70); } out.push(l); return out.join("\r\n"); }
   function icsFile(list){
@@ -98,8 +120,9 @@
     list.forEach(function(p){ var d = Q.parse(p.due);
       L.push("BEGIN:VEVENT", "UID:" + p.id + "-" + p.due + "@qc-polisci-pathways", "DTSTAMP:" + stamp, "DTSTART;VALUE=DATE:" + ymd(d),
         "DTEND;VALUE=DATE:" + ymd(nextDay(d)), "SUMMARY:" + icsEsc(calTitle(p)), "DESCRIPTION:" + icsEsc(calText(p)),
-        "URL:" + BASE + "programs.html#" + p.id, "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:" + icsEsc(Q.name(p) + (p.event ? " is in a week" : " is due in a week")),
-        "TRIGGER:-P7D", "END:VALARM", "END:VEVENT"); });
+        "URL:" + BASE + "programs.html#" + p.id);
+      if (place(p)) L.push("LOCATION:" + icsEsc(place(p)));
+      L.push.apply(L, alarms(p)); L.push("END:VEVENT"); });
     L.push("END:VCALENDAR");
     return L.map(icsFold).join("\r\n") + "\r\n";
   }
@@ -124,7 +147,7 @@
     var line = [typeLabel(p.types), yearsLabel(p.years), goalLabel(p.degrees)].filter(Boolean).map(esc).join(" · ");
     return '<li class="prog" id="' + esc(p.id) + '"><div class="p-when' + (urgent ? " urgent" : soonish ? " soon" : "") + '">' + when + "</div>" +
       '<div class="p-what"><h3>' + p.name + "</h3>" +
-      '<p class="p-tags">' + costTag(p) + '<span class="p-line">' + line + "</span></p>" +
+      '<p class="p-tags">' + costTag(p) + resTag(p) + '<span class="p-line">' + line + "</span></p>" +
       (p.meta ? '<p class="p-meta">' + esc(p.meta) + "</p>" : "") + actions(p) +
       "<details><summary>Who can apply, pay and details</summary>" + (p.body ? "<p>" + p.body + "</p>" : "") + (p.warn ? '<p class="p-warn">' + p.warn + "</p>" : "") +
       (facts ? "<dl>" + facts + "</dl>" : "") +
@@ -134,9 +157,9 @@
 
   var shown = 40, soon = 0, savedOnly = false;  // soon: only deadlines in the next N days; savedOnly: your saved list
   // the filters as one object, so the list and the quick-filter counts use the same test
-  function current(){ return {q: val("q"), degree: val("degree"), year: val("year"), type: val("type"), paid: val("paid"), open: val("open"), soon: soon, saved: savedOnly}; }
+  function current(){ return {q: val("q"), degree: val("degree"), year: val("year"), type: val("type"), paid: val("paid"), open: val("open"), outside: val("outside"), soon: soon, saved: savedOnly}; }
   function matcher(st){
-    var q = String(st.q || "").toLowerCase().split(/\s+/).filter(Boolean).map(function(w){ return new RegExp("(^|[^a-z0-9])" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")); });
+    var q = String(st.q || "").toLowerCase().split(/\s+/).filter(Boolean).map(function(w){ w = w.replace(/-/g, "") || w; return new RegExp("(^|[^a-z0-9])" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")); });
     var deg = st.degree;
     return function(p){
       if (q.length && !q.every(function(w){ return w.test(hay(p)); })) return false;
@@ -145,16 +168,17 @@
       if (st.type && p.types.indexOf(st.type) < 0) return false;
       if (st.paid && p.paid !== true && p.cost !== "funded") return false;
       if (st.open && !p.allOpen) return false;
+      if (st.outside && p.residency === "nyc") return false;
       if (st.soon && !(Q.dated(p) && !p.event && Q.left(p.due) <= st.soon)) return false;
       if (st.saved && !SAVED[p.id]) return false;
       return true;
     };
   }
   var PRESETS = [].map.call(root.querySelectorAll("[data-preset]"), function(b){ return {el: b, st: JSON.parse(b.getAttribute("data-preset"))}; });
-  function same(a, b){ return ["q","degree","year","type"].every(function(n){ return String(a[n] || "") === String(b[n] || ""); }) && !!a.paid === !!b.paid && !!a.open === !!b.open && (a.soon || 0) === (b.soon || 0) && !!a.saved === !!b.saved; }
+  function same(a, b){ return ["q","degree","year","type"].every(function(n){ return String(a[n] || "") === String(b[n] || ""); }) && !!a.paid === !!b.paid && !!a.open === !!b.open && !!a.outside === !!b.outside && (a.soon || 0) === (b.soon || 0) && !!a.saved === !!b.saved; }
   function apply(st){
     ["q","degree","year","type"].forEach(function(n){ f(n).value = st[n] || ""; });
-    f("paid").checked = !!st.paid; f("open").checked = !!st.open; soon = st.soon || 0; savedOnly = !!st.saved; shown = 40; render();
+    f("paid").checked = !!st.paid; f("open").checked = !!st.open; f("outside").checked = !!st.outside; soon = st.soon || 0; savedOnly = !!st.saved; shown = 40; render();
   }
   PRESETS.forEach(function(x){ var n = PROGRAMS.filter(matcher(x.st)).length; x.el.insertAdjacentHTML("beforeend", ' <span class="n">' + n + "</span>"); });
   // "Your saved programs" goes first among the quick filters; its count changes as you save
@@ -163,7 +187,7 @@
   var presetsEl = root.querySelector(".presets");
   if (presetsEl) presetsEl.insertBefore(savedBtn, presetsEl.querySelector("[data-preset]"));
   PRESETS.unshift({el: savedBtn, st: {saved: true}});
-  function savedLabel(){ savedBtn.innerHTML = 'Your saved programs <span class="n">' + savedCount() + "</span>"; }
+  function savedLabel(){ savedBtn.innerHTML = 'Your saved list <span class="n">' + savedCount() + "</span>"; }
   savedLabel();
 
   // the filters that are on, each one a button that turns it off
@@ -176,7 +200,8 @@
     if (st.type) c.push(["type", TYPE[st.type] || st.type]);
     if (st.paid) c.push(["paid", "Paid or fully funded"]);
     if (st.open) c.push(["open", "Open to DACA, undocumented or international students"]);
-    if (st.saved) c.push(["saved", "Your saved programs"]);
+    if (st.outside) c.push(["outside", "Open if you live outside New York City"]);
+    if (st.saved) c.push(["saved", "Your saved list"]);
     return c;
   }
   function render(){
@@ -193,16 +218,16 @@
     listEl.innerHTML = list.length ? groups.map(function(g){
       if (left <= 0) return "";
       var items = g.items.slice(0, left); left -= items.length;
-      return '<section class="month"><div class="m-head"><h2>' + esc(g.label) + '</h2><span class="m-n">' + g.items.length + (g.items.length === 1 ? " program" : " programs") + '</span></div><ol class="progs">' + items.map(row).join("") + "</ol></section>";
-    }).join("") + (list.length > shown ? '<button type="button" class="btn btn-ink p-more">Show all ' + list.length + " programs</button>" : "")
-      : (st.saved && !savedCount() ? '<div class="p-empty"><p>You haven\'t saved any programs yet.</p><p>Tap "Save to my list" under any program to keep it here, then add all their deadlines to your calendar at once.</p></div>'
-      : '<div class="p-empty"><p>No programs match all of these filters.</p><p>Turn one off above, or <button type="button" class="p-reset">clear them all</button>.</p></div>');
+      return '<section class="month"><div class="m-head"><h2>' + esc(g.label) + '</h2><span class="m-n">' + g.items.length + (g.items.length === 1 ? " opportunity" : " opportunities") + '</span></div><ol class="progs">' + items.map(row).join("") + "</ol></section>";
+    }).join("") + (list.length > shown ? '<button type="button" class="btn btn-ink p-more">Show all ' + list.length + "</button>" : "")
+      : (st.saved && !savedCount() ? '<div class="p-empty"><p>You haven\'t saved anything yet.</p><p>Tap "Save to my list" under anything you like to keep it here, then add all their deadlines to your calendar at once.</p></div>'
+      : '<div class="p-empty"><p>Nothing matches all of these filters.</p><p>Turn one off above, or <button type="button" class="p-reset">clear them all</button>.</p></div>');
     listEl.querySelectorAll(".month .m-head, .prog").forEach(function(el){ el.setAttribute("data-reveal", ""); });
     if (window.QCReveal) window.QCReveal(listEl);
     // a quick filter shows as pressed while the filters match it exactly
     PRESETS.forEach(function(x){ x.el.setAttribute("aria-pressed", same(st, x.st) ? "true" : "false"); });
     var on = chips(st);
-    countEl.innerHTML = "<b>" + list.length + (list.length === 1 ? " program" : " programs") + "</b>" + (on.length ? "" : " in all") + ", soonest date first";
+    countEl.innerHTML = "<b>" + list.length + (list.length === 1 ? " opportunity" : " opportunities") + "</b>" + (on.length ? "" : " in all") + ", soonest date first";
     activeEl.innerHTML = on.length ? '<span class="p-active-h">Filtered by</span>' + on.map(function(c){
       return '<button type="button" data-clear="' + c[0] + '" aria-label="Remove filter: ' + esc(c[1]) + '">' + esc(c[1]) + ' <span aria-hidden="true">×</span></button>';
     }).join("") + (on.length > 1 ? '<button type="button" class="p-reset link">Clear all</button>' : "") : "";
@@ -219,7 +244,7 @@
     var clr = e.target.closest("[data-clear]");
     if (clr){
       var n = clr.getAttribute("data-clear");
-      if (n === "soon") soon = 0; else if (n === "saved") savedOnly = false; else if (n === "paid" || n === "open") f(n).checked = false; else f(n).value = "";
+      if (n === "soon") soon = 0; else if (n === "saved") savedOnly = false; else if (n === "paid" || n === "open" || n === "outside") f(n).checked = false; else f(n).value = "";
       shown = 40; render();
     }
     if (e.target.closest(".p-reset")) apply({});
@@ -240,6 +265,7 @@
   var params = new URLSearchParams(location.search);
   ["degree","year","type","q"].forEach(function(n){ var v = params.get(n); if (v && f(n)) f(n).value = v; });
   if (params.get("open") === "1") f("open").checked = true;
+  if (params.get("outside") === "1") f("outside").checked = true;
   // a program in the hash: show everything, open it, scroll to it
   var target = location.hash.slice(1);
   if (target && window.ALIASES && window.ALIASES[target]) target = window.ALIASES[target];

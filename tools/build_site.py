@@ -26,11 +26,13 @@ CREDITS = json.load(open(os.path.join(HERE, 'assets', 'credits.json'), encoding=
 # ---------------------------------------------------------------- guides and where every old link goes
 # (id, file, title, one line, path) — path is grad, law or both
 GUIDES = [
+    ('g-howto', 'guide-how-to-use.html', 'How to use this site', 'Five steps through the site, and what to do with only ten minutes', 'both'),
     ('g-start', 'guide-start-graduate.html', 'Start here: graduate school', 'Ground rules for funded programs, and the first things to do', 'grad'),
-    ('g-glossary', 'guide-glossary.html', 'Glossary', 'Plain-English meanings of the terms you will see, from predoc to CAS', 'both'),
+    ('g-glossary', 'guide-glossary.html', 'Glossary', 'Plain-English meanings of the terms you will see, from predoc to the LSAT', 'both'),
     ('l-start', 'guide-start-law.html', 'Start here: law school', 'Three ground rules for pre-law students', 'law'),
     ('g-social', 'guide-professors.html', 'Talk to your professors', 'Office hours, and an email you can copy', 'both'),
     ('g-pair', 'guide-pair-your-major.html', 'Pair your major', 'Minors and second majors that open doors', 'grad'),
+    ('g-writing', 'guide-writing.html', 'Writing well', 'Papers, policy memos, clear writing, books, videos and AI', 'both'),
     ('g-methods', 'guide-methods.html', 'Methods and skills', 'Statistics, R and the courses that teach them', 'grad'),
     ('l-qc', 'guide-qc-prelaw.html', 'QC and CUNY pre-law resources', 'Pre-law advising, the Legal Studies minor and clubs', 'law'),
     ('l-research', 'guide-prelaw-research.html', 'Research as a pre-law student', 'Honors theses and faculty research', 'law'),
@@ -44,25 +46,25 @@ GUIDES = [
     ('l-sample', 'guide-law-resume.html', 'Sample law school résumé', 'Hours per week, interests, no objective', 'law'),
     ('l-gap', 'guide-gap-years.html', 'Gap years', 'Most law students worked first', 'law'),
     ('g-funding', 'guide-scholarships.html', 'Scholarships and funding', "QC's own application, national awards and study abroad", 'both'),
-    ('g-fields', 'guide-journalism-nonprofits-government.html', 'Journalism, nonprofits and government', 'Paid internships and fellowships outside graduate school', 'both'),
+    ('g-fields', 'guide-journalism-nonprofits-government.html', 'Journalism and public service', 'Paid internships and fellowships outside graduate school', 'both'),
     ('g-search', 'guide-job-search.html', 'Job search tools and AI', 'HireQC, free certificates and job alerts', 'both'),
     ('g-network', 'guide-network.html', 'Building a network', 'Professors, the career center and NYC events', 'both'),
-    ('g-politics', 'guide-politics-campaigns.html', 'Working in politics and campaigns', 'Campaign jobs, party internships, poll work and New York election dates', 'both'),
-    ('g-campus', 'guide-getting-involved.html', 'Getting involved at Queens College', 'Clubs, student government, leadership and honor societies', 'both'),
-    ('g-present', 'guide-presenting-research.html', 'Presenting and publishing research', 'Undergraduate conferences and journals that take student papers', 'both'),
-    ('g-intl', 'guide-international-affairs.html', 'International affairs and the Foreign Service', 'The Foreign Service, the UN, master\'s degrees and how to get there', 'both'),
+    ('g-politics', 'guide-politics-campaigns.html', 'Politics and campaigns', 'Campaign jobs, party internships, poll work and New York election dates', 'both'),
+    ('g-campus', 'guide-getting-involved.html', 'Getting involved on campus', 'Clubs, student government, leadership and honor societies', 'both'),
+    ('g-present', 'guide-presenting-research.html', 'Presenting your research', 'Undergraduate conferences and journals that take student papers', 'both'),
+    ('g-intl', 'guide-international-affairs.html', 'International affairs', 'The Foreign Service, the UN, master\'s degrees and how to get there', 'both'),
     ('g-teach', 'guide-teaching.html', 'Teaching social studies', 'Certification at Queens College, other routes and pay', 'grad'),
-    ('g-pay', 'guide-paying-for-school.html', 'Paying for graduate and law school', 'The new loan limits, Public Service Loan Forgiveness and ways to pay less', 'both'),
+    ('g-pay', 'guide-paying-for-school.html', 'Paying for school', 'Graduate and law school: new loan limits, loan forgiveness and ways to pay less', 'both'),
     ('g-dual', 'guide-dual-degrees.html', 'Dual degrees', 'Law plus policy or international affairs, in four years instead of five', 'both'),
-    ('g-daca', 'guide-undocumented-daca.html', 'Undocumented and DACA students', 'Help at QC and CUNY, paying for school, work and the bar', 'both'),
+    ('g-daca', 'guide-undocumented-daca.html', 'Undocumented and DACA', 'Help at QC and CUNY, paying for school, work and the bar', 'both'),
     ('g-transfer', 'guide-transfer-working.html', 'Transfer and working students', 'Transfer credits, work-study, flexible courses and internships for credit', 'both'),
     ('g-support', 'guide-support.html', 'Support on campus', 'Counseling, food, emergency money, disability services and more', 'both'),
     ('g-ai', 'guide-ai.html', 'Using AI the right way', 'A helper and a proofreader, never the writer', 'both'),
     ('g-jobs', 'guide-jobs.html', 'Jobs you can get', 'Common first jobs for political science majors, what they ask for and what they pay', 'both'),
 ]
 GROUPS = [
-    ('start', 'Start here', ['g-start', 'l-start', 'g-glossary']),
-    ('ready', 'Get ready', ['g-social', 'g-campus', 'g-pair', 'g-methods', 'l-qc', 'l-research', 'g-present', 'g-rbsi']),
+    ('start', 'Start here', ['g-howto', 'g-start', 'l-start', 'g-glossary']),
+    ('ready', 'Get ready', ['g-social', 'g-campus', 'g-pair', 'g-methods', 'g-writing', 'l-qc', 'l-research', 'g-present', 'g-rbsi']),
     ('apply', 'Apply', ['g-help', 'g-letters', 'g-apply', 'g-visit', 'l-lsat', 'g-samples', 'l-sample', 'l-gap', 'g-dual']),
     ('careers', 'Jobs and careers', ['g-jobs', 'g-fields', 'g-politics', 'g-intl', 'g-teach', 'g-search', 'g-ai', 'g-network']),
     ('money', 'Paying for it', ['g-pay', 'g-funding']),
@@ -174,7 +176,7 @@ def credits_line():
         for c in CREDITS) + '.'
 
 
-NAV = [('grad.html', 'Graduate school'), ('law.html', 'Law school'), ('jobs.html', 'Jobs'), ('programs.html', 'Programs'), ('guides.html', 'Guides'), ('about.html', 'About')]
+NAV = [('grad.html', 'Graduate school'), ('law.html', 'Law school'), ('jobs.html', 'Jobs'), ('programs.html', 'Opportunities'), ('guides.html', 'Guides'), ('about.html', 'About')]
 CAREER_CENTER = 'https://www.qc.cuny.edu/academics/cei/'
 
 
@@ -216,9 +218,11 @@ def page(fname, title, desc, body_class, main, scripts=(), here=''):
     </div>
     <nav class="foot-links" aria-label="More">{''.join('<a href="%s">%s</a>' % (u, t) for u, t in NAV)}<a href="{CAREER_CENTER}">QC Career Center</a></nav>
   </div>
-  <p class="credits"><span>Photos via Wikimedia Commons; <a href="about.html#credits">photo credits</a>.</span><span>Career help on campus: the <a href="{CAREER_CENTER}">Center for Career Engagement and Internships</a>, Frese Hall 213.</span><span>Details change often: always check each program's official website for the most accurate, up-to-date information before you apply.</span><span>Know a program we're missing? <a href="{SUGGEST}">Suggest a program</a>.</span><span>Student-made; not an official Queens College or CUNY publication. Questions: <a href="mailto:mohamed.aljahmi@qc.cuny.edu">mohamed.aljahmi@qc.cuny.edu</a>.</span></p>
+  <p class="credits"><span>Photos via Wikimedia Commons; <a href="about.html#credits">photo credits</a>.</span><span>Career help on campus: the <a href="{CAREER_CENTER}">Center for Career Engagement and Internships</a>, Frese Hall 213.</span><span>Details change often: always check each program's official website for the most accurate, up-to-date information before you apply.</span><span>Know an opportunity we're missing? <a href="{SUGGEST}">Suggest an opportunity</a>.</span><span>Student-made; not an official Queens College or CUNY publication. Questions: <a href="mailto:mohamed.aljahmi@qc.cuny.edu">mohamed.aljahmi@qc.cuny.edu</a>.</span></p>
   <p class="giant" aria-hidden="true">Pathways</p>
 </footer>
+<script src="search.js" defer></script>
+<script src="abbr.js" defer></script>
 
 <script src="data.js"></script>
 <script src="plans.js"></script>
@@ -246,10 +250,10 @@ def guide_list(ids):
 
 
 def new_tab(text):
-    """Links to other sites open in a new tab."""
+    """Links to other sites, and PDFs and images to download, open in a new tab."""
     def tag(m):
         t = m.group(0)
-        if ' target=' in t or not re.search(r'href="https?://', t):
+        if ' target=' in t or ' download' in t or not re.search(r'href="(https?://|[^"]*\.(pdf|png)")', t):
             return t
         return t[:-1] + ' target="_blank" rel="noopener">'
     return re.sub(r'<a\b[^>]*>', tag, text)
@@ -284,17 +288,17 @@ def grad_page():
 </section>
 <div class="stages" id="path" data-path data-goal-from="degree"></div>
 <section class="next-programs" id="programs" aria-labelledby="np-h">
-  <h2 id="np-h">Programs to apply to</h2>
+  <h2 id="np-h">Opportunities to apply to</h2>
   <p class="sec-lede" data-np-lede>The next deadlines for this degree.</p>
   <ol class="apply np" data-next-programs></ol>
-  <a class="all-link" data-all-programs href="programs.html">All programs</a>
+  <a class="all-link" data-all-programs href="programs.html">All opportunities</a>
 </section>
 <section class="more-guides" id="guides" aria-labelledby="mg-h">
   <h2 id="mg-h">Guides for graduate school</h2>
   {guide_list(grad_guides)}
 </section>'''
     write('grad.html', page('grad.html', 'Graduate school · Queens College Political Science Pathways',
-                            'PhD, predoc, MPP, MPA and MA for Queens College political science majors: the degrees, a year-by-year path and the programs to apply to.',
+                            'PhD, predoc, MPP, MPA and MA for Queens College students in political science or any major: the degrees, a year-by-year path and the programs to apply to.',
                             'grad-page', main, ['path-core.js', 'subject.js'], 'grad.html'))
 
 
@@ -315,10 +319,10 @@ def law_page():
 </section>
 <div class="stages" id="path" data-path data-goal="jd"></div>
 <section class="next-programs" id="programs" aria-labelledby="np-h">
-  <h2 id="np-h">Programs to apply to</h2>
+  <h2 id="np-h">Opportunities to apply to</h2>
   <p class="sec-lede" data-np-lede>The next deadlines for students headed to law school.</p>
   <ol class="apply np" data-next-programs></ol>
-  <a class="all-link" data-all-programs href="programs.html?degree=jd">All programs</a>
+  <a class="all-link" data-all-programs href="programs.html?degree=jd">All opportunities</a>
   <a class="all-link" href="programs.html?type=pipeline">Pre-law pipeline programs</a>
 </section>
 <section class="more-guides" id="guides" aria-labelledby="mg-h">
@@ -326,7 +330,7 @@ def law_page():
   {guide_list(law_guides)}
 </section>'''
     write('law.html', page('law.html', 'Law school · Queens College Political Science Pathways',
-                           'Law school for Queens College political science majors: what admissions weighs, the fields of law, a year-by-year path, the LSAT and the programs to apply to.',
+                           'Law school for Queens College students in political science or any major: what admissions weighs, the fields of law, a year-by-year path, the LSAT and the programs to apply to.',
                            'law-page', main, ['path-core.js', 'subject.js'], 'law.html'))
 
 
@@ -371,9 +375,9 @@ def guides_pages():
         pathname = {'grad': 'Graduate school', 'law': 'Law school', 'both': 'Graduate school and law school'}[path]
         spec = GUIDE_PROGRAMS.get(gid)
         progs = (f'''<section class="next-programs in-guide" aria-labelledby="gp-h">
-  <h2 id="gp-h">Programs to apply to</h2>
+  <h2 id="gp-h">Opportunities to apply to</h2>
   <ol class="apply np" data-next-programs data-spec='{H.escape(json.dumps(spec), quote=True)}'></ol>
-  <a class="all-link" href="programs.html">All programs</a>
+  <a class="all-link" href="programs.html">All opportunities</a>
 </section>''' if spec else '')
         main = f'''<article class="guide">
   <header class="guide-head">
@@ -403,7 +407,7 @@ def guides_pages():
     main = hero('Guides', 'How to do the things on the path: talk to professors, ask for letters, take the LSAT, find funding and apply. Each guide ends with programs to apply to.',
                 'manhattan-seen-from-queens-college.jpg', 'The Manhattan skyline seen across the Queens College Quad', '40% 70%') + f'<div class="guide-groups">{samples_block()}{groups}</div>'
     write('guides.html', page('guides.html', 'Guides · Queens College Political Science Pathways',
-                              'Guides for Queens College political science majors: professors, letters, statements, the LSAT, funding and applying.',
+                              'Guides for Queens College students in political science or any major: professors, letters, statements, the LSAT, funding and applying.',
                               'guides-index', main, [], 'guides.html'))
 
 
@@ -461,8 +465,7 @@ def jobs_page():
 
 # ---------------------------------------------------------------- calendar feeds
 BASE = 'https://maljahmi.github.io/qc-polisci-pathways/'
-SUGGEST = ('mailto:mohamed.aljahmi@qc.cuny.edu?subject=' + 'Program%20suggestion%20for%20QC%20Political%20Science%20Pathways'
-           + '&body=' + 'Program%20name%3A%0AOfficial%20link%3A%0AWho%20it%27s%20for%3A%0ADeadline%20(if%20known)%3A%0A')
+SUGGEST = 'https://docs.google.com/forms/d/e/1FAIpQLScuMAft3ugwxD3rQqsacUJmvgmMoaC3UW9NwzEER4ZQV-UTeg/viewform'  # Mohamed's Google Form (responses go to his Google account)
 
 
 def ics_text(t):
@@ -480,6 +483,24 @@ def ics_fold(line):
         cur += b
     out.append(cur)
     return b'\r\n '.join(out).decode('utf-8')
+
+
+def cal_description(p):
+    """What goes in a calendar entry: what it is, where and when, the facts (who, pay, cost, how to apply) and links."""
+    def plain(t):  # links keep their address: "Register for the fair (https://...)"
+        t = re.sub(r'<a [^>]*href="(https?:[^"]+)"[^>]*>(.*?)</a>', r'\2 (\1)', t or '', flags=re.S)
+        return H.unescape(re.sub(r'<[^>]+>', '', t)).strip()
+    out = [plain(p.get('body'))]
+    if p.get('meta'):
+        out.append('Where and when: ' + plain(p['meta']))
+    out += ['%s: %s' % (plain(k), plain(v)) for k, v in p.get('facts', [])]
+    if p.get('opens'):
+        out.append('Opens: ' + plain(p['opens']))
+    if p.get('status') == 'estimate':
+        out.append('This date is an estimate.')
+    out += ['', 'Details: ' + BASE + 'programs.html#' + p['id'], 'Official website: ' + p['url'],
+            'Always confirm the date on the official website.']
+    return '\n'.join(x for x in out if x is not None)
 
 
 def calendars():
@@ -505,16 +526,19 @@ def calendars():
                 continue
             name = p.get('short') or re.sub(r'\s*\([^)]*\)\s*$', '', re.sub('<[^>]+>', '', p['name']))
             est = p['status'] == 'estimate'
-            desc = (p.get('meta') or '') + ('\nThis date is an estimate.' if est else '') + \
-                '\nDetails: ' + BASE + 'programs.html#' + p['id'] + '\nOfficial website: ' + p['url'] + \
-                '\nAlways confirm the date on the official website.'
+            desc = cal_description(p)
+            where = ['LOCATION:' + ics_text(re.sub(r'<[^>]+>', '', p['meta']).split(' · ')[0])] if p.get('event') and p.get('meta') else []
+            if p.get('event'):
+                alarms = ['BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + ics_text(name + ' is tomorrow'), 'TRIGGER:-P1D', 'END:VALARM']
+            else:
+                alarms = []
+                for trig, when in (('-P14D', 'in two weeks'), ('-P2D', 'in two days')):
+                    alarms += ['BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + ics_text(name + ' is due ' + when), 'TRIGGER:' + trig, 'END:VALARM']
             lines += ['BEGIN:VEVENT', 'UID:%s-%s@qc-polisci-pathways' % (p['id'], p['due']), 'DTSTAMP:' + stamp,
                       'DTSTART;VALUE=DATE:' + day.strftime('%Y%m%d'),
                       'DTEND;VALUE=DATE:' + (day + datetime.timedelta(days=1)).strftime('%Y%m%d'),
                       'SUMMARY:' + ics_text(('Event: ' if p.get('event') else 'Deadline: ') + name + (' (estimated)' if est else '')),
-                      'DESCRIPTION:' + ics_text(desc), 'URL:' + BASE + 'programs.html#' + p['id'], 'TRANSP:TRANSPARENT',
-                      'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + ics_text(name + (' is in a week' if p.get('event') else ' is due in a week')), 'TRIGGER:-P7D', 'END:VALARM',
-                      'END:VEVENT']
+                      'DESCRIPTION:' + ics_text(desc), 'URL:' + BASE + 'programs.html#' + p['id'], 'TRANSP:TRANSPARENT'] + where + alarms + ['END:VEVENT']
         lines.append('END:VCALENDAR')
         open(os.path.join(HERE, fname), 'w', encoding='utf-8', newline='').write('\r\n'.join(ics_fold(x) for x in lines) + '\r\n')
 
@@ -529,13 +553,13 @@ def calendar_links(which='deadlines.ics'):
 
 # ---------------------------------------------------------------- programs
 def programs_page():
-    main = hero('Programs', 'Every program on this site in one list. Search, tap a popular filter, or narrow it down by goal, year and type.',
+    main = hero('Opportunities', 'Every internship, fellowship, program and event on this site in one list. Search, tap a popular filter, or narrow it down by goal, year and type.',
                 'united-states-capitol-washington-dc.jpg', 'The United States Capitol in Washington', '50% 50%',
                 '<p class="updated" data-updated></p><p class="updated"><b>Details change often: always check each program\'s official website for the most accurate, up-to-date information before you apply.</b></p><p class="updated cal-line"><b>Get every deadline in your calendar,</b> updated every week: ' + calendar_links() + '. Only <a href="' + 'webcal://maljahmi.github.io/qc-polisci-pathways/deadlines-grad.ics' + '">graduate school</a> or <a href="' + 'webcal://maljahmi.github.io/qc-polisci-pathways/deadlines-law.ics' + '">law school</a> deadlines.</p>') + '''
-<section class="programs" aria-label="All programs">
+<section class="programs" aria-label="All opportunities">
   <div class="filters">
-    <label class="f-search"><span>Search all <span data-count></span> programs</span><input type="search" data-f="q" placeholder="A name or topic, like CIA, journalism or Brooklyn" autocomplete="off"></label>
-    <div class="presets" role="group" aria-label="Popular filters"><span class="presets-h">Popular</span><button type="button" data-preset='{"soon": 30}' aria-pressed="false">Closing in 30 days</button><button type="button" data-preset='{"paid": true}' aria-pressed="false">Paid or fully funded</button><button type="button" data-preset='{"type": "summer-internship", "paid": true}' aria-pressed="false">Paid summer internships</button><button type="button" data-preset='{"type": "summer-research"}' aria-pressed="false">Summer research</button><button type="button" data-preset='{"type": "fellowship"}' aria-pressed="false">Scholarships and fellowships</button><button type="button" data-preset='{"type": "pipeline"}' aria-pressed="false">Pre-law pipeline programs</button><button type="button" data-preset='{"type": "international"}' aria-pressed="false">International affairs</button><button type="button" data-preset='{"type": "politics"}' aria-pressed="false">Politics and campaigns</button><button type="button" data-preset='{"type": "conference"}' aria-pressed="false">Events and career fairs</button><button type="button" data-preset='{"type": "after"}' aria-pressed="false">After college</button><button type="button" data-preset='{"q": "housing"}' aria-pressed="false">Covers housing</button><button type="button" data-preset='{"open": true}' aria-pressed="false">Open to DACA students</button><button type="button" data-preset='{"year": "fr"}' aria-pressed="false">For freshmen</button></div>
+    <label class="f-search"><span>Search all <span data-count></span> opportunities</span><input type="search" data-f="q" placeholder="A name or topic, like CIA, journalism or Brooklyn" autocomplete="off"></label>
+    <div class="presets" role="group" aria-label="Popular filters"><span class="presets-h">Popular</span><button type="button" data-preset='{"soon": 30}' aria-pressed="false">Closing in 30 days</button><button type="button" data-preset='{"paid": true}' aria-pressed="false">Paid or fully funded</button><button type="button" data-preset='{"type": "summer-internship", "paid": true}' aria-pressed="false">Paid summer internships</button><button type="button" data-preset='{"type": "summer-research"}' aria-pressed="false">Summer research</button><button type="button" data-preset='{"type": "fellowship"}' aria-pressed="false">Scholarships and fellowships</button><button type="button" data-preset='{"degree": "jd"}' aria-pressed="false">Pre-law</button><button type="button" data-preset='{"type": "pipeline"}' aria-pressed="false">Pre-law pipeline programs</button><button type="button" data-preset='{"type": "international"}' aria-pressed="false">International affairs</button><button type="button" data-preset='{"type": "politics"}' aria-pressed="false">Politics and campaigns</button><button type="button" data-preset='{"type": "conference"}' aria-pressed="false">Events and career fairs</button><button type="button" data-preset='{"type": "after"}' aria-pressed="false">After college</button><button type="button" data-preset='{"q": "housing"}' aria-pressed="false">Covers housing</button><button type="button" data-preset='{"open": true}' aria-pressed="false">Open to DACA students</button><button type="button" data-preset='{"outside": true}' aria-pressed="false">Live outside NYC</button><button type="button" data-preset='{"year": "fr"}' aria-pressed="false">For freshmen</button></div>
     <details class="more-f" open>
       <summary>More filters: goal, year and type</summary>
       <div class="more-f-body">
@@ -544,6 +568,7 @@ def programs_page():
         <label><span>Type</span><select data-f="type"><option value="">Any type</option></select></label>
         <label class="f-check"><input type="checkbox" data-f="paid"> Paid or fully funded</label>
         <label class="f-check"><input type="checkbox" data-f="open"> Open to DACA, undocumented or international students</label>
+        <label class="f-check"><input type="checkbox" data-f="outside"> I live outside New York City (hide NYC-residents-only)</label>
       </div>
     </details>
     <div class="p-status"><p class="p-count" aria-live="polite"></p><div class="p-active"></div></div>
@@ -551,8 +576,8 @@ def programs_page():
   <div class="p-list"></div>
   <p class="p-note">Dates are this cycle's where posted; otherwise last cycle's, which are usually close. Confirm on the official page.</p>
 </section>'''
-    write('programs.html', page('programs.html', 'Programs · Queens College Political Science Pathways',
-                                'Every program for Queens College political science majors in one searchable list, grouped by month.',
+    write('programs.html', page('programs.html', 'Opportunities · Queens College Political Science Pathways',
+                                'Every internship, fellowship, program and event for Queens College students in political science or any major in one searchable list, grouped by month.',
                                 'programs-page', main, ['path-core.js', 'programs.js'], 'programs.html'))
 
 
@@ -563,13 +588,18 @@ def about_page():
     inner = SRC[SRC.index('<div class="about-grid">', i):j]
     inner = inner[:inner.rindex('</div>')]  # drop the .wrap close
     inner = relink(inner).replace('href="../downloads/', 'href="' + UP + 'downloads/')
+    # Mohamed's note goes near the bottom (Oct 21, 2026): students come for the handouts and sources first
+    pre = re.search(r'<div class="preface">(.*?)</div>', inner, re.S)
+    inner = inner.replace(pre.group(0), '').replace('<div class="about-grid">', '<div>', 1)
+    preface = re.sub(r'<h[34] class="kick">(.*?)</h[34]>', r'<h2 id="pf-h">\1</h2>', pre.group(1).strip(), count=1)
     note = re.search(r'<aside class="note-from"[^>]*>(.*?)</aside>', SRC, re.S).group(1)
     note = re.sub(r'<p class="sig">.*?</p>', '', note, flags=re.S).strip()
-    main = hero('About this guide', 'A student-made guide for Queens College political science majors, checked against official pages and updated every week.',
+    main = hero('About this guide', 'A student-made guide for Queens College political science majors, and for students in any major headed to law school, graduate school or public service. Checked against official pages and updated every week.',
                 'main-st-qns-college-td-32-queens.jpg', 'Queens Hall on the Queens College campus, seen from Main Street', '60% 50%',
                 '<p class="updated" data-updated></p>') + f'''
-<section class="about-text article wide">{demote(inner)}</section>
+<section class="about-text article">{demote(inner)}</section>
 <section class="about-text" id="credits" aria-labelledby="cr-h"><h2 id="cr-h">Photo credits</h2><p class="sec-lede">Every photo on the site is a real, openly licensed photo from Wikimedia Commons, shown in black and white.</p><ul class="credit-grid">{credit_grid()}</ul></section>
+<section class="about-text article" aria-labelledby="pf-h"><div class="preface">{preface}</div></section>
 <section class="about" aria-labelledby="note-h">
   <div class="about-left">
     <h2 id="note-h">Made by a student,<br>for students</h2>
@@ -611,6 +641,40 @@ def old_links():
     write('oldlinks.js', js)
 
 
+def search_index():
+    """search-index.js: the guides and main pages, as plain text for the search box (search.js)."""
+    def plain(h):
+        return re.sub(r'\s+', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', h))).strip()
+
+    def text(sid):
+        try:
+            return plain(section(sid)[1])[:3000]
+        except ValueError:
+            return ''
+    pages = [
+        ('index.html#path', 'Your year-by-year path', 'Pick your goal and year: what to do, how to do it and what to apply to', None),
+        ('index.html#quiz', 'Not sure where to start? Take the quiz', 'Eight quick questions point you to a path that fits', None),
+        ('grad.html', 'Graduate school', 'PhD, predoc, MPP, MPA and MA, and the plan for each year', None),
+        ('grad.html#g-phd-about', 'The PhD', 'What a political science PhD is and who it fits', 'g-phd-about'),
+        ('grad.html#g-predoc-about', 'Predocs', 'Paid research jobs before a PhD', 'g-predoc-about'),
+        ('grad.html#g-mpp-about', "The MPP (public policy master's)", "What a public policy master's is and who it fits", 'g-mpp-about'),
+        ('grad.html#g-mpa-about', "The MPA (public administration master's)", "What a public administration master's is and who it fits", 'g-mpa-about'),
+        ('grad.html#g-ma-about', 'The MA', "What a master's of arts is and who it fits", 'g-ma-about'),
+        ('law.html', 'Law school', 'The JD, the plan for each year and what to apply to', None),
+        ('law.html#fields', 'Fields of law', 'Kinds of law, with a free guide to each', 'l-fields'),
+        ('jobs.html', 'Jobs', 'First jobs, internships and job search tools', None),
+        ('programs.html', 'Opportunities', 'Every internship, fellowship, program and event, with filters and calendar buttons', None),
+        ('guides.html', 'All guides', 'Every guide, grouped by when you need it', None),
+        ('about.html', 'About, handouts and QR codes', 'Sources, handouts in standard and large print, a flyer and QR codes', None),
+        ('handout.html?path=grad', 'Graduate school handout', 'To print or email, in standard or large print', None),
+        ('handout.html?path=law', 'Law school handout', 'To print or email, in standard or large print', None),
+    ]
+    out = [{'t': t, 'd': d, 'u': u, 'x': text(sid) if sid else ''} for u, t, d, sid in pages]
+    out += [{'t': title, 'd': line, 'u': fname, 'x': text(gid)} for gid, fname, title, line, path in GUIDES]
+    write('search-index.js', '// Generated by tools/build_site.py: the guides and main pages, for the search box (search.js).\nwindow.SEARCH = '
+          + json.dumps(out, ensure_ascii=False) + ';\n')
+
+
 if __name__ == '__main__':
     P = plans()
     for k in P:
@@ -627,4 +691,5 @@ if __name__ == '__main__':
     about_page()
     old_links()
     calendars()
+    search_index()
     print('built; unknown link targets:', sorted(MISSING) or 'none')

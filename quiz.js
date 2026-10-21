@@ -102,7 +102,7 @@
     var tips = [];
     if (flags.stats) tips.push('Never tried statistics? A free course like <a href="https://www.khanacademy.org/math/statistics-probability">Khan Academy\'s Statistics and probability</a> is a low-stakes way to find out if you like it. More in <a href="guide-methods.html">Methods and skills</a>.');
     if (flags.journalism) tips.push('You might also like journalism: paid newsroom internships and fellowships are in <a href="guide-journalism-nonprofits-government.html">Journalism, nonprofits and government</a>.');
-    if (flags.government) tips.push('Government internships, from City Hall to Washington, are in <a href="programs.html?q=government">Programs</a>.');
+    if (flags.government) tips.push('Government internships, from City Hall to Washington, are in <a href="programs.html?q=government">Opportunities</a>.');
     if (flags.abroad) tips.push('Interested in other countries? See <a href="guide-scholarships.html">Scholarships and funding</a> for study and work abroad, from Fulbright to teaching in Japan.');
     if (flags.work) tips.push('Working first is common. The "After college" part of your path shows paid jobs and fellowships.');
     // students who aren't sure: AI can help, and so can people

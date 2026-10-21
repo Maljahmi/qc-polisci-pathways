@@ -49,8 +49,8 @@
 
   // links to other sites open in a new tab, including the ones drawn after load (program lists, the path)
   function newTab(){
-    document.querySelectorAll('a[href^="http"]:not([target])').forEach(function(a){
-      if (a.host !== location.host){ a.target = "_blank"; a.rel = "noopener"; }
+    document.querySelectorAll('a[href]:not([target]):not([download])').forEach(function(a){
+      if (a.host !== location.host || /\.(pdf|png)$/i.test(a.pathname)){ a.target = "_blank"; a.rel = "noopener"; }
     });
   }
   newTab();

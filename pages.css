@@ -211,6 +211,7 @@
 .tag { display: inline-block; margin-right: 10px; vertical-align: 2px; font: 700 var(--t-small)/1 var(--text); padding: 6px 8px; background: #fff; color: var(--ink); }
 .tag-ink { background: var(--ink); color: #fff; }
 .tag-fee { color: var(--accent-strong); }
+.tag-res { background: #fff; color: var(--ink); }  /* residency limits: plain, like "Free" */
 .p-meta { margin-top: 6px; font-size: var(--t-small); color: var(--muted); }
 .p-acts { margin-top: 12px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .p-acts-h { font-size: var(--t-small); font-weight: 700; color: var(--muted); margin-right: 4px; }
