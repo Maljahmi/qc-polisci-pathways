@@ -194,6 +194,7 @@ def page(fname, title, desc, body_class, main, scripts=(), here=''):
 <link rel="stylesheet" href="taste.css">
 <link rel="stylesheet" href="pages.css">
 <script>document.documentElement.classList.add('js')</script>
+<script data-goatcounter="https://maljahmi.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body class="path-page sub {body_class}">
 

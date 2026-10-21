@@ -22,7 +22,7 @@ The current design went live Oct 17, 2026 (made with the Taste skill, `design-ta
   - `build_commons.py` rebuilds `commons/` from `classic/index.html` and `data.js`. `PAGES` lists which sections go on each Commons page; update it when you add a section.
   - `build_docx.py` rebuilds the `.docx` files from the `.sheet` samples in `classic/index.html`; export the PDFs from Word afterward.
 
-After content changes run `python tools/build_site.py` and `python tools/build_commons.py` (set `PYTHONIOENCODING=utf-8` in Git Bash). There is no framework and no dependencies; the only external resource is Google Fonts. `_mockup-taste/` is the old preview folder (git-ignored); it is out of date and nothing reads it.
+After content changes run `python tools/build_site.py` and `python tools/build_commons.py` (set `PYTHONIOENCODING=utf-8` in Git Bash). There is no framework and no dependencies; the only external resources are Google Fonts and GoatCounter analytics (free, no cookies; dashboard at maljahmi.goatcounter.com, Mohamed's account). The GoatCounter script is in the page head in `build_site.py`, `index.html`, `handout.html` and `classic/index.html`; QR and handout visits show up by their `utm_source`. `_mockup-taste/` is the old preview folder (git-ignored); it is out of date and nothing reads it.
 
 ## How the content is built
 
