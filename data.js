@@ -15186,6 +15186,51 @@ window.PROGRAMS = [
     "Through your school's nominating office"
    ]
   ]
+ },
+ {
+  "id": "gp-pallas-fellowship",
+  "name": "<a href=\"https://www.pallasfoundation.org/apply\">Pallas Fellowship (Pallas Foundation for National Security Leadership)</a>",
+  "url": "https://www.pallasfoundation.org/apply",
+  "types": [
+   "fellowship",
+   "spring-internship",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Oct 23",
+  "whenS": "2026 · spring 2027 cohort, 11:59 p.m. Eastern",
+  "due": "2026-10-23",
+  "status": "confirmed",
+  "dueMD": "10-23",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C., in person or online · part time, about 20–30 hours a week",
+  "body": "A paid part-time fellowship at Pallas Advisors, doing research and client work at the meeting point of defense, national security and technology, with weekly professional development.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Seniors, graduate students and recent graduates; U.S. citizens only"
+   ],
+   [
+    "Pay",
+    "Competitive hourly pay"
+   ],
+   [
+    "How to apply",
+    "The online application on the page"
+   ]
+  ]
  }
 ];
 
