@@ -1,7 +1,7 @@
 // Opportunities database. One entry per program; every degree tab, the deadline board and the
 // Commons export read from it. Each field is described in the project notes.
 // the date programs and deadlines were last checked; the home page and All opportunities show it
-window.UPDATED = "2026-10-19";
+window.UPDATED = "2026-10-26";
 
 window.PROGRAMS = [
  {
@@ -1329,12 +1329,12 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "~Feb 3",
-  "whenS": "2027 · est. · opens ~Nov 1",
+  "whenB": "Feb 3",
+  "whenS": "2027 · opens Nov 1",
   "due": "2027-02-03",
-  "status": "estimate",
+  "status": "confirmed",
   "dueMD": "02-03",
-  "opens": "~Nov 1",
+  "opens": "Nov 1",
   "opensMD": "11-01",
   "meta": "8–10 weeks at a school you rank",
   "body": "Social science sites include Columbia, Harvard, Yale, Vanderbilt, Emory, UVA and Penn. The <a href=\"https://www.gsas.columbia.edu/content/summer-research-program\">Columbia site</a> covers the social sciences and pays a $5,000 stipend.",
@@ -2424,9 +2424,9 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": true,
   "whenB": "Oct 25",
-  "whenS": "2026 · opens Sept 28",
-  "due": "2026-10-25",
-  "status": "confirmed",
+  "whenS": "last cycle · fall 2027 date not posted",
+  "due": "",
+  "status": "last",
   "dueMD": "10-25",
   "opens": "Sept 28",
   "opensMD": "09-28",
@@ -4129,13 +4129,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": true,
-  "whenB": "Oct 25",
-  "whenS": "2026 · spring cycle mid-Jan to mid-Mar",
-  "due": "2026-10-25",
-  "status": "confirmed",
-  "dueMD": "10-25",
-  "opens": "",
-  "opensMD": "",
+  "whenB": "~Mid-Mar",
+  "whenS": "2027 · est. · spring cycle opens mid-to-late Jan; exact dates not posted",
+  "due": "",
+  "status": "estimate",
+  "dueMD": "03-15",
+  "opens": "Mid-to-late Jan",
+  "opensMD": "01-20",
   "meta": "QC Foundation scholarships · one application, every semester",
   "body": "One general application on QC's <a href=\"https://qc-cuny.academicworks.com/\">AcademicWorks portal</a> puts you in the running for most of the college's donor scholarships, based on merit, need, major or class year. Fall applications pay for the spring term, and spring applications pay for the fall. A few awards add a short supplemental question at the end.",
   "warn": "",
@@ -4176,13 +4176,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Oct 25",
-  "whenS": "2026 · in the General Application",
-  "due": "2026-10-25",
-  "status": "confirmed",
-  "dueMD": "10-25",
-  "opens": "",
-  "opensMD": "",
+  "whenB": "~Mid-Mar",
+  "whenS": "2027 · est. · in the spring General Application; date not posted",
+  "due": "",
+  "status": "estimate",
+  "dueMD": "03-15",
+  "opens": "Mid-to-late Jan",
+  "opensMD": "01-20",
   "meta": "QC scholarship · graduate school application costs",
   "body": "Helps pay to apply to graduate school: application fees, entrance exams and prep courses. It is part of QC's General Application, with one supplemental question about why you want to go to graduate school.",
   "warn": "",
@@ -5127,12 +5127,12 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": true,
-  "whenB": "Opens Dec",
-  "whenS": "for summer and fall 2027 programs",
+  "whenB": "Opens fall",
+  "whenS": "for summer and fall 2027 programs; opening date not posted",
   "due": "",
   "status": "none",
   "dueMD": "01-15",
-  "opens": "Dec 2026",
+  "opens": "Fall 2026",
   "opensMD": "12-01",
   "meta": "Study abroad · first-generation students",
   "body": "Study abroad scholarships for students with financial need who have never studied abroad. Most recipients are first-generation college students.",
@@ -5296,13 +5296,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Oct 19",
-  "whenS": "2026 · spring priority date",
-  "due": "2026-10-19",
+  "whenB": "Mar 7",
+  "whenS": "2027 · summer priority date; opens Feb 1",
+  "due": "2027-03-07",
   "status": "confirmed",
-  "dueMD": "10-19",
+  "dueMD": "03-07",
   "opens": "Open now (spring); Feb 1 (summer); May 17 (fall)",
-  "opensMD": "",
+  "opensMD": "02-01",
   "meta": "Washington, D.C., hybrid · spring, summer or fall",
   "body": "Paid internships at a nonpartisan nonprofit that works to make the federal government run better.",
   "warn": "You must live in the Washington, D.C., area during the internship.",
@@ -11202,7 +11202,7 @@ window.PROGRAMS = [
   "paid": false,
   "allOpen": false,
   "whenB": "Nov 14",
-  "whenS": "last cycle · spring",
+  "whenS": "last cycle · Policy Center spring; Arts & Culture spring 2027 is due Nov 10",
   "due": "",
   "status": "last",
   "dueMD": "11-14",
@@ -11245,9 +11245,9 @@ window.PROGRAMS = [
   "paid": false,
   "allOpen": false,
   "whenB": "Oct 23",
-  "whenS": "2026 · spring 2027, first come, first served",
-  "due": "2026-10-23",
-  "status": "confirmed",
+  "whenS": "last cycle · spring 2027; summer dates not posted",
+  "due": "",
+  "status": "last",
   "dueMD": "10-23",
   "opens": "Open now",
   "opensMD": "",
@@ -12389,10 +12389,10 @@ window.PROGRAMS = [
   "allOpen": false,
   "cost": "free",
   "whenB": "Oct 22",
-  "whenS": "2026 · 2–4 p.m. Eastern, online",
-  "due": "2026-10-22",
+  "whenS": "last cycle · next session not posted",
+  "due": "",
   "event": true,
-  "status": "confirmed",
+  "status": "last",
   "dueMD": "10-22",
   "opens": "",
   "opensMD": "",
@@ -13799,10 +13799,10 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "whenB": "Oct 21",
-  "whenS": "2026 · 4–7 p.m., CUNY Graduate Center",
-  "due": "2026-10-21",
+  "whenS": "last cycle · each October; next date not posted",
+  "due": "",
   "event": true,
-  "status": "confirmed",
+  "status": "last",
   "dueMD": "10-21",
   "opens": "",
   "opensMD": "",
@@ -14289,12 +14289,12 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "cost": "free",
-  "whenB": "Oct 21",
-  "whenS": "2026 · next talk, 6:30 p.m.; Paul Krugman and Heather Cox Richardson Nov 11",
-  "due": "2026-10-21",
+  "whenB": "Nov 11",
+  "whenS": "2026 · Paul Krugman and Heather Cox Richardson, 6:30 p.m.; more talks Nov 12, Nov 18, Dec 2 and Dec 9",
+  "due": "2026-11-11",
   "event": true,
   "status": "confirmed",
-  "dueMD": "10-21",
+  "dueMD": "11-11",
   "opens": "",
   "opensMD": "",
   "meta": "365 Fifth Ave., Manhattan, and livestreamed · evenings through the year",
@@ -14548,11 +14548,11 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Oct 25",
-  "whenS": "2026 · for winter and spring 2027; summer and fall awards are due in March",
-  "due": "2026-10-25",
-  "status": "confirmed",
-  "dueMD": "10-25",
+  "whenB": "~Mar",
+  "whenS": "2027 · est. · for summer and fall 2027; exact March date not posted",
+  "due": "",
+  "status": "estimate",
+  "dueMD": "03-15",
   "opens": "Open now",
   "opensMD": "",
   "meta": "QC Study Abroad Office, King Hall 203 · each term",
@@ -15208,9 +15208,9 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Oct 23",
-  "whenS": "2026 · spring 2027 cohort, 11:59 p.m. Eastern",
-  "due": "2026-10-23",
-  "status": "confirmed",
+  "whenS": "last cycle · spring 2027 cohort; next cohort not posted",
+  "due": "",
+  "status": "last",
   "dueMD": "10-23",
   "opens": "Open now",
   "opensMD": "",
@@ -15229,6 +15229,572 @@ window.PROGRAMS = [
    [
     "How to apply",
     "The online application on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-brookings-foreign-policy-internships",
+  "name": "<a href=\"https://www.brookings.edu/careers/internships/\">Brookings Foreign Policy internships (Talbott Center for Security, Strategy, and Technology)</a>",
+  "url": "https://www.brookings.edu/careers/internships/",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Nov 7",
+  "whenS": "2026 · spring 2027; the China Center posting closes Nov 14",
+  "due": "2026-11-07",
+  "status": "confirmed",
+  "dueMD": "11-07",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C., hybrid · about 12 weeks",
+  "body": "Research and events internships at Brookings on defense, nuclear issues, maritime security and armed groups.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Juniors, seniors and master's students (not PhD students); students with U.S. work authorization, or on F-1 or J-1 visas with CPT, may apply"
+   ],
+   [
+    "Pay",
+    "$18.40 an hour, at least 24 hours a week"
+   ],
+   [
+    "How to apply",
+    "The posting on Brookings' careers site, with a cover letter, résumé and transcript"
+   ]
+  ]
+ },
+ {
+  "id": "gp-horizon-junior-fellowship",
+  "name": "<a href=\"https://horizonpublicservice.org/programs/become-a-fellow/\">Horizon Junior Fellowship (emerging technology policy)</a>",
+  "url": "https://horizonpublicservice.org/programs/become-a-fellow/",
+  "types": [
+   "fellowship",
+   "after"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Late Aug",
+  "whenS": "last cycle · Aug 30, 2026",
+  "due": "",
+  "status": "last",
+  "dueMD": "08-30",
+  "opens": "",
+  "opensMD": "",
+  "meta": "A Washington think tank · 6 months, renewable to 12",
+  "body": "Training and a paid think-tank placement in AI, biotechnology and other emerging-technology policy, for people just out of college.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Recent bachelor's or master's graduates (including those finishing that year) with under three years of work experience; you need U.S. work authorization, and F-1 students on OPT are supported"
+   ],
+   [
+    "Pay",
+    "$78,000 a year plus a $17,000 benefits stipend and $3,000 for professional development"
+   ],
+   [
+    "How to apply",
+    "A two-page résumé and short answers, then a paid work test"
+   ]
+  ]
+ },
+ {
+  "id": "gp-stimson-south-asia-junior-fellowship",
+  "name": "<a href=\"https://www.stimson.org/project/south-asia-fellowships/junior-fellowship/apply/\">Stimson Center South Asia Junior Fellowship</a>",
+  "url": "https://www.stimson.org/project/south-asia-fellowships/junior-fellowship/apply/",
+  "types": [
+   "fellowship",
+   "after",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "~Jan 31",
+  "whenS": "2027 · last deadline Jan 31, 2026",
+  "due": "2027-01-31",
+  "status": "estimate",
+  "dueMD": "01-31",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 12 months, August to July",
+  "body": "A full-time paid year in the Stimson Center's South Asia program, on regional security and nuclear issues.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Graduating seniors and people who finished a bachelor's or master's in the past year; U.S. citizenship isn't required, but you need U.S. work authorization for all 12 months"
+   ],
+   [
+    "Pay",
+    "$50,000 a year plus benefits"
+   ],
+   [
+    "How to apply",
+    "The online application on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-stimson-foreign-policy-futures",
+  "name": "<a href=\"https://www.stimson.org/project/foreign-policy-futures/\">Stimson Center Foreign Policy Futures</a>",
+  "url": "https://www.stimson.org/project/foreign-policy-futures/",
+  "types": [
+   "fellowship",
+   "international"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "phd"
+  ],
+  "paid": null,
+  "allOpen": true,
+  "whenB": "~July 15",
+  "whenS": "2027 · last deadline July 15, 2026",
+  "due": "2027-07-15",
+  "status": "estimate",
+  "dueMD": "07-15",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Online, plus a February summit in Washington · September to June, 1–4 hours a month",
+  "body": "A part-time, mostly online cohort of young people rethinking U.S. foreign policy and grand strategy.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates, graduate students, recent graduates and professionals with five or fewer years of experience; non-U.S. citizens are encouraged to apply"
+   ],
+   [
+    "How to apply",
+    "The online application on the page"
+   ]
+  ]
+ },
+ {
+  "id": "gp-american-security-project-internship",
+  "name": "<a href=\"https://www.americansecurityproject.org/about/employment/\">American Security Project internships</a>",
+  "url": "https://www.americansecurityproject.org/about/employment/",
+  "types": [
+   "spring-internship",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": false,
+  "allOpen": false,
+  "whenB": "Oct 31",
+  "whenS": "2026 · spring 2027; applications reviewed as they come in",
+  "due": "2026-10-31",
+  "status": "confirmed",
+  "dueMD": "10-31",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Washington, D.C., hybrid · January to May, about 20 hours a week",
+  "body": "A part-time research internship at a bipartisan national security think tank, with tracks in AI, nuclear security, China and Russia.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Rising juniors and up, and recent graduates"
+   ],
+   [
+    "Pay",
+    "Unpaid, with a transit stipend"
+   ],
+   [
+    "How to apply",
+    "Email a cover letter, résumé, references, your weekly availability and a writing sample of two pages or less"
+   ]
+  ]
+ },
+ {
+  "id": "gp-cns-summer-undergraduate-internship",
+  "name": "<a href=\"https://nonproliferation.org/summer-undergraduate-intern-program/\">James Martin Center for Nonproliferation Studies summer undergraduate internship</a>",
+  "url": "https://nonproliferation.org/summer-undergraduate-intern-program/",
+  "types": [
+   "summer-internship",
+   "international"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "ma",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "~Feb 28",
+  "whenS": "2027 · the page says to check back; last confirmed Feb 28, 2025",
+  "due": "2027-02-28",
+  "status": "estimate",
+  "dueMD": "02-28",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Monterey, Calif. · June to August",
+  "body": "A paid summer of nonproliferation research at the Middlebury Institute's James Martin Center; science and engineering majors are welcome too.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Full-time undergraduates, preferably finishing sophomore year; you must be eligible to work in the U.S."
+   ],
+   [
+    "Pay",
+    "Paid at the graduate research assistant rate; you find your own housing"
+   ],
+   [
+    "How to apply",
+    "Online, with a cover letter, CV, transcript, a 2–3 page writing sample and two references"
+   ]
+  ]
+ },
+ {
+  "id": "gp-nti-summer-internship",
+  "name": "<a href=\"https://www.nti.org/internships/\">Nuclear Threat Initiative summer internships</a>",
+  "url": "https://www.nti.org/internships/",
+  "types": [
+   "summer-internship",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "~Feb 8",
+  "whenS": "2027 · the application opens in late January for about two weeks",
+  "due": "2027-02-08",
+  "status": "estimate",
+  "dueMD": "02-08",
+  "opens": "Late January",
+  "opensMD": "01-25",
+  "meta": "Washington, D.C. · 10 weeks",
+  "body": "A paid summer internship at the Nuclear Threat Initiative, which works to reduce nuclear and biological threats.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates with at least two years done, and graduate students; you must live in D.C., Maryland or Virginia during the internship"
+   ],
+   [
+    "Pay",
+    "Hourly, by education level"
+   ]
+  ]
+ },
+ {
+  "id": "gp-arms-control-center-internship",
+  "name": "<a href=\"https://armscontrolcenter.org/about/jobs-and-internships/\">Center for Arms Control and Non-Proliferation internships</a>",
+  "url": "https://armscontrolcenter.org/about/jobs-and-internships/",
+  "types": [
+   "spring-internship",
+   "summer-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Each term",
+  "whenS": "postings open each semester; none open now",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Capitol Hill, Washington, D.C. · a semester",
+  "body": "A paid internship on nuclear weapons and arms control policy, close to Congress.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students and recent graduates; the center can't sponsor visas"
+   ],
+   [
+    "Pay",
+    "Paid hourly; school credit is available"
+   ]
+  ]
+ },
+ {
+  "id": "gp-jpal-research-associate",
+  "name": "<a href=\"https://www.povertyactionlab.org/careers\">J-PAL Research Associate positions (Common Application)</a>",
+  "url": "https://www.povertyactionlab.org/careers",
+  "types": [
+   "after",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "predoc",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 13",
+  "whenS": "2027 · all positions open Nov 25",
+  "due": "2027-01-13",
+  "status": "confirmed",
+  "dueMD": "01-13",
+  "opens": "Nov 25",
+  "opensMD": "11-25",
+  "meta": "U.S. and worldwide offices and field sites · usually 1–2 years",
+  "body": "Full-time research jobs on randomized evaluations of anti-poverty policy, filled through one Common Application. A common route into PhD and policy careers.",
+  "warn": "J-PAL rarely sponsors visas for U.S. jobs.",
+  "facts": [
+   [
+    "Who",
+    "College graduates; most staff have a bachelor's or master's degree"
+   ],
+   [
+    "Pay",
+    "A salary; pay varies by job. Field jobs add airfare, health insurance and visa costs"
+   ],
+   [
+    "Timeline",
+    "Interviews run from late January through spring; many jobs start in June"
+   ],
+   [
+    "How to apply",
+    "<a href=\"https://www.povertyactionlab.org/page/recruitment-timeline\">The Common Application</a>, where you pick the jobs you want"
+   ]
+  ]
+ },
+ {
+  "id": "gp-doha-institute-tamim-scholarship",
+  "name": "<a href=\"https://www.dohainstitute.edu.qa/en/Admissions-Office/Pages/default.aspx\">Doha Institute for Graduate Studies master's programs (Tamim Scholarship)</a>",
+  "url": "https://www.dohainstitute.edu.qa/en/Admissions-Office/Pages/default.aspx",
+  "types": [
+   "after",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Jan 15",
+  "whenS": "2027 · for fall 2027 entry",
+  "due": "2027-01-15",
+  "status": "confirmed",
+  "dueMD": "01-15",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Doha, Qatar · 2-year master's",
+  "body": "A fully funded master's in political science, public policy, public administration and related fields, taught mainly in Arabic.",
+  "warn": "You must be able to study in Arabic. DACA and undocumented students should talk to an immigration lawyer before leaving the U.S.",
+  "facts": [
+   [
+    "Who",
+    "Bachelor's graduates, and seniors who finish by July 1; you must study and do research in Arabic, with some English. Non-Arabic speakers take an Arabic test. International students may apply"
+   ],
+   [
+    "Pay",
+    "<a href=\"https://www.dohainstitute.edu.qa/en/Admissions-Office/Pages/Scholarships.aspx\">The Tamim Scholarship</a> for international students: full tuition, student housing, a monthly stipend and health insurance"
+   ],
+   [
+    "How to apply",
+    "Apply online for admission first; admitted students are invited to apply for the scholarship"
+   ]
+  ]
+ },
+ {
+  "id": "gp-zero-hunger-internship",
+  "name": "<a href=\"https://hungercenter.org/what-we-do/zero-hunger-internship/interns/\">Zero Hunger Internship (Congressional Hunger Center)</a>",
+  "url": "https://hungercenter.org/what-we-do/zero-hunger-internship/interns/",
+  "types": [
+   "summer-internship",
+   "politics"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 30",
+  "whenS": "last cycle · summer 2027 opens this fall",
+  "due": "",
+  "status": "last",
+  "dueMD": "01-30",
+  "opens": "Fall 2026",
+  "opensMD": "",
+  "meta": "Washington, D.C. · 10 weeks, June–August",
+  "body": "A paid summer placement at a Washington anti-hunger group or agency, with a leadership seminar series.",
+  "warn": "You find and pay for your own housing.",
+  "facts": [
+   [
+    "Who",
+    "Current undergraduates and recent graduates who are U.S. citizens or authorized to work in the U.S."
+   ],
+   [
+    "Pay",
+    "A stipend of up to $7,500 for 10 weeks, plus round-trip travel within the U.S."
+   ],
+   [
+    "How to apply",
+    "An online form on the program page; it does not save your progress"
+   ]
+  ]
+ },
+ {
+  "id": "gp-obama-voyager-scholarship",
+  "name": "<a href=\"https://www.obama.org/programs/voyager-scholarship/\">Voyager Scholarship for Public Service (Obama Foundation)</a>",
+  "url": "https://www.obama.org/programs/voyager-scholarship/",
+  "types": [
+   "fellowship",
+   "politics"
+  ],
+  "years": [
+   "so"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Mar 17",
+  "whenS": "last cycle · opened Jan 28",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-17",
+  "opens": "Late Jan",
+  "opensMD": "01-28",
+  "meta": "Nationwide · junior and senior years, plus a summer voyage",
+  "body": "For sophomores who plan a career in public service: up to $50,000 in aid for junior and senior years and a $10,000 stipend for a summer of travel and work.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Current sophomores who will be full-time juniors at a four-year U.S. college and plan a public service career; U.S. citizens, nationals, permanent residents and DACA recipients"
+   ],
+   [
+    "Pay",
+    "Up to $25,000 a year in \"last dollar\" financial aid, a $10,000 summer stipend with free Airbnb housing, and a $2,000 Airbnb travel credit every year for 10 years"
+   ],
+   [
+    "How to apply",
+    "An online application with no recommendation letters; you send a transcript and financial documents. See the <a href=\"https://www.obama.org/programs/voyager-scholarship/faq/\">FAQ</a>"
+   ]
+  ]
+ },
+ {
+  "id": "gp-turkiye-scholarships",
+  "name": "<a href=\"https://www.turkiyeburslari.gov.tr/\">Türkiye Scholarships (master's and PhD)</a>",
+  "url": "https://www.turkiyeburslari.gov.tr/",
+  "types": [
+   "after",
+   "international"
+  ],
+  "years": [
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "ma",
+   "phd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Feb 20",
+  "whenS": "last cycle · opened Jan 10",
+  "due": "",
+  "status": "last",
+  "dueMD": "02-20",
+  "opens": "Early Jan",
+  "opensMD": "01-10",
+  "meta": "Universities across Türkiye · full degree, with a Turkish language year",
+  "body": "A government scholarship for a full master's or PhD in Türkiye that pays tuition, housing, a monthly stipend, health insurance and a flight.",
+  "warn": "DACA and undocumented students should talk to an immigration lawyer before leaving the U.S.",
+  "facts": [
+   [
+    "Who",
+    "Citizens of all countries who have graduated or will graduate before August; master's applicants must be under 30"
+   ],
+   [
+    "Pay",
+    "Tuition, housing, health insurance, one round-trip flight, a Turkish course and a monthly stipend (9,500 Turkish lira for master's, 13,000 for PhD)"
+   ],
+   [
+    "How to apply",
+    "Online at <a href=\"https://tbbs.turkiyeburslari.gov.tr/\">tbbs.turkiyeburslari.gov.tr</a>"
    ]
   ]
  }
