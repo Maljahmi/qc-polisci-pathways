@@ -132,11 +132,42 @@
     a.download = name; document.body.appendChild(a); a.click();
     setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 1000);
   }
+  // "Copy for tracker": one tab-separated line per opportunity. Pasted into the tracker it fills Opportunity, Link, Type
+  // and Deadline and stops there, so the Days left formula stays. Real dates count down; anything else stays as text.
+  var TRACKER = "https://docs.google.com/spreadsheets/d/1gjCQ993BwtNfZgZxkzykkB982B7k5j4RjeVYvyMe4oE/copy";
+  function trackerRow(p){
+    var live = Q.dated(p), t = p.types[0];
+    return [plain(Q.name(p)) + (live && p.status === "estimate" ? " (date estimated)" : ""), p.url,
+      /-internship$/.test(t) ? "Internship" : TYPE[t], live ? p.due : [p.whenB, p.whenS].filter(Boolean).join(" ")]
+      .map(function(x){ return String(x || "").replace(/\s+/g, " ").trim(); }).join("\t");
+  }
+  function copyText(text, done){
+    function backup(){
+      var t = document.createElement("textarea"), ok = false;
+      t.value = text; t.setAttribute("readonly", ""); t.style.position = "fixed"; t.style.opacity = "0";
+      document.body.appendChild(t); t.select();
+      try { ok = document.execCommand("copy"); } catch(e){}
+      t.remove(); done(ok);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function(){ done(true); }, backup);
+    else backup();
+  }
+  var copiedEl = document.createElement("p");
+  copiedEl.className = "p-copied"; copiedEl.setAttribute("role", "status");
+  function copyRows(list, btn){
+    copyText(list.map(trackerRow).join("\n"), function(ok){
+      (btn.closest(".p-acts") || activeEl).insertAdjacentElement("afterend", copiedEl);
+      copiedEl.innerHTML = ok ? "Copied" + (list.length > 1 ? " " + list.length + " opportunities" : "") +
+        '. In your tracker, click the first empty cell under Opportunity and paste. No tracker yet? <a href="' + TRACKER + '" target="_blank" rel="noopener">Make your own copy</a>.'
+        : "Your browser blocked copying. Try again, or type the details into your tracker.";
+    });
+  }
   function actions(p){
     var on = !!SAVED[p.id];
     return '<div class="p-acts">' + (Q.dated(p) ? '<span class="p-acts-h">Add to calendar</span><a class="p-act" href="' + esc(googleLink(p)) + '">Google</a>' +
       '<button type="button" class="p-act" data-ics="' + esc(p.id) + '">Apple or Outlook</button>' : "") +
-      '<button type="button" class="p-act p-save" data-save="' + esc(p.id) + '" aria-pressed="' + on + '">' + (on ? "Saved" : "Save to my list") + "</button></div>";
+      '<button type="button" class="p-act p-save" data-save="' + esc(p.id) + '" aria-pressed="' + on + '">' + (on ? "Saved" : "Save to my list") + "</button>" +
+      '<button type="button" class="p-act" data-copy="' + esc(p.id) + '">Copy for tracker</button></div>';
   }
   function row(p){
     var dated = Q.dated(p), n = dated ? Q.left(p.due) : null, d = dated ? Q.parse(p.due) : null;
@@ -156,6 +187,7 @@
   }
 
   var shown = 40, soon = 0, savedOnly = false;  // soon: only deadlines in the next N days; savedOnly: your saved list
+  var seen = [];  // the list on screen, in order, for "Copy these for your tracker"
   // the filters as one object, so the list and the quick-filter counts use the same test
   function current(){ return {q: val("q"), degree: val("degree"), year: val("year"), type: val("type"), paid: val("paid"), open: val("open"), outside: val("outside"), soon: soon, saved: savedOnly}; }
   function matcher(st){
@@ -208,6 +240,7 @@
     var st = current();
     var list = PROGRAMS.filter(matcher(st)).sort(function(a, b){ return key(a) - key(b) || Q.name(a).localeCompare(Q.name(b)); });
     var groups = [], last = null;
+    seen = list; copiedEl.remove();
     list.forEach(function(p){
       var k = key(p), label = k === Infinity ? "No date posted yet" : MONTH[new Date(k).getMonth()] + " " + new Date(k).getFullYear();
       if (label !== last){ groups.push({label: label, items: []}); last = label; }
@@ -234,6 +267,7 @@
     // with the saved list showing, one button puts every saved deadline in your calendar
     var savedDated = st.saved ? list.filter(function(p){ return Q.dated(p); }) : [];
     if (savedDated.length) activeEl.insertAdjacentHTML("beforeend", '<button type="button" class="p-ics-all" data-ics-all>Add these ' + savedDated.length + (savedDated.length === 1 ? " deadline" : " deadlines") + " to your calendar</button>");
+    if (st.saved && list.length) activeEl.insertAdjacentHTML("beforeend", '<button type="button" class="p-ics-all" data-copy-all>Copy ' + (list.length === 1 ? "this" : "these " + list.length) + " for your tracker</button>");
   }
   root.addEventListener("input", function(e){ if (e.target.matches("[data-f]")){ shown = 40; render(); } });
   root.addEventListener("change", function(e){ if (e.target.matches("[data-f]")){ shown = 40; render(); } });
@@ -250,6 +284,10 @@
     if (e.target.closest(".p-reset")) apply({});
     var one = e.target.closest("[data-ics]");
     if (one){ var p1 = PROGRAMS.filter(function(p){ return p.id === one.getAttribute("data-ics"); })[0]; if (p1) download(p1.id + ".ics", icsFile([p1])); }
+    var cp = e.target.closest("[data-copy]");
+    if (cp) copyRows(PROGRAMS.filter(function(p){ return p.id === cp.getAttribute("data-copy"); }), cp);
+    var cpAll = e.target.closest("[data-copy-all]");
+    if (cpAll) copyRows(seen, cpAll);
     if (e.target.closest("[data-ics-all]")) download("my-saved-deadlines.ics", icsFile(PROGRAMS.filter(function(p){ return SAVED[p.id] && Q.dated(p); })));
     var sv = e.target.closest("[data-save]");
     if (sv){

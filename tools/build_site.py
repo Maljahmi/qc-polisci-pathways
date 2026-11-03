@@ -180,6 +180,9 @@ NAV = [('grad.html', 'Graduate school'), ('law.html', 'Law school'), ('jobs.html
 CAREER_CENTER = 'https://www.qc.cuny.edu/academics/cei/'
 
 
+SITE = 'https://maljahmi.github.io/qc-polisci-pathways/'  # the live address, for the search and link-preview tags and the sitemap
+
+
 def page(fname, title, desc, body_class, main, scripts=(), here=''):
     links = ''.join('<a href="%s"%s>%s</a>' % (u, ' aria-current="page"' if u == here else '', t) for u, t in NAV)
     return f'''<!doctype html>
@@ -189,6 +192,14 @@ def page(fname, title, desc, body_class, main, scripts=(), here=''):
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{H.escape(title)}</title>
 <meta name="description" content="{H.escape(desc)}">
+<link rel="canonical" href="{SITE}{fname}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Queens College Political Science Pathways">
+<meta property="og:title" content="{H.escape(title)}">
+<meta property="og:description" content="{H.escape(desc)}">
+<meta property="og:url" content="{SITE}{fname}">
+<meta property="og:image" content="{SITE}assets/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#E71939">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -297,7 +308,7 @@ def grad_page():
   <h2 id="mg-h">Guides for graduate school</h2>
   {guide_list(grad_guides)}
 </section>'''
-    write('grad.html', page('grad.html', 'Graduate school · Queens College Political Science Pathways',
+    write('grad.html', page('grad.html', 'Graduate school guide · Queens College Political Science Pathways',
                             'PhD, predoc, MPP, MPA and MA for Queens College students in political science or any major: the degrees, a year-by-year path and the programs to apply to.',
                             'grad-page', main, ['path-core.js', 'subject.js'], 'grad.html'))
 
@@ -329,7 +340,7 @@ def law_page():
   <h2 id="mg-h">Guides for law school</h2>
   {guide_list(law_guides)}
 </section>'''
-    write('law.html', page('law.html', 'Law school · Queens College Political Science Pathways',
+    write('law.html', page('law.html', 'Law school and pre-law guide · Queens College Political Science Pathways',
                            'Law school for Queens College students in political science or any major: what admissions weighs, the fields of law, a year-by-year path, the LSAT and the programs to apply to.',
                            'law-page', main, ['path-core.js', 'subject.js'], 'law.html'))
 
@@ -458,7 +469,7 @@ def jobs_page():
   <p>Queens College's <a href="{CAREER_CENTER}">Center for Career Engagement and Internships</a> reviews résumés, runs mock interviews and career fairs, and posts jobs on HireQC (Handshake). It's in Frese Hall 213; book a career educator on <a href="https://www.qc.cuny.edu/navigate/">QC Navigate</a>.</p>
   <a class="btn btn-ink" href="{CAREER_CENTER}">Visit the career center</a>
 </section>'''
-    write('jobs.html', page('jobs.html', 'Jobs · Queens College Political Science Pathways',
+    write('jobs.html', page('jobs.html', 'Jobs after college · Queens College Political Science Pathways',
                             'Jobs for Queens College political science majors: what you can do with the degree, what employers ask for, and how to land a job.',
                             'jobs-page', main, ['path-core.js', 'guide.js'], 'jobs.html'))
 
@@ -552,10 +563,13 @@ def calendar_links(which='deadlines.ics'):
 
 
 # ---------------------------------------------------------------- programs
+TRACKER = 'https://docs.google.com/spreadsheets/d/1gjCQ993BwtNfZgZxkzykkB982B7k5j4RjeVYvyMe4oE/copy'  # the "make a copy" link for the Google Sheets tracker
+
+
 def programs_page():
     main = hero('Opportunities', 'Every internship, fellowship, program and event on this site in one list. Search, tap a popular filter, or narrow it down by goal, year and type.',
                 'united-states-capitol-washington-dc.jpg', 'The United States Capitol in Washington', '50% 50%',
-                '<p class="updated" data-updated></p><p class="updated"><b>Details change often: always check each program\'s official website for the most accurate, up-to-date information before you apply.</b></p><p class="updated cal-line"><b>Get every deadline in your calendar,</b> updated every week: ' + calendar_links() + '. Only <a href="' + 'webcal://maljahmi.github.io/qc-polisci-pathways/deadlines-grad.ics' + '">graduate school</a> or <a href="' + 'webcal://maljahmi.github.io/qc-polisci-pathways/deadlines-law.ics' + '">law school</a> deadlines.</p>') + '''
+                '<p class="updated" data-updated></p><p class="updated"><b>Details change often: always check each program\'s official website for the most accurate, up-to-date information before you apply.</b></p><p class="updated cal-line"><b>Get every deadline in your calendar,</b> updated every week: ' + calendar_links() + '. Only <a href="' + 'webcal://maljahmi.github.io/qc-polisci-pathways/deadlines-grad.ics' + '">graduate school</a> or <a href="' + 'webcal://maljahmi.github.io/qc-polisci-pathways/deadlines-law.ics' + '">law school</a> deadlines.</p><p class="updated cal-line"><b>Keep track of your applications</b> in your own spreadsheet: <a href="' + TRACKER + '">Google Sheets</a> · <a href="downloads/Pathways_Application_Tracker.xlsx" download>Excel</a>. Then use "Copy for tracker" under any opportunity.</p>') + '''
 <section class="programs" aria-label="All opportunities">
   <div class="filters">
     <label class="f-search"><span>Search all <span data-count></span> opportunities</span><input type="search" data-f="q" placeholder="A name or topic, like CIA, journalism or Brooklyn" autocomplete="off"></label>
@@ -576,7 +590,7 @@ def programs_page():
   <div class="p-list"></div>
   <p class="p-note">Dates are this cycle's where posted; otherwise last cycle's, which are usually close. Confirm on the official page.</p>
 </section>'''
-    write('programs.html', page('programs.html', 'Opportunities · Queens College Political Science Pathways',
+    write('programs.html', page('programs.html', 'Internships, fellowships and pre-law programs · Queens College Political Science Pathways',
                                 'Every internship, fellowship, program and event for Queens College students in political science or any major in one searchable list, grouped by month.',
                                 'programs-page', main, ['path-core.js', 'programs.js'], 'programs.html'))
 
@@ -675,6 +689,12 @@ def search_index():
           + json.dumps(out, ensure_ascii=False) + ';\n')
 
 
+def sitemap():
+    pages = sorted(f for f in os.listdir(HERE) if f.endswith('.html') and not f.startswith('_') and f != 'index.html')
+    urls = ''.join('  <url><loc>%s</loc></url>\n' % (SITE + f) for f in [''] + pages)
+    write('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + '</urlset>\n')
+
+
 if __name__ == '__main__':
     P = plans()
     for k in P:
@@ -692,4 +712,5 @@ if __name__ == '__main__':
     old_links()
     calendars()
     search_index()
+    sitemap()
     print('built; unknown link targets:', sorted(MISSING) or 'none')

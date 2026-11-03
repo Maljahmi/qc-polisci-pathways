@@ -217,6 +217,8 @@
 .p-acts-h { font-size: var(--t-small); font-weight: 700; color: var(--muted); margin-right: 4px; }
 .p-act, .p-ics-all { display: inline-flex; align-items: center; min-height: 40px; padding: 0 12px; border: 0; background: #fff; color: var(--ink); font: 600 var(--t-small)/1.2 var(--text); text-decoration: none; cursor: pointer; transition: background-color var(--t-hover) ease, transform var(--t-press) var(--ease-out); }
 .p-act:active, .p-ics-all:active { transform: scale(0.98); }
+.p-copied { margin-top: 10px; font-size: var(--t-small); }
+.p-copied a { color: inherit; text-decoration: underline; }
 .p-save { margin-left: auto; }
 .p-save[aria-pressed="true"], .p-ics-all { background: var(--ink); color: #fff; }
 @media (hover: hover) and (pointer: fine) { .p-act:not([aria-pressed="true"]):hover { background: #e2e2dd; } .p-ics-all:hover { background: var(--accent-strong); } }
