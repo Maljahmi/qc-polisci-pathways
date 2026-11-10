@@ -71,7 +71,7 @@ window.PLANS = {
      "name": "Fall",
      "items": [
       "<a href=\"programs.html#gp-ny-state-senate-session\">Senate</a> or <a href=\"programs.html#gp-ny-state-assembly-session\">Assembly</a> session internship (campus dates mid–late Oct)",
-      "<a href=\"programs.html#gp-ppia-junior-summer-institute\">PPIA JSI</a> (Nov 6)",
+      "<a href=\"programs.html#gp-ppia-junior-summer-institute\">PPIA JSI</a>",
       "<a href=\"programs.html#gp-apsa-ralph-bunche-summer\">RBSI</a> (Nov 2–Jan 24)",
       "<a href=\"programs.html#gp-mit-msrp-pathways-political\">MIT</a> (Jan 19)",
       "<a href=\"programs.html#gp-truman-scholarship\">Truman</a> (QC's date before Feb 2)"
@@ -105,7 +105,7 @@ window.PLANS = {
      "name": "Fall",
      "items": [
       "<a href=\"guide-phd-visits.html\">PhD visit programs</a> (October)",
-      "<a href=\"programs.html#gp-apsa-diversity-fellowship-program\">APSA DFP</a> (Oct 25)",
+      "<a href=\"programs.html#gp-apsa-diversity-fellowship-program\">APSA DFP</a>",
       "Take the <a href=\"guide-applying.html\">GRE</a> by October",
       "Ask for <a href=\"guide-letters.html\">letters</a> and <a href=\"guide-applying.html\">fee waivers</a>",
       "PhD applications: late Nov–Dec 17"
@@ -307,7 +307,7 @@ window.PLANS = {
     {
      "name": "Fall",
      "items": [
-      "<a href=\"programs.html#gp-ppia-junior-summer-institute\">PPIA JSI</a> (Nov 6)",
+      "<a href=\"programs.html#gp-ppia-junior-summer-institute\">PPIA JSI</a>",
       "<a href=\"programs.html#gp-ny-state-senate-session\">Senate</a> or <a href=\"programs.html#gp-ny-state-assembly-session\">Assembly</a> session internship",
       "Congressional internships: <a href=\"programs.html#gp-cbcf-congressional-internship\">CBCF</a> (Nov 30), <a href=\"programs.html#gp-chci-congressional-internship\">CHCI</a> (Dec 1), <a href=\"programs.html#gp-apaics-congressional-internship\">APAICS</a> (Dec 18)",
       "<a href=\"programs.html#gp-truman-scholarship\">Truman</a>"
@@ -418,7 +418,7 @@ window.PLANS = {
      "name": "Fall",
      "items": [
       "<a href=\"programs.html#gp-ny-state-senate-session\">Senate</a> or <a href=\"programs.html#gp-ny-state-assembly-session\">Assembly</a> session internship",
-      "<a href=\"programs.html#gp-ppia-junior-summer-institute\">PPIA JSI</a> (Nov 6)",
+      "<a href=\"programs.html#gp-ppia-junior-summer-institute\">PPIA JSI</a>",
       "<a href=\"programs.html#gp-truman-scholarship\">Truman</a>"
      ]
     },
@@ -500,7 +500,7 @@ window.PLANS = {
     {
      "name": "Fall",
      "items": [
-      "<a href=\"programs.html#gp-syracuse-text-analytics-social\">Syracuse Text Analytics</a> (Nov 8)",
+      "<a href=\"programs.html#gp-syracuse-text-analytics-social\">Syracuse Text Analytics</a> (early November)",
       "Ask a professor about <a href=\"guide-professors.html\">RA work</a>"
      ]
     },
@@ -672,7 +672,7 @@ window.PLANS = {
       "<a href=\"guide-lsat.html\">LSAT</a> by Sept–Oct",
       "Register for <a href=\"https://www.lsac.org/applying-law-school/jd-application-process/credential-assembly-service-cas\">CAS</a>, LSAC's Credential Assembly Service; finish your statement and <a href=\"guide-letters.html\">letters</a>",
       "Apply Sept–Dec",
-      "<a href=\"programs.html#lp-paul-daisy-soros-fellowships\">Soros</a> (Oct 29)"
+      "<a href=\"programs.html#lp-paul-daisy-soros-fellowships\">Soros</a>"
      ]
     },
     {

@@ -1,7 +1,7 @@
 // Opportunities database. One entry per program; every degree tab, the deadline board and the
 // Commons export read from it. Each field is described in the project notes.
 // the date programs and deadlines were last checked; the home page and All opportunities show it
-window.UPDATED = "2026-11-02";
+window.UPDATED = "2026-11-09";
 
 window.PROGRAMS = [
  {
@@ -1103,14 +1103,14 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Nov 8",
-  "whenS": "2026 · summer 2027",
-  "due": "2026-11-08",
-  "status": "confirmed",
+  "whenS": "last cycle · summer 2027",
+  "due": "",
+  "status": "last",
   "dueMD": "11-08",
-  "opens": "Open now",
+  "opens": "",
   "opensMD": "",
   "meta": "Syracuse, NY · 1 week online in late May, then 9 weeks on campus (June 3–Aug 8, 2027)",
-  "body": "Python and text analysis for social science research, with political science students explicitly welcome. No coding needed. Applications are open now; decisions by Jan 30, 2027.",
+  "body": "Python and text analysis for social science research, with political science students explicitly welcome. No coding needed. The 2027 application closed Nov 8, 2026; decisions come by Jan 30, 2027.",
   "warn": "",
   "facts": [
    [
@@ -1482,13 +1482,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": true,
-  "whenB": "Jan 28",
-  "whenS": "last cycle",
-  "due": "",
-  "status": "last",
-  "dueMD": "01-28",
-  "opens": "Dec 1 (last cycle)",
-  "opensMD": "12-01",
+  "whenB": "Feb 1",
+  "whenS": "2027 · 11:59 p.m. Eastern",
+  "due": "2027-02-01",
+  "status": "confirmed",
+  "dueMD": "02-01",
+  "opens": "Nov 16, 2026",
+  "opensMD": "11-16",
   "meta": "Ann Arbor · 10 weeks · separate application",
   "body": "",
   "warn": "",
@@ -1631,10 +1631,10 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Nov 6",
-  "whenS": "2026",
-  "due": "2026-11-06",
-  "status": "confirmed",
+  "whenB": "Nov 8",
+  "whenS": "last cycle (extended from Nov 6)",
+  "due": "",
+  "status": "last",
   "dueMD": "11-06",
   "opens": "",
   "opensMD": "",
@@ -2083,9 +2083,9 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "whenB": "Nov 7",
-  "whenS": "2026 · visit day",
-  "due": "2026-11-07",
-  "status": "confirmed",
+  "whenS": "last cycle · visit day",
+  "due": "",
+  "status": "last",
   "dueMD": "11-07",
   "opens": "",
   "opensMD": "",
@@ -2750,12 +2750,12 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Fall 2026",
-  "whenS": "opens · last Jan 12",
-  "due": "",
-  "status": "none",
-  "dueMD": "01-12",
-  "opens": "Fall 2026",
+  "whenB": "Jan 11",
+  "whenS": "2027 · 6 p.m.",
+  "due": "2027-01-11",
+  "status": "confirmed",
+  "dueMD": "01-11",
+  "opens": "",
   "opensMD": "",
   "meta": "9 months full-time at city agencies",
   "body": "",
@@ -3277,9 +3277,9 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "whenB": "Nov 6",
-  "whenS": "2026 · 6 PM",
-  "due": "2026-11-06",
-  "status": "confirmed",
+  "whenS": "last cycle · 6 PM",
+  "due": "",
+  "status": "last",
   "dueMD": "11-06",
   "opens": "",
   "opensMD": "",
@@ -4837,12 +4837,12 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Feb 2",
-  "whenS": "last cycle · 2027 dates not posted",
-  "due": "",
-  "status": "last",
+  "whenS": "2027",
+  "due": "2027-02-02",
+  "status": "confirmed",
   "dueMD": "02-02",
-  "opens": "Nov (last cycle)",
-  "opensMD": "11-11",
+  "opens": "Nov 12, 2026",
+  "opensMD": "11-12",
   "meta": "3–4 weeks at a UK university",
   "body": "A short, fully funded summer program for students who have barely traveled. One recent institute studied British institutions and power.",
   "warn": "",
@@ -5252,10 +5252,10 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Nov 2",
-  "whenS": "2026 · summer priority date, then rolling",
-  "due": "2026-11-02",
-  "status": "confirmed",
+  "whenB": "Rolling",
+  "whenS": "summer 2027 roles posted now; the Nov 2 priority date passed",
+  "due": "",
+  "status": "none",
   "dueMD": "11-02",
   "opens": "Open now",
   "opensMD": "",
@@ -5577,11 +5577,11 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Nov 5",
-  "whenS": "2026 · July 2027 start",
-  "due": "2026-11-05",
-  "status": "confirmed",
+  "whenS": "last cycle · July start",
+  "due": "",
+  "status": "last",
   "dueMD": "11-05",
-  "opens": "Open now",
+  "opens": "",
   "opensMD": "",
   "meta": "Washington, D.C., in person · 1 year, July 2027–June 2028",
   "body": "A yearlong newsroom job for recent graduates and early-career journalists. Six fellows each join a section such as Politics or National Security and fact-check, research, produce and pitch, with mentoring from senior editors.",
@@ -6900,11 +6900,11 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": true,
   "whenB": "Nov 2",
-  "whenS": "2026 · spring and summer 2027 · closes midnight Pacific",
-  "due": "2026-11-02",
-  "status": "confirmed",
+  "whenS": "last cycle · spring and summer",
+  "due": "",
+  "status": "last",
   "dueMD": "11-02",
-  "opens": "Open now",
+  "opens": "",
   "opensMD": "",
   "meta": "Remote (Religion News Service, Zeteo) or Los Angeles and Chicago newsrooms · 10–20 weeks",
   "body": "Paid newsroom placements for Muslim journalism students. The Religion News Service and Zeteo spots are remote, so you can do them from Queens.",
@@ -7138,10 +7138,10 @@ window.PROGRAMS = [
  },
  {
   "id": "gp-emgage-new-york",
-  "name": "<a href=\"https://emgageusa.org/job/emgage-new-york-field-canvassing-fellows/\">Emgage New York fellows</a>",
-  "url": "https://emgageusa.org/job/emgage-new-york-field-canvassing-fellows/",
+  "name": "<a href=\"https://emgageusa.org/emerging-leaders-program/\">Emgage Emerging Leaders Program (New York)</a>",
+  "url": "https://emgageusa.org/emerging-leaders-program/",
   "types": [
-   "fall-internship",
+   "course",
    "politics"
   ],
   "years": [
@@ -7155,26 +7155,26 @@ window.PROGRAMS = [
    "mpp",
    "mpa"
   ],
-  "paid": true,
+  "paid": null,
   "allOpen": false,
-  "whenB": "Rolling",
-  "whenS": "election seasons",
+  "whenB": "Yearly",
+  "whenS": "one class a year per state chapter; dates not posted",
   "due": "",
   "status": "none",
   "dueMD": "",
-  "opens": "Open now",
+  "opens": "",
   "opensMD": "",
-  "meta": "In person in Queens · 20 hours a week, through Nov 4, 2026",
-  "body": "Paid voter-outreach work in Queens with Emgage, the Muslim American civic engagement group. Its New York Metro chapter also runs a yearly <a href=\"https://emgageusa.org/emerging-leaders-program/\">Emerging Leaders Program</a>.",
+  "meta": "New York chapter · two days of training, an organizing day and a policy advocacy day",
+  "body": "A yearly training class for Muslim American civic leaders, run by each Emgage state chapter. Trainees learn storytelling, organizing, politics and policy from Emgage staff and outside experts, canvass with organizers, and meet legislators on a policy advocacy day. Emgage New York also hires paid canvassing fellows in Queens during election seasons ($18 an hour in 2026).",
   "warn": "",
   "facts": [
    [
     "Who",
-    "16 or older, free evenings and weekends"
+    "Not stated on the official page; write to the New York chapter contact listed there"
    ],
    [
-    "Pay",
-    "$18 an hour"
+    "Pay or cost",
+    "Not stated on the official page"
    ]
   ]
  },
@@ -10692,13 +10692,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": true,
-  "whenB": "Nov 8",
-  "whenS": "2026 · spring 2027 cohort",
-  "due": "2026-11-08",
-  "status": "confirmed",
-  "dueMD": "11-08",
-  "opens": "Oct 19, 2026",
-  "opensMD": "10-19",
+  "whenB": "Mar 13",
+  "whenS": "last cycle · summer internships; spring 2027 YGP closed Nov 8",
+  "due": "",
+  "status": "last",
+  "dueMD": "03-13",
+  "opens": "Feb 10 (last cycle)",
+  "opensMD": "02-10",
   "meta": "Washington, DC (a few remote US spots) · 19 weeks in spring or fall, 9–10 weeks in summer",
   "body": "A paid foreign policy internship at a large DC think tank. Interns do research, writing and event work in one of its centers, plus training workshops. Summer internships are a separate application.",
   "warn": "",
@@ -10713,7 +10713,7 @@ window.PROGRAMS = [
    ],
    [
     "Dates",
-    "Spring 2027 runs Jan 19–May 28. Last summer's window ran Feb 10–Mar 13, 2026"
+    "Spring 2027 runs Jan 19–May 28; its application closed Nov 8, 2026. Last summer's window ran Feb 10–Mar 13, 2026"
    ]
   ]
  },
@@ -11011,11 +11011,11 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": true,
   "whenB": "Nov 6",
-  "whenS": "2026 · spring 2027",
-  "due": "2026-11-06",
-  "status": "confirmed",
+  "whenS": "last cycle · spring 2027; summer and fall post each term",
+  "due": "",
+  "status": "last",
   "dueMD": "11-06",
-  "opens": "Open now",
+  "opens": "",
   "opensMD": "",
   "meta": "Washington, D.C., remote or in person · part time, one semester",
   "body": "Paid part-time internships at a foreign-policy research center chartered by Congress. Research assistants work remotely for visiting scholars; staff assistants work in offices like Global Affairs and Communications.",
@@ -12781,13 +12781,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Feb 23",
-  "whenS": "last cycle · opens in January",
-  "due": "",
-  "status": "last",
-  "dueMD": "02-23",
-  "opens": "January",
-  "opensMD": "01-12",
+  "whenB": "Feb 19",
+  "whenS": "2027 · for fall 2027–spring 2028",
+  "due": "2027-02-19",
+  "status": "confirmed",
+  "dueMD": "02-19",
+  "opens": "Jan 11, 2027",
+  "opensMD": "01-11",
   "meta": "Japan · a semester or a year",
   "body": "Need-based awards for American undergraduate or graduate students to study for credit in Japan, with preference for first-generation students and students who have never been abroad.",
   "warn": "",
@@ -14248,12 +14248,12 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "cost": "free",
-  "whenB": "Nov 5",
-  "whenS": "2026 · next talk, 6 p.m.; more Nov 9 and Dec 9",
-  "due": "2026-11-05",
+  "whenB": "Dec 9",
+  "whenS": "2026 · next talk, 6 p.m.",
+  "due": "2026-12-09",
   "event": true,
   "status": "confirmed",
-  "dueMD": "11-05",
+  "dueMD": "12-09",
   "opens": "",
   "opensMD": "",
   "meta": "47–49 E. 65th St., Manhattan · evenings through the year",
@@ -15254,11 +15254,11 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": true,
   "whenB": "Nov 7",
-  "whenS": "2026 · spring 2027; the China Center posting closes Nov 14",
-  "due": "2026-11-07",
-  "status": "confirmed",
+  "whenS": "last cycle · spring 2027; summer dates post later",
+  "due": "",
+  "status": "last",
   "dueMD": "11-07",
-  "opens": "Open now",
+  "opens": "",
   "opensMD": "",
   "meta": "Washington, D.C., hybrid · about 12 weeks",
   "body": "Research and events internships at Brookings on defense, nuclear issues, maritime security and armed groups.",
@@ -16136,6 +16136,94 @@ window.PROGRAMS = [
    [
     "Dates",
     "Applications August 17 to October 15; interviews Oct–Nov and Feb–May; most start in June or July"
+   ]
+  ]
+ },
+ {
+  "id": "gp-abf-summer-undergraduate-research",
+  "name": "<a href=\"https://www.americanbarfoundation.org/program/abf-summer-undergraduate-research-fellowship-program/\">American Bar Foundation Summer Undergraduate Research Fellowship (SURF)</a>",
+  "url": "https://www.americanbarfoundation.org/program/abf-summer-undergraduate-research-fellowship-program/",
+  "short": "American Bar Foundation SURF",
+  "types": [
+   "summer-research"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "phd",
+   "jd",
+   "predoc"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 14",
+  "whenS": "2027 · 11:59 p.m. Central",
+  "due": "2027-01-14",
+  "status": "confirmed",
+  "dueMD": "01-14",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Chicago, mostly in person · 8 weeks, June 7–July 30, 2027, 35 hours a week",
+  "body": "Law and social science research with a faculty mentor at a leading research institute. Fellows turn their own research idea into a proposal, join a weekly law and society seminar and present at the end. Meant for students headed to a PhD or a JD/PhD.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students at a U.S. college with two years of college done by June and no bachelor's degree yet; preference for rising seniors and first-generation and low-income students. You must be authorized to work in the U.S.; no visa sponsorship"
+   ],
+   [
+    "Pay",
+    "$6,000, plus out-of-state travel and local commuting. You find your own housing"
+   ],
+   [
+    "Apply",
+    "One PDF with a résumé, unofficial transcript and two essays of up to 600 words; Zoom interviews in March"
+   ]
+  ]
+ },
+ {
+  "id": "gp-carter-center-internships",
+  "name": "<a href=\"https://www.cartercenter.org/involved/educational-programs/internships-offered/index.html\">Carter Center internships</a>",
+  "url": "https://www.cartercenter.org/involved/educational-programs/internships-offered/index.html",
+  "short": "Carter Center internships",
+  "types": [
+   "summer-internship",
+   "spring-internship",
+   "fall-internship",
+   "international"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa",
+   "ma"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Mar 1",
+  "whenS": "2027 · summer session",
+  "due": "2027-03-01",
+  "status": "confirmed",
+  "dueMD": "03-01",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Atlanta · summer 10 weeks from May 18, 2027; spring and fall 15 weeks",
+  "body": "Internships in the peace, health and operations programs of former President Jimmy Carter's center, such as democracy and conflict resolution. Fall 2027 is due June 14, 2027.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Juniors and seniors with 60 credits by the start, graduate students, and graduates within 24 months. No citizenship rule, but you must be authorized to work in the U.S.; international students at U.S. colleges can apply with their school's approval"
+   ],
+   [
+    "Pay",
+    "Stipend of $3,400 for summer, $5,100 for spring or fall. No housing"
    ]
   ]
  }
