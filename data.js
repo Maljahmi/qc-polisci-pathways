@@ -1,7 +1,7 @@
 // Opportunities database. One entry per program; every degree tab, the deadline board and the
 // Commons export read from it. Each field is described in the project notes.
 // the date programs and deadlines were last checked; the home page and All opportunities show it
-window.UPDATED = "2026-11-09";
+window.UPDATED = "2026-11-16";
 
 window.PROGRAMS = [
  {
@@ -776,15 +776,15 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Nov 15",
-  "whenS": "2026 · spring term",
-  "due": "2026-11-15",
+  "whenB": "Apr 15",
+  "whenS": "2027 · summer term",
+  "due": "2027-04-15",
   "status": "confirmed",
-  "dueMD": "11-15",
-  "opens": "",
+  "dueMD": "04-15",
+  "opens": "Open now",
   "opensMD": "",
   "meta": "NYC, hybrid or remote possible · research, journalism, events",
-  "body": "Summer deadline Apr 15; fall deadline July 15.",
+  "body": "Spring deadline Nov 15; fall deadline July 15.",
   "warn": "",
   "facts": [
    [
@@ -796,7 +796,7 @@ window.PROGRAMS = [
     "$17 an hour, 5–20 hours a week"
    ]
   ],
-  "short": "Manhattan Institute associates (spring)"
+  "short": "Manhattan Institute associates (summer)"
  },
  {
   "id": "gp-center-urban-future",
@@ -2003,9 +2003,9 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Nov 15",
-  "whenS": "2026 · visit Jan 28–31",
+  "whenS": "last cycle · visit Jan 28–31, 2027",
   "due": "2026-11-15",
-  "status": "confirmed",
+  "status": "last",
   "dueMD": "11-15",
   "opens": "Open now",
   "opensMD": "",
@@ -5452,13 +5452,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Jan 30",
-  "whenS": "last cycle · 2027–28 opens this fall",
-  "due": "",
-  "status": "last",
-  "dueMD": "01-30",
-  "opens": "Dec 4 (last cycle)",
-  "opensMD": "12-04",
+  "whenB": "Jan 31",
+  "whenS": "2027 · 2027–28 class; opens Dec 2",
+  "due": "2027-01-31",
+  "status": "confirmed",
+  "dueMD": "01-31",
+  "opens": "Dec 2, 2026",
+  "opensMD": "12-02",
   "meta": "A community site in the US, then Washington, D.C. · 11 months",
   "body": "A paid year of anti-hunger work: about six months with a community organization, then a national policy placement in D.C.",
   "warn": "",
@@ -5705,14 +5705,14 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": true,
   "whenB": "Nov 11",
-  "whenS": "2026 · summer 2027",
+  "whenS": "last cycle · summer 2027",
   "due": "2026-11-11",
-  "status": "confirmed",
+  "status": "last",
   "dueMD": "11-11",
-  "opens": "Open now",
+  "opens": "",
   "opensMD": "",
   "meta": "Newsrooms across the US · 1 week of training, then 10–12 weeks",
-  "body": "About 100 paid summer newsroom internships a year in reporting, data, digital media, audience and editing. The application includes a test, due by Nov 15.",
+  "body": "About 100 paid summer newsroom internships a year in reporting, data, digital media, audience and editing. The application includes a test.",
   "warn": "",
   "facts": [
    [
@@ -6512,7 +6512,7 @@ window.PROGRAMS = [
   "due": "",
   "status": "last",
   "dueMD": "01-02",
-  "opens": "Dec (last cycle)",
+  "opens": "Early Dec 2026 (projected)",
   "opensMD": "12-02",
   "meta": "Washington, D.C., or remote · 10 weeks full time, May–July",
   "body": "Paid summer work with the Library of Congress's collections. In 2026 there was a remote track, so you can do it from Queens.",
@@ -6524,7 +6524,7 @@ window.PROGRAMS = [
    ],
    [
     "Pay",
-    "$17.61 an hour on site (2026)"
+    "$17.78 an hour on site"
    ]
   ]
  },
@@ -7079,7 +7079,7 @@ window.PROGRAMS = [
   "dueMD": "12-29",
   "opens": "Open now",
   "opensMD": "",
-  "meta": "A Capitol Hill office, Washington, D.C. · 10 weeks, late May–Aug 1",
+  "meta": "A Capitol Hill office, Washington, D.C. · about 10 weeks, Memorial Day–Aug 6",
   "body": "The Muslim Public Affairs Council's funded summer on Capitol Hill for American Muslim students, with free housing.",
   "warn": "",
   "facts": [
@@ -8031,13 +8031,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Feb 16",
-  "whenS": "last cycle · opens in January",
-  "due": "",
-  "status": "last",
-  "dueMD": "02-16",
-  "opens": "Jan 19 (last cycle)",
-  "opensMD": "01-19",
+  "whenB": "Feb 15",
+  "whenS": "2027 · opens Jan 21",
+  "due": "2027-02-15",
+  "status": "confirmed",
+  "dueMD": "02-15",
+  "opens": "Jan 21, 2027",
+  "opensMD": "01-21",
   "meta": "Local newsrooms across the US · 2 years",
   "body": "A national service program that places early-career reporters in local newsrooms covering under-covered communities.",
   "warn": "",
@@ -8653,9 +8653,9 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Nov 13",
-  "whenS": "2026 · July 2027 departure",
+  "whenS": "last cycle · July 2027 departure",
   "due": "2026-11-13",
-  "status": "confirmed",
+  "status": "last",
   "dueMD": "11-13",
   "opens": "Open now",
   "opensMD": "",
@@ -11108,13 +11108,13 @@ window.PROGRAMS = [
   "paid": false,
   "allOpen": true,
   "whenB": "Nov 13",
-  "whenS": "2026 · spring 2027, reviewed as they come in",
+  "whenS": "last cycle · spring 2027; summer posts later",
   "due": "2026-11-13",
-  "status": "confirmed",
+  "status": "last",
   "dueMD": "11-13",
-  "opens": "Open now",
+  "opens": "",
   "opensMD": "",
-  "meta": "Washington, D.C., in person or hybrid, or remote in the U.S. · full time, Jan 12–May 14, 2027",
+  "meta": "Washington, D.C., in person or hybrid, or remote in the U.S. · full time",
   "body": "Research internships tracking Russia and Ukraine, China and Taiwan, the Korean Peninsula, the Middle East and more, plus communications and mapping. ISW also helps teach the Hertog War Studies Program.",
   "warn": "",
   "facts": [
@@ -11293,13 +11293,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Nov 10",
-  "whenS": "2026 · spring 2027; summer due in February",
-  "due": "2026-11-10",
+  "whenB": "Feb 28",
+  "whenS": "2027 · summer; fall window June 1–30",
+  "due": "2027-02-28",
   "status": "confirmed",
-  "dueMD": "11-10",
-  "opens": "Oct 1",
-  "opensMD": "10-01",
+  "dueMD": "02-28",
+  "opens": "Feb 1",
+  "opensMD": "02-01",
   "meta": "Washington, D.C., hybrid · 10–20 hours a week",
   "body": "Paid internships in government affairs, editing, research and the Palestine program at a think tank on U.S. policy toward the Arab world.",
   "warn": "",
@@ -11342,11 +11342,11 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Nov 12",
-  "whenS": "2026 · spring 2027",
-  "due": "2026-11-12",
+  "whenB": "Mar 9",
+  "whenS": "2027 · summer; fall due July 13",
+  "due": "2027-03-09",
   "status": "confirmed",
-  "dueMD": "11-12",
+  "dueMD": "03-09",
   "opens": "",
   "opensMD": "",
   "meta": "Remote, with a New York organization · 18 hours a week",
@@ -12500,8 +12500,8 @@ window.PROGRAMS = [
  },
  {
   "id": "gp-cfr-student-webinars",
-  "name": "<a href=\"https://www.cfr.org/education/events/global-affairs-expert-webinar-north-koreas-strategic-playbook\">Council on Foreign Relations Global Affairs Expert Webinars</a>",
-  "url": "https://www.cfr.org/education/events/global-affairs-expert-webinar-north-koreas-strategic-playbook",
+  "name": "<a href=\"https://www.cfr.org/education/events\">Council on Foreign Relations Global Affairs Expert Webinars</a>",
+  "url": "https://www.cfr.org/education/events",
   "types": [
    "conference",
    "international"
@@ -12520,15 +12520,15 @@ window.PROGRAMS = [
   "allOpen": false,
   "cost": "free",
   "whenB": "Nov 12",
-  "whenS": "2026 · next webinar (North Korea), 1 p.m. Eastern; more through the year",
+  "whenS": "last webinar (North Korea); new dates post through the year",
   "due": "2026-11-12",
   "event": true,
-  "status": "confirmed",
+  "status": "last",
   "dueMD": "11-12",
   "opens": "",
   "opensMD": "",
   "meta": "Online · 1 hour",
-  "body": "Free webinars where college students and teachers question Council on Foreign Relations fellows. The next one is on what the midterms mean for U.S. foreign policy.",
+  "body": "Free webinars where college students and teachers question Council on Foreign Relations fellows. New dates appear on the CFR Education events page.",
   "warn": "",
   "facts": [
    [
@@ -12942,11 +12942,11 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "whenB": "Dec 15",
-  "whenS": "last cycle · opens Nov 1",
+  "whenS": "last cycle · 2026–27 call not posted",
   "due": "",
   "status": "last",
   "dueMD": "12-15",
-  "opens": "Nov 1",
+  "opens": "Nov 1 (last cycle)",
   "opensMD": "11-01",
   "meta": "Online · one year",
   "body": "A year-long program that helps 15 to 20 early-career foreign policy writers get published, with editors and a peer group.",
@@ -13351,9 +13351,9 @@ window.PROGRAMS = [
   "allOpen": false,
   "residency": "nyc",
   "whenB": "Nov 15",
-  "whenS": "2026 · this posting; new ones appear on NYC Jobs",
+  "whenS": "last posting · new ones appear on NYC Jobs",
   "due": "2026-11-15",
-  "status": "confirmed",
+  "status": "last",
   "dueMD": "11-15",
   "opens": "Open now",
   "opensMD": "",
@@ -13447,15 +13447,15 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "whenB": "Nov 13",
-  "whenS": "2026 · spring 2027",
+  "whenS": "last cycle · spring 2027",
   "due": "2026-11-13",
-  "status": "confirmed",
+  "status": "last",
   "dueMD": "11-13",
-  "opens": "Open now",
+  "opens": "",
   "opensMD": "",
   "meta": "Remote",
   "body": "Remote internships in advocacy, research, storytelling, program development and youth organizing with IGNITE, a nonpartisan group for young women in politics.",
-  "warn": "",
+  "warn": "No internships are open now; sign up on the page for alerts.",
   "facts": [
    [
     "Who",
@@ -13928,12 +13928,12 @@ window.PROGRAMS = [
   ],
   "paid": null,
   "allOpen": false,
-  "whenB": "Nov 10",
-  "whenS": "2026 · online open house, noon; more Feb 9 and May 11",
-  "due": "2026-11-10",
+  "whenB": "Dec 2",
+  "whenS": "2026 · campus tour, 11:30 a.m.; online info session Dec 9",
+  "due": "2026-12-02",
   "event": true,
   "status": "confirmed",
-  "dueMD": "11-10",
+  "dueMD": "12-02",
   "opens": "",
   "opensMD": "",
   "meta": "Online and at Baruch College, Manhattan",
@@ -13942,7 +13942,7 @@ window.PROGRAMS = [
   "facts": [
    [
     "More dates",
-    "Online info sessions Dec 9, 2026 and Mar 16 and June 9, 2027 (noon); an in-person open house Feb 9, 2027; and a virtual walk-in hour every Thursday at noon"
+    "Online info sessions Dec 9, 2026 and Mar 16 and June 9, 2027 (noon); open houses Feb 9, 2027 (in person, 5:30 p.m.) and May 11, 2027 (online, noon); and a virtual walk-in hour every Thursday at noon"
    ],
    [
     "How to sign up",
@@ -14289,12 +14289,12 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "cost": "free",
-  "whenB": "Nov 11",
-  "whenS": "2026 · Paul Krugman and Heather Cox Richardson, 6:30 p.m.; more talks Nov 12, Nov 18, Dec 2 and Dec 9",
-  "due": "2026-11-11",
+  "whenB": "Nov 18",
+  "whenS": "2026 · Jack Halberstam and Nicole Eisenman with Claire Bishop, 6:30 p.m.; more talks Dec 2 and Dec 9",
+  "due": "2026-11-18",
   "event": true,
   "status": "confirmed",
-  "dueMD": "11-11",
+  "dueMD": "11-18",
   "opens": "",
   "opensMD": "",
   "meta": "365 Fifth Ave., Manhattan, and livestreamed · evenings through the year",
@@ -14456,11 +14456,11 @@ window.PROGRAMS = [
   ],
   "paid": false,
   "allOpen": false,
-  "whenB": "~Nov 15",
-  "whenS": "spring general deadline; final Dec 1",
-  "due": "2026-11-15",
+  "whenB": "~Dec 1",
+  "whenS": "spring final deadline, space available; fall priority Apr 1",
+  "due": "2026-12-01",
   "status": "estimate",
-  "dueMD": "11-15",
+  "dueMD": "12-01",
   "opens": "",
   "opensMD": "",
   "meta": "Manhattan, with a union · a full-time semester (17 weeks)",
@@ -14501,11 +14501,11 @@ window.PROGRAMS = [
   ],
   "paid": false,
   "allOpen": false,
-  "whenB": "Nov 15",
-  "whenS": "spring general deadline; final Dec 1",
-  "due": "2026-11-15",
+  "whenB": "~Dec 1",
+  "whenS": "spring final deadline, space available; fall priority Apr 1",
+  "due": "2026-12-01",
   "status": "estimate",
-  "dueMD": "11-15",
+  "dueMD": "12-01",
   "opens": "",
   "opensMD": "",
   "meta": "Manhattan, with a community organization · a full-time semester",
@@ -16226,6 +16226,286 @@ window.PROGRAMS = [
     "Stipend of $3,400 for summer, $5,100 for spring or fall. No housing"
    ]
   ]
+ },
+ {
+  "id": "gp-aea-summer-program",
+  "name": "<a href=\"https://www.aeaweb.org/committees/AEASP/apply/2027\">AEA Summer Training and Scholarship Program</a>",
+  "url": "https://www.aeaweb.org/committees/AEASP/apply/2027",
+  "types": [
+   "summer-research"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "predoc"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Jan 31",
+  "whenS": "2027 · summer",
+  "due": "2027-01-31",
+  "status": "confirmed",
+  "dueMD": "01-31",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "American University, Washington, DC · 8 weeks (May 31–July 23, 2027)",
+  "body": "An eight-week summer program from the American Economic Association that prepares undergraduates for PhD programs that use economics. You take mathematical economics, micro theory, econometrics and research methods. It is good practice for a predoc too.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students with at least two years of college done, or recent graduates, at a U.S. college, with a 3.0+ GPA. You need intro micro, intro macro and Calculus 1 before you apply"
+   ],
+   [
+    "Pay",
+    "$3,250 stipend, round-trip travel to Washington, DC, and room and board on campus. Citizens and permanent residents get the stipend"
+   ],
+   [
+    "DACA",
+    "The FAQ says DACA students can get the stipend if their status allows the payment. International students can apply but get no funding"
+   ]
+  ],
+  "short": "AEA Summer Program (economics)"
+ },
+ {
+  "id": "gp-nbcuniversal-summer-internship",
+  "name": "<a href=\"https://www.nbcunicareers.com/internships\">NBCUniversal Summer Internship Program (NBC News and NBC 4 New York)</a>",
+  "url": "https://www.nbcunicareers.com/internships",
+  "types": [
+   "summer-internship",
+   "journalism"
+  ],
+  "years": [
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "ma",
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Dec 4",
+  "whenS": "2027 · summer",
+  "due": "2026-12-04",
+  "status": "confirmed",
+  "dueMD": "12-04",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "New York City and other cities · 10 weeks (June 7–Aug 13, 2027), 40 hours a week",
+  "body": "Paid summer internships across NBCUniversal, including the NBC News and NBC 4 New York newsrooms in Manhattan. You apply to specific roles, then do a video interview.",
+  "warn": "Roles may close before Dec 4 if many people apply, so apply early.",
+  "facts": [
+   [
+    "Who",
+    "Students enrolled in a degree program with sophomore standing or above (30 credits). Spring 2027 graduates can't apply. You must be authorized to work in the U.S. without visa sponsorship"
+   ],
+   [
+    "Pay",
+    "$19 an hour for NBC 4 New York production and editorial interns; other roles vary. Need-based help with housing and transportation may be offered"
+   ],
+   [
+    "Timeline",
+    "Applications Nov 9–Dec 4, first-round video interviews through December, second interviews in January, offers late January to February"
+   ]
+  ],
+  "short": "NBCUniversal (NBC News) internships"
+ },
+ {
+  "id": "gp-point-foundation-flagship-scholarship",
+  "name": "<a href=\"https://pointfoundation.org/scholarships/flagship\">Point Foundation Flagship Scholarship</a>",
+  "url": "https://pointfoundation.org/scholarships/flagship",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Nov 19",
+  "whenS": "2026 · for fall 2027",
+  "due": "2026-11-19",
+  "status": "confirmed",
+  "dueMD": "11-19",
+  "opens": "",
+  "opensMD": "",
+  "meta": "LGBTQ+ students · national scholarship, renewable up to four years",
+  "body": "A scholarship for LGBTQ+ undergraduate, graduate and professional students, with leadership training. Scholars attend a summer conference in person.",
+  "warn": "The deadline is Nov 19 at 5 p.m. Pacific (8 p.m. in New York).",
+  "facts": [
+   [
+    "Who",
+    "LGBTQ+ students enrolled full-time in a degree program at a U.S. nonprofit college in fall 2027, with a 3.3+ GPA. Fully online programs don't count"
+   ],
+   [
+    "Award",
+    "Up to $15,000 a year, for up to four years. It doesn't fund summer study"
+   ],
+   [
+    "Also",
+    "An in-person summer conference and one virtual program each term"
+   ]
+  ],
+  "short": "Point Foundation Flagship"
+ },
+ {
+  "id": "gp-davis-putter-scholarship",
+  "name": "<a href=\"https://www.davisputter.org/apply\">Davis-Putter Scholarship Fund</a>",
+  "url": "https://www.davisputter.org/apply",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "phd",
+   "mpp",
+   "mpa",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Apr 1",
+  "whenS": "last cycle · opens each January",
+  "due": "",
+  "status": "last",
+  "dueMD": "04-01",
+  "opens": "January 2027",
+  "opensMD": "01-02",
+  "meta": "National scholarship · one year, reapply each year",
+  "body": "Need-based grants for students who organize in progressive movements, such as labor, immigrant rights or racial justice. Both undergraduate and graduate students win.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students with financial need enrolled in a college or a trade program who are active organizers. U.S. citizenship isn't required, and you don't need a Social Security number or a student visa"
+   ],
+   [
+    "Award",
+    "Up to $15,000 for the year; the average grant in 2025–26 was about $7,700"
+   ],
+   [
+    "When",
+    "Applications open in January and close April 1 at midnight Eastern each year"
+   ]
+  ],
+  "short": "Davis-Putter Scholarship"
+ },
+ {
+  "id": "lp-cuny-project-law",
+  "name": "<a href=\"https://slu.cuny.edu/academic-affairs/cstep/\">CSTEP Project L.A.W. (CUNY School of Labor and Urban Studies)</a>",
+  "url": "https://slu.cuny.edu/academic-affairs/cstep/",
+  "types": [
+   "pipeline",
+   "course"
+  ],
+  "years": [
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "jd"
+  ],
+  "paid": null,
+  "allOpen": false,
+  "residency": "nys",
+  "cost": "free",
+  "whenB": "Open now",
+  "whenS": "spring 2027 · open, no deadline posted",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "Online · 10 weeks in fall or spring, then an optional summer part",
+  "body": "A free online pre-law program from CUNY's School of Labor and Urban Studies. Part I covers law literacy and LSAT basics; students who finish it are invited to a summer part with legal research and a Kaplan LSAT course.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students who are economically disadvantaged or would benefit from support. Undergraduates need 60+ credits and a 3.0 GPA; graduate students can also apply. The GPA rule has some flexibility"
+   ],
+   [
+    "Residency",
+    "New York State residents for at least 12 months, enrolled at a New York college"
+   ],
+   [
+    "Cost",
+    "Free. Students who finish Part I may get a stipend for LSAT and application costs, but stipends aren't guaranteed"
+   ],
+   [
+    "Contact",
+    "CSTEP@slu.cuny.edu; information sessions run through the year"
+   ]
+  ],
+  "short": "CUNY Project LAW (online)"
+ },
+ {
+  "id": "gp-port-authority-summer-internship",
+  "name": "<a href=\"https://jobs.jobvite.com/panynj/job/ozTEAfwq\">Port Authority of New York and New Jersey Summer Internship Program</a>",
+  "url": "https://jobs.jobvite.com/panynj/job/ozTEAfwq",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr"
+  ],
+  "degrees": [
+   "mpp",
+   "mpa"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Opens Nov–Dec",
+  "whenS": "2027 · summer · applications open Nov–Dec 2026",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "Nov–Dec 2026",
+  "opensMD": "",
+  "meta": "New York City and New Jersey · about 12 weeks from late May or early June 2027",
+  "body": "Paid summer internships at the agency that runs the region's airports, bridges, tunnels, PATH and ports. Departments include Planning & Innovation and Intergovernmental Affairs, with policy among the focus areas.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Students enrolled in a college or university during the internship. Some roles prefer juniors, seniors or graduate students"
+   ],
+   [
+    "Pay",
+    "Paid; the rate isn't posted on the interest form"
+   ],
+   [
+    "How to apply",
+    "Fill out the interest form now to hear when applications open, then apply to specific roles"
+   ]
+  ],
+  "short": "Port Authority summer internships"
  }
 ];
 
