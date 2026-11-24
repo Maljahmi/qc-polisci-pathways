@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:gp-columbia-sps-cuny-fellowship-2027-01-07@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Deadline: Columbia SPS CUNY Fellowship
@@ -39,7 +39,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-cuny-pipeline-program-2027-03-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Deadline: CUNY Pipeline Program (priority)
@@ -70,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-nyc-ladders-leaders-2027-01-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Deadline: NYC Ladders for Leaders (estimated)
@@ -98,7 +98,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-summer-youth-employment-program-2027-03-12@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Deadline: SYEP summer jobs (estimated)
@@ -127,7 +127,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gp-manhattan-institute-collegiate-associates-2027-04-15@qc-polisci-path
  ways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:Deadline: Manhattan Institute associates (summer)
@@ -153,8 +153,39 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:gp-roosevelt-institute-emerging-fellowship-2027-05-16@qc-polisci-pathwa
+ ys
+DTSTAMP:20261124T021049Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Deadline: Roosevelt Institute Emerging Fellowship
+DESCRIPTION:A yearlong policy writing fellowship with a national network of
+  students\, ending in a short policy brief. Applications are read on a rol
+ ling basis from late January\, so apply early.\nWhere and when: Virtual\, 
+ plus a 4-day conference in August · 5 hours a week\, June to May\nWho: Fu
+ ll-time students with at least two more terms after next summer\; US citiz
+ ens\, permanent residents or DACA\nPay: $3\,000 stipend\nOpens: Open now\n
+ \nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp
+ -roosevelt-institute-emerging-fellowship\nOfficial website: https://roosev
+ eltinstitute.org/roosevelt-network/undergraduate-fellowships/emerging-fell
+ owship/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-rooseve
+ lt-institute-emerging-fellowship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Roosevelt Institute Emerging Fellowship is due in two weeks
+TRIGGER:-P14D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Roosevelt Institute Emerging Fellowship is due in two days
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gp-apsa-ralph-bunche-summer-2027-01-24@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Deadline: Ralph Bunche Summer Institute
@@ -184,7 +215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-mit-msrp-pathways-political-2027-01-19@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Deadline: MIT MSRP / Pathways
@@ -214,7 +245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-leadership-alliance-sr-eip-2027-02-03@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Deadline: Leadership Alliance SR-EIP
@@ -244,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-big-ten-academic-alliance-2027-02-10@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:Deadline: Big Ten SROP
@@ -273,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-harvard-sroh-2027-02-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Deadline: Harvard SROH
@@ -300,7 +331,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-yale-surf-2027-02-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Deadline: Yale SURF
@@ -327,7 +358,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-michigan-rackham-srop-2027-02-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Deadline: Michigan (Rackham) SROP
@@ -353,7 +384,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-cbcf-congressional-internship-2026-11-30@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Deadline: CBCF congressional internship
@@ -380,7 +411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-chci-congressional-internship-2026-12-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Deadline: CHCI congressional internship
@@ -407,7 +438,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-apaics-congressional-internship-2026-12-18@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Deadline: APAICS congressional internship
@@ -432,7 +463,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-truman-scholarship-2027-02-02@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Deadline: Truman Scholarship
@@ -459,7 +490,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-princeton-prospective-phd-preview-2027-03-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Deadline: Princeton PhD Preview (P3)
@@ -488,7 +519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-yale-emerging-scholars-initiative-2027-02-28@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Deadline: Yale Emerging Scholars Initiative
@@ -515,7 +546,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-stanford-king-center-predoc-2027-01-04@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Deadline: Stanford King Center Predoc
@@ -543,7 +574,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-coro-fellows-program-public-2027-01-12@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Deadline: Coro Fellows Program
@@ -568,7 +599,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-nyc-urban-fellows-2027-01-11@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:Deadline: NYC Urban Fellows
@@ -596,7 +627,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-stanford-gsb-research-fellows-2027-03-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Deadline: Stanford GSB Research Fellows
@@ -624,7 +655,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-belle-zeller-scholarship-2027-02-26@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 SUMMARY:Deadline: Belle Zeller Scholarship
@@ -653,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-gilman-scholarship-2027-02-25@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:Deadline: Gilman Scholarship
@@ -681,37 +712,8 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gp-critical-language-scholarship-2026-11-17@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Deadline: Critical Language Scholarship
-DESCRIPTION:Study a critical-need language for a summer\, overseas or onlin
- e. The application (https://ais.americancouncils.org/cls) is open now.\nWh
- ere and when: Fully funded summer language institute · 8 weeks\nWho: US c
- itizens or nationals\, 18 by May 15\, 2027\, who have finished at least on
- e year of college. Graduating seniors can apply\nCovers: Travel\, room\, b
- oard and books\, with academic credit\n\nDetails: https://maljahmi.github.
- io/qc-polisci-pathways/programs.html#gp-critical-language-scholarship\nOff
- icial website: https://clscholarship.org/applicants/eligibility\nAlways co
- nfirm the date on the official website.
-URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-critica
- l-language-scholarship
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Critical Language Scholarship is due in two weeks
-TRIGGER:-P14D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Critical Language Scholarship is due in two days
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:gp-boren-scholarship-2027-01-27@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Deadline: Boren Scholarship
@@ -739,8 +741,42 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:gp-rangel-summer-enrichment-2027-02-04@qc-polisci-pathways
+DTSTAMP:20261124T021049Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:Deadline: Charles B. Rangel International Affairs Summer Enrichment
+  Program
+DESCRIPTION:A summer program on international affairs: classes at Howard an
+ d programs with foreign affairs professionals around Washington.\nWhere an
+ d when: Six weeks at Howard University · Washington\, DC\nWho: Full-time 
+ undergraduates with at least sophomore status at the deadline\, a 3.2+ GPA
+  and US citizenship\nCovers: Tuition\, travel\, housing and two meals a da
+ y\, plus a $3\,300 stipend\nApply: Two recommendation letters (one faculty
+  member\, one community leader)\, a financial need statement of 400 words 
+ or less and proof of full-time spring 2027 enrollment\nOpens: Open now\n\n
+ Details: https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-r
+ angel-summer-enrichment\nOfficial website: https://rangelprogram.org/summe
+ r-enrichment-program/\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-rangel-
+ summer-enrichment
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Charles B. Rangel International Affairs Summer Enrichment Progr
+ am is due in two weeks
+TRIGGER:-P14D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Charles B. Rangel International Affairs Summer Enrichment Progr
+ am is due in two days
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gp-fulbright-uk-summer-institutes-2027-02-02@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Deadline: Fulbright UK Summer Institutes
@@ -770,7 +806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-huntington-public-service-award-2027-02-09@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Deadline: Huntington Public Service Award
@@ -797,7 +833,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-james-madison-fellowship-2027-03-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Deadline: James Madison Fellowship
@@ -826,7 +862,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-thedream-us-scholarship-2027-02-28@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Deadline: TheDream.US National Scholarship
@@ -857,7 +893,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-apia-scholars-2027-01-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Deadline: APIA Scholars
@@ -885,7 +921,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-partnership-public-service-internship-2027-03-07@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Deadline: Partnership for Public Service (spring)
@@ -914,7 +950,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-teach-for-america-2027-02-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Deadline: Teach For America
@@ -943,7 +979,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-emerson-hunger-fellowship-2027-01-31@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Deadline: Bill Emerson National Hunger Fellowship
@@ -972,7 +1008,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-aaja-voices-2026-12-16@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Deadline: AAJA VOICES
@@ -999,7 +1035,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-nabj-student-multimedia-2027-01-25@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
 SUMMARY:Deadline: NABJ student project
@@ -1025,7 +1061,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-cia-do-internship-2027-01-30@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Deadline: CIA freshman internship
@@ -1054,7 +1090,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-white-house-internship-2027-01-04@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Deadline: White House internship (summer)
@@ -1083,7 +1119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-supreme-court-internship-2027-03-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Deadline: Supreme Court internship
@@ -1113,7 +1149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-nys-comptroller-future-forward-2027-02-19@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 SUMMARY:Deadline: NYS Comptroller academy
@@ -1142,7 +1178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-cair-national-internships-2026-12-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Deadline: CAIR internships (spring)
@@ -1171,7 +1207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-mpac-cldp-2026-12-29@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Deadline: MPAC Hill program (estimated)
@@ -1201,7 +1237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-muslim-public-service-network-2027-04-30@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:Deadline: Muslim Public Service Network
@@ -1230,7 +1266,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-arab-american-leadership-program-2026-12-13@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Deadline: Arab American Leadership Program
@@ -1259,8 +1295,40 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:gp-politico-journalism-institute-2027-01-05@qc-polisci-pathways
+DTSTAMP:20261124T021049Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Deadline: POLITICO Journalism Institute
+DESCRIPTION:A fully funded 10-day training in covering politics and policy\
+ , run with American University and the Maynard Institute. POLITICO pays fo
+ r travel\, housing and meals.\nWhere and when: American University and POL
+ ITICO's newsroom\, Washington area · May 18–28\, 2027\nWho: Undergradua
+ tes\, graduate students and recent graduates\; rising juniors and seniors 
+ get preference\nPay: All costs covered\nApply: A cover letter\, a one-page
+  résumé\, three work samples\, one recommendation letter and a story pit
+ ch\, by 11:59 p.m. Eastern on Jan 5\nOpens: Open now\n\nDetails: https://m
+ aljahmi.github.io/qc-polisci-pathways/programs.html#gp-politico-journalism
+ -institute\nOfficial website: https://politico.wd108.myworkdayjobs.com/en-
+ US/POLITICO/job/Arlington-VA/XMLNAME-2027-POLITICO-Journalism-Institute--P
+ JI-_JR100646\nAlways confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-politic
+ o-journalism-institute
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:POLITICO Journalism Institute is due in two weeks
+TRIGGER:-P14D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:POLITICO Journalism Institute is due in two days
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lp-doj-civil-rights-internships-2027-06-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:Deadline: Justice Department Civil Rights Division internships
@@ -1291,7 +1359,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-udall-scholarship-2027-03-04@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:Deadline: Udall Scholarship
@@ -1322,7 +1390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-carnegie-junior-fellows-2027-01-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Deadline: Carnegie Junior Fellows
@@ -1353,7 +1421,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-chci-public-policy-fellowship-2026-12-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Deadline: CHCI Public Policy Fellowship
@@ -1383,7 +1451,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-apaics-congressional-fellowship-2026-12-18@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Deadline: APAICS Congressional Fellowship
@@ -1412,7 +1480,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-hearst-newspapers-fellowship-2027-01-04@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Deadline: Hearst Newspapers Fellowship
@@ -1440,7 +1508,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-report-for-america-2027-02-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 SUMMARY:Deadline: Report for America
@@ -1469,7 +1537,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-ida-stpi-science-policy-fellowship-2027-01-04@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Deadline: IDA science policy fellowship
@@ -1499,7 +1567,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-ajc-goldman-fellowship-2027-01-12@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Deadline: AJC Goldman Fellowship
@@ -1528,7 +1596,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-victory-congressional-internship-2027-01-04@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Deadline: Victory Congressional Internship
@@ -1557,7 +1625,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-yenching-academy-2026-11-29@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Deadline: Yenching Academy
@@ -1587,7 +1655,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-tapif-france-2027-02-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 SUMMARY:Deadline: TAPIF teaching in France
@@ -1615,7 +1683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-blakemore-freeman-fellowships-2026-12-30@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Deadline: Blakemore language fellowship
@@ -1644,7 +1712,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-boren-fellowship-2027-01-20@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Deadline: Boren Fellowship
@@ -1674,7 +1742,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-fulbright-austria-teaching-2027-01-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Deadline: Fulbright Austria teaching
@@ -1704,7 +1772,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-hudson-political-studies-2027-03-16@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:Deadline: Hudson Political Studies
@@ -1738,7 +1806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-hoover-summer-policy-boot-camp-2027-03-09@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:Deadline: Hoover Policy Boot Camp
@@ -1768,10 +1836,10 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gp-hacu-national-internship-program-2026-11-20@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+UID:gp-hacu-national-internship-program-2027-03-06@qc-polisci-pathways
+DTSTAMP:20261124T021049Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
 SUMMARY:Deadline: HACU federal internships
 DESCRIPTION:Paid internships at federal agencies\, open to students of any 
  background and major. Applications stay open until positions fill\, so aim
@@ -1801,7 +1869,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-institute-responsible-citizenship-2027-01-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Deadline: Institute for Responsible Citizenship
@@ -1832,7 +1900,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gp-udall-native-american-congressional-internship-2027-01-15@qc-polisci
  -pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Deadline: Udall Native American internship
@@ -1863,7 +1931,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-national-journalism-center-2026-12-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Deadline: National Journalism Center
@@ -1893,7 +1961,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-jesuit-volunteer-corps-2026-12-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Deadline: Jesuit Volunteer Corps
@@ -1923,7 +1991,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-fox-news-media-internship-2027-01-10@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Deadline: FOX News Media
@@ -1954,7 +2022,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-irt-andover-2027-03-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Deadline: IRT
@@ -1987,7 +2055,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-arab-center-dc-internship-2027-02-28@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Deadline: Arab Center DC internships
@@ -2017,7 +2085,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-ncuscr-internship-2027-03-09@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:Deadline: U.S.-China Relations internships
@@ -2046,10 +2114,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-foreign-service-officer-test-2027-01-28@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
-SUMMARY:Deadline: Foreign Service Officer Test (estimated)
+SUMMARY:Deadline: Foreign Service Officer Test
 DESCRIPTION:The first step to becoming a U.S. diplomat. No degree or foreig
  n language is required. Officers choose a track (consular\, economic\, man
  agement\, political or public diplomacy) and serve at embassies abroad. Se
@@ -2058,10 +2126,10 @@ DESCRIPTION:The first step to becoming a U.S. diplomat. No degree or foreig
  citizens 20 to 59 when they register and open to serving anywhere\; one tr
  y every 12 months\nApply: Register on Pearson VUE (https://www.pearsonvue.
  com/us/en/fsot.html) in the weeks before a testing window\nOpens: Dec 31\,
-  2026\nThis date is an estimate.\n\nDetails: https://maljahmi.github.io/qc
- -polisci-pathways/programs.html#gp-foreign-service-officer-test\nOfficial 
- website: https://careers.state.gov/foreign-service/foreign-service-officer
- /\nAlways confirm the date on the official website.
+  2026\n\nDetails: https://maljahmi.github.io/qc-polisci-pathways/programs.
+ html#gp-foreign-service-officer-test\nOfficial website: https://careers.st
+ ate.gov/foreign-service/foreign-service-officer/\nAlways confirm the date 
+ on the official website.
 URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-foreign
  -service-officer-test
 TRANSP:TRANSPARENT
@@ -2078,7 +2146,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-clarke-ds-fellowship-2026-11-30@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Deadline: Clarke Diplomatic Security Fellowship
@@ -2111,7 +2179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-un-young-professionals-programme-2026-11-30@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Deadline: UN Young Professionals
@@ -2139,7 +2207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-imf-research-analyst-program-2026-12-31@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Deadline: IMF Research Analyst Program
@@ -2167,7 +2235,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-nmun-new-york-2027-03-21@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Event: National Model United Nations\, New York
@@ -2195,7 +2263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-harvard-national-model-un-2027-02-10@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:Deadline: Harvard National Model United Nations
@@ -2225,7 +2293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-ppia-explorers-conference-2027-01-08@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Event: PPIA Explorers Conference
@@ -2249,10 +2317,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gp-fpa-public-lectures-2026-11-18@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
+UID:gp-fpa-public-lectures-2026-12-03@qc-polisci-pathways
+DTSTAMP:20261124T021049Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
 SUMMARY:Event: Foreign Policy Association public lectures
 DESCRIPTION:Free evening foreign policy lectures in Midtown Manhattan\, wit
  h a reception.\nWhere and when: SUNY Global Center\, 116 E. 55th St.\, Man
@@ -2273,7 +2341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-wfpg-mentoring-2026-12-02@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Event: Women's Foreign Policy Group mentoring and career panels
@@ -2297,7 +2365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-bridging-scholarship-2027-03-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Deadline: Bridging Scholarships for Study Abroad in Japan
@@ -2327,7 +2395,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-watanabe-scholarship-2027-02-19@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 SUMMARY:Deadline: Toshizo Watanabe Study Abroad Scholarship
@@ -2356,7 +2424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-banyan-impact-fellowship-2027-02-28@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Deadline: Banyan Impact Fellowship
@@ -2385,7 +2453,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-hansen-leadership-institute-2027-03-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Deadline: Hansen Leadership Institute
@@ -2414,7 +2482,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-dnc-internship-2026-11-27@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Deadline: Democratic National Committee (DNC) internships
@@ -2448,7 +2516,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-leadership-institute-internship-2026-12-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Deadline: Leadership Institute internships
@@ -2479,7 +2547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-bipartisan-policy-center-internship-2027-03-08@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
 SUMMARY:Deadline: Bipartisan Policy Center internships (estimated)
@@ -2513,7 +2581,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-lwvnyc-internship-2027-04-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:Deadline: League of Women Voters of the City of New York internship
@@ -2545,7 +2613,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-mpsa-undergraduate-posters-2026-12-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Deadline: Midwest Political Science Association conference\, underg
@@ -2576,7 +2644,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-ncur-2026-12-04@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Deadline: National Conference on Undergraduate Research
@@ -2605,7 +2673,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-marxe-graduate-open-houses-2026-12-02@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Event: Baruch Marxe School graduate open houses
@@ -2631,10 +2699,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gp-dcas-civil-service-101-2026-11-17@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+UID:gp-dcas-civil-service-101-2026-12-08@qc-polisci-pathways
+DTSTAMP:20261124T021049Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
 SUMMARY:Event: NYC Civil Service 101 information session
 DESCRIPTION:The city's own session on how civil service works: exams\, list
  s and how to apply for city jobs\, for first-time and experienced job seek
@@ -2655,7 +2723,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-roosevelt-house-public-programs-2026-12-09@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Event: Roosevelt House Public Policy Institute talks
@@ -2677,10 +2745,10 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gp-gc-public-programs-2026-11-18@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
+UID:gp-gc-public-programs-2026-12-02@qc-polisci-pathways
+DTSTAMP:20261124T021049Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
 SUMMARY:Event: CUNY Graduate Center public programs
 DESCRIPTION:Free talks and conversations with writers\, scholars and public
   figures at the CUNY Graduate Center\, in person or online.\nWhere and whe
@@ -2701,7 +2769,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-slu-union-semester-2026-12-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Deadline: Union Semester (estimated)
@@ -2732,7 +2800,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-slu-community-semester-2026-12-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Deadline: Community Semester (estimated)
@@ -2763,7 +2831,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-qc-public-health-4plus1-2027-01-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Deadline: Public Health 4+1 (estimated)
@@ -2795,7 +2863,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-cuny-peer-leaders-2027-06-30@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 SUMMARY:Deadline: CUNY Peer Leaders (estimated)
@@ -2823,7 +2891,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-suffolk-legislature-page-program-2027-05-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:Deadline: Suffolk County Legislature Page Program (estimated)
@@ -2852,7 +2920,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gp-westchester-county-executive-fellowship-2027-04-25@qc-polisci-pathwa
  ys
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:Deadline: Westchester County Executive Volunteer Fellow Program (es
@@ -2884,7 +2952,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-oyster-bay-summer-internship-2027-03-23@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270324
 SUMMARY:Deadline: Town of Oyster Bay summer internships (estimated)
@@ -2911,7 +2979,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-excelsior-service-fellowship-2027-03-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Deadline: New York State Excelsior Service Fellowship (estimated)
@@ -2942,7 +3010,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-stimson-south-asia-junior-fellowship-2027-01-31@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Deadline: Stimson Center South Asia Junior Fellowship (estimated)
@@ -2972,7 +3040,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-stimson-foreign-policy-futures-2027-07-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270715
 DTEND;VALUE=DATE:20270716
 SUMMARY:Deadline: Stimson Center Foreign Policy Futures (estimated)
@@ -3002,7 +3070,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-cns-summer-undergraduate-internship-2027-02-28@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Deadline: James Martin Center for Nonproliferation Studies summer u
@@ -3036,7 +3104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-nti-summer-internship-2027-02-08@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:Deadline: Nuclear Threat Initiative summer internships (estimated)
@@ -3066,7 +3134,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-jpal-research-associate-2027-01-13@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Deadline: J-PAL Research Associate positions
@@ -3098,7 +3166,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-doha-institute-tamim-scholarship-2027-01-15@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Deadline: Doha Institute for Graduate Studies master's programs
@@ -3133,9 +3201,39 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:gp-zero-hunger-internship-2027-01-31@qc-polisci-pathways
+DTSTAMP:20261124T021049Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Deadline: Zero Hunger Internship
+DESCRIPTION:A paid summer placement at a Washington anti-hunger group or ag
+ ency\, with a leadership seminar series.\nWhere and when: Washington\, D.C
+ . · June 1–July 30\, 2027\nWho: Current undergraduates and recent gradu
+ ates who are U.S. citizens or authorized to work in the U.S.\nPay: A stipe
+ nd of up to $7\,500 for 10 weeks\, plus round-trip travel within the U.S.\
+ nHow to apply: An online form on the program page\; it does not save your 
+ progress\nOpens: Dec 2\, 2026\n\nDetails: https://maljahmi.github.io/qc-po
+ lisci-pathways/programs.html#gp-zero-hunger-internship\nOfficial website: 
+ https://hungercenter.org/what-we-do/zero-hunger-internship/interns/\nAlway
+ s confirm the date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-zero-hu
+ nger-internship
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zero Hunger Internship is due in two weeks
+TRIGGER:-P14D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zero Hunger Internship is due in two days
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gp-uw-evans-nextgen-summer-policy-academy-2026-12-15@qc-polisci-pathway
  s
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Deadline: NextGen Policy Academy
@@ -3169,7 +3267,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-salam-arabic-oman-2027-01-31@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Deadline: SALAM Arabic in Oman
@@ -3203,7 +3301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-heritage-young-leaders-program-2027-01-31@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Deadline: Heritage Young Leaders
@@ -3236,7 +3334,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-koch-internship-program-2027-03-31@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Deadline: Koch Internship (estimated)
@@ -3271,7 +3369,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-lutheran-volunteer-corps-2027-06-30@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 SUMMARY:Deadline: Lutheran Volunteer Corps (estimated)
@@ -3307,7 +3405,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gp-federal-reserve-board-research-assistant-2027-10-15@qc-polisci-pathw
  ays
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20271015
 DTEND;VALUE=DATE:20271016
 SUMMARY:Deadline: Federal Reserve Board RA (estimated)
@@ -3341,7 +3439,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-abf-summer-undergraduate-research-2027-01-14@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Deadline: American Bar Foundation SURF
@@ -3376,7 +3474,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-carter-center-internships-2027-03-01@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Deadline: Carter Center internships
@@ -3408,7 +3506,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-aea-summer-program-2027-01-31@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Deadline: AEA Summer Program (economics)
@@ -3443,7 +3541,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gp-nbcuniversal-summer-internship-2026-12-04@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
+DTSTAMP:20261124T021049Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Deadline: NBCUniversal (NBC News) internships
@@ -3476,33 +3574,33 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gp-point-foundation-flagship-scholarship-2026-11-19@qc-polisci-pathways
-DTSTAMP:20261117T021659Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Deadline: Point Foundation Flagship
-DESCRIPTION:A scholarship for LGBTQ+ undergraduate\, graduate and professio
- nal students\, with leadership training. Scholars attend a summer conferen
- ce in person.\nWhere and when: LGBTQ+ students · national scholarship\, r
- enewable up to four years\nWho: LGBTQ+ students enrolled full-time in a de
- gree program at a U.S. nonprofit college in fall 2027\, with a 3.3+ GPA. F
- ully online programs don't count\nAward: Up to $15\,000 a year\, for up to
-  four years. It doesn't fund summer study\nAlso: An in-person summer confe
- rence and one virtual program each term\n\nDetails: https://maljahmi.githu
- b.io/qc-polisci-pathways/programs.html#gp-point-foundation-flagship-schola
- rship\nOfficial website: https://pointfoundation.org/scholarships/flagship
- \nAlways confirm the date on the official website.
-URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-point-f
- oundation-flagship-scholarship
+UID:gp-elie-wiesel-prize-in-ethics-2027-01-20@qc-polisci-pathways
+DTSTAMP:20261124T021049Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Deadline: Elie Wiesel Prize in Ethics
+DESCRIPTION:A national essay contest on an ethical question you care about.
+  The 2027 theme\, "Complicity and Courage\," is optional. Read the 2027 gu
+ idelines (https://eliewieselfoundation.org/wp-content/uploads/2026/10/2027
+ -Prize-in-Ethics-Info-Guidelines-v2.pdf).\nWhere and when: National essay 
+ contest · 2\,500–3\,500 words\nWho: Full-time undergraduates at four-ye
+ ar US colleges. Part-time students can't enter. A faculty sponsor is optio
+ nal\nAward: Scholarships from $1\,500 to $12\,500\; winners must attend th
+ e award events\nOpens: Open now\n\nDetails: https://maljahmi.github.io/qc-
+ polisci-pathways/programs.html#gp-elie-wiesel-prize-in-ethics\nOfficial we
+ bsite: https://eliewieselfoundation.org/prize-in-ethics/\nAlways confirm t
+ he date on the official website.
+URL:https://maljahmi.github.io/qc-polisci-pathways/programs.html#gp-elie-wi
+ esel-prize-in-ethics
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Point Foundation Flagship is due in two weeks
+DESCRIPTION:Elie Wiesel Prize in Ethics is due in two weeks
 TRIGGER:-P14D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Point Foundation Flagship is due in two days
+DESCRIPTION:Elie Wiesel Prize in Ethics is due in two days
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT

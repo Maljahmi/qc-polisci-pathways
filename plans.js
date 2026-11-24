@@ -610,7 +610,7 @@ window.PLANS = {
     {
      "name": "Fall",
      "items": [
-      "<a href=\"programs.html#lp-cleo-road-law-school\">CLEO Road to Law School</a> (Nov 21)",
+      "<a href=\"programs.html#lp-cleo-road-law-school\">CLEO Road to Law School</a> (fall and winter)",
       "Start the <a href=\"programs.html#lp-legal-studies-minor\">Legal Studies minor</a>",
       "<a href=\"programs.html#gp-cuny-spring-forward\">CUNY Spring Forward</a> (mid-October)"
      ]

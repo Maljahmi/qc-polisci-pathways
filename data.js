@@ -1,7 +1,7 @@
 // Opportunities database. One entry per program; every degree tab, the deadline board and the
 // Commons export read from it. Each field is described in the project notes.
 // the date programs and deadlines were last checked; the home page and All opportunities show it
-window.UPDATED = "2026-11-16";
+window.UPDATED = "2026-11-23";
 
 window.PROGRAMS = [
  {
@@ -960,15 +960,15 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": true,
-  "whenB": "Jan 12",
-  "whenS": "last cycle · opens late Nov–early Dec",
-  "due": "",
-  "status": "last",
-  "dueMD": "01-12",
-  "opens": "Late Nov–early Dec 2026",
-  "opensMD": "11-30",
+  "whenB": "May 16",
+  "whenS": "2027 · open now; rolling review from late January",
+  "due": "2027-05-16",
+  "status": "confirmed",
+  "dueMD": "05-16",
+  "opens": "Open now",
+  "opensMD": "",
   "meta": "Virtual, plus a 4-day conference in August · 5 hours a week, June to May",
-  "body": "Research and write policy with a national network of students.",
+  "body": "A yearlong policy writing fellowship with a national network of students, ending in a short policy brief. Applications are read on a rolling basis from late January, so apply early.",
   "warn": "",
   "facts": [
    [
@@ -1144,19 +1144,19 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": true,
   "whenB": "Jan 12",
-  "whenS": "last cycle",
+  "whenS": "last cycle · 2027 program June 14–Aug 6",
   "due": "",
   "status": "last",
   "dueMD": "01-12",
   "opens": "Fall",
   "opensMD": "",
   "meta": "Chicago · 8 weeks",
-  "body": "Paid research with mentors in fields including social science and public policy. The 2027 call opens this fall.",
+  "body": "Paid research with mentors in fields including social science and public policy. The 2027 application is not posted yet.",
   "warn": "",
   "facts": [
    [
     "Who",
-    "Undergrads still enrolled in the fall; programming preferred; international students with work authorization"
+    "Undergrads still enrolled in fall 2027 (graduating seniors can't apply); programming preferred; international students with work authorization"
    ],
    [
     "Pay",
@@ -2396,14 +2396,14 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "whenB": "Dec 1",
-  "whenS": "last cycle · rolling",
+  "whenS": "last cycle · full for this year",
   "due": "",
   "status": "last",
   "dueMD": "12-01",
   "opens": "",
   "opensMD": "",
   "meta": "Graduate student mentors · for people applying to MIT",
-  "body": "Mentors answer questions about MIT and guide your application materials. Sign up in October for the best chance of a match. It does not affect admissions.",
+  "body": "Mentors answer questions about MIT and guide your application materials. Sign-ups for the fall 2027 admission cycle closed early because the program was full, so sign up in early fall. It does not affect admissions.",
   "warn": "",
   "facts": []
  },
@@ -3154,8 +3154,8 @@ window.PROGRAMS = [
  },
  {
   "id": "lp-ny-state-courts-student",
-  "name": "<a href=\"https://www.nycourts.gov/legacyPDFs/careers/statewide/15123.pdf\">NY State Courts Student Aide Program</a>",
-  "url": "https://www.nycourts.gov/legacyPDFs/careers/statewide/15123.pdf",
+  "name": "<a href=\"https://webfiles.nycourts.gov/public/2026-11/16106_student-aide_series_extended.pdf\">NY State Courts Student Aide Program</a>",
+  "url": "https://webfiles.nycourts.gov/public/2026-11/16106_student-aide_series_extended.pdf",
   "types": [
    "summer-internship"
   ],
@@ -3170,20 +3170,20 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Jan 6",
-  "whenS": "last cycle",
-  "due": "",
-  "status": "last",
-  "dueMD": "01-06",
+  "whenB": "Dec 4",
+  "whenS": "2026 · for summer 2027",
+  "due": "2026-12-04",
+  "status": "confirmed",
+  "dueMD": "12-04",
   "opens": "",
   "opensMD": "",
   "meta": "July–August · essay required · ages 17+",
-  "body": "The 2027 posting isn't out yet. Last cycle ran July 6–Aug 12, 2026.",
+  "body": "Summer jobs in New York State courts, July 6–Aug 17, 2027. Apply on the <a href=\"https://portal.nycourts.gov/StudentAideApplication/\">courts' online form</a> with a one-page essay, and pick one preferred location.",
   "warn": "",
   "facts": [
    [
     "Pay",
-    "$20 an hour (2026)"
+    "$25 an hour for college students and recent graduates (Student Aide II); $20 an hour for Student Aide I"
    ]
   ]
  },
@@ -3319,13 +3319,13 @@ window.PROGRAMS = [
   "allOpen": false,
   "cost": "fee",
   "whenB": "Nov 21",
-  "whenS": "2026 · event",
-  "due": "2026-11-21",
-  "status": "confirmed",
+  "whenS": "last cycle · winter 2027 dates (Jan–Mar) coming; Jan 9 is in Houston",
+  "due": "",
+  "status": "last",
   "dueMD": "11-21",
   "opens": "",
   "opensMD": "",
-  "meta": "One-day workshops at Fordham Law · $20 · also Oct 31 virtual",
+  "meta": "One-day workshops · $20 · last held at Fordham Law, Nov 21, 2026",
   "body": "",
   "warn": "",
   "facts": [
@@ -3947,8 +3947,8 @@ window.PROGRAMS = [
  },
  {
   "id": "gp-hks-shift-project-predoc",
-  "name": "<a href=\"https://shift.hks.harvard.edu/pre-doctoral-fellowships-open/\">Harvard Kennedy School Shift Project Predoc</a>",
-  "url": "https://shift.hks.harvard.edu/pre-doctoral-fellowships-open/",
+  "name": "<a href=\"https://shift.hks.harvard.edu/pre-doctoral-fellowships/\">Harvard Kennedy School Shift Project Predoc</a>",
+  "url": "https://shift.hks.harvard.edu/pre-doctoral-fellowships/",
   "types": [
    "after"
   ],
@@ -3969,7 +3969,7 @@ window.PROGRAMS = [
   "dueMD": "01-15",
   "opens": "",
   "opensMD": "",
-  "meta": "Harvard Kennedy School · sociology and public policy · 1 year, likely 2",
+  "meta": "Harvard Kennedy School, Cambridge · at least four days a week on campus · 1 year, likely 2",
   "body": "",
   "warn": "",
   "facts": [
@@ -4579,14 +4579,14 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Nov 17",
-  "whenS": "2026 · for summer 2027",
-  "due": "2026-11-17",
-  "status": "confirmed",
+  "whenS": "last cycle · for summer 2027; next call opens next fall",
+  "due": "",
+  "status": "last",
   "dueMD": "11-17",
   "opens": "",
   "opensMD": "",
   "meta": "Fully funded summer language institute · 8 weeks",
-  "body": "Study a critical-need language for a summer, overseas or online. The <a href=\"https://ais.americancouncils.org/cls\">application</a> is open now.",
+  "body": "Study a critical-need language for a summer, overseas or online. The 2027 application closed Nov 17, 2026; the next one opens next fall.",
   "warn": "",
   "facts": [
    [
@@ -4667,13 +4667,13 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Opens Nov",
-  "whenS": "2027 deadline not posted yet",
-  "due": "",
-  "status": "none",
-  "dueMD": "02-01",
-  "opens": "Nov 2026",
-  "opensMD": "11-01",
+  "whenB": "Feb 4",
+  "whenS": "2027 · open now",
+  "due": "2027-02-04",
+  "status": "confirmed",
+  "dueMD": "02-04",
+  "opens": "Open now",
+  "opensMD": "",
   "meta": "Six weeks at Howard University · Washington, DC",
   "body": "A summer program on international affairs: classes at Howard and programs with foreign affairs professionals around Washington.",
   "warn": "",
@@ -4685,6 +4685,10 @@ window.PROGRAMS = [
    [
     "Covers",
     "Tuition, travel, housing and two meals a day, plus a $3,300 stipend"
+   ],
+   [
+    "Apply",
+    "Two recommendation letters (one faculty member, one community leader), a financial need statement of 400 words or less and proof of full-time spring 2027 enrollment"
    ]
   ]
  },
@@ -5127,12 +5131,12 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": true,
-  "whenB": "Opens fall",
-  "whenS": "for summer and fall 2027 programs; opening date not posted",
+  "whenB": "Opens Dec",
+  "whenS": "for summer and fall 2027 programs; deadline not posted",
   "due": "",
   "status": "none",
   "dueMD": "01-15",
-  "opens": "Fall 2026",
+  "opens": "Dec 2026",
   "opensMD": "12-01",
   "meta": "Study abroad · first-generation students",
   "body": "Study abroad scholarships for students with financial need who have never studied abroad. Most recipients are first-generation college students.",
@@ -6486,8 +6490,8 @@ window.PROGRAMS = [
  },
  {
   "id": "gp-library-of-congress-junior-fellows",
-  "name": "<a href=\"https://www.loc.gov/item/internships/junior-fellows-program/\">Library of Congress Junior Fellows</a>",
-  "url": "https://www.loc.gov/item/internships/junior-fellows-program/",
+  "name": "<a href=\"https://www.loc.gov/internships-and-fellowships/overview/junior-fellows-program/\">Library of Congress Junior Fellows</a>",
+  "url": "https://www.loc.gov/internships-and-fellowships/overview/junior-fellows-program/",
   "short": "Library of Congress Junior Fellows",
   "types": [
    "summer-internship"
@@ -7302,8 +7306,8 @@ window.PROGRAMS = [
  },
  {
   "id": "gp-politico-journalism-institute",
-  "name": "<a href=\"https://www.politico.com/blogs/meet-politico/2020/11/09/politico-journalism-institute-1524434\">POLITICO Journalism Institute</a>",
-  "url": "https://www.politico.com/blogs/meet-politico/2020/11/09/politico-journalism-institute-1524434",
+  "name": "<a href=\"https://politico.wd108.myworkdayjobs.com/en-US/POLITICO/job/Arlington-VA/XMLNAME-2027-POLITICO-Journalism-Institute--PJI-_JR100646\">POLITICO Journalism Institute</a>",
+  "url": "https://politico.wd108.myworkdayjobs.com/en-US/POLITICO/job/Arlington-VA/XMLNAME-2027-POLITICO-Journalism-Institute--PJI-_JR100646",
   "short": "POLITICO Journalism Institute",
   "types": [
    "course",
@@ -7322,14 +7326,14 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Jan 23",
-  "whenS": "last cycle · 2027 not posted yet",
-  "due": "",
-  "status": "last",
-  "dueMD": "01-23",
-  "opens": "",
+  "whenB": "Jan 5",
+  "whenS": "2027 · open now",
+  "due": "2027-01-05",
+  "status": "confirmed",
+  "dueMD": "01-05",
+  "opens": "Open now",
   "opensMD": "",
-  "meta": "American University and POLITICO's newsroom, Washington area · 10 days in late May",
+  "meta": "American University and POLITICO's newsroom, Washington area · May 18–28, 2027",
   "body": "A fully funded 10-day training in covering politics and policy, run with American University and the Maynard Institute. POLITICO pays for travel, housing and meals.",
   "warn": "",
   "facts": [
@@ -7340,6 +7344,10 @@ window.PROGRAMS = [
    [
     "Pay",
     "All costs covered"
+   ],
+   [
+    "Apply",
+    "A cover letter, a one-page résumé, three work samples, one recommendation letter and a story pitch, by 11:59 p.m. Eastern on Jan 5"
    ]
   ]
  },
@@ -7782,7 +7790,7 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Rolling",
-  "whenS": "opens Dec 14, 2026",
+  "whenS": "opens Dec 14, 2026; summer institute June 14–20, 2027",
   "due": "",
   "status": "none",
   "dueMD": "",
@@ -9695,9 +9703,9 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Nov 20",
-  "whenS": "2026 · spring 2027 priority date; summer by Mar 6",
-  "due": "2026-11-20",
+  "whenB": "Mar 6",
+  "whenS": "2027 · summer priority date; fall 2027 opens Feb 1",
+  "due": "2027-03-06",
   "status": "confirmed",
   "dueMD": "03-06",
   "opens": "Open now",
@@ -11747,10 +11755,10 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "~Jan 28",
+  "whenB": "Jan 28",
   "whenS": "2027 · registration for the Jan 30–Feb 6 window; opens Dec 31",
   "due": "2027-01-28",
-  "status": "estimate",
+  "status": "confirmed",
   "dueMD": "01-28",
   "opens": "Dec 31, 2026",
   "opensMD": "12-31",
@@ -12567,12 +12575,12 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "cost": "free",
-  "whenB": "Nov 18",
-  "whenS": "2026 · next talk, 1 p.m. (Off-the-Record)",
-  "due": "2026-11-18",
+  "whenB": "Dec 3",
+  "whenS": "2026 · next talk, 6 p.m. (Peterson Lecture); Dec 9 at 1 p.m.",
+  "due": "2026-12-03",
   "event": true,
   "status": "confirmed",
-  "dueMD": "11-18",
+  "dueMD": "12-03",
   "opens": "",
   "opensMD": "",
   "meta": "SUNY Global Center, 116 E. 55th St., Manhattan, or on Zoom · evening",
@@ -14006,21 +14014,21 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "cost": "free",
-  "whenB": "Nov 18",
-  "whenS": "2026 · 4–8 p.m. Eastern, online; register by Nov 16",
-  "due": "2026-11-18",
+  "whenB": "Feb 4",
+  "whenS": "2027 · 4–8 p.m. Eastern, online",
+  "due": "2027-02-04",
   "event": true,
   "status": "confirmed",
-  "dueMD": "11-18",
+  "dueMD": "02-04",
   "opens": "",
   "opensMD": "",
-  "meta": "Online · one evening; another Feb 4, 2027",
+  "meta": "Online · one evening",
   "body": "An online law school fair: chat with admissions staff from 5 to 8 p.m. and join live workshops from 4 to 8 p.m.",
   "warn": "",
   "facts": [
    [
     "How to sign up",
-    "Log in through your LSAC account by November 16"
+    "Register through your LSAC account before the forum"
    ]
   ]
  },
@@ -14043,12 +14051,12 @@ window.PROGRAMS = [
   ],
   "paid": null,
   "allOpen": false,
-  "whenB": "Nov 17",
-  "whenS": "2026 · 5:30–7 p.m., online",
-  "due": "2026-11-17",
+  "whenB": "Dec 8",
+  "whenS": "2026 · 5:30–7 p.m., online; in person Dec 14 in Brooklyn",
+  "due": "2026-12-08",
   "event": true,
   "status": "confirmed",
-  "dueMD": "11-17",
+  "dueMD": "12-08",
   "opens": "",
   "opensMD": "",
   "meta": "Online (Microsoft Teams) · several times a year",
@@ -14289,12 +14297,12 @@ window.PROGRAMS = [
   "paid": null,
   "allOpen": false,
   "cost": "free",
-  "whenB": "Nov 18",
-  "whenS": "2026 · Jack Halberstam and Nicole Eisenman with Claire Bishop, 6:30 p.m.; more talks Dec 2 and Dec 9",
-  "due": "2026-11-18",
+  "whenB": "Dec 2",
+  "whenS": "2026 · Black America: The Last 10 Years, 7 p.m.; more talks Dec 9",
+  "due": "2026-12-02",
   "event": true,
   "status": "confirmed",
-  "dueMD": "11-18",
+  "dueMD": "12-02",
   "opens": "",
   "opensMD": "",
   "meta": "365 Fifth Ave., Manhattan, and livestreamed · evenings through the year",
@@ -15688,14 +15696,14 @@ window.PROGRAMS = [
   ],
   "paid": true,
   "allOpen": false,
-  "whenB": "Jan 30",
-  "whenS": "last cycle · summer 2027 opens this fall",
-  "due": "",
-  "status": "last",
-  "dueMD": "01-30",
-  "opens": "Fall 2026",
-  "opensMD": "",
-  "meta": "Washington, D.C. · 10 weeks, June–August",
+  "whenB": "Jan 31",
+  "whenS": "2027 · for summer 2027; opens Dec 2",
+  "due": "2027-01-31",
+  "status": "confirmed",
+  "dueMD": "01-31",
+  "opens": "Dec 2, 2026",
+  "opensMD": "12-02",
+  "meta": "Washington, D.C. · June 1–July 30, 2027",
   "body": "A paid summer placement at a Washington anti-hunger group or agency, with a leadership seminar series.",
   "warn": "You find and pay for your own housing.",
   "facts": [
@@ -16341,9 +16349,9 @@ window.PROGRAMS = [
   "paid": true,
   "allOpen": false,
   "whenB": "Nov 19",
-  "whenS": "2026 · for fall 2027",
-  "due": "2026-11-19",
-  "status": "confirmed",
+  "whenS": "last cycle · opens each September",
+  "due": "",
+  "status": "last",
   "dueMD": "11-19",
   "opens": "",
   "opensMD": "",
@@ -16357,7 +16365,7 @@ window.PROGRAMS = [
    ],
    [
     "Award",
-    "Up to $15,000 a year, for up to four years. It doesn't fund summer study"
+    "Up to $15,000, renewable for up to four years. It doesn't fund summer study"
    ],
    [
     "Also",
@@ -16506,6 +16514,186 @@ window.PROGRAMS = [
    ]
   ],
   "short": "Port Authority summer internships"
+ },
+ {
+  "id": "gp-nycedc-summer-internship",
+  "name": "<a href=\"https://edc.nyc/program/nycedc-summer-internship-program\">NYC Economic Development Corporation (NYCEDC) Summer Internship Program</a>",
+  "url": "https://edc.nyc/program/nycedc-summer-internship-program",
+  "short": "NYCEDC summer internship",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "~Early Jan",
+  "whenS": "2027 · est. · opens mid-November; exact dates not posted",
+  "due": "",
+  "status": "estimate",
+  "dueMD": "01-08",
+  "opens": "Mid-Nov 2026",
+  "opensMD": "11-16",
+  "meta": "One Liberty Plaza, Lower Manhattan · 10 weeks, June–August, in the office 3 days a week",
+  "body": "A paid summer internship at the city's economic development agency, which works on real estate, transportation, the waterfront and jobs. About 30 interns a year.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "Undergraduates, graduate students and recent graduates; no GPA or major requirement. International students on F-1 visas with CPT or OPT can apply (see the <a href=\"https://edc.nyc/nycedc-summer-internship-program-faqs\">FAQ</a>)"
+   ],
+   [
+    "Pay",
+    "Paid (rate not posted)"
+   ],
+   [
+    "Timeline",
+    "Opens mid-November, closes early January, offers in late February"
+   ]
+  ]
+ },
+ {
+  "id": "gp-ny-division-of-budget-internships",
+  "name": "<a href=\"https://www.budget.ny.gov/employment/internships.html\">NY State Division of the Budget internships</a>",
+  "url": "https://www.budget.ny.gov/employment/internships.html",
+  "short": "NY Division of the Budget",
+  "types": [
+   "fall-internship",
+   "spring-internship",
+   "summer-internship"
+  ],
+  "years": [
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Rolling",
+  "whenS": "apply any time",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "Albany, NY · flexible start and end dates",
+  "body": "Paid internships in the office that writes New York State's budget, working with budget examiners on real policy areas such as higher education.",
+  "warn": "Current postings say the work is on site in Albany.",
+  "facts": [
+   [
+    "Who",
+    "Undergraduate and graduate students"
+   ],
+   [
+    "Pay",
+    "$21.53 an hour for undergraduates; $25.83 for graduate students"
+   ],
+   [
+    "How to apply",
+    "The online employment application; choose \"Internship\""
+   ]
+  ]
+ },
+ {
+  "id": "gp-elie-wiesel-prize-in-ethics",
+  "name": "<a href=\"https://eliewieselfoundation.org/prize-in-ethics/\">Elie Wiesel Prize in Ethics essay contest</a>",
+  "url": "https://eliewieselfoundation.org/prize-in-ethics/",
+  "short": "Elie Wiesel Prize in Ethics",
+  "types": [
+   "fellowship"
+  ],
+  "years": [
+   "fr",
+   "so",
+   "jr",
+   "sr"
+  ],
+  "degrees": [
+   "phd",
+   "ma",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": false,
+  "whenB": "Jan 20",
+  "whenS": "2027 · open now",
+  "due": "2027-01-20",
+  "status": "confirmed",
+  "dueMD": "01-20",
+  "opens": "Open now",
+  "opensMD": "",
+  "meta": "National essay contest · 2,500–3,500 words",
+  "body": "A national essay contest on an ethical question you care about. The 2027 theme, \"Complicity and Courage,\" is optional. Read the <a href=\"https://eliewieselfoundation.org/wp-content/uploads/2026/10/2027-Prize-in-Ethics-Info-Guidelines-v2.pdf\">2027 guidelines</a>.",
+  "warn": "The deadline is 5 p.m. Pacific (8 p.m. in New York). The rules require you to disclose any AI use and allow only limited use.",
+  "facts": [
+   [
+    "Who",
+    "Full-time undergraduates at four-year US colleges. Part-time students can't enter. A faculty sponsor is optional"
+   ],
+   [
+    "Award",
+    "Scholarships from $1,500 to $12,500; winners must attend the award events"
+   ]
+  ]
+ },
+ {
+  "id": "gp-adc-shadid-internship",
+  "name": "<a href=\"https://adcri.org/education/adcri-anthony-shadid-internship-program/\">ADC Research Institute Anthony Shadid Internship Program</a>",
+  "url": "https://adcri.org/education/adcri-anthony-shadid-internship-program/",
+  "short": "ADC Shadid internship",
+  "types": [
+   "summer-internship"
+  ],
+  "years": [
+   "so",
+   "jr",
+   "sr",
+   "grad"
+  ],
+  "degrees": [
+   "mpa",
+   "mpp",
+   "jd"
+  ],
+  "paid": true,
+  "allOpen": true,
+  "whenB": "Summer",
+  "whenS": "2027 deadline not posted",
+  "due": "",
+  "status": "none",
+  "dueMD": "",
+  "opens": "",
+  "opensMD": "",
+  "meta": "American-Arab Anti-Discrimination Committee, Washington, D.C. · 10 weeks full time",
+  "body": "Summer internships at the national Arab American civil rights group, in communications, organizing and government relations. Up to 15 interns. Mainly for Arab American students, but anyone can apply.",
+  "warn": "",
+  "facts": [
+   [
+    "Who",
+    "At least one year of college done; undergraduates, recent graduates and graduate students. The legal track needs one year of law school. International students need a visa that allows work"
+   ],
+   [
+    "Pay",
+    "A stipend or college credit (amount not posted)"
+   ],
+   [
+    "How to apply",
+    "The <a href=\"https://support.adc.org/a/internship-program\">online application</a>"
+   ]
+  ]
  }
 ];
 
